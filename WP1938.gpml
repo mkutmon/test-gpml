@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="tRNA Aminoacylation" Data-Source="WikiPathways" Version="WP1938_r39964" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">tRNA synthetases catalyze the ligation of tRNAs to their cognate amino acids in an ATP-dependent manner. The reaction proceeds in two steps. First, amino acid and ATP form an aminoacyl adenylate molecule, releasing pyrophosphate. The aminoacyl adenylate remains associated with the synthetase enzyme where, in the second step it reacts with tRNA to form aminoacyl tRNA and AMP. The rapid hydrolysis of pyrophosphate makes these reactions essentially irreversible under physiological conditions (Fersht and Kaethner 1976a). Specificity of the tRNA charging reactions is achieved both by specific recognition of amino acid and tRNA substrates by the synthetase, and by an editing process in which incorrect aminoacyl adenylate molecules (e.g., valyl adenylate associated with isoleucyl tRNA synthetase) are hydrolyzed rather than conjugated to tRNAs in the second step of the reaction (Baldwin and Berg 1966a,b; Fersht and Kaethner 1976b). The tRNA synthetases can be divided into two structural classes based on conserved amino acid sequence features (Burnbaum and Schimmel 1991).&lt;p&gt;A single synthetase mediates the charging of all of the tRNA species specific for any one amino acid but, with three exceptions, glycine, lysine, and glutamine, the synthetase that catalyzes aminoacylation of mitochondrial tRNAs is encoded by a different gene than the one that acts on mitochondrial tRNAs. Both mitochondrial and cytosolic tRNA synthetase enzymes are encoded by genes in the nuclear genome.&lt;p&gt;A number of tRNA synthetases are known to have functions distinct from tRNA charging (reviewed by Park et al. 2005). Additionally, mutations in several of the tRNA synthetases, often affecting protein domains that are dispensable in vitro for aminoacyl tRNA synthesis, are associated with a diverse array of neurological and other diseases (Antonellis and Green 2008; Park et al. 2008). These findings raise interest into the role of these enzymes in human development and disease.&lt;p&gt;</Comment>
+  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
+  <DataNode TextLabel="L-Histidine&#xA;" GraphId="n101_REACTOME_29612" Type="Metabolite">
+    <Graphics CenterX="408.5" CenterY="1108.0" Width="69.0" Height="28.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15971" />
+  </DataNode>
+  <DataNode TextLabel="tRNA(His)&#xA;" GraphId="n102_REACTOME_379758" Type="Metabolite">
+    <Graphics CenterX="459.5" CenterY="1135.5" Width="65.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="29178" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n103_REACTOME_113592" Type="Metabolite">
+    <Graphics CenterX="371.5" CenterY="1139.5" Width="37.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="His-tRNA&#xA;(His)&#xA;" GraphId="n104_REACTOME_379786" Type="Metabolite">
+    <Graphics CenterX="417.0" CenterY="1272.5" Width="72.0" Height="41.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="29155" />
+  </DataNode>
+  <DataNode TextLabel="HARS&#xA;" GraphId="n105_REACTOME_379554" Type="Protein">
+    <Graphics CenterX="468.0" CenterY="1177.0" Width="42.0" Height="20.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P12081" />
+  </DataNode>
+  <DataNode TextLabel="pyrophosp&#xA;hate&#xA;" GraphId="n107_REACTOME_111294" Type="Metabolite">
+    <Graphics CenterX="365.0" CenterY="1236.5" Width="62.0" Height="41.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="29888" />
+  </DataNode>
+  <DataNode TextLabel="AMP&#xA;" GraphId="n109_REACTOME_76577" Type="Metabolite">
+    <Graphics CenterX="455.0" CenterY="1235.5" Width="40.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16027" />
+  </DataNode>
+  <DataNode TextLabel="tRNA(Ile)&#xA;" GraphId="n113_REACTOME_379739" Type="Metabolite">
+    <Graphics CenterX="645.0" CenterY="1137.5" Width="60.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="29174" />
+  </DataNode>
+  <DataNode TextLabel="L-Isoleucine&#xA;" GraphId="n114_REACTOME_30102" Type="Metabolite">
+    <Graphics CenterX="595.0" CenterY="1108.5" Width="76.0" Height="27.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="17191" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n115_REACTOME_113592" Type="Metabolite">
+    <Graphics CenterX="556.5" CenterY="1142.5" Width="37.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="Ile-tRNA&#xA;(Ile)&#xA;" GraphId="n116_REACTOME_379787" Type="Metabolite">
+    <Graphics CenterX="597.5" CenterY="1270.0" Width="61.0" Height="34.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="29160" />
+  </DataNode>
+  <DataNode TextLabel="pyrophosp&#xA;hate&#xA;" GraphId="n118_REACTOME_111294" Type="Metabolite">
+    <Graphics CenterX="537.0" CenterY="1245.5" Width="62.0" Height="41.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="29888" />
+  </DataNode>
+  <DataNode TextLabel="AMP&#xA;" GraphId="n120_REACTOME_76577" Type="Metabolite">
+    <Graphics CenterX="657.0" CenterY="1267.5" Width="40.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16027" />
+  </DataNode>
+  <DataNode TextLabel="aminoacyl-tRNA &#xA;synthetase &#xA;multienzyme &#xA;complex&#xA;" GraphId="n122_REACTOME_379688" Type="Complex">
+    <BiopaxRef>lit_379614</BiopaxRef>
+    <Graphics CenterX="675.0" CenterY="1191.0" Width="100.0" Height="62.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_15869" />
+  </DataNode>
+  <DataNode TextLabel="tRNA(Leu)&#xA;" GraphId="n125_REACTOME_379771" Type="Metabolite">
+    <Graphics CenterX="871.0" CenterY="1139.5" Width="72.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="29169" />
+  </DataNode>
+  <DataNode TextLabel="L-Leucine&#xA;" GraphId="n126_REACTOME_29588" Type="Metabolite">
+    <Graphics CenterX="821.5" CenterY="1107.0" Width="67.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15603" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n127_REACTOME_113592" Type="Metabolite">
+    <Graphics CenterX="778.5" CenterY="1138.5" Width="37.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="Leu-tRNA&#xA;(Leu)&#xA;" GraphId="n128_REACTOME_379757" Type="Metabolite">
+    <Graphics CenterX="821.0" CenterY="1270.0" Width="80.0" Height="34.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16624" />
+  </DataNode>
+  <DataNode TextLabel="L-Alanine&#xA;" GraphId="n12_REACTOME_29432" Type="Metabolite">
+    <Graphics CenterX="145.5" CenterY="908.0" Width="63.0" Height="28.0" ZOrder="32768" FillColor="ccffcc" Fo
