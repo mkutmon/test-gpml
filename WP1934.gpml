@@ -107,4 +107,155 @@
     <Xref Database="Reactome" ID="R-HSA-375340" />
   </Interaction>
   <Interaction GraphId="bf648">
-    <Graphics Connec
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="326.0" Y="329.0" GraphRef="c965a" RelX="-0.009345794392523364" RelY="-1.0" />
+      <Point X="325.0" Y="241.0" GraphRef="f8981" RelX="-89.0" RelY="90.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375330" />
+  </Interaction>
+  <Interaction GraphId="c05e0">
+    <Comment Source="Reactome">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Pannexin 1 proteins on one hemi-channel and six Pannexin 2 proteins on the second.</Comment>
+    <BiopaxRef>d2e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="382.0" Y="146.0" />
+      <Point X="382.0" Y="140.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f110e" />
+      <Anchor Position="0.99" Shape="None" GraphId="a7bb3" />
+      <Anchor Position="0.5" Shape="None" GraphId="f836e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375339" />
+  </Interaction>
+  <Interaction GraphId="c6c6c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="422.0" Y="148.0" GraphRef="ba9bd" RelX="0.0" RelY="1.0" />
+      <Point X="420.0" Y="151.0" GraphRef="af406" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375330" />
+  </Interaction>
+  <Interaction GraphId="c743e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="382.0" Y="140.0" GraphRef="a7bb3" RelX="0.0" RelY="-0.060000000000002274" />
+      <Point X="385.0" Y="133.0" GraphRef="ba9bd" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375339" />
+  </Interaction>
+  <Interaction GraphId="cb27f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="408.0" Y="151.0" GraphRef="eccc6" RelX="-0.12000000000000455" RelY="0.0" />
+      <Point X="422.0" Y="148.0" GraphRef="ba9bd" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375330" />
+  </Interaction>
+  <Interaction GraphId="e34ef">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="216.0" Y="358.0" GraphRef="c8b34" RelX="1.0" RelY="0.0" />
+      <Point X="150.0" Y="188.0" GraphRef="f836e" RelX="-232.0" RelY="45.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375339" />
+  </Interaction>
+  <Interaction GraphId="eb522">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="422.0" Y="148.0" GraphRef="ba9bd" RelX="0.0" RelY="1.0" />
+      <Point X="425.0" Y="151.0" GraphRef="d2367" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375342" />
+  </Interaction>
+  <Interaction GraphId="edbff">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="636.0" Y="360.0" GraphRef="ab4af" RelX="-1.0" RelY="0.0" />
+      <Point X="692.0" Y="185.0" GraphRef="ecf28" RelX="232.5" RelY="39.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375340" />
+  </Interaction>
+  <Interaction GraphId="eefd7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="471.0" Y="360.0" GraphRef="ab843" RelX="-1.0" RelY="0.0" />
+      <Point X="528.0" Y="242.0" GraphRef="b651b" RelX="97.5" RelY="91.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375342" />
+  </Interaction>
+  <Interaction GraphId="f5ac8">
+    <Comment Source="Reactome">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 36 proteins each.</Comment>
+    <BiopaxRef>d4b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="425.0" Y="151.0" />
+      <Point X="436.0" Y="151.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d2367" />
+      <Anchor Position="0.99" Shape="None" GraphId="d3cb8" />
+      <Anchor Position="0.5" Shape="None" GraphId="b651b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375342" />
+  </Interaction>
+  <Interaction GraphId="f9e34">
+    <Comment Source="Reactome">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 45 proteins on one hemi-channel and six Connexin 36 proteins on the second.</Comment>
+    <BiopaxRef>c84</BiopaxRef>
+    <BiopaxRef>a0e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="420.0" Y="151.0" />
+      <Point X="408.0" Y="151.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="af406" />
+      <Anchor Position="0.99" Shape="None" GraphId="eccc6" />
+      <Anchor Position="0.5" Shape="None" GraphId="f8981" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375330" />
+  </Interaction>
+  <Interaction GraphId="fb6a8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="385.0" Y="133.0" GraphRef="ba9bd" RelX="-1.0" RelY="0.0" />
+      <Point X="382.0" Y="146.0" GraphRef="f110e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-375339" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="bb047" GroupRef="f6b56">
+    <Graphics CenterX="418.5" CenterY="194.5" Width="59.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="ac68f" GroupRef="f6b56">
+    <Graphics CenterX="418.5" CenterY="195.0" Width="767.0" Height="344.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="bbc46" GraphId="a8999" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-375351" />
+  </Group>
+  <Group GroupId="f6b56" GraphId="b9888" Style="Group" />
+  <Group GroupId="f7981" GraphId="c3488" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-375333" />
+  </Group>
+  <Group GroupId="e23ba" GraphId="e1249" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-375332" />
+  </Group>
+  <Group GroupId="d6045" GraphId="e83a8" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-375341" />
+  </Group>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron-to-neuron signaling pathway via the electrical synapse</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000273</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neuron</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:0000540</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Type</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a0e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20930146</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c84">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24454290</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14597722</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d4b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10462698</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f76">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12881038</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
