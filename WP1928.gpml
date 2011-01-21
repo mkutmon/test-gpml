@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Telomere Maintenance" Data-Source="WikiPathways" Version="WP1928_r39954" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Telomeres are protein-DNA complexes at the ends of linear chromosomes that are important for genome stability. Telomeric DNA in humans, as in many eukaryotic organisms, consists of tandem repeats (Blackburn and Gall 1978; Moyzis et al. 1988; Meyne et al. 1989). The repeats at human telomeres are composed of TTAGGG sequences and stretch for several kilobase pairs. Another feature of telomeric DNA in many eukaryotes is a G-rich 3' single strand overhang, which in humans is estimated to be approximately 50-300 bases long (Makarov et al. 1997; Wright et al. 1997; Huffman et al. 2000). Telomeric DNA isolated from humans and several other organisms can form a lasso-type structure called a t-loop in which the 3' single-strand end is presumed to invade the double stranded telomeric DNA repeat tract (Griffith et al. 1999). Telomeric DNA is bound by multiple protein factors that play important roles in regulating telomere length and in protecting the chromosome end from recombination, non-homologous end-joining, DNA damage signaling, and unregulated nucleolytic attack (reviewed in de Lange 2005). &lt;br&gt;&lt;br&gt;&lt;br&gt;DNA attrition can occur at telomeres, which can impact cell viability. Attrition can occur owing to the "end-replication problem", a consequence of the mechanism of lagging-strand synthesis (Watson 1972; Olovnikov 1973). Besides incomplete replication, nucleolytic processing also likely contributes to telomere attrition (Huffman et al. 2000). If telomeres become critically shortened, replicative senescence can result (Harley et al. 1990). Thus, in order to undergo multiple divisions, cells need a mechanism to replenish the sequence at their chromosome ends.&lt;br&gt;&lt;br&gt;&lt;br&gt;The primary means for maintaining the sequence at chromosome ends in many eukaryotic organisms, including humans, is based on telomerase (Greider and Blackburn, 1985; Morin 1989). Telomerase is a ribonucleoprotein complex minimally composed of a conserved protein subunit containing a reverse transcriptase domain (telomerase reverse transcriptase, TERT) (Lingner et al. 1997; Nakamura et al. 1997) and a template-containing RNA (telomerase RNA component, TERC, TR, TER) (Greider and Blackburn, 1987; Feng et al 1995). Telomerase uses the RNA template to direct addition of multiple tandem repeats to the 3' G-rich single strand overhang. Besides extension by telomerase, maintenance of telomeric DNA involves additional activities, including C-strand synthesis, which fills in the opposing strand, and nucleolytic processing, which likely contributes to the generation of the 3' overhang.&lt;br&gt;</Comment>
+  <BiopaxRef>lit_171036</BiopaxRef>
+  <BiopaxRef>lit_163093</BiopaxRef>
+  <BiopaxRef>lit_177199</BiopaxRef>
+  <BiopaxRef>lit_171312</BiopaxRef>
+  <BiopaxRef>lit_171313</BiopaxRef>
+  <BiopaxRef>lit_171307</BiopaxRef>
+  <BiopaxRef>lit_177806</BiopaxRef>
+  <BiopaxRef>lit_177805</BiopaxRef>
+  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
+  <DataNode TextLabel="dCTP&#xA;" GraphId="n10_REACTOME_30185" Type="Metabolite">
+    <Graphics CenterX="709.5" CenterY="223.0" Width="47.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16311" />
+  </DataNode>
+  <DataNode TextLabel="Telomerase &#xA;Holoenzyme Base-&#xA;paired to the &#xA;Telomeric &#xA;Chromosome End &#xA;with an Additional &#xA;single Stranded &#xA;Telomere repeat&#xA;" GraphId="n11_REACTOME_164684" Type="Complex">
+    <Graphics CenterX="625.5" CenterY="487.5" Width="117.0" Height="121.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_8180" />
+  </DataNode>
+  <DataNode TextLabel="NHP2&#xA;" GraphId="n12_REACTOME_418325" Type="Protein">
+    <Graphics CenterX="248.5" CenterY="347.0" Width="41.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9NX24" />
+  </DataNode>
+  <DataNode TextLabel="RUVBL1&#xA;" GraphId="n13_REACTOME_418323" Type="Protein">
+    <Graphics CenterX="161.5" CenterY="345.0" Width="53.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9Y265" />
+  </DataNode>
+  <DataNode TextLabel="RUVBL2&#xA;" GraphId="n14_REACTOME_418321" Type="Protein">
+    <Graphics CenterX="134.5" CenterY="305.0" Width="53.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9Y230" />
+  </DataNode>
+  <DataNode TextLabel="Telomerase RNP:&#xA;Telomeric &#xA;Chromosome End &#xA;with an Additional &#xA;single Stranded &#xA;Telomere repeat&#xA;" GraphId="n15_REACTOME_163098" Type="Complex">
+    <Graphics CenterX="617.5" CenterY="330.0" Width="115.0" Height="92.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_8663" />
+  </DataNode>
+  <DataNode TextLabel="Telomerase RNP &#xA;Bound and base-&#xA;paired to the &#xA;Telomeric &#xA;Chromosome End&#xA;" GraphId="n16_REACTOME_164683" Type="Complex">
+    <Graphics CenterX="619.0" CenterY="122.0" Width="110.0" Height="78.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_8909" />
+  </DataNode>
+  <DataNode TextLabel="Telomerase &#xA;Holoenzyme:&#xA;Telomeric RNP End &#xA;with Two Additional &#xA;Single Stranded &#xA;Telomere Repeats&#xA;" GraphId="n17_REACTOME_164619" Type="Complex">
+    <Graphics CenterX="801.5" CenterY="496.0" Width="125.0" Height="92.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_8055" />
+  </DataNode>
+  <DataNode TextLabel="dATP&#xA;" GraphId="n18_REACTOME_29604" Type="Metabolite">
+    <Graphics CenterX="679.5" CenterY="258.0" Width="47.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16284" />
+  </DataNode>
+  <DataNode TextLabel="G-strand &#xA;chromosome end - &#xA;Telomeric&#xA;" GraphId="n19_REACTOME_163089">
+    <Graphics CenterX="298.5" CenterY="78.0" Width="123.0" Height="50.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_8234" />
+  </DataNode>
+  <DataNode TextLabel="Telomerase RNP&#xA;" GraphId="n20_REACTOME_163101" Type="Complex">
+    <BiopaxRef>lit_417089</BiopaxRef>
+    <Graphics CenterX="295.0" CenterY="163.0" Width="104.0" Height="22.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_8548" />
+  </DataNode>
+  <DataNode TextLabel="DNA Polymerase &#xA;delta tetramer&#xA;" GraphId="n28_REACTOME_68450" Type="Complex">
+    <Graphics CenterX="1077.0" CenterY="414.0" Width="108.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_5801" />
+  </DataNode>
+  <DataNode TextLabel="Extended And &#xA;Processed Telomere &#xA;End&#xA;" GraphId="n29_REACTOME_176706" Type="Complex">
+    <Graphics CenterX="1195.0" CenterY="511.0" Width="130.0" Height="50.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_8288" />
+  </DataNode>
+  <DataNode TextLabel="dGTP&#xA;" GraphId="n2_REACTOME_29892" Type="Metabolite">
+    <Graphics CenterX="742.0" CenterY="134.0" Width="48.0" Heig
