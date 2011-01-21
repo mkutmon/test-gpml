@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis of DNA" Data-Source="WikiPathways" Version="WP1925_r39951" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The actual synthesis of DNA occurs in the S phase of the cell cycle. This includes the initiation of DNA replication, when the first nucleotide of the new strand is laid down during the synthesis of the primer. The DNA replication preinitiation events begin in late M or early G1 phase.</Comment>
+  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
+  <DataNode TextLabel="ADP&#xA;" GraphId="n100_REACTOME_113582" Type="Metabolite">
+    <Graphics CenterX="469.0" CenterY="637.0" Width="40.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16761" />
+  </DataNode>
+  <DataNode TextLabel="pre-replicative &#xA;complex (Orc1-&#xA;minus)&#xA;" GraphId="n101_REACTOME_157563" Type="Complex">
+    <Graphics CenterX="536.0" CenterY="685.0" Width="100.0" Height="50.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_3695" />
+  </DataNode>
+  <DataNode TextLabel="phosphorylated Orc1&#xA;" GraphId="n102_REACTOME_68943" Type="Protein">
+    <Graphics CenterX="413.0" CenterY="736.0" Width="130.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q13415" />
+  </DataNode>
+  <DataNode TextLabel="Cyclin A:Cdk2:&#xA;substrate complex&#xA;" GraphId="n103_REACTOME_187947" Type="Complex">
+    <Graphics CenterX="313.5" CenterY="655.0" Width="115.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_9192" />
+  </DataNode>
+  <DataNode TextLabel="ubiquitin&#xA;" GraphId="n105_REACTOME_68524" Type="Protein">
+    <Graphics CenterX="359.0" CenterY="787.0" Width="58.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="Reactome" ID="REACT_3995" />
+  </DataNode>
+  <DataNode TextLabel="ubiquitinated Orc1&#xA;" GraphId="n106_REACTOME_113570" Type="Complex">
+    <BiopaxRef>lit_68587</BiopaxRef>
+    <Graphics CenterX="412.0" CenterY="875.0" Width="116.0" Height="22.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_5402" />
+  </DataNode>
+  <DataNode TextLabel="ubiquitinated Orc1&#xA;" GraphId="n116_REACTOME_68586" Type="Complex">
+    <BiopaxRef>lit_68587</BiopaxRef>
+    <Graphics CenterX="413.0" CenterY="996.0" Width="116.0" Height="22.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_5173" />
+  </DataNode>
+  <DataNode TextLabel="ubiquitin&#xA;" GraphId="n125_REACTOME_113595" Type="Protein">
+    <Graphics CenterX="585.0" CenterY="1057.0" Width="58.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="Reactome" ID="REACT_3316" />
+  </DataNode>
+  <DataNode TextLabel="26S proteasome&#xA;" GraphId="n126_REACTOME_68819" Type="Complex">
+    <BiopaxRef>lit_68820</BiopaxRef>
+    <Graphics CenterX="491.5" CenterY="1183.0" Width="103.0" Height="22.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_2353" />
+  </DataNode>
+  <DataNode TextLabel="CDC6&#xA;" GraphId="n129_REACTOME_68542" Type="Protein">
+    <Graphics CenterX="807.0" CenterY="707.0" Width="48.0" Height="20.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q99741" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n130_REACTOME_29358" Type="Metabolite">
+    <Graphics CenterX="729.5" CenterY="710.0" Width="39.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="ADP&#xA;" GraphId="n131_REACTOME_113582" Type="Metabolite">
+    <Graphics CenterX="713.0" CenterY="848.0" Width="40.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16761" />
+  </DataNode>
+  <DataNode TextLabel="phosphorylated &#xA;Cdc6&#xA;" GraphId="n132_REACTOME_113574" Type="Protein">
+    <Graphics CenterX="827.0" CenterY="855.0" Width="102.0" Height="36.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q99741" />
+  </DataNode>
+  <DataNode TextLabel="CDK&#xA;" GraphId="n133_REACTOME_68380" Type="Complex">
+    <BiopaxRef>lit_68381</BiopaxRef>
+    <Graphics CenterX="702.0" CenterY="773.0" Width="48.0" Height="26.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_5476" />
+  </DataNode>
+  <DataNode TextLabel="phosphorylated &#xA;Cdc6&#xA;" GraphId="n135_REACTOME_68583" Type="Protein">
+    <Graphics CenterX="826.0" CenterY="980.0" Width="102.0" Height="36.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q99741" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n137_REACTOME_113592" Type="Metabolite">
+    <Graphics CenterX="707.5" CenterY="1009.0" Width="39.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="ubiquitinated Cdc6&#xA;" GraphId="n138_REACTOME_68570" Type="Complex">
+    <BiopaxRef>lit_68571</BiopaxRef>
+    <Graphics CenterX="975.0" CenterY="1072.0" Width="118.0" Height="22.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_5308" />
+  </DataNode>
+  <DataNode TextLabel="anaphase-promoting &#xA;complex (APC)&#xA;" GraphId="n139_REACTOME_69007">
+    <BiopaxRef>lit_69008</BiopaxRef>
+    <BiopaxRef>lit_69012</BiopaxRef>
+    <Graphics CenterX="779.0" CenterY="1103.0" Width="134.0" Height="36.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_3388" />
+  </DataNode>
+  <DataNode TextLabel="Mcm2-7 complex&#xA;" GraphId="n142_REACTOME_68558" Type="Complex">
+    <Graphics CenterX="840.5" CenterY="114.0" Width="111.0" Height="22.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_4763" />
+  </DataNode>
+  <DataNode TextLabel="Mcm5&#xA;" GraphId="n143_REACTOME_68551" Type="Protein">
+    <Graphics CenterX="750.5" CenterY="188.0" Width="43.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P33992" />
+  </DataNode>
+  <DataNode TextLabel="Mcm4,6,7 complex&#xA;" GraphId="n144_REACTOME_69018" Type="Complex">
+    <Graphics CenterX="840.0" CenterY="298.0" Width="120.0" Height="22.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_3276" />
+  </DataNode>
+  <DataNode TextLabel="Mcm2&#xA;" GraphId="n145_REACTOME_68557" Type="Protein">
+    <Graphics CenterX="937.5" CenterY="263.0" Width="43.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P49736" />
+  </DataNode>
+  <DataNode TextLabel="Mcm3&#xA;" GraphId="n1
