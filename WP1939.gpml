@@ -92,4 +92,2065 @@
     <BiopaxRef>e47</BiopaxRef>
     <BiopaxRef>cee</BiopaxRef>
     <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
-    <Graphic
+    <Graphics CenterX="1174.0" CenterY="73.5" Width="134.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-381154" />
+  </DataNode>
+  <DataNode TextLabel="CREB3(1-256)" GraphId="b225b" Type="Protein">
+    <BiopaxRef>ad1</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="793.5" CenterY="960.5" Width="107.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43889" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L2(1-379)" GraphId="b4abc" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="998.0" CenterY="914.5" Width="114.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q70SY1" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L2(380-430)" GraphId="b4e1e" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="929.0" CenterY="738.0" Width="128.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q70SY1" />
+  </DataNode>
+  <DataNode TextLabel="ATF6" GraphId="b6049" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="274.5" CenterY="319.0" Width="53.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L4" GraphId="b6da4" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="1256.0" CenterY="421.5" Width="70.0" Height="21.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TEY5" />
+  </DataNode>
+  <DataNode TextLabel="XBP1(S) activates&#xA;chaperone genes" GraphId="b7251" Type="Pathway">
+    <Comment Source="Reactome">Xbp-1 (S) binds the sequence CCACG in ER Stress Responsive Elements (ERSE, consensus sequence CCAAT (N)9 CCACG) located upstream from many genes. The ubiquitous transcription factor NF-Y, a heterotrimer, binds the CCAAT portion of the ERSE and together the IRE1-alpha: NF-Y complex activates transcription of a set of chaperone genes including DNAJB9, EDEM, RAMP4, p58IPK, and others. This results in an increase in protein folding activity in the ER.</Comment>
+    <BiopaxRef>e5a</BiopaxRef>
+    <BiopaxRef>dfe</BiopaxRef>
+    <BiopaxRef>af8</BiopaxRef>
+    <BiopaxRef>d8b</BiopaxRef>
+    <BiopaxRef>e45</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="1266.5" CenterY="1007.5" Width="183.0" Height="65.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-381038" />
+  </DataNode>
+  <DataNode TextLabel="CREBRF " GraphId="b872d" Type="Protein" GroupRef="e1e08">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8874847" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1826.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IUR6" />
+  </DataNode>
+  <DataNode TextLabel="EIF2AK3 " GraphId="b8806" Type="Protein" GroupRef="a40af">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-381126" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1666.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NZJ5" />
+  </DataNode>
+  <DataNode TextLabel="HSPA5 " GraphId="b97cb" Type="Protein" GroupRef="dfcc9">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-381168" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1166.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11021" />
+  </DataNode>
+  <DataNode TextLabel="CREB3(1-256)" GraphId="bad3b" Type="Protein">
+    <BiopaxRef>ad1</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="488.0" CenterY="790.5" Width="102.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43889" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L4(1-338)" GraphId="bba89" Type="Protein">
+    <BiopaxRef>d63</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="1295.0" CenterY="599.5" Width="112.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TEY5" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L4(339-395)" GraphId="bbc71" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="1178.5" CenterY="570.0" Width="129.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TEY5" />
+  </DataNode>
+  <DataNode TextLabel="BiP:Unfolded Protein" GraphId="bc16d" Type="Complex">
+    <Comment Source="Reactome">BiP is a chaperone which binds unfolded proteins as well as the luminal domains of UPR signal transducers ATF6, IRE1, and PERK (EIF2AK3).</Comment>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="744.5" CenterY="196.5" Width="151.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-381062" />
+  </DataNode>
+  <DataNode TextLabel="ERN1" GraphId="bc79b" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="807.5" CenterY="67.5" Width="41.0" Height="21.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75460" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L3(1-323)" GraphId="bc7a6" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1042.5" CenterY="785.5" Width="117.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q68CJ9" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L1(1-375)" GraphId="bc91a" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="875.5" CenterY="913.5" Width="119.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96BA8" />
+  </DataNode>
+  <DataNode TextLabel="Xbp1 mRNA (spliced)" GraphId="bcd8d" Type="Rna">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1451.5" CenterY="300.5" Width="83.0" Height="49.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="990099" />
+    <Xref Database="Ensembl" ID="ENST00000344347" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L3" GraphId="be214" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1024.5" CenterY="327.5" Width="67.0" Height="21.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q68CJ9" />
+  </DataNode>
+  <DataNode TextLabel="ATF6(1-380)" GraphId="bec42" Type="Protein">
+    <Comment Source="Reactome">ATF6-alpha is cleaved by S1P after amino acid 419 (RHLL). It is also cleaved by S2P at an unknown site. The product of cleavage is about 50 kd.</Comment>
+    <BiopaxRef>df5</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="96.0" CenterY="800.0" Width="92.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L1(427-519)" GraphId="beed6" Type="Protein">
+    <BiopaxRef>afc</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="618.0" CenterY="557.0" Width="130.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96BA8" />
+  </DataNode>
+  <DataNode TextLabel="CREB3(1-256) " GraphId="bf5dd" Type="Protein" GroupRef="e1e08">
+    <BiopaxRef>ad1</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-8874847" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1806.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43889" />
+  </DataNode>
+  <DataNode TextLabel="IRE1 dimer" GraphId="c19db" Type="Complex">
+    <Comment Source="Reactome">Crystallographic evidence indicates that the IRE1 homodimer forms by an initial interaction between the luminal N-terminal domains of IRE1 monomers.</Comment>
+    <BiopaxRef>d33</BiopaxRef>
+    <BiopaxRef>e47</BiopaxRef>
+    <BiopaxRef>cee</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="945.0" CenterY="68.5" Width="88.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-381200" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L2" GraphId="c1b25" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="858.0" CenterY="418.0" Width="68.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q70SY1" />
+  </DataNode>
+  <DataNode TextLabel="unfolded protein" GraphId="c1f50">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Graphics CenterX="571.0" CenterY="182.0" Width="70.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-381130" />
+  </DataNode>
+  <DataNode TextLabel="ATF6(1-380)" GraphId="c22b9" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="576.5" CenterY="976.0" Width="105.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="ADP " GraphId="c5724" Type="Metabolite" GroupRef="f02d7">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-381078" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="1526.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16761" />
+  </DataNode>
+  <DataNode TextLabel="ATF6(380-419)" GraphId="c73ec" Type="Protein">
+    <BiopaxRef>df5</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="161.5" CenterY="730.0" Width="103.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L3(1-364)" GraphId="c7721" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="1074.5" CenterY="603.5" Width="117.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q68CJ9" />
+  </DataNode>
+  <DataNode TextLabel="EIF2AK3 " GraphId="c7d92" Type="Protein" GroupRef="a0b0d">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-381216" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1586.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NZJ5" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L1(376-426)" GraphId="c7f60" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="756.0" CenterY="740.0" Width="128.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96BA8" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L4" GraphId="c834a" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1205.5" CenterY="330.0" Width="73.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TEY5" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L1(1-426)" GraphId="c8fdc" Type="Protein">
+    <BiopaxRef>afc</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="698.0" CenterY="595.5" Width="114.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96BA8" />
+  </DataNode>
+  <DataNode TextLabel="CREB3(1-291)" GraphId="cba81" Type="Protein">
+    <BiopaxRef>ad1</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="534.5" CenterY="594.0" Width="97.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43889" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L2" GraphId="cc98a" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="858.5" CenterY="328.0" Width="69.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q70SY1" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L4(298-338)" GraphId="cca8f" Type="Protein">
+    <BiopaxRef>d63</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="1341.0" CenterY="735.5" Width="128.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TEY5" />
+  </DataNode>
+  <DataNode TextLabel="MBTPS2" GraphId="d0c8a" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="410.0" CenterY="705.5" Width="86.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43462" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="d19b9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="178.0" CenterY="196.5" Width="44.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16761" />
+  </DataNode>
+  <DataNode TextLabel="CREB3" GraphId="d99ac" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="533.0" CenterY="416.0" Width="58.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43889" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L2(431-520)" GraphId="d9b31" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="788.5" CenterY="560.0" Width="125.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q70SY1" />
+  </DataNode>
+  <DataNode TextLabel="DCSTAMP " GraphId="da5ea" Type="Protein" GroupRef="bbedf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8874383" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1746.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H295" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L3(1-323)" GraphId="db3e7" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1121.0" CenterY="911.5" Width="122.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q68CJ9" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="ddbc9" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="975.0" CenterY="29.5" Width="36.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15422" />
+  </DataNode>
+  <DataNode TextLabel="HSPA5 " GraphId="de91f" Type="Protein" GroupRef="b6342">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-381062" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1246.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11021" />
+  </DataNode>
+  <DataNode TextLabel="CREBRF" GraphId="dec46" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="840.5" CenterY="1046.5" Width="59.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IUR6" />
+  </DataNode>
+  <DataNode TextLabel="p-S724-ERN1 " GraphId="e00e9" Type="Protein" GroupRef="f02d7">
+    <Comment Source="Reactome">IRE1 is trans-autophosphorylated after dissociation from BiP and autodimerization. By homology with the yeast IRE1, human IRE1 is believed to be phosphorylated at Ser724 (Ser841 of Saccharomyces cerevisiae)</Comment>
+    <BiopaxRef>d33</BiopaxRef>
+    <BiopaxRef>e47</BiopaxRef>
+    <BiopaxRef>cee</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-381078" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1506.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75460" />
+  </DataNode>
+  <DataNode TextLabel="ATF6(420-670)" GraphId="e0fbb" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="344.0" CenterY="522.0" Width="108.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L3(365-461)" GraphId="e1563" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="982.0" CenterY="572.5" Width="130.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q68CJ9" />
+  </DataNode>
+  <DataNode TextLabel="CREB3:CREBRF" GraphId="e2256" Type="Complex">
+    <BiopaxRef>be0</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1053.0" CenterY="1033.5" Width="110.0" Height="21.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8874847" />
+  </DataNode>
+  <DataNode TextLabel="ATF6(1-419)" GraphId="e2700" Type="Protein">
+    <BiopaxRef>df5</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="83.0" CenterY="549.5" Width="86.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L4(1-297)" GraphId="e64fd" Type="Protein">
+    <BiopaxRef>d63</BiopaxRef>
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1245.5" CenterY="912.0" Width="115.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TEY5" />
+  </DataNode>
+  <DataNode TextLabel="ATF4 activates genes" GraphId="e65a9" Type="Pathway">
+    <Comment Source="Reactome">ATF4 is a transcription factor and activates expression of IL-8, MCP1, IGFBP-1, CHOP, HERP1 and ATF3.</Comment>
+    <BiopaxRef>fb5</BiopaxRef>
+    <BiopaxRef>fae</BiopaxRef>
+    <BiopaxRef>a24</BiopaxRef>
+    <BiopaxRef>f11</BiopaxRef>
+    <BiopaxRef>b0b</BiopaxRef>
+    <BiopaxRef>c53</BiopaxRef>
+    <BiopaxRef>a2e</BiopaxRef>
+    <BiopaxRef>ba9</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="397.0" CenterY="1011.0" Width="164.0" Height="70.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-380994" />
+  </DataNode>
+  <DataNode TextLabel="ERN1 " GraphId="ea913" Type="Protein" GroupRef="beb72">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-381200" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="100.0" CenterY="1386.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75460" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L2(1-379)" GraphId="ead72" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="851.5" CenterY="787.0" Width="113.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q70SY1" />
+  </DataNode>
+  <DataNode TextLabel="ATF4" GraphId="eaefc" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="354.5" CenterY="961.5" Width="61.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18848" />
+  </DataNode>
+  <DataNode TextLabel="MBTPS1" GraphId="ec76a" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="398.5" CenterY="467.5" Width="83.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14703" />
+  </DataNode>
+  <DataNode TextLabel="HSPA5 " GraphId="ecf50" Type="Protein" GroupRef="a0b0d">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-381216" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1606.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11021" />
+  </DataNode>
+  <DataNode TextLabel="EIF2S1" GraphId="edbfa" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="114.5" CenterY="76.5" Width="73.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P05198" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L1(1-375)" GraphId="ede93" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="661.0" CenterY="788.5" Width="116.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96BA8" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="f172e" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="186.5" CenterY="77.5" Width="37.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15422" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L1" GraphId="f2ef8" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="687.0" CenterY="326.0" Width="70.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96BA8" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L1" GraphId="f3465" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="694.0" CenterY="418.0" Width="68.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96BA8" />
+  </DataNode>
+  <DataNode TextLabel="PERK:BiP" GraphId="f4944" Type="Complex">
+    <Comment Source="Reactome">The N-terminal luminal domain of PERK (EIF2AK3) binds BiP, rendering PERK inactive.</Comment>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="561.5" CenterY="67.5" Width="81.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-381216" />
+  </DataNode>
+  <DataNode TextLabel="ATF6 (ATF6-alpha)&#xA;activates chaperone&#xA;genes" GraphId="f5478" Type="Pathway">
+    <Comment Source="Reactome">The N-terminal fragment of ATF6-alpha contains a bZIP domain and binds the sequence CCACG in ER Stress Response Elements (ERSEs). ATF6-alpha binds ERSEs together with the heterotrimeric transcription factor NF-Y, which binds the sequence CCAAT in the ERSEs, and together the two factors activate transcription of ER stress-responsive genes. Evidence from overexpression and knockdowns indicates that ATF6-alpha is a potent activator but its homolog ATF6-beta is not and ATF6-beta may actually reduce expression of ER stress proteins.</Comment>
+    <BiopaxRef>aee</BiopaxRef>
+    <BiopaxRef>fe6</BiopaxRef>
+    <BiopaxRef>a86</BiopaxRef>
+    <BiopaxRef>b64</BiopaxRef>
+    <BiopaxRef>aa6</BiopaxRef>
+    <BiopaxRef>f84</BiopaxRef>
+    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
+    <Graphics CenterX="629.5" CenterY="1028.0" Width="201.0" Height="72.0" ZOrder="32768" FontSize="10" Valign="Middle" LineThickness="0.0" Color="14961e" />
+    <Xref Database="Reactome" ID="R-HSA-381183" />
+  </DataNode>
+  <DataNode TextLabel="CREB3(292-395)" GraphId="f667e" Type="Protein">
+    <BiopaxRef>ad1</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="462.5" CenterY="565.5" Width="113.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43889" />
+  </DataNode>
+  <DataNode TextLabel="IRE1:BiP" GraphId="f66f9" Type="Complex">
+    <Comment Source="Reactome">The luminal N-teminal domain of IRE1 binds the ATPase domain of BiP, rendering IRE1 inactive.</Comment>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="655.5" CenterY="67.0" Width="71.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-381202" />
+  </DataNode>
+  <DataNode TextLabel="Xbp1 mRNA&#xA;(unspliced)" GraphId="f72fc" Type="Rna">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1449.5" CenterY="162.5" Width="87.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="990099" />
+    <Xref Database="Ensembl" ID="ENST00000216037" />
+  </DataNode>
+  <DataNode TextLabel="XBP1-2" GraphId="f7448" Type="Protein">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="1292.5" CenterY="960.5" Width="61.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P17861-2" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L3(324-364)" GraphId="f8270" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="1139.0" CenterY="738.0" Width="130.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q68CJ9" />
+  </DataNode>
+  <DataNode TextLabel="EIF2AK3" GraphId="f8a47" Type="Protein">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="392.5" CenterY="66.5" Width="63.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NZJ5" />
+  </DataNode>
+  <DataNode TextLabel="unfolded protein " GraphId="f9aba" GroupRef="b6342">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum lumen" />
+    <Attribute Key="complex_id" Value="R-HSA-381062" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1226.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-381130" />
+  </DataNode>
+  <DataNode TextLabel="CREB3 " GraphId="fa58a" Type="Protein" GroupRef="bbedf">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-8874383" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1726.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43889" />
+  </DataNode>
+  <DataNode TextLabel="p-S724-IRE1&#xA;dimer:ADP" GraphId="fc687" Type="Complex">
+    <Comment Source="Reactome">Phosphorylated IRE1 homodimers preferentially bind ADP (as opposed to ATP) and this binding promotes association of the cytoplasmic C-termini. Crystallographic evidence indicates that unphosphorylated A-loops of IRE1 interfere with nucleotide binding thus trans-autophosphorylation is a prerequisite to nucleotide binding.</Comment>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="1281.5" CenterY="208.5" Width="101.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-381078" />
+  </DataNode>
+  <DataNode TextLabel="DCSTAMP:CREB3" GraphId="fd29b" Type="Complex">
+    <BiopaxRef>b23</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="534.5" CenterY="327.0" Width="159.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-8874383" />
+  </DataNode>
+  <DataNode TextLabel="HSPA5 " GraphId="fd676" Type="Protein" GroupRef="ffd74">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-381202" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1306.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11021" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="ffcee" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1176.0" CenterY="32.0" Width="34.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16761" />
+  </DataNode>
+  <Interaction GraphId="a012c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1038.0" Y="532.0" GraphRef="e662d" RelX="0.009999999999990905" RelY="0.9400000000000546" />
+      <Point X="1047.0" Y="572.0" GraphRef="e1563" RelX="1.0" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874206" />
+  </Interaction>
+  <Interaction GraphId="a03e4">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="117.0" Y="403.0" GraphRef="ef33e" RelX="-1.279999999999987" RelY="0.7300000000000182" />
+      <Point X="102.0" Y="406.0" GraphRef="a98a4" RelX="-0.01818181818181818" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381186" />
+  </Interaction>
+  <Interaction GraphId="a06a4">
+    <Comment Source="Reactome">The dissociation of the IRE1-alpha:BiP heterodimer liberates IRE1-alpha, which forms homodimers. Dimer formation is initiated by interaction between the N-terminal, luminal domains.</Comment>
+    <BiopaxRef>e47</BiopaxRef>
+    <BiopaxRef>a75</BiopaxRef>
+    <BiopaxRef>cee</BiopaxRef>
+    <BiopaxRef>fb6</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="831.0" Y="67.0" />
+      <Point X="898.0" Y="67.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f57b3" />
+      <Anchor Position="0.99" Shape="None" GraphId="e750c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381109" />
+  </Interaction>
+  <Interaction GraphId="a084e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="687.0" Y="337.0" GraphRef="f2ef8" RelX="0.0" RelY="1.0" />
+      <Point X="686.0" Y="340.0" GraphRef="c9ec2" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874184" />
+  </Interaction>
+  <Interaction GraphId="a0bad">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="869.0" Y="1046.0" GraphRef="dec46" RelX="0.9661016949152542" RelY="-0.043478260869565216" />
+      <Point X="913.0" Y="1034.0" GraphRef="ff8b4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874849" />
+  </Interaction>
+  <Interaction GraphId="a11d6">
+    <Comment Source="Reactome">The N-terminal, cleavage product of CREB3L3 traffics to the nucleus (Omori et al. 2001, Bailey et al. 2007, Llarena et al. 2010) where it can interact with ATF6 and where it is observed to bind the CRE, box B, and ATF6-bindng element, ERSE-I, and ERSE-II in promoters of target genes such as PEPCK.</Comment>
+    <BiopaxRef>ac0</BiopaxRef>
+    <BiopaxRef>dbc</BiopaxRef>
+    <BiopaxRef>dcf</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1042.0" Y="800.0" />
+      <Point X="1108.0" Y="895.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ffa0c" />
+      <Anchor Position="0.99" Shape="None" GraphId="eb5b3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874202" />
+  </Interaction>
+  <Interaction GraphId="a1725">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="694.0" Y="692.0" GraphRef="dc8eb" RelX="-0.03999999999996362" RelY="0.8099999999999454" />
+      <Point X="692.0" Y="740.0" GraphRef="c7f60" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874194" />
+  </Interaction>
+  <Interaction GraphId="a1ec3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1257.0" Y="551.0" GraphRef="f7e7d" RelX="0.01999999999998181" RelY="1.1599999999999682" />
+      <Point X="1242.0" Y="570.0" GraphRef="bbc71" RelX="0.9844961240310077" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874186" />
+  </Interaction>
+  <Interaction GraphId="a3d9f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="849.0" Y="898.0" GraphRef="bb996" RelX="1.7799999999999727" RelY="0.9500000000000455" />
+      <Point X="875.0" Y="901.0" GraphRef="bc91a" RelX="-0.008403361344537815" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874193" />
+  </Interaction>
+  <Interaction GraphId="a3f8b">
+    <Comment Source="Reactome">MBTPS2 (S2P) cleaves CREB3L2 near the cytoplasmic face of the transmembrane domain, releasing the cytoplasmic N-terminal domain into the cytosol (inferred from human ATF6-alpha and mouse homologs).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="857.0" Y="609.0" />
+      <Point X="857.0" Y="694.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="faf25" />
+      <Anchor Position="0.99" Shape="None" GraphId="f1e1d" />
+      <Anchor Position="0.5" Shape="None" GraphId="baece" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874187" />
+  </Interaction>
+  <Interaction GraphId="a538a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="697.0" Y="531.0" GraphRef="d3b8b" RelX="0.03999999999996362" RelY="0.9800000000000182" />
+      <Point X="698.0" Y="583.0" GraphRef="c8fdc" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874212" />
+  </Interaction>
+  <Interaction GraphId="a57f8">
+    <Comment Source="Reactome">CREB3L4 (CREB4) is observed in the endoplasmic reticulum (ER) and the Golgi (Stirling and O'Hare 2006). Based on homologous transcription factors possessing transmembrane domains, CREB3L4 is inferred to traffic from the ER to the Golgi where it is activated by cleavage. Stress caused by dithiothreitol causes trafficking of CREB3L4 to the Golgi but cleavage by MBTPS1 (S1P) is not observed (Stirling and O'Hare 2006).</Comment>
+    <BiopaxRef>d63</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1205.0" Y="345.0" />
+      <Point X="1243.0" Y="408.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e0692" />
+      <Anchor Position="0.99" Shape="None" GraphId="c72ea" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874209" />
+  </Interaction>
+  <Interaction GraphId="a6441">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="266.0" Y="114.0" GraphRef="a72af" RelX="-1.0" RelY="0.0" />
+      <Point X="157.0" Y="127.0" GraphRef="ada75" RelX="1.0" RelY="0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381111" />
+  </Interaction>
+  <Interaction GraphId="a7cfe">
+    <Comment Source="Reactome">CREB3 is cleaved by regulated intramembrane proteolysis (RIP) (Raggo et al. 2002, Liang et al. 2006, Eleveld-Trancikova et al. 2010). As inferred from other RIP susbsrates, MBTPS2 (S2P) is believed to cleave CREB3 after MBTPS1 (S1P) cleaves (Raggo et al. 2002). Based on homology with cleavage sites in SREBP (SREBF) homologues, the cleavage site in CREB3 is estimated to be at about amino acid 254 at the cytoplasmic face of the transmembrane domain (Raggo et al. 2002).</Comment>
+    <BiopaxRef>ad1</BiopaxRef>
+    <BiopaxRef>b5a</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="534.0" Y="608.0" />
+      <Point X="534.0" Y="690.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="db396" />
+      <Anchor Position="0.99" Shape="None" GraphId="e4da4" />
+      <Anchor Position="0.5" Shape="None" GraphId="c9949" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874192" />
+  </Interaction>
+  <Interaction GraphId="a80b2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="854.0" Y="519.0" GraphRef="c0c7c" RelX="-0.029999999999972715" RelY="0.8500000000000227" />
+      <Point X="850.0" Y="560.0" GraphRef="d9b31" RelX="0.984" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874205" />
+  </Interaction>
+  <Interaction GraphId="a8c61">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1326.0" Y="953.0" GraphRef="e0e2b" RelX="-1.25" RelY="6.330000000000041" />
+      <Point X="1322.0" Y="960.0" GraphRef="f7448" RelX="0.9672131147540983" RelY="-0.043478260869565216" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381203" />
+  </Interaction>
+  <Interaction GraphId="a94f1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="105.0" Y="651.0" GraphRef="d3621" RelX="0.1700000000000017" RelY="0.8099999999999454" />
+      <Point X="110.0" Y="730.0" GraphRef="c73ec" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-420818" />
+  </Interaction>
+  <Interaction GraphId="aaa75">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="857.0" Y="694.0" GraphRef="f1e1d" RelX="0.0" RelY="0.8500000000000227" />
+      <Point X="865.0" Y="738.0" GraphRef="b4e1e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874187" />
+  </Interaction>
+  <Interaction GraphId="abb99">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="453.0" Y="705.0" GraphRef="d0c8a" RelX="1.0" RelY="-0.04" />
+      <Point X="1292.0" Y="650.0" GraphRef="f9eb8" RelX="-0.5" RelY="-7.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874195" />
+  </Interaction>
+  <Interaction GraphId="ac79e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="453.0" Y="705.0" GraphRef="d0c8a" RelX="1.0" RelY="-0.04" />
+      <Point X="857.0" Y="651.0" GraphRef="baece" RelX="0.0" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874187" />
+  </Interaction>
+  <Interaction GraphId="af485">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="993.0" Y="29.0" GraphRef="ddbc9" RelX="1.0" RelY="-0.04" />
+      <Point X="1028.0" Y="69.0" GraphRef="d9ae9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381091" />
+  </Interaction>
+  <Interaction GraphId="b08ac">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="280.0" Y="286.0" GraphRef="c6fd8" RelX="0.0" RelY="0.4399999999999977" />
+      <Point X="274.0" Y="306.0" GraphRef="b6049" RelX="-0.018867924528301886" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381158" />
+  </Interaction>
+  <Interaction GraphId="b0ec9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="260.0" Y="219.0" GraphRef="a1d0a" RelX="0.0" RelY="0.92" />
+      <Point X="280.0" Y="242.0" GraphRef="fe74e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381158" />
+  </Interaction>
+  <Interaction GraphId="b1d3b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="534.0" Y="690.0" GraphRef="e4da4" RelX="0.0" RelY="0.82000000000005" />
+      <Point X="488.0" Y="778.0" GraphRef="bad3b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874192" />
+  </Interaction>
+  <Interaction GraphId="b21e3">
+    <Comment Source="Reactome">Phosphorylated IRE1-alpha homodimers with bound ADP have endoribonuclease activity in their C-terminal (cytosolic) regions. The IRE1-alpha homodimers cleave an internal 26 nucleotide segment out of the Xbp-1 mRNA. In yeast the resulting RNAs are ligated by a tRNA ligase but the corresponding human ligase has not been identified. The cleavage and ligation leads to a frameshift in the Xbp-1 mRNA which results in a longer ORF that encodes Xbp-1 (S), the active form of the Xbp-1 transcription factor</Comment>
+    <BiopaxRef>f2a</BiopaxRef>
+    <BiopaxRef>d68</BiopaxRef>
+    <BiopaxRef>b3a</BiopaxRef>
+    <BiopaxRef>db1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1449.0" Y="183.0" />
+      <Point X="1450.0" Y="281.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c9f0a" />
+      <Anchor Position="0.99" Shape="None" GraphId="c58dd" />
+      <Anchor Position="0.5" Shape="None" GraphId="b5325" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-425923" />
+  </Interaction>
+  <Interaction GraphId="b31d2">
+    <Comment Source="Reactome">CREB3L1 (OASIS) is normally a short-lived protein located in the endoplasmic reticulum (ER) membrane (Kondo et al. 2012) of osteoblasts, astrocytes, intestine, salivary gland, and prostate. It is targeted for proteolytic degradation by HRD1 (inferred from mouse homologs). During ER stress CREB3L1 becomes stabilized and traffics by an uncharacterized mechanism to the Golgi membrane where it is cleaved by Golgi-resident proteases MBTPS1 (S1P) and MBTPS2 (S2P) (inferred from mouse homologs).</Comment>
+    <BiopaxRef>f27</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="686.0" Y="340.0" />
+      <Point X="691.0" Y="403.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="c9ec2" />
+      <Anchor Position="0.99" Shape="None" GraphId="ca4d3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874184" />
+  </Interaction>
+  <Interaction GraphId="b38e6">
+    <Comment Source="Reactome">Once dissociated from BiP, PERK (EIF2AK3) monomers form homodimers, the active form of the protein.</Comment>
+    <BiopaxRef>bd0</BiopaxRef>
+    <BiopaxRef>b85</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="358.0" Y="67.0" />
+      <Point X="309.0" Y="101.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d23ce" />
+      <Anchor Position="0.99" Shape="None" GraphId="a8c38" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381087" />
+  </Interaction>
+  <Interaction GraphId="b54b7">
+    <Comment Source="Reactome">Once in the Golgi, ATF6-alpha undergoes two sequential proteolytic cleavages. S2P catalyzes the second of these, cleaving the ATF6-alpha S1P cleavage product within its transmembrane domain. This cleavage liberates a 50 kD N-terminal fragment with bZIP transcription factor activity into the cytosol.</Comment>
+    <BiopaxRef>df5</BiopaxRef>
+    <BiopaxRef>f76</BiopaxRef>
+    <BiopaxRef>c35</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="88.0" Y="570.0" />
+      <Point X="105.0" Y="651.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a7b8e" />
+      <Anchor Position="0.99" Shape="None" GraphId="d3621" />
+      <Anchor Position="0.5" Shape="None" GraphId="bc4fd" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-420818" />
+  </Interaction>
+  <Interaction GraphId="b67b7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="96.0" Y="813.0" GraphRef="bec42" RelX="0.0" RelY="1.0" />
+      <Point X="118.0" Y="816.0" GraphRef="fa3f3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381026" />
+  </Interaction>
+  <Interaction GraphId="b7087">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="846.0" Y="960.0" GraphRef="b225b" RelX="0.9813084112149533" RelY="-0.04" />
+      <Point X="913.0" Y="1034.0" GraphRef="ff8b4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874849" />
+  </Interaction>
+  <Interaction GraphId="b790d">
+    <Comment Source="Reactome">Based on homology with other substrates of regulated intramembrane cleavage, cleavage by regulate intramembrane proteolysis is believed to release the N-terminal cytoplasmic domain of CREB3 into the cytosol (Raggo et al. 2002, Eleveld-Trancikova et al. 2010). The fragment is then translocated into the nucleus (Raggo et al. 2002, Eleveld-Trancikova et al. 2010) where, in combination with HCF-1, it activates target genes that contain UPRE and ERSE-II elements in their promoters (Liang et al. 2006).</Comment>
+    <BiopaxRef>ad1</BiopaxRef>
+    <BiopaxRef>b5a</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="497.0" Y="806.0" />
+      <Point X="767.0" Y="945.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f7adc" />
+      <Anchor Position="0.99" Shape="None" GraphId="e6765" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874197" />
+  </Interaction>
+  <Interaction GraphId="b8db2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="106.0" Y="310.0" GraphRef="af10c" RelX="-0.009345794392523364" RelY="0.9393939393939394" />
+      <Point X="251.0" Y="962.0" GraphRef="da783" RelX="12.0" RelY="5.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381128" />
+  </Interaction>
+  <Interaction GraphId="ba889">
+    <Comment Source="Reactome">Once in the Golgi, ATF6-alpha undergoes two sequential proteolytic cleavages. S1P catalyzes the first of these, probably cleaving the ATF6-alpha polypeptide between residues 418 and 419 based on homology with known S1P cleavage sites in other proteins.</Comment>
+    <BiopaxRef>df5</BiopaxRef>
+    <BiopaxRef>f76</BiopaxRef>
+    <BiopaxRef>c35</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="102.0" Y="439.0" />
+      <Point X="103.0" Y="480.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fe8e1" />
+      <Anchor Position="0.99" Shape="None" GraphId="c6a8e" />
+      <Anchor Position="0.5" Shape="None" GraphId="b98e9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381135" />
+  </Interaction>
+  <Interaction GraphId="bae18">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1295.0" Y="611.0" GraphRef="bba89" RelX="0.0" RelY="0.92" />
+      <Point X="1294.0" Y="615.0" GraphRef="b5a81" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874195" />
+  </Interaction>
+  <Interaction GraphId="bb642">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="857.0" Y="694.0" GraphRef="f1e1d" RelX="0.0" RelY="0.8500000000000227" />
+      <Point X="851.0" Y="775.0" GraphRef="ead72" RelX="-0.008849557522123894" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874187" />
+  </Interaction>
+  <Interaction GraphId="bc5ea">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1241.0" Y="73.0" GraphRef="b1f7b" RelX="1.0" RelY="-0.043478260869565216" />
+      <Point X="1279.0" Y="71.0" GraphRef="cfd91" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381116" />
+  </Interaction>
+  <Interaction GraphId="bd09a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1450.0" Y="281.0" GraphRef="c58dd" RelX="0.009999999999990905" RelY="0.9800000000000182" />
+      <Point X="1451.0" Y="276.0" GraphRef="bcd8d" RelX="-0.012048192771084338" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-425923" />
+  </Interaction>
+  <Interaction GraphId="bd539">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="521.0" Y="67.0" GraphRef="f4944" RelX="-1.0" RelY="-0.043478260869565216" />
+      <Point X="496.0" Y="70.0" GraphRef="a625b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381086" />
+  </Interaction>
+  <Interaction GraphId="bd58c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="439.0" Y="467.0" GraphRef="ec76a" RelX="0.9759036144578314" RelY="-0.037037037037037035" />
+      <Point X="693.0" Y="461.0" GraphRef="f071f" RelX="-2.0" RelY="-21.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874212" />
+  </Interaction>
+  <Interaction GraphId="bd98c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="533.0" Y="429.0" GraphRef="d99ac" RelX="0.0" RelY="1.0" />
+      <Point X="533.0" Y="432.0" GraphRef="fef86" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874204" />
+  </Interaction>
+  <Interaction GraphId="be1fb">
+    <Comment Source="Reactome">Unlike ATF6, CREB3L3 (and probably other CREB3 family members) does not interact with HSPA5 (BiP) (Llarena 2010). Instead, retention in the endoplasmic reticulum (ER) is mediated by a membrane-proximal cytoplasmic motif (Bailey et al. 2007). When the motif is deleted CREB3L3 is constitutively trafficked to the Golgi where it is cleaved (Bailey et al. 2007). In cells not experiencing ER stress, CREB3L3 is located in the ER membrane (Stirling and O'Hare 2006, Bailey et al. 2007, Llarena et al. 2010) and is rapidly turned over by the endoplasmic reticulum associated degradation (ERAD) pathway (Bailey et al. 2007). During ER stress CREB3L3 is translocated by an uncharacterized mechanism to the Golgi (Bailey et al. 2007, Llarena et al. 2010, also inferred from the mouse homolog in Zhang et al. 2006). CREB3L3 is expressed strongly in the liver and more weakly in the stomach and small intestine.</Comment>
+    <BiopaxRef>d63</BiopaxRef>
+    <BiopaxRef>dcf</BiopaxRef>
+    <BiopaxRef>dbc</BiopaxRef>
+    <BiopaxRef>c73</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1023.0" Y="341.0" />
+      <Point X="1034.0" Y="408.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="aa474" />
+      <Anchor Position="0.99" Shape="None" GraphId="bc99a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874208" />
+  </Interaction>
+  <Interaction GraphId="bf183">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1280.0" Y="188.0" GraphRef="c0256" RelX="0.009999999999990905" RelY="1.170000000000016" />
+      <Point X="1281.0" Y="191.0" GraphRef="fc687" RelX="-0.009900990099009901" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381116" />
+  </Interaction>
+  <Interaction GraphId="bf697">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1256.0" Y="431.0" GraphRef="b6da4" RelX="0.0" RelY="0.9047619047619048" />
+      <Point X="1255.0" Y="435.0" GraphRef="fb1e7" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874186" />
+  </Interaction>
+  <Interaction GraphId="bfe60">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="851.0" Y="799.0" GraphRef="ead72" RelX="-0.008849557522123894" RelY="1.0" />
+      <Point X="852.0" Y="802.0" GraphRef="ed1eb" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874191" />
+  </Interaction>
+  <Interaction GraphId="c0465">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1038.0" Y="435.0" GraphRef="af49d" RelX="0.0" RelY="1.0" />
+      <Point X="1037.0" Y="438.0" GraphRef="b3358" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874206" />
+  </Interaction>
+  <Interaction GraphId="c053d">
+    <Comment Source="Reactome">After cleavage by MBTPS2 the N-terminal cytoplasmic domain of CREB3L2 is released into the cytosol and traffics to the nucleus where it binds CRE-like elements in promoters of genes such as Sec23a (inferred from mouse).</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="852.0" Y="802.0" />
+      <Point X="976.0" Y="898.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ed1eb" />
+      <Anchor Position="0.99" Shape="None" GraphId="cd8eb" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874191" />
+  </Interaction>
+  <Interaction GraphId="c2049">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="102.0" Y="436.0" GraphRef="a98a4" RelX="-0.01818181818181818" RelY="1.0" />
+      <Point X="102.0" Y="439.0" GraphRef="fe8e1" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381135" />
+  </Interaction>
+  <Interaction GraphId="c3c4a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="453.0" Y="705.0" GraphRef="d0c8a" RelX="1.0" RelY="-0.04" />
+      <Point X="534.0" Y="656.0" GraphRef="c9949" RelX="0.0" RelY="7.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874192" />
+  </Interaction>
+  <Interaction GraphId="c3f5b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1449.0" Y="187.0" GraphRef="f72fc" RelX="-0.011494252873563218" RelY="0.9607843137254902" />
+      <Point X="1449.0" Y="183.0" GraphRef="c9f0a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-425923" />
+  </Interaction>
+  <Interaction GraphId="c4e97">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="361.0" Y="66.0" GraphRef="f8a47" RelX="-1.0" RelY="-0.037037037037037035" />
+      <Point X="358.0" Y="67.0" GraphRef="d23ce" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381087" />
+  </Interaction>
+  <Interaction GraphId="c63ca">
+    <Comment Source="Reactome">The C-terminal domain of PERK (EIF2AK3) has kinase activity when PERK homodimerizes. PERK kinase specifically phosphorylates Ser52 of eIF2-alpha, causing an arrest in translation. The result is that translation of ER-targeted proteins is halted on ribosomes in the vicinity of activated PERK. The general arrest of translation results in the loss of short-lived proteins such as Cyclin D1, causing an arrest of the cell cycle in G1.</Comment>
+    <BiopaxRef>b11</BiopaxRef>
+    <BiopaxRef>bd0</BiopaxRef>
+    <BiopaxRef>ea4</BiopaxRef>
+    <BiopaxRef>b05</BiopaxRef>
+    <BiopaxRef>b50</BiopaxRef>
+    <BiopaxRef>b85</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="156.0" Y="99.0" />
+      <Point X="156.0" Y="154.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d420c" />
+      <Anchor Position="0.99" Shape="None" GraphId="ad3f3" />
+      <Anchor Position="0.5" Shape="None" GraphId="ada75" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381111" />
+  </Interaction>
+  <Interaction GraphId="c63fd">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1291.0" Y="699.0" GraphRef="d33c8" RelX="-0.029999999999972715" RelY="0.8400000000000318" />
+      <Point X="1291.0" Y="781.0" GraphRef="af164" RelX="1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874195" />
+  </Interaction>
+  <Interaction GraphId="c6423">
+    <Comment Source="Reactome">IRE1-alpha is a single-pass transmembrane protein with a luminal N-terminus and a cytoplasmic C-terminus. IRE1-alpha is maintained in an inactive state in the Endoplasmic Reticulum (ER) membrane by interaction between the luminal domain of IRE1-alpha and the ATPase domain of BiP within the ER. &lt;br&gt;BiP is a general chaperone that also binds unfolded proteins within the ER. Thus BiP dissociates from IRE1-alpha when chaperone activity is overwhelmed by unfolded proteins in the ER.</Comment>
+    <BiopaxRef>e47</BiopaxRef>
+    <BiopaxRef>a75</BiopaxRef>
+    <BiopaxRef>c65</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="715.0" Y="71.0" />
+      <Point X="753.0" Y="70.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fe7dd" />
+      <Anchor Position="0.99" Shape="None" GraphId="be520" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381217" />
+  </Interaction>
+  <Interaction GraphId="c64d8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="536.0" Y="182.0" GraphRef="c1f50" RelX="-1.0" RelY="0.0" />
+      <Point X="496.0" Y="70.0" GraphRef="a625b" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381086" />
+  </Interaction>
+  <Interaction GraphId="c6a6c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1073.0" Y="702.0" GraphRef="b228a" RelX="0.0" RelY="0.82000000000005" />
+      <Point X="1074.0" Y="738.0" GraphRef="f8270" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874201" />
+  </Interaction>
+  <Interaction GraphId="c787c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="858.0" Y="339.0" GraphRef="cc98a" RelX="-0.014492753623188406" RelY="1.0" />
+      <Point X="857.0" Y="342.0" GraphRef="e1e86" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874198" />
+  </Interaction>
+  <Interaction GraphId="c7b38">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="535.0" Y="541.0" GraphRef="a7791" RelX="0.01999999999998181" RelY="1.0900000000000318" />
+      <Point X="534.0" Y="583.0" GraphRef="cba81" RelX="-0.010309278350515464" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874204" />
+  </Interaction>
+  <Interaction GraphId="c811b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1024.0" Y="337.0" GraphRef="be214" RelX="-0.014925373134328358" RelY="0.9047619047619048" />
+      <Point X="1023.0" Y="341.0" GraphRef="aa474" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874208" />
+  </Interaction>
+  <Interaction GraphId="c890a">
+    <Comment Source="Reactome">CREBRF (Luman recruitment factor, LRF) binds CREB3 in the nucleus and recruits CREB3 into nuclear foci (Audas et al. 2008). CREBRF destabilizes CREB3 and reduces the transcription activation activity of CREB3 during endoplasmic reticulum stress.</Comment>
+    <BiopaxRef>be0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="913.0" Y="1034.0" />
+      <Point X="995.0" Y="1033.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ff8b4" />
+      <Anchor Position="0.99" Shape="None" GraphId="bd1c4" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874849" />
+  </Interaction>
+  <Interaction GraphId="ca95f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="153.0" Y="948.0" GraphRef="afb6a" RelX="0.981651376146789" RelY="0.0" />
+      <Point X="157.0" Y="953.0" GraphRef="b3139" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381128" />
+  </Interaction>
+  <Interaction GraphId="ca998">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="248.0" Y="319.0" GraphRef="b6049" RelX="-1.0" RelY="0.0" />
+      <Point X="245.0" Y="330.0" GraphRef="fa814" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381186" />
+  </Interaction>
+  <Interaction GraphId="cbac1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="606.0" Y="182.0" GraphRef="c1f50" RelX="1.0" RelY="0.0" />
+      <Point X="715.0" Y="71.0" GraphRef="fe7dd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381217" />
+  </Interaction>
+  <Interaction GraphId="cbaef">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="535.0" Y="541.0" GraphRef="a7791" RelX="0.01999999999998181" RelY="1.0900000000000318" />
+      <Point X="518.0" Y="565.0" GraphRef="f667e" RelX="0.9823008849557522" RelY="-0.043478260869565216" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874204" />
+  </Interaction>
+  <Interaction GraphId="cbb63">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="534.0" Y="338.0" GraphRef="fd29b" RelX="-0.006289308176100629" RelY="1.0" />
+      <Point X="533.0" Y="341.0" GraphRef="ae7b3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874200" />
+  </Interaction>
+  <Interaction GraphId="cc4fc">
+    <Comment Source="Reactome">CREB3L4 (CREB4) is cleaved near the cytoplasmic face of the transmembrane domain (Stirling and O'Hare 2006, Ben-Aicha et al. 2007). Based on homology with the mouse homolog and other CREB3 proteins, MBTPS2 (S2P) cleaves CREB3L4 and the cleavage is inferred to occur at approximately amino acid 297. The cleavage releases the N-terminal domain to the cytosol.</Comment>
+    <BiopaxRef>d63</BiopaxRef>
+    <BiopaxRef>a46</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1294.0" Y="615.0" />
+      <Point X="1291.0" Y="699.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b5a81" />
+      <Anchor Position="0.99" Shape="None" GraphId="d33c8" />
+      <Anchor Position="0.5" Shape="None" GraphId="f9eb8" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874195" />
+  </Interaction>
+  <Interaction GraphId="cd489">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="156.0" Y="154.0" GraphRef="ad3f3" RelX="0.0" RelY="0.5500000000000114" />
+      <Point X="178.0" Y="183.0" GraphRef="d19b9" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381111" />
+  </Interaction>
+  <Interaction GraphId="ced8b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="767.0" Y="945.0" GraphRef="e6765" RelX="2.7000000000000455" RelY="1.3899999999999864" />
+      <Point X="793.0" Y="948.0" GraphRef="b225b" RelX="-0.009345794392523364" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874197" />
+  </Interaction>
+  <Interaction GraphId="cf2f0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1042.0" Y="796.0" GraphRef="bc7a6" RelX="-0.008547008547008548" RelY="0.9130434782608695" />
+      <Point X="1042.0" Y="800.0" GraphRef="ffa0c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874202" />
+  </Interaction>
+  <Interaction GraphId="cf5bb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="995.0" Y="1033.0" GraphRef="bd1c4" RelX="0.8199999999999363" RelY="-0.009999999999990905" />
+      <Point X="998.0" Y="1033.0" GraphRef="e2256" RelX="-1.0" RelY="-0.047619047619047616" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874849" />
+  </Interaction>
+  <Interaction GraphId="d004e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="453.0" Y="705.0" GraphRef="d0c8a" RelX="1.0" RelY="-0.04" />
+      <Point X="1073.0" Y="658.0" GraphRef="eb4e3" RelX="0.0" RelY="-3.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874201" />
+  </Interaction>
+  <Interaction GraphId="d224b">
+    <Comment Source="Reactome">CREB3 is expressed ubiquitously (Lu et al. 1997) and associates in the endoplasmic reticulum (ER) membrane (Stirling and O'Hare 2006) with DCSTAMP (Eleveld-Trancikova et al. 2010). Through an unclear mechanism, that may involve association of OS9 with unfolded proteins, CREB3 and DCSTAMP, which may remain in a complex, transit from the ER membrane to the Golgi membrane where CREB3 is activated by cleavage (Eleveld-Trancikova et al. 2010). CREB3 becomes activated during maturation of dendritic cells induced by lipopolysaccharide and cytokines (Eleveld-Trancikova et al. 2010).</Comment>
+    <BiopaxRef>d63</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="533.0" Y="341.0" />
+      <Point X="532.0" Y="400.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ae7b3" />
+      <Anchor Position="0.99" Shape="None" GraphId="ae25e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874200" />
+  </Interaction>
+  <Interaction GraphId="d28a8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="753.0" Y="70.0" GraphRef="be520" RelX="0.37999999999999545" RelY="-0.010000000000005116" />
+      <Point X="787.0" Y="67.0" GraphRef="bc79b" RelX="-1.0" RelY="-0.047619047619047616" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381217" />
+  </Interaction>
+  <Interaction GraphId="d3d93">
+    <Comment Source="Reactome">CREB3L3 at the Golgi membrane is cleaved in the luminal domain (LLarena et al. 2010) by MBTPS1 (S1P) (Bailey et al. 2007, inferred from mouse homologs in Zhang et al. 2006). By inference from cleavage of SREBFs (SREBPs), CREB3L3 is believed to be cleaved at a RTLH motif at amino acid residue 364.</Comment>
+    <BiopaxRef>dcf</BiopaxRef>
+    <BiopaxRef>dbc</BiopaxRef>
+    <BiopaxRef>c73</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1037.0" Y="438.0" />
+      <Point X="1038.0" Y="532.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b3358" />
+      <Anchor Position="0.99" Shape="None" GraphId="e662d" />
+      <Anchor Position="0.5" Shape="None" GraphId="e275e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874206" />
+  </Interaction>
+  <Interaction GraphId="d3dd6">
+    <Comment Source="Reactome">After cleavage by MBTPS1, CREB3L3 in the Golgi membrane is cleaved by MBTPS2 (S2P) near the cytoplasmic face of the transmembrane domain (Bailey et al. 2007, inferred from mouse homologs in Zhang et al. 2006). By inference from cleavage of SREBFs (SREBPs), CREB3L3 is believed to be cleaved at approximately amino acid residue 323. The cleavage releases the N-terminal cytoplasmic domain into the cytosol.</Comment>
+    <BiopaxRef>dbc</BiopaxRef>
+    <BiopaxRef>c73</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1073.0" Y="620.0" />
+      <Point X="1073.0" Y="702.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ac950" />
+      <Anchor Position="0.99" Shape="None" GraphId="b228a" />
+      <Anchor Position="0.5" Shape="None" GraphId="eb4e3" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874201" />
+  </Interaction>
+  <Interaction GraphId="d407f">
+    <Comment Source="Reactome">Dimerization of the N-terminal luminal regions of IRE1-alpha brings the cytosolic C-terminal regions in proximity. The C-terminal region possesses kinase activity and the homodimer trans-autophosphorylates. From homology with Saccharomyces IRE1-alpha the phosphorylation of human IRE1-alpha is believed to be at Ser724.</Comment>
+    <BiopaxRef>d33</BiopaxRef>
+    <BiopaxRef>e47</BiopaxRef>
+    <BiopaxRef>cee</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1028.0" Y="69.0" />
+      <Point X="1085.0" Y="65.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d9ae9" />
+      <Anchor Position="0.99" Shape="None" GraphId="ca1c1" />
+      <Anchor Position="0.5" Shape="None" GraphId="fe36d" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381091" />
+  </Interaction>
+  <Interaction GraphId="d4330">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="697.0" Y="531.0" GraphRef="d3b8b" RelX="0.03999999999996362" RelY="0.9800000000000182" />
+      <Point X="683.0" Y="557.0" GraphRef="beed6" RelX="1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874212" />
+  </Interaction>
+  <Interaction GraphId="d4779">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="367.0" Y="705.0" GraphRef="d0c8a" RelX="-1.0" RelY="-0.04" />
+      <Point X="105.0" Y="617.0" GraphRef="bc4fd" RelX="8.5" RelY="6.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-420818" />
+  </Interaction>
+  <Interaction GraphId="d4ad6">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="309.0" Y="101.0" GraphRef="a8c38" RelX="-0.4900000000000091" RelY="0.3400000000000034" />
+      <Point X="310.0" Y="104.0" GraphRef="a72af" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381087" />
+  </Interaction>
+  <Interaction GraphId="d4d74">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1257.0" Y="551.0" GraphRef="f7e7d" RelX="0.01999999999998181" RelY="1.1599999999999682" />
+      <Point X="1239.0" Y="599.0" GraphRef="bba89" RelX="-1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874186" />
+  </Interaction>
+  <Interaction GraphId="d5149">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="453.0" Y="705.0" GraphRef="d0c8a" RelX="1.0" RelY="-0.04" />
+      <Point X="698.0" Y="648.0" GraphRef="a6a41" RelX="2.0" RelY="-3.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874194" />
+  </Interaction>
+  <Interaction GraphId="d545a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="857.0" Y="606.0" GraphRef="ae321" RelX="0.0" RelY="1.0" />
+      <Point X="857.0" Y="609.0" GraphRef="faf25" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874187" />
+  </Interaction>
+  <Interaction GraphId="d6c3f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1085.0" Y="65.0" GraphRef="ca1c1" RelX="0.5699999999999363" RelY="-0.04000000000000625" />
+      <Point X="1107.0" Y="73.0" GraphRef="b1f7b" RelX="-1.0" RelY="-0.043478260869565216" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381091" />
+  </Interaction>
+  <Interaction GraphId="d73a1">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="439.0" Y="467.0" GraphRef="ec76a" RelX="0.9759036144578314" RelY="-0.037037037037037035" />
+      <Point X="534.0" Y="448.0" GraphRef="b956c" RelX="0.0" RelY="-38.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874204" />
+  </Interaction>
+  <Interaction GraphId="d83a9">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="105.0" Y="651.0" GraphRef="d3621" RelX="0.1700000000000017" RelY="0.8099999999999454" />
+      <Point X="96.0" Y="787.0" GraphRef="bec42" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-420818" />
+  </Interaction>
+  <Interaction GraphId="d8a57">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="488.0" Y="802.0" GraphRef="bad3b" RelX="0.0" RelY="0.92" />
+      <Point X="497.0" Y="806.0" GraphRef="f7adc" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874197" />
+  </Interaction>
+  <Interaction GraphId="d8f7c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="827.0" Y="67.0" GraphRef="bc79b" RelX="0.9512195121951219" RelY="-0.047619047619047616" />
+      <Point X="831.0" Y="67.0" GraphRef="f57b3" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381109" />
+  </Interaction>
+  <Interaction GraphId="d9abf">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1291.0" Y="699.0" GraphRef="d33c8" RelX="-0.029999999999972715" RelY="0.8400000000000318" />
+      <Point X="1277.0" Y="735.0" GraphRef="cca8f" RelX="-1.0" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874195" />
+  </Interaction>
+  <Interaction GraphId="d9f2d">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="439.0" Y="467.0" GraphRef="ec76a" RelX="0.9759036144578314" RelY="-0.037037037037037035" />
+      <Point X="1037.0" Y="487.0" GraphRef="e275e" RelX="-0.5" RelY="2.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874206" />
+  </Interaction>
+  <Interaction GraphId="dad16">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="691.0" Y="403.0" GraphRef="ca4d3" RelX="0.049999999999954525" RelY="0.6299999999999955" />
+      <Point X="694.0" Y="406.0" GraphRef="f3465" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874184" />
+  </Interaction>
+  <Interaction GraphId="db3b0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="439.0" Y="467.0" GraphRef="ec76a" RelX="0.9759036144578314" RelY="-0.037037037037037035" />
+      <Point X="1255.0" Y="500.0" GraphRef="b0661" RelX="-1.0" RelY="7.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874186" />
+  </Interaction>
+  <Interaction GraphId="db6ad">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1085.0" Y="65.0" GraphRef="ca1c1" RelX="0.5699999999999363" RelY="-0.04000000000000625" />
+      <Point X="1159.0" Y="32.0" GraphRef="ffcee" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381091" />
+  </Interaction>
+  <Interaction GraphId="dbb2c">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="534.0" Y="605.0" GraphRef="cba81" RelX="-0.010309278350515464" RelY="1.0" />
+      <Point X="534.0" Y="608.0" GraphRef="db396" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874192" />
+  </Interaction>
+  <Interaction GraphId="dbc48">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="989.0" Y="68.0" GraphRef="c19db" RelX="1.0" RelY="-0.04" />
+      <Point X="1060.0" Y="66.0" GraphRef="fe36d" RelX="3.5" RelY="-1.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381091" />
+  </Interaction>
+  <Interaction GraphId="dce9e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1244.0" Y="897.0" GraphRef="cf4a9" RelX="0.10999999999989996" RelY="1.0" />
+      <Point X="1245.0" Y="900.0" GraphRef="e64fd" RelX="-0.008695652173913044" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874218" />
+  </Interaction>
+  <Interaction GraphId="dd76b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1451.0" Y="324.0" GraphRef="bcd8d" RelX="-0.012048192771084338" RelY="0.9591836734693877" />
+      <Point X="1451.0" Y="320.0" GraphRef="f1ede" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381203" />
+  </Interaction>
+  <Interaction GraphId="de1e7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="532.0" Y="400.0" GraphRef="ae25e" RelX="-0.009999999999990905" RelY="0.5900000000000318" />
+      <Point X="533.0" Y="403.0" GraphRef="d99ac" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874200" />
+  </Interaction>
+  <Interaction GraphId="de638">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="694.0" Y="430.0" GraphRef="f3465" RelX="0.0" RelY="1.0" />
+      <Point X="693.0" Y="433.0" GraphRef="abced" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874212" />
+  </Interaction>
+  <Interaction GraphId="df381">
+    <Comment Source="Reactome">In the Golgi membrane, CREB3L1 (OASIS) is cleaved in its lumenal domain (Denard et al. 2011, Denard et al. 2012, Mellor et al. 2013, Rose et al. 2014, Ward et al. 2016) by MBTPS1 (S1P) (Denard et al. 2012, inferred from mouse homologs). By inference from SREBFs (SREBPs) and other CREB3 family proteins, CREB3L1 is cleaved at an RSLL motif around amino acid residue 426.</Comment>
+    <BiopaxRef>ed9</BiopaxRef>
+    <BiopaxRef>dcb</BiopaxRef>
+    <BiopaxRef>b39</BiopaxRef>
+    <BiopaxRef>b49</BiopaxRef>
+    <BiopaxRef>ae0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="693.0" Y="433.0" />
+      <Point X="697.0" Y="531.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="abced" />
+      <Anchor Position="0.99" Shape="None" GraphId="d3b8b" />
+      <Anchor Position="0.5" Shape="None" GraphId="f071f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874212" />
+  </Interaction>
+  <Interaction GraphId="df4de">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="103.0" Y="480.0" GraphRef="c6a8e" RelX="0.010000000000005116" RelY="0.40999999999996817" />
+      <Point X="290.0" Y="522.0" GraphRef="e0fbb" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381135" />
+  </Interaction>
+  <Interaction GraphId="e110e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1230.0" Y="793.0" GraphRef="af164" RelX="0.0" RelY="0.92" />
+      <Point X="1233.0" Y="797.0" GraphRef="b3007" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874218" />
+  </Interaction>
+  <Interaction GraphId="e13bb">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="858.0" Y="431.0" GraphRef="c1b25" RelX="0.0" RelY="1.0" />
+      <Point X="857.0" Y="434.0" GraphRef="b4c54" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874205" />
+  </Interaction>
+  <Interaction GraphId="e28e2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="103.0" Y="480.0" GraphRef="c6a8e" RelX="0.010000000000005116" RelY="0.40999999999996817" />
+      <Point X="83.0" Y="532.0" GraphRef="e2700" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381135" />
+  </Interaction>
+  <Interaction GraphId="e4255">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1193.0" Y="32.0" GraphRef="ffcee" RelX="1.0" RelY="0.0" />
+      <Point X="1279.0" Y="71.0" GraphRef="cfd91" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381116" />
+  </Interaction>
+  <Interaction GraphId="e43a3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1108.0" Y="895.0" GraphRef="eb5b3" RelX="0.6600000000000819" RelY="0.9500000000000455" />
+      <Point X="1121.0" Y="898.0" GraphRef="db3e7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874202" />
+  </Interaction>
+  <Interaction GraphId="e43ed">
+    <Comment Source="Reactome">After cleavage by MBTPS1 (S1P), CREB3L1 (OASIS) is cleaved by MBTPS2, yielding a 60 kDal cytosolic product (S2P) (Denard et al. 2011, Denard et al. 2012, Mellor et al. 2013, Rose et al. 2014, Ward et al. 2016, inferred from mouse homologs). By inference from SREBFs (SREBPs) the cleavage is believed to occur near the cytoplasmic face of the transmembrane domain about amino acid residue 375. The cleavage releases the N-terminal cytoplasmic domain into the cytosol.</Comment>
+    <BiopaxRef>ed9</BiopaxRef>
+    <BiopaxRef>dcb</BiopaxRef>
+    <BiopaxRef>b39</BiopaxRef>
+    <BiopaxRef>b49</BiopaxRef>
+    <BiopaxRef>ae0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="698.0" Y="611.0" />
+      <Point X="694.0" Y="692.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fac45" />
+      <Anchor Position="0.99" Shape="None" GraphId="dc8eb" />
+      <Anchor Position="0.5" Shape="None" GraphId="a6a41" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874194" />
+  </Interaction>
+  <Interaction GraphId="e57b2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="698.0" Y="607.0" GraphRef="c8fdc" RelX="0.0" RelY="0.92" />
+      <Point X="698.0" Y="611.0" GraphRef="fac45" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874194" />
+  </Interaction>
+  <Interaction GraphId="e5ec3">
+    <Comment Source="Reactome">ATF6-alpha is a transmembrane protein located in the endoplasmic reticulum (ER) membrane with N-terminal cytoplasmic and C-terminal luminal domains. BiP binds the luminal domain of ATF6-alpha via the substrate binding domain of BiP. Binding of BiP blocks 2 Golgi localization sequences on ATF6-alpha, maintaining ATF6-alpha in the ER. &lt;br&gt; BiP is also a general chaperone capable of binding unfolded proteins in the ER lumen. When chaperone activity in the ER is overwhelmed, BiP dissociates from ATF6-alpha and binds the excess unfolded proteins. It is unclear whether the dissociation is due to competition of unfolded proteins for BiP or to a more specific interaction between BiP and ATF6-alpha. The dissociation exposes the Golgi localization sequences of ATF6-alpha and allows ATF6-alpha to transit to the Golgi.</Comment>
+    <BiopaxRef>fcf</BiopaxRef>
+    <BiopaxRef>a10</BiopaxRef>
+    <BiopaxRef>c7e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="280.0" Y="242.0" />
+      <Point X="280.0" Y="286.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fe74e" />
+      <Anchor Position="0.99" Shape="None" GraphId="c6fd8" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381158" />
+  </Interaction>
+  <Interaction GraphId="e6db4">
+    <Comment Source="Reactome">CREB3L2 (BBF2H7) localizes to the endoplasmic reticulum (Panagopoulos et al. 2007, Kondo et al. 2012) of cells in cartilage, lungs, spleen, gonads, and nervous system where it is normally targeted for proteolytic degradation by HRD1 (inferred from mouse homologs). During ER stress, CREB3L2 becomes stabilized and traffics by an uncharacterized mechanism to the Golgi membrane where it is activated by cleavage (inferred from mouse homologs).</Comment>
+    <BiopaxRef>f27</BiopaxRef>
+    <BiopaxRef>d90</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="857.0" Y="342.0" />
+      <Point X="856.0" Y="402.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="e1e86" />
+      <Anchor Position="0.99" Shape="None" GraphId="c54a7" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874198" />
+  </Interaction>
+  <Interaction GraphId="e761f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="168.0" Y="77.0" GraphRef="f172e" RelX="-1.0" RelY="-0.04" />
+      <Point X="156.0" Y="99.0" GraphRef="d420c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381111" />
+  </Interaction>
+  <Interaction GraphId="e7fca">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="690.0" Y="67.0" GraphRef="f66f9" RelX="0.971830985915493" RelY="0.0" />
+      <Point X="715.0" Y="71.0" GraphRef="fe7dd" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381217" />
+  </Interaction>
+  <Interaction GraphId="e8bfa">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1038.0" Y="532.0" GraphRef="e662d" RelX="0.009999999999990905" RelY="0.9400000000000546" />
+      <Point X="1074.0" Y="590.0" GraphRef="c7721" RelX="-0.008547008547008548" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874206" />
+  </Interaction>
+  <Interaction GraphId="e8dac">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="83.0" Y="566.0" GraphRef="e2700" RelX="0.0" RelY="0.9428571428571428" />
+      <Point X="88.0" Y="570.0" GraphRef="a7b8e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-420818" />
+  </Interaction>
+  <Interaction GraphId="e9d63">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="753.0" Y="70.0" GraphRef="be520" RelX="0.37999999999999545" RelY="-0.010000000000005116" />
+      <Point X="744.0" Y="184.0" GraphRef="bc16d" RelX="-0.006622516556291391" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381217" />
+  </Interaction>
+  <Interaction GraphId="eb68e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="854.0" Y="519.0" GraphRef="c0c7c" RelX="-0.029999999999972715" RelY="0.8500000000000227" />
+      <Point X="857.0" Y="584.0" GraphRef="ae321" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874205" />
+  </Interaction>
+  <Interaction GraphId="ebfac">
+    <Comment Source="Reactome">Phosphorylation of eIF2-alpha causes increased translation of ATF4 mRNA. In mouse the mRNA of ATF4 contains 2 upstream ORFs (uORFs) (Vattem and Wek 2004). The second uORF overlaps the ORF encoding ATF4 and thus prevents translation of ATF4. When eIF2-alpha is phosphorylated, translation of the uORFs is suppressed and translation of the ORF encoding ATF4 is increased.</Comment>
+    <BiopaxRef>ea8</BiopaxRef>
+    <BiopaxRef>fb5</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="157.0" Y="953.0" />
+      <Point X="321.0" Y="961.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b3139" />
+      <Anchor Position="0.99" Shape="None" GraphId="b9707" />
+      <Anchor Position="0.5" Shape="None" GraphId="da783" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381128" />
+  </Interaction>
+  <Interaction GraphId="eca1b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="989.0" Y="68.0" GraphRef="c19db" RelX="1.0" RelY="-0.04" />
+      <Point X="1028.0" Y="69.0" GraphRef="d9ae9" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381091" />
+  </Interaction>
+  <Interaction GraphId="ed3ce">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1074.0" Y="616.0" GraphRef="c7721" RelX="-0.008547008547008548" RelY="0.9259259259259259" />
+      <Point X="1073.0" Y="620.0" GraphRef="ac950" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874201" />
+  </Interaction>
+  <Interaction GraphId="ed943">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="521.0" Y="963.0" GraphRef="d92c9" RelX="4.029999999999973" RelY="1.4700000000000273" />
+      <Point X="524.0" Y="976.0" GraphRef="c22b9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381026" />
+  </Interaction>
+  <Interaction GraphId="edac2">
+    <Comment Source="Reactome">The cytosolic N-terminal cleavage product of ATF6-alpha transits to the nucleus.</Comment>
+    <BiopaxRef>b64</BiopaxRef>
+    <BiopaxRef>c35</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="118.0" Y="816.0" />
+      <Point X="521.0" Y="963.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fa3f3" />
+      <Anchor Position="0.99" Shape="None" GraphId="d92c9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381026" />
+  </Interaction>
+  <Interaction GraphId="eeac8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="536.0" Y="182.0" GraphRef="c1f50" RelX="-1.0" RelY="0.0" />
+      <Point X="280.0" Y="242.0" GraphRef="fe74e" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381158" />
+  </Interaction>
+  <Interaction GraphId="ef1df">
+    <Comment Source="Reactome">The association between ATF6-alpha and BiP causes ATF6-alpha to be retained in the endoplasmic reticulum (ER). Once dissociated from BiP, the two Golgi Localization Sequences on ATF6-alpha are exposed and ATF6-alpha transits from the ER to the Golgi Apparatus.</Comment>
+    <BiopaxRef>a10</BiopaxRef>
+    <BiopaxRef>fcf</BiopaxRef>
+    <BiopaxRef>c7e</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="245.0" Y="330.0" />
+      <Point X="117.0" Y="403.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fa814" />
+      <Anchor Position="0.99" Shape="None" GraphId="ef33e" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381186" />
+  </Interaction>
+  <Interaction GraphId="ef306">
+    <Comment Source="Reactome">MBTPS1 (S1P) cleaves CREB3L2 in the luminal domain. By inference from SREBFs (SREBPs) the cleavage is believed to occur at a RNLL motif at amino acid residue 430. The N-terminal product remains attached to the Golgi membrane by its transmembrane domain. The C-terminal luminal domain is eventually secreted and promotes Hedgehog signaling (Iwamoto et al. 2015).</Comment>
+    <BiopaxRef>b5f</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="857.0" Y="434.0" />
+      <Point X="854.0" Y="519.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b4c54" />
+      <Anchor Position="0.99" Shape="None" GraphId="c0c7c" />
+      <Anchor Position="0.5" Shape="None" GraphId="fa62f" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874205" />
+  </Interaction>
+  <Interaction GraphId="efb8e">
+    <Comment Source="Reactome">The N-terminal domain of CREB3L4 (CREB4, AIbZIP) containing the bZIP and transcription activation domains trafficks from the cytosol to the nucleus (Stirling and O'Hare 2006, inferred from mouse Creb3l4 (Tisp40)) where it activates transcription of target genes such as HSPA5 (BiP), BAG3, DNAJC12, and KDELR3 (Qi et al. 2002, Ben Aicha et al. 2007). Expression of CREB3L4 is itself induced by androgens in prostate tissue (Qi et al. 2002).</Comment>
+    <BiopaxRef>d63</BiopaxRef>
+    <BiopaxRef>a46</BiopaxRef>
+    <BiopaxRef>adf</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1233.0" Y="797.0" />
+      <Point X="1244.0" Y="897.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b3007" />
+      <Anchor Position="0.99" Shape="None" GraphId="cf4a9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874218" />
+  </Interaction>
+  <Interaction GraphId="f027b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="856.0" Y="402.0" GraphRef="c54a7" RelX="-0.009999999999990905" RelY="0.6000000000000227" />
+      <Point X="858.0" Y="405.0" GraphRef="c1b25" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874198" />
+  </Interaction>
+  <Interaction GraphId="f061f">
+    <Comment Source="Reactome">Cleavage by MBTPS2 releases the N-terminal domain of CREB3L1 into the cytosol and it then traffics to the nucleus (Denard et al. 2011, Rose et al. 2014, Ward et al. 2016, and inferred from mouse homologs).</Comment>
+    <BiopaxRef>dcb</BiopaxRef>
+    <BiopaxRef>b39</BiopaxRef>
+    <BiopaxRef>ae0</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="671.0" Y="803.0" />
+      <Point X="849.0" Y="898.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a2fc4" />
+      <Anchor Position="0.99" Shape="None" GraphId="bb996" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874193" />
+  </Interaction>
+  <Interaction GraphId="f0898">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="439.0" Y="467.0" GraphRef="ec76a" RelX="0.9759036144578314" RelY="-0.037037037037037035" />
+      <Point X="856.0" Y="476.0" GraphRef="fa62f" RelX="0.5" RelY="-0.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874205" />
+  </Interaction>
+  <Interaction GraphId="f18c4">
+    <Comment Source="Reactome">PERK (EIF2AK3) is a single-pass transmembrane protein located in the Endoplasmic Reticulum (ER) membrane. PERK has an N-terminal luminal domain and a C-terminal cytosolic domain. It is maintained in an inactive state by association of its luminal domain with BiP, a chaperone in the ER. Because BiP also binds unfolded proteins, BiP dissociates from PERK when unfolded proteins exceed chaperone activity in the ER.</Comment>
+    <BiopaxRef>bd0</BiopaxRef>
+    <BiopaxRef>b85</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="496.0" Y="70.0" />
+      <Point X="455.0" Y="71.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="a625b" />
+      <Anchor Position="0.99" Shape="None" GraphId="eab1b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381086" />
+  </Interaction>
+  <Interaction GraphId="f3bce">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="321.0" Y="961.0" GraphRef="b9707" RelX="1.6399999999999864" RelY="0.08000000000004093" />
+      <Point X="324.0" Y="961.0" GraphRef="eaefc" RelX="-1.0" RelY="-0.043478260869565216" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381128" />
+  </Interaction>
+  <Interaction GraphId="f46a6">
+    <Comment Source="Reactome">In the Golgi membrane, CREB3 (LUMAN) is cleaved by regulated intramembrane proteolysis (Raggo et al. 2002, Liang et al. 2006, Stirling and O'Hare 2006, Eleveld-Trancikova et al. 2010). As inferred from other cleaved proteins, the reaction is probably catalyzedby MBTPS1 (S1P) at an RQLR motif (Stirling and O'Hare 2006).</Comment>
+    <BiopaxRef>ad1</BiopaxRef>
+    <BiopaxRef>b5a</BiopaxRef>
+    <BiopaxRef>ba2</BiopaxRef>
+    <BiopaxRef>d63</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="533.0" Y="432.0" />
+      <Point X="535.0" Y="541.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fef86" />
+      <Anchor Position="0.99" Shape="None" GraphId="a7791" />
+      <Anchor Position="0.5" Shape="None" GraphId="b956c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874204" />
+  </Interaction>
+  <Interaction GraphId="f5d46">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="280.0" Y="286.0" GraphRef="c6fd8" RelX="0.0" RelY="0.4399999999999977" />
+      <Point X="669.0" Y="196.0" GraphRef="bc16d" RelX="-1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381158" />
+  </Interaction>
+  <Interaction GraphId="f6052">
+    <Comment Source="Reactome">Phosphorylation of the C-terminal region causes a loop in the C-terminus to change position, enabling access to an ADP-binding pocket. Phosphorylated IRE1-alpha dimers bind ADP in preference to ATP.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1279.0" Y="71.0" />
+      <Point X="1280.0" Y="188.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cfd91" />
+      <Anchor Position="0.99" Shape="None" GraphId="c0256" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381116" />
+  </Interaction>
+  <Interaction GraphId="f683f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1034.0" Y="408.0" GraphRef="bc99a" RelX="0.10999999999989996" RelY="0.6700000000000159" />
+      <Point X="1038.0" Y="411.0" GraphRef="af49d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874208" />
+  </Interaction>
+  <Interaction GraphId="f6fc2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="455.0" Y="71.0" GraphRef="eab1b" RelX="-0.40999999999996817" RelY="0.010000000000005116" />
+      <Point X="669.0" Y="196.0" GraphRef="bc16d" RelX="-1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381086" />
+  </Interaction>
+  <Interaction GraphId="f7642">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1073.0" Y="702.0" GraphRef="b228a" RelX="0.0" RelY="0.82000000000005" />
+      <Point X="1042.0" Y="774.0" GraphRef="bc7a6" RelX="-0.008547008547008548" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874201" />
+  </Interaction>
+  <Interaction GraphId="f7de5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="150.0" Y="76.0" GraphRef="edbfa" RelX="0.9726027397260274" RelY="-0.04" />
+      <Point X="156.0" Y="99.0" GraphRef="d420c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381111" />
+  </Interaction>
+  <Interaction GraphId="f8034">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="694.0" Y="692.0" GraphRef="dc8eb" RelX="-0.03999999999996362" RelY="0.8099999999999454" />
+      <Point X="661.0" Y="777.0" GraphRef="ede93" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874194" />
+  </Interaction>
+  <Interaction GraphId="f8b1f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="534.0" Y="690.0" GraphRef="e4da4" RelX="0.0" RelY="0.82000000000005" />
+      <Point X="527.0" Y="741.0" GraphRef="abd67" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874192" />
+  </Interaction>
+  <Interaction GraphId="f97db">
+    <Comment Source="Reactome">MBTPS1 (S1P) cleaves the lumenal domain of CREB3L4 (Stirling and O'Hare 2006, Ben-Aicha et al. 2007). Based on homology with SREBFs (SREBPs), other CREB3 proteins, and the mouse homolog Creb3l4 (Tisp40) the cleavage site is inferred to be at a RNIL motif at amino acid 338. The C-terminal domain of CREB3L4 interferes with cleavage and therefore may regulate the process (Stirling and O'Hare 2006). Dithiothreitol (DTT) causes trafficking but not cleavage of CREB3L4.</Comment>
+    <BiopaxRef>d63</BiopaxRef>
+    <BiopaxRef>a46</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1255.0" Y="435.0" />
+      <Point X="1257.0" Y="551.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="fb1e7" />
+      <Anchor Position="0.99" Shape="None" GraphId="f7e7d" />
+      <Anchor Position="0.5" Shape="None" GraphId="b0661" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874186" />
+  </Interaction>
+  <Interaction GraphId="f986b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1205.0" Y="342.0" GraphRef="c834a" RelX="-0.0136986301369863" RelY="1.0" />
+      <Point X="1205.0" Y="345.0" GraphRef="e0692" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874209" />
+  </Interaction>
+  <Interaction GraphId="fb2e8">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="976.0" Y="898.0" GraphRef="cd8eb" RelX="1.240000000000009" RelY="0.9600000000000364" />
+      <Point X="998.0" Y="901.0" GraphRef="b4abc" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874191" />
+  </Interaction>
+  <Interaction GraphId="fd5e5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="661.0" Y="799.0" GraphRef="ede93" RelX="0.0" RelY="0.9130434782608695" />
+      <Point X="671.0" Y="803.0" GraphRef="a2fc4" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874193" />
+  </Interaction>
+  <Interaction GraphId="fdcde">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="156.0" Y="154.0" GraphRef="ad3f3" RelX="0.0" RelY="0.5500000000000114" />
+      <Point X="106.0" Y="278.0" GraphRef="af10c" RelX="-0.009345794392523364" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381111" />
+  </Interaction>
+  <Interaction GraphId="fe175">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1243.0" Y="408.0" GraphRef="c72ea" RelX="0.38000000000010914" RelY="0.6299999999999955" />
+      <Point X="1256.0" Y="411.0" GraphRef="b6da4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-8874209" />
+  </Interaction>
+  <Interaction GraphId="fe471">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="898.0" Y="67.0" GraphRef="e750c" RelX="0.6699999999999591" RelY="0.0" />
+      <Point X="901.0" Y="68.0" GraphRef="c19db" RelX="-1.0" RelY="-0.04" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381109" />
+  </Interaction>
+  <Interaction GraphId="fe9bc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="357.0" Y="467.0" GraphRef="ec76a" RelX="-1.0" RelY="-0.037037037037037035" />
+      <Point X="102.0" Y="461.0" GraphRef="b98e9" RelX="-0.5" RelY="1.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381135" />
+  </Interaction>
+  <Interaction GraphId="ff29b">
+    <Comment Source="Reactome">Phosphorylated IRE1-alpha homodimers with bound ADP have endoribonuclease activity in their C-terminal (cytosolic) regions. In particular, the homodimers cleave an internal 26 nucleotide segment out of the Xbp-1 mRNA. In yeast the resulting RNAs are ligated by a tRNA ligase but the corresponding human enzyme has not been identified. The cleavage and ligation leads to a frameshift which results in a longer ORF that encodes Xbp-1 (S), the active form of the Xbp-1 transcription factor.&lt;br&gt;The ribonuclease activity of IRE1-alpha also degrades subsets of mRNAs in the vicinity of the ER membrane, thereby reducing the amount of protein entering the ER.&lt;br&gt;Xbp-1 mRNA that has been cleaved by IRE1-alpha encodes a 40 kd protein designated Xbp-1 (S). Xbp-1 (S) is a potent bZIP transcription factor that transits from the cytosol to the nucleus and binds the sequence CCACG in the ER Stress Responsive Element (ERSE).</Comment>
+    <BiopaxRef>f2a</BiopaxRef>
+    <BiopaxRef>dfe</BiopaxRef>
+    <BiopaxRef>b3d</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1451.0" Y="320.0" />
+      <Point X="1326.0" Y="953.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f1ede" />
+      <Anchor Position="0.99" Shape="None" GraphId="e0e2b" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381203" />
+  </Interaction>
+  <Interaction GraphId="ff31f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="455.0" Y="71.0" GraphRef="eab1b" RelX="-0.40999999999996817" RelY="0.010000000000005116" />
+      <Point X="423.0" Y="66.0" GraphRef="f8a47" RelX="0.9682539682539683" RelY="-0.037037037037037035" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-381086" />
+  </Interaction>
+  <Interaction GraphId="ff598">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1331.0" Y="208.0" GraphRef="fc687" RelX="0.9801980198019802" RelY="-0.02857142857142857" />
+      <Point X="1450.0" Y="234.0" GraphRef="b5325" RelX="0.5" RelY="2.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-425923" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="a867d" GroupRef="a6194">
+    <Graphics CenterX="52.5" CenterY="39.5" Width="59.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Golgi lumen" GraphId="b380d" GroupRef="bb20a">
+    <Graphics CenterX="400.0" CenterY="639.5" Width="88.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="c030f" GroupRef="a6b38">
+    <Graphics CenterX="331.0" CenterY="1061.5" Width="92.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="endoplasmic reticulum lumen" GraphId="f63e4" GroupRef="cb494">
+    <Graphics CenterX="1095.5" CenterY="219.5" Width="189.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="bc415" GroupRef="a6b38">
+    <Graphics CenterX="824.0" CenterY="952.0" Width="1114.0" Height="276.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="c5c82" GroupRef="cb494">
+    <Graphics CenterX="774.5" CenterY="198.5" Width="1021.0" Height="271.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="d4658" GroupRef="a6194">
+    <Graphics CenterX="763.5" CenterY="561.0" Width="1515.0" Height="1114.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="fee3f" GroupRef="bb20a">
+    <Graphics CenterX="755.0" CenterY="582.5" Width="1310.0" Height="353.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="bbedf" GraphId="a0de9" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8874383" />
+  </Group>
+  <Group GroupId="a0b0d" GraphId="b65b4" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-381216" />
+  </Group>
+  <Group GroupId="b6342" GraphId="bde7e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-381062" />
+  </Group>
+  <Group GroupId="dfcc9" GraphId="c18c2" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-381168" />
+  </Group>
+  <Group GroupId="beb72" GraphId="c2128" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-381200" />
+  </Group>
+  <Group GroupId="ffd74" GraphId="c2231" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-381202" />
+  </Group>
+  <Group GroupId="a6b38" GraphId="ceda5" Style="Group" />
+  <Group GroupId="cb494" GraphId="e05f5" Style="Group" />
+  <Group GroupId="bb20a" GraphId="e6599" Style="Group" />
+  <Group GroupId="e1e08" GraphId="ee22d" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8874847" />
+  </Group>
+  <Group GroupId="a6194" GraphId="f1b6a" Style="Group" />
+  <Group GroupId="d8ba3" GraphId="f1cc6" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-381154" />
+  </Group>
+  <Group GroupId="f02d7" GraphId="f4970" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-381078" />
+  </Group>
+  <Group GroupId="a40af" GraphId="fd989" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-381126" />
+  </Group>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ER stress - UPR pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000379</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a10">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12110171</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a16">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18038217</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a24">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20022965</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a2e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14742429</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a46">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17712038</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a53">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16365312</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a75">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11897784</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a86">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10866666</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aa6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25821458</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11353085</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ad1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12138176</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="adf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11830526</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ae0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21767813</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="aee">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14973138</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14559994</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="afc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16417584</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b05">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16288713</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b0b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16931790</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b11">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10026192</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b23">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18952287</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b39">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25625847</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18242182</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b3d">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8657566</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b49">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23256041</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b50">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12370288</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16940180</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b5f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25955804</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b64">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10856300</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b85">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17956313</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba2">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20546900</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ba9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18840095</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bce">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18436705</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11907036</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="be0">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18391022</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c35">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10564271</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c44">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27067637</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c53">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16687408</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c65">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19538957</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c73">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16469704</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15952902</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c7e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11821395</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cd8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18048764</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cee">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11069889</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d33">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9637683</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d63">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16236796</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d68">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19622636</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d8b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17612490</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d90">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17117415</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="db1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17026957</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dbc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17875199</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dcb">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26810754</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dcf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19883396</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="df5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11163209</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dfe">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16461360</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e45">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18664523</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e47">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16973740</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16539657</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea4">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18664456</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ea8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15314157</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24126059</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f11">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16912112</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f27">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22705851</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f2a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11779464</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f4f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9271389</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f76">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15299016</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f84">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12014989</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fae">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14630918</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb5">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18426796</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fb6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10835430</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fcf">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15657421</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fe6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10958673</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
