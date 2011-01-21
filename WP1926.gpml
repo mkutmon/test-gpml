@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis, Secretion, and Deacylation of Ghrelin" Data-Source="WikiPathways" Version="WP1926_r39952" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Ghrelin is a peptide hormone of 28 amino acid residues which is acylated at the serine-3 of the mature peptide. Ghrelin is synthesized in several tissues: X/A-like cells of the gastric mucosa (the major source of ghrelin), hypothalamus, pituitary, adrenal gland, thyroid, breast, ovary, placenta, fallopian tube, testis, prostate, liver, gall bladder, pancreas, fat tissue, human lymphocytes, spleen, kidney, lung, skeletal muscle, myocardium, vein and skin. Ghrelin binds the GHS-R1a receptor present in hypothalamus pituitary, and other tissues. Binding causes appetite stimulation and release of growth hormone. Levels of circulating ghrelin rise during fasting, peak before a meal, and fall according to the calories ingested.&lt;br&gt;Preproghrelin is cleaved to yield proghrelin which is then acylated by ghrelin O-acyltransferase to yield octanoyl ghrelin and decanoyl ghrelin. Only octanoyl ghrelin is able to bind and activate the GHS-R1a receptor. Unacylated ghrelin (des-acyl ghrelin) is also present in plasma but its function is controversial.&lt;br&gt;Acyl proghrelin is cleaved by prohormone convertase 1/3 to yield the mature acyl ghrelin and C-ghrelin. Secretion of ghrelin is inhibited by insulin, growth hormone (somatotropin), leptin, glucose, glucagon, and fatty acids. Secretion is stimulated by insulin-like growth factor-1 and muscarinic agonists.&lt;br&gt;In the bloodstream acyl ghrelin is deacylated by butyrylcholinesterase and platelet-activating factor acetylhydrolase. Other enzymes may also deacylate acyl ghrelin.</Comment>
+  <BiopaxRef>lit_422105</BiopaxRef>
+  <BiopaxRef>lit_422095</BiopaxRef>
+  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
+  <DataNode TextLabel="Proghrelin and Pro-&#xA;des-Gln14-ghrelin&#xA;" GraphId="n10_REACTOME_422091" Type="Protein">
+    <Graphics CenterX="228.5" CenterY="438.5" Width="123.0" Height="69.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="Reactome" ID="REACT_19492" />
+  </DataNode>
+  <DataNode TextLabel="Signal Peptidase &#xA;Complex&#xA;" GraphId="n11_REACTOME_264960" Type="Complex">
+    <Graphics CenterX="120.5" CenterY="542.0" Width="107.0" Height="84.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_15945" />
+  </DataNode>
+  <DataNode TextLabel="Octanoic acid&#xA;" GraphId="n13_REACTOME_422042" Type="Metabolite">
+    <Graphics CenterX="388.0" CenterY="327.0" Width="112.0" Height="62.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="28837" />
+  </DataNode>
+  <DataNode TextLabel="Proghrelin&#xA;" GraphId="n14_REACTOME_422102" Type="Protein">
+    <Graphics CenterX="350.0" CenterY="438.0" Width="104.0" Height="54.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9UBU3-1" />
+  </DataNode>
+  <DataNode TextLabel="Octanoyl Proghrelin&#xA;" GraphId="n15_REACTOME_422036" Type="Protein">
+    <Graphics CenterX="556.5" CenterY="328.0" Width="123.0" Height="54.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9UBU3-1" />
+  </DataNode>
+  <DataNode TextLabel="Ghrelin O-&#xA;acyltransferase&#xA;" GraphId="n16_REACTOME_422050" Type="Protein">
+    <Graphics CenterX="621.0" CenterY="490.0" Width="98.0" Height="84.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q96T53" />
+  </DataNode>
+  <DataNode TextLabel="Decanoic acid&#xA;" GraphId="n19_REACTOME_422019" Type="Metabolite">
+    <Graphics CenterX="384.0" CenterY="551.0" Width="112.0" Height="62.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="30813" />
+  </DataNode>
+  <DataNode TextLabel="Decanoyl Proghrelin&#xA;" GraphId="n20_REACTOME_422031" Type="Protein">
+    <Graphics CenterX="566.5" CenterY="653.0" Width="123.0" Height="54.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9UBU3-1" />
+  </DataNode>
+  <DataNode TextLabel="Acyl Proghrelin&#xA;" GraphId="n22_REACTOME_422078" Type="Protein">
+    <Graphics CenterX="762.5" CenterY="337.0" Width="125.0" Height="38.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="Reactome" ID="REACT_20024" />
+  </DataNode>
+  <DataNode TextLabel="C-Ghrelin&#xA;" GraphId="n23_REACTOME_422053" Type="Protein">
+    <Graphics CenterX="875.5" CenterY="589.0" Width="125.0" Height="38.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9UBU3-1" />
+  </DataNode>
+  <DataNode TextLabel="Acyl Ghrelin&#xA;" GraphId="n24_REACTOME_422059" Type="Protein">
+    <Graphics CenterX="877.5" CenterY="417.0" Width="125.0" Height="38.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="Reactome" ID="REACT_20017" />
+  </DataNode>
+  <DataNode TextLabel="PC1/3&#xA;" GraphId="n25_REACTOME_265159" Type="Protein">
+    <Graphics CenterX="761.5" CenterY="515.0" Width="117.0" Height="38.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P29120" />
+  </DataNode>
+  <DataNode TextLabel="C-Ghrelin&#xA;" GraphId="n27_REACTOME_422052" Type="Protein">
+    <Graphics CenterX="1241.5" CenterY="536.0" Width="93.0" Height="54.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9UBU3-1" />
+  </DataNode>
+  <DataNode TextLabel="Acyl Ghrelin&#xA;" GraphId="n28_REACTOME_422096" Type="Protein">
+    <Graphics CenterX="1251.5" CenterY="604.0" Width="93.0" Height="54.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="Reactome" ID="REACT_20031" />
+  </DataNode>
+  <DataNode TextLabel="Insulin-like growth &#xA;factor&#xA;" GraphId="n29_REACTOME_139880" Type="Complex">
+    <Graphics CenterX="1060.0" CenterY="138.0" Width="132.0" Height="54.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_3524" />
+  </DataNode>
+  <DataNode TextLabel="alpha-D-glucose&#xA;" GraphId="n30_REACTOME_70115" Type="Metabolite">
+    <Graphics CenterX="1293.5" CenterY="399.0" Width="129.0" Height="62.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="17925" />
+  </DataNode>
+  <DataNode TextLabel="Glucagon&#xA;" GraphId="n31_REACTOME_163626" Type="Protein">
+    <Graphics CenterX="1288.5" CenterY="255.0" Width="93.0" Height="54.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P01275" />
+  </DataNode>
+  <DataNode TextLabel="Leptin&#xA;" GraphId="n32_REACTOME_400490" Type="Protein">
+    <Graphics CenterX="1247.5" CenterY="130.0" Width="93.0" Height="54.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P41159" />
+  </DataNode>
+  <DataNode TextLabel="insulin&#xA;" GraphId="n33_REACTOME_74674" Type="Complex">
+    <Graphics CenterX="1113.5" CenterY="207.0" Width="93.0" Height="54.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REAC

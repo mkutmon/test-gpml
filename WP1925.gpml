@@ -3797,4 +3797,370 @@
       <Anchor Position="0.0" Shape="None" GraphId="f3426" />
       <Anchor Position="0.99" Shape="None" GraphId="f2061" />
     </Graphics>
-    <Xref Database="Reactome" ID="R-HSA-691
+    <Xref Database="Reactome" ID="R-HSA-69142" />
+  </Interaction>
+  <Interaction GraphId="f62a4">
+    <Comment Source="Reactome">Removal of the flap by FEN-1 leads to the generation of a nick between the 3'-end of the upstream Okazaki fragment and the 5'-end of the downstream Okazaki fragment. DNA ligase I then seals the nicks between adjacent processed Okazaki fragments to generate intact double-stranded DNA.</Comment>
+    <BiopaxRef>b85</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1415.0" Y="108.0" />
+      <Point X="1639.0" Y="108.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="ba1d8" />
+      <Anchor Position="0.99" Shape="None" GraphId="e0b4e" />
+      <Anchor Position="0.5" Shape="None" GraphId="d882a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-69173" />
+  </Interaction>
+  <Interaction GraphId="f6d39">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="798.0" Y="219.0" GraphRef="c2ff7" RelX="0.009999999999990905" RelY="0.6899999999999977" />
+      <Point X="770.0" Y="256.0" GraphRef="a1b14" RelX="1.0" RelY="-0.047619047619047616" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-69019" />
+  </Interaction>
+  <Interaction GraphId="f73b3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="208.0" Y="674.0" GraphRef="a6587" RelX="-0.009999999999990905" RelY="0.8300000000000409" />
+      <Point X="263.0" Y="688.0" GraphRef="c5030" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-68944" />
+  </Interaction>
+  <Interaction GraphId="f8350">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="281.0" Y="1181.0" GraphRef="f47d3" RelX="-1.0" RelY="-0.02857142857142857" />
+      <Point X="152.0" Y="1058.0" GraphRef="b8904" RelX="-47.5" RelY="12.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-68948" />
+  </Interaction>
+  <Interaction GraphId="f87f2">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1574.0" Y="570.0" GraphRef="f2061" RelX="-0.009999999999990905" RelY="-0.6599999999999682" />
+      <Point X="1574.0" Y="567.0" GraphRef="ca1a5" RelX="-0.008" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-69142" />
+  </Interaction>
+  <Interaction GraphId="f98f7">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1126.0" Y="864.0" GraphRef="d87e7" RelX="0.984" RelY="0.0" />
+      <Point X="1130.0" Y="864.0" GraphRef="f1a42" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-69127" />
+  </Interaction>
+  <Interaction GraphId="fac3f">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1150.0" Y="414.0" GraphRef="f32c5" RelX="0.978494623655914" RelY="0.0" />
+      <Point X="1196.0" Y="413.0" GraphRef="c3924" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-176942" />
+  </Interaction>
+  <Interaction GraphId="fadb5">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="158.0" Y="1023.0" GraphRef="d5953" RelX="-0.0072992700729927005" RelY="0.92" />
+      <Point X="156.0" Y="1027.0" GraphRef="b8957" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-68948" />
+  </Interaction>
+  <Interaction GraphId="fcfd3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="1034.0" Y="728.0" GraphRef="f587d" RelX="-1.0" RelY="0.0" />
+      <Point X="1031.0" Y="728.0" GraphRef="a823c" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-69068" />
+  </Interaction>
+  <Interaction GraphId="fdb4b">
+    <Comment Source="Reactome">In this reaction, 1 molecule of 'phosphorylated Cdc6' is translocated from nucleoplasm to cytosol.&lt;br&gt;&lt;br&gt;This movement of the molecule occurs through the 'nuclear pore'.&lt;br&gt;</Comment>
+    <BiopaxRef>d96</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="403.0" Y="882.0" />
+      <Point X="410.0" Y="1002.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="b0c1c" />
+      <Anchor Position="0.99" Shape="None" GraphId="c6e17" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-69006" />
+  </Interaction>
+  <Label TextLabel="cytosol" GraphId="d7303" GroupRef="d4653">
+    <Graphics CenterX="52.5" CenterY="1196.5" Width="59.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="nucleoplasm" GraphId="eea16" GroupRef="c31bc">
+    <Graphics CenterX="83.0" CenterY="903.5" Width="92.0" Height="33.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Shape GraphId="a5fb8" GroupRef="c31bc">
+    <Graphics CenterX="912.5" CenterY="483.5" Width="1781.0" Height="923.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Shape GraphId="f4b1a" GroupRef="d4653">
+    <Graphics CenterX="916.5" CenterY="618.0" Width="1825.0" Height="1228.0" ZOrder="16384" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="3.0" Color="c0c0c0" Rotation="0.0" />
+  </Shape>
+  <Group GroupId="dd4ff" GraphId="ac3af" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68466" />
+  </Group>
+  <Group GroupId="a9867" GraphId="aebce" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68436" />
+  </Group>
+  <Group GroupId="b47b4" GraphId="b195e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68570" />
+  </Group>
+  <Group GroupId="d4653" GraphId="b2c8d" Style="Group" />
+  <Group GroupId="b3f5b" GraphId="b73a1" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-8939693" />
+  </Group>
+  <Group GroupId="d4ede" GraphId="b74b3" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68471" />
+  </Group>
+  <Group GroupId="c0371" GraphId="b767a">
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+  </Group>
+  <Group GroupId="bb629" GraphId="b7ea0">
+    <Attribute Key="complex_id" Value="R-HSA-68524" />
+  </Group>
+  <Group GroupId="ad09e" GraphId="c1caa" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68441" />
+  </Group>
+  <Group GroupId="b9da9" GraphId="c21ec" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68558" />
+  </Group>
+  <Group GroupId="ee010" GraphId="c498a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-187952" />
+  </Group>
+  <Group GroupId="ab389" GraphId="c67d7" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-174181" />
+  </Group>
+  <Group GroupId="d6716" GraphId="c8cd6">
+    <Attribute Key="complex_id" Value="R-ALL-30595" />
+  </Group>
+  <Group GroupId="e3e83" GraphId="ca6dc" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68468" />
+  </Group>
+  <Group GroupId="f8576" GraphId="caa2f" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68463" />
+  </Group>
+  <Group GroupId="df560" GraphId="cb5a9" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68451" />
+  </Group>
+  <Group GroupId="e4989" GraphId="cc1c0" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+  </Group>
+  <Group GroupId="c6c28" GraphId="cc921" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-176952" />
+  </Group>
+  <Group GroupId="b0e60" GraphId="d3a79" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68470" />
+  </Group>
+  <Group GroupId="b699d" GraphId="d43cd" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68559" />
+  </Group>
+  <Group GroupId="c8848" GraphId="d52df" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68450" />
+  </Group>
+  <Group GroupId="aa460" GraphId="d5ede" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68453" />
+  </Group>
+  <Group GroupId="c5d95" GraphId="d6b97" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68455" />
+  </Group>
+  <Group GroupId="a5d27" GraphId="da159" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-176949" />
+  </Group>
+  <Group GroupId="d533b" GraphId="e18ac" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68483" />
+  </Group>
+  <Group GroupId="a0de7" GraphId="e28e0" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-157563" />
+  </Group>
+  <Group GroupId="b28a1" GraphId="e385e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-69018" />
+  </Group>
+  <Group GroupId="de798" GraphId="e5fbf" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68507" />
+  </Group>
+  <Group GroupId="e0e5a" GraphId="e8773" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68437" />
+  </Group>
+  <Group GroupId="bf11e" GraphId="eb541" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68423" />
+  </Group>
+  <Group GroupId="d3d88" GraphId="ed742" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68510" />
+  </Group>
+  <Group GroupId="df9bf" GraphId="f1ded" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68440" />
+  </Group>
+  <Group GroupId="a32f2" GraphId="f837e">
+    <Attribute Key="complex_id" Value="R-HSA-8848491" />
+  </Group>
+  <Group GroupId="c31bc" GraphId="fd8ed" Style="Group" />
+  <Group GroupId="ee626" GraphId="fe80a" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68462" />
+  </Group>
+  <Group GroupId="daa78" GraphId="ff08e" Style="Complex">
+    <Attribute Key="complex_id" Value="R-HSA-68425" />
+  </Group>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA replication pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000098</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S phase pathway</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PW:0000089</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pathway Ontology</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a07">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11961546</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a25">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12364596</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a6c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1671046</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="a98">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7711022</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ac6">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6094569</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="af8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10656791</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b2f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11931757</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="b85">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9081985</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bd1">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10751307</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="bde">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6693436</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c02">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9660172</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c17">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15545318</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="c1c">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18775730</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cae">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11046155</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cb9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7876218</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cf9">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10656792</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d02">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1682322</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d2e">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11473323</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d40">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12045093</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d4a">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8131753</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d5f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7378348</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="d96">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10339564</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="dff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10995389</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e15">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8104944</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e31">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10884341</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e53">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11739726</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e5b">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7713898</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e69">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10801849</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e72">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2165567</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="e7f">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17417653</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eae">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9405441</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ed8">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11724925</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="eff">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8144677</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f14">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9191022</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f29">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9822671</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f55">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1328683</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fbd">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1974050</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fcc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10872471</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="fef">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16483939</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>
