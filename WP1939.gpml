@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Unfolded Protein Response" Data-Source="WikiPathways" Version="WP1939_r39965" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The Unfolded Protein Response (UPR) is a regulatory system that protects the Endoplasmic Reticulum (ER) from overload. The UPR is provoked by the accumulation of improperly folded protein in the ER during times of unusually high secretion activity. Analysis of mutants with altered UPR, however, shows that the UPR is also required for normal development and function of secretory cells.&lt;br&gt;One level at which the URP operates is transcriptional and translational regulation: mobilization of ATF6 and IRE1 leads to increased transcription of genes encoding chaperones, and mobilization of PERK (pancreatic eIF2alpha kinase) leads to phosphorylation of the translation initiation factor eIF2alpha and global down-regulation of protein synthesis. These three regulatory pathways are annotated here.</Comment>
+  <BiopaxRef>lit_381027</BiopaxRef>
+  <BiopaxRef>lit_381191</BiopaxRef>
+  <BiopaxRef>lit_381139</BiopaxRef>
+  <BiopaxRef>lit_381103</BiopaxRef>
+  <BiopaxRef>lit_380997</BiopaxRef>
+  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
+  <DataNode TextLabel="PERK &#xA;Homodimer&#xA;" GraphId="n102_REACTOME_381126" Type="Complex">
+    <Comment Source="Reactome summation">PERK monomers form dimers, resulting in activation of the kinase activity of the cytosolic C-terminal region.</Comment>
+    <Graphics CenterX="665.0" CenterY="152.0" Width="82.0" Height="38.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_18942" />
+  </DataNode>
+  <DataNode TextLabel="eIF2-alpha&#xA;" GraphId="n108_REACTOME_72510" Type="Protein">
+    <Graphics CenterX="574.5" CenterY="81.5" Width="73.0" Height="25.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P05198" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n109_REACTOME_113592" Type="Metabolite">
+    <Graphics CenterX="622.5" CenterY="110.5" Width="37.0" Height="25.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="eIF2-alpha &#xA;(phosphorylated &#xA;at Ser52)&#xA;" GraphId="n110_REACTOME_381060" Type="Protein">
+    <Graphics CenterX="493.0" CenterY="187.0" Width="100.0" Height="46.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P05198" />
+  </DataNode>
+  <DataNode TextLabel="ADP&#xA;" GraphId="n111_REACTOME_29370" Type="Metabolite">
+    <Graphics CenterX="590.0" CenterY="218.5" Width="44.0" Height="27.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16761" />
+  </DataNode>
+  <DataNode TextLabel="ATF4&#xA;" GraphId="n117_REACTOME_381016" Type="Protein">
+    <Graphics CenterX="274.5" CenterY="769.5" Width="47.0" Height="21.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P18848" />
+  </DataNode>
+  <DataNode TextLabel="Proteins &#xA;Upregulated &#xA;by ATF4&#xA;" GraphId="n131_REACTOME_535545" Type="Protein">
+    <BiopaxRef>lit_535513</BiopaxRef>
+    <BiopaxRef>lit_535562</BiopaxRef>
+    <BiopaxRef>lit_535605</BiopaxRef>
+    <Graphics CenterX="75.0" CenterY="823.5" Width="84.0" Height="53.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="Reactome" ID="REACT_22949" />
+  </DataNode>
+  <DataNode TextLabel="Cyclic AMP-dependent &#xA;transcription factor ATF-3&#xA;" GraphId="n132_REACTOME_535543" Type="Protein">
+    <Graphics CenterX="330.5" CenterY="1078.0" Width="153.0" Height="46.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P18847" />
+  </DataNode>
+  <DataNode TextLabel="Proteins &#xA;Upregulated by &#xA;ATF4&#xA;" GraphId="n133_REACTOME_381105" Type="Protein">
+    <Graphics CenterX="709.5" CenterY="594.5" Width="99.0" Height="53.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="Reactome" ID="REACT_19023" />
+  </DataNode>
+  <DataNode TextLabel="Asparagine &#xA;synthetase&#xA;" GraphId="n134_REACTOME_70597" Type="Protein">
+    <Graphics CenterX="242.0" CenterY="1169.0" Width="84.0" Height="38.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P08243" />
+  </DataNode>
+  <DataNode TextLabel="unfolded &#xA;protein&#xA;" GraphId="n13_REACTOME_381130">
+    <Graphics CenterX="798.0" CenterY="212.0" Width="70.0" Height="34.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_18756" />
+  </DataNode>
+  <DataNode TextLabel="Proteins &#xA;Upregulated by &#xA;ATF6-alpha&#xA;" GraphId="n144_REACTOME_981543" Type="Protein">
+    <BiopaxRef>lit_381102</BiopaxRef>
+    <Graphics CenterX="781.0" CenterY="528.5" Width="116.0" Height="49.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="Reactome" ID="REACT_25879" />
+  </DataNode>
+  <DataNode TextLabel="NF-Y&#xA;" GraphId="n145_REACTOME_381204" Type="Complex">
+    <Comment Source="Reactome summation">NF-Y is a ubiquitous heterotrimeric transcription factor comprising subunits NF-Y A, NF-Y B, and NF-Y C. It binds the sequence CCAAT.</Comment>
+    <Graphics CenterX="472.5" CenterY="758.5" Width="41.0" Height="21.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_26721" />
+  </DataNode>
+  <DataNode TextLabel="ATF6-alpha:BiP &#xA;Complex&#xA;" GraphId="n14_REACTOME_381168" Type="Complex">
+    <Comment Source="Reactome summation">The luminal C-terminus of ATF6-alpha binds BiP, occluding two Golgi Localization Sequences and causing ATF6-alpha to be retained in the endoplasmic reticulum.</Comment>
+    <Graphics CenterX="678.5" CenterY="217.0" Width="93.0" Height="38.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_18758" />
+  </DataNode>
+  <DataNode TextLabel="BiP:unfolded &#xA;protein &#xA;complex&#xA;" GraphId="n15_REACTOME_381062" Type="Complex">
+    <Comment Source="Reactome summation">BiP is a chaperone which binds unfolded proteins as well as the luminal domains of UPR signal transducers ATF6, IRE1, and PERK.</Comment>
+    <Graphics CenterX="785.0" CenterY="333.0" Width="80.0" Height="56.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_18551" />
+  </DataNode>
+  <DataNode TextLabel="ATF6-alpha&#xA;" GraphId="n16_REACTOME_381222" Type="Protein">
+    <Graphics CenterX="674.5" CenterY="323.5" Width="87.0" Height="25.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="ATF6-alpha&#xA;" GraphId="n18_REACTOME_381000" Type="Protein">
+    <Graphics CenterX="558.5" CenterY="320.5" Width="73.0" Height="25.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="ATF6-alpha, C-terminal &#xA;cleavage product of S1P&#xA;" GraphId="n20_REACTOME_420814" Type="Protein">
+    <Graphics CenterX="555.0" CenterY="407.5" Width="140.0" Height="43.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="R
