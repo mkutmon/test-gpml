@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of vitamins, nucleosides, and related molecules" Data-Source="WikiPathways" Version="WP1937_r39963" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway groups the processes mediated by SLC transporters, by which vitamins and cofactors, as well as nucleosides, nucleotides, nucleobases, and related molecules cross lipid bilayer membranes.</Comment>
+  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
+  <DataNode TextLabel="UMP&#xA;" GraphId="n100_REACTOME_735698" Type="Metabolite">
+    <Graphics CenterX="1211.0" CenterY="487.5" Width="44.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16695" />
+  </DataNode>
+  <DataNode TextLabel="UMP&#xA;" GraphId="n102_REACTOME_735698" Type="Metabolite">
+    <Graphics CenterX="770.0" CenterY="599.5" Width="44.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16695" />
+  </DataNode>
+  <DataNode TextLabel="UMP&#xA;" GraphId="n103_REACTOME_109402" Type="Metabolite">
+    <Graphics CenterX="598.0" CenterY="993.5" Width="44.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16695" />
+  </DataNode>
+  <DataNode TextLabel="UMP&#xA;" GraphId="n105_REACTOME_109402" Type="Metabolite">
+    <Graphics CenterX="1214.0" CenterY="354.5" Width="44.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16695" />
+  </DataNode>
+  <DataNode TextLabel="sodium ion&#xA;" GraphId="n10_REACTOME_74113" Type="Metabolite">
+    <Graphics CenterX="346.5" CenterY="73.5" Width="81.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="29101" />
+  </DataNode>
+  <DataNode TextLabel="sodium ion&#xA;" GraphId="n11_REACTOME_83910" Type="Metabolite">
+    <Graphics CenterX="351.5" CenterY="185.5" Width="81.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="29101" />
+  </DataNode>
+  <DataNode TextLabel="ligands of SLC28A3&#xA;" GraphId="n12_REACTOME_179737" Type="Metabolite">
+    <Graphics CenterX="470.5" CenterY="44.5" Width="133.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_8379" />
+  </DataNode>
+  <DataNode TextLabel="ligands of SLC28A3&#xA;" GraphId="n13_REACTOME_179743" Type="Metabolite">
+    <Graphics CenterX="478.5" CenterY="219.5" Width="133.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_8767" />
+  </DataNode>
+  <DataNode TextLabel="SLC28A3&#xA;" GraphId="n14_REACTOME_83915" Type="Protein">
+    <BiopaxRef>lit_83916</BiopaxRef>
+    <Graphics CenterX="479.0" CenterY="132.5" Width="64.0" Height="23.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9HAS3" />
+  </DataNode>
+  <DataNode TextLabel="YEA4&#xA;" GraphId="n157_REACTOME_742365" Type="Protein">
+    <Graphics CenterX="664.5" CenterY="695.5" Width="41.0" Height="23.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q969S0" />
+  </DataNode>
+  <DataNode TextLabel="Long chain fatty &#xA;acids&#xA;" GraphId="n159_REACTOME_879559" Type="Metabolite">
+    <Graphics CenterX="72.0" CenterY="670.0" Width="116.0" Height="46.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_24406" />
+  </DataNode>
+  <DataNode TextLabel="ligands of SLC28A2&#xA;" GraphId="n15_REACTOME_179740" Type="Metabolite">
+    <Graphics CenterX="675.5" CenterY="33.5" Width="133.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_8398" />
+  </DataNode>
+  <DataNode TextLabel="Long chain fatty &#xA;acids&#xA;" GraphId="n160_REACTOME_879544" Type="Metabolite">
+    <Graphics CenterX="287.0" CenterY="671.0" Width="116.0" Height="46.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_24650" />
+  </DataNode>
+  <DataNode TextLabel="FATP1/4/6&#xA;" GraphId="n161_REACTOME_879582">
+    <Graphics CenterX="167.5" CenterY="623.5" Width="71.0" Height="23.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_24174" />
+  </DataNode>
+  <DataNode TextLabel="T3/T4 hormones&#xA;" GraphId="n163_REACTOME_879603" Type="Metabolite">
+    <Graphics CenterX="1230.5" CenterY="51.5" Width="113.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_24702" />
+  </DataNode>
+  <DataNode TextLabel="T3/T4 hormones&#xA;" GraphId="n164_REACTOME_879628" Type="Metabolite">
+    <Graphics CenterX="1229.5" CenterY="218.5" Width="113.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_24262" />
+  </DataNode>
+  <DataNode TextLabel="Thyroid hormone &#xA;transporting SLCOs&#xA;" GraphId="n165_REACTOME_879625" Type="Protein">
+    <Graphics CenterX="1141.0" CenterY="130.0" Width="120.0" Height="38.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="Reactome" ID="REACT_24523" />
+  </DataNode>
+  <DataNode TextLabel="PGT substrates&#xA;" GraphId="n167_REACTOME_879566" Type="Metabolite">
+    <Graphics CenterX="1378.5" CenterY="54.5" Width="103.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_24713" />
+  </DataNode>
+  <DataNode TextLabel="PGT substrates&#xA;" GraphId="n168_REACTOME_879614" Type="Metabolite">
+    <Graphics CenterX="1377.5" CenterY="203.5" Width="103.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_24629" />
+  </DataNode>
+  <DataNode TextLabel="PGT&#xA;" GraphId="n169_REACTOME_879624" Type="Protein">
+    <Graphics CenterX="1305.5" CenterY="130.5" Width="35.0" Height="23.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q92959" />
+  </DataNode>
+  <DataNode TextLabel="ligands of SLC28A2&#xA;" GraphId="n16_REACTOME_179741" Type="Metabolite">
+    <Graphics CenterX="681.5" CenterY="214.5" Width="133.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_8955" />
+  </DataNode>
+  <DataNode TextLabel="SLCO2B1 substrates&#xA;" GraphId="n171_REACTOME_879553" Type="Metabolite">
+    <Graphics CenterX="1679.0" CenterY="181.5" Width="134.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_24278" />
+  </DataNode>
+  <DataNode TextLabel="SLCO2B1 substrates&#xA;" GraphId="n172_REACTOME_879654" Type="Metabolite">
+    <Graphics CenterX="1435.0" CenterY="267.5" Width="134.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="Reactome" ID="REACT_24748" />
+  </DataNode>
+  <DataNode TextLabel="SLCO2B1&#xA;" GraphId="n173_REACTOME_879578" Type="Protein">
+    <Graphics CenterX="1544.0" CenterY="135.5" Width="66.0" Height="23.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="O94956" />
+  </DataNode>
