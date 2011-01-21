@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCR signaling" Data-Source="WikiPathways" Version="WP1927_r39953" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The TCR is a multisubunit complex that consists of clonotypic alpha/beta chains noncovalently associated with the invariant CD3 delta/epsilon/gamma and TCR zeta chains. T cell activation by antigen presenting cells (APCs) results in the activation of protein tyrosine kinases (PTKs) that associate with CD3 and TCR zeta subunits and the co-receptor CD4. Members of the Src kinases (Lck), Syk kinases (ZAP-70), Tec (Itk) and Csk families of nonreceptor PTKs play a crucial role in T cell activation. Activation of PTKs following TCR engagement results in the recruitment and tyrosine phosphorylation of enzymes such as phospholipase C gamma1 and Vav as well as critical adaptor proteins such as LAT, SLP-76 and Gads. These proximal activation leads to reorganization of the cytoskeleton as well as transcription activation of multiple genes leading to T lymphocyte proliferation, differentiation and/or effector function.</Comment>
+  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
+  <DataNode TextLabel="diacylglycerols&#xA;" GraphId="n100_REACTOME_112275" Type="Metabolite">
+    <Graphics CenterX="3378.5" CenterY="1027.0" Width="99.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="18035" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n102_REACTOME_113592" Type="Metabolite">
+    <Graphics CenterX="3298.5" CenterY="927.0" Width="39.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="PKC theta (opened &#xA;conformation) bound &#xA;to DAG&#xA;" GraphId="n103_REACTOME_202300" Type="Complex">
+    <Graphics CenterX="3375.0" CenterY="717.0" Width="132.0" Height="50.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_12758" />
+  </DataNode>
+  <DataNode TextLabel="ADP&#xA;" GraphId="n104_REACTOME_29370" Type="Metabolite">
+    <Graphics CenterX="3274.0" CenterY="709.0" Width="40.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16761" />
+  </DataNode>
+  <DataNode TextLabel="Antigen-bearing &#xA;MHC Class II :TCR &#xA;complex:CD4: Lck &#xA;phosphorylated at &#xA;Tyr394&#xA;" GraphId="n105_REACTOME_202266" Type="Complex">
+    <Graphics CenterX="3377.5" CenterY="815.0" Width="117.0" Height="78.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_12817" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n107_REACTOME_113592" Type="Metabolite">
+    <Graphics CenterX="3273.5" CenterY="657.0" Width="39.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="Active PKC theta &#xA;bound to DAG&#xA;" GraphId="n108_REACTOME_202442" Type="Complex">
+    <Graphics CenterX="3375.0" CenterY="529.0" Width="106.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_12934" />
+  </DataNode>
+  <DataNode TextLabel="ADP&#xA;" GraphId="n109_REACTOME_29370" Type="Metabolite">
+    <Graphics CenterX="3272.0" CenterY="589.0" Width="40.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16761" />
+  </DataNode>
+  <DataNode TextLabel="Leukocyte common &#xA;antigen precursor&#xA;" GraphId="n10_REACTOME_197931" Type="Protein">
+    <Graphics CenterX="1142.0" CenterY="210.0" Width="122.0" Height="36.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="P08575" />
+  </DataNode>
+  <DataNode TextLabel="CARMA1&#xA;" GraphId="n111_REACTOME_202161" Type="Protein">
+    <Graphics CenterX="3162.0" CenterY="1135.0" Width="58.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9BXL7" />
+  </DataNode>
+  <DataNode TextLabel="CARMA1 bound to &#xA;PDK1&#xA;" GraphId="n112_REACTOME_202349" Type="Complex">
+    <Graphics CenterX="3376.0" CenterY="466.0" Width="118.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_13330" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n114_REACTOME_113592" Type="Metabolite">
+    <Graphics CenterX="3244.5" CenterY="410.0" Width="39.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="ADP&#xA;" GraphId="n115_REACTOME_29370" Type="Metabolite">
+    <Graphics CenterX="3244.0" CenterY="363.0" Width="40.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="16761" />
+  </DataNode>
+  <DataNode TextLabel="Activated CARMA1&#xA;" GraphId="n116_REACTOME_202440" Type="Complex">
+    <Graphics CenterX="3376.5" CenterY="324.0" Width="115.0" Height="22.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_13227" />
+  </DataNode>
+  <DataNode TextLabel="Phosphorylated &#xA;CARMA1&#xA;" GraphId="n118_REACTOME_202438" Type="Protein">
+    <Graphics CenterX="3257.5" CenterY="316.0" Width="101.0" Height="36.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="Q9BXL7" />
+  </DataNode>
+  <DataNode TextLabel="CARMA1 trimer&#xA;" GraphId="n119_REACTOME_202445" Type="Complex">
+    <Graphics CenterX="3375.5" CenterY="222.0" Width="97.0" Height="22.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_13044" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n11_REACTOME_113592" Type="Metabolite">
+    <Graphics CenterX="593.5" CenterY="263.0" Width="39.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="Bcl10&#xA;" GraphId="n121_REACTOME_202447" Type="Protein">
+    <Graphics CenterX="3309.0" CenterY="260.0" Width="40.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
+    <Xref Database="UniProt" ID="O95999" />
+  </DataNode>
+  <DataNode TextLabel="Bcl10 bound to &#xA;CARMA1&#xA;" GraphId="n122_REACTOME_202454" Type="Complex">
+    <Comment Source="Reactome summation">Bcl10 interacts with the oligomerized CARMA1 and this is mediated by the CARD-CARD domainn interaction.</Comment>
+    <Graphics CenterX="3204.0" CenterY="220.0" Width="100.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Xref Database="Reactome" ID="REACT_13143" />
+  </DataNode>
+  <DataNode TextLabel="ATP&#xA;" GraphId="n124_REACTOME_113592" Type="Metabolite">
+    <Graphics CenterX="3189.5" CenterY="271.0" Width="39.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
+    <Xref Database="ChEBI" ID="15422" />
+  </DataNode>
+  <DataNode TextLabel="ADP&#xA;" GraphId="n125_REACTOME_29370" Type="Metabolite">
+    <Graphics CenterX="3025.0" CenterY="272.0" Width="40.0" H
