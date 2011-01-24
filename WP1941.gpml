@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Peroxisomal beta-oxidation of tetracosanoyl-CoA" Data-Source="WikiPathways" Version="WP1941_r40004" Author="Drgibson[Andrew Gibson]" Organism="Homo sapiens">
+  <Graphics BoardWidth="776.6997722927451" BoardHeight="424.7140265390667" />
+  <DataNode TextLabel="D-bifunctional protein" GraphId="a3450" Type="Protein">
+    <Graphics CenterX="430.5" CenterY="86.0" Width="119.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot/TrEMBL" ID="P51659" />
+  </DataNode>
+  <DataNode TextLabel="NAD+" GraphId="ab6b5" Type="Metabolite">
+    <Graphics CenterX="517.0" CenterY="159.0" Width="44.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="15846" />
+  </DataNode>
+  <DataNode TextLabel="O2" GraphId="ae9c7" Type="Metabolite">
+    <Graphics CenterX="123.5" CenterY="162.0" Width="33.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="15379" />
+  </DataNode>
+  <DataNode TextLabel="Peroxisomal 3-oxoacyl-CoA thiolase" GraphId="b0960" Type="Protein">
+    <Graphics CenterX="395.0" CenterY="357.0" Width="190.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot/TrEMBL" ID="P09110" />
+  </DataNode>
+  <DataNode TextLabel="tetracosanoyl-CoA" GraphId="ba539" Type="Metabolite">
+    <Graphics CenterX="90.0" CenterY="134.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="52974" />
+  </DataNode>
+  <DataNode TextLabel="docosanoyl-CoA" GraphId="ca5db" Type="Metabolite">
+    <Graphics CenterX="256.0" CenterY="291.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="PubChem" ID="24892788" />
+  </DataNode>
+  <DataNode TextLabel="Sterol carrier protein X" GraphId="cf671" Type="Protein">
+    <Graphics CenterX="395.0" CenterY="247.0" Width="122.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot/TrEMBL" ID="P22307" />
+  </DataNode>
+  <DataNode TextLabel="acetyl-CoA" GraphId="dce4f" Type="Metabolite">
+    <Graphics CenterX="260.0" CenterY="322.0" Width="62.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="15351" />
+  </DataNode>
+  <DataNode TextLabel="Peroxisomal beta-oxidation&#xA;of docosanoyl-CoA" GraphId="e8cf2" Type="Pathway">
+    <Graphics CenterX="114.0" CenterY="291.0" Width="160.0" Height="40.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="H20" GraphId="e9292" Type="Metabolite">
+    <Graphics CenterX="349.0" CenterY="163.0" Width="34.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="15377" />
+  </DataNode>
+  <DataNode TextLabel="CoA-SH" GraphId="ed23c" Type="Metabolite">
+    <Graphics CenterX="524.0" CenterY="323.0" Width="56.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="15346" />
+  </DataNode>
+  <DataNode TextLabel="3-hydroxytetracosanoyl-CoA" GraphId="efc98" Type="Metabolite">
+    <Graphics CenterX="570.0" CenterY="134.0" Width="150.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="52326" />
+  </DataNode>
+  <DataNode TextLabel="(2E)-docosenoyl-CoA" GraphId="fc276" Type="Metabolite">
+    <Graphics CenterX="311.0" CenterY="134.0" Width="110.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="H2O2" GraphId="fd764" Type="Metabolite">
+    <Graphics CenterX="276.125" CenterY="163.25" Width="39.75" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="16240" />
+  </DataNode>
+  <DataNode TextLabel="Acyl-CoA Oxidase 1" GraphId="fe505" Type="Protein">
+    <Graphics CenterX="198.0" CenterY="84.0" Width="104.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot/TrEMBL" ID="Q15067" />
+  </DataNode>
+  <DataNode TextLabel="3-ketotetracosanoyl-CoA" GraphId="e59c0" Type="Metabolite">
+    <Graphics CenterX="570.0" CenterY="294.0" Width="150.0" Height="20.0" ZOrder="32771" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="52329" />
+  </DataNode>
+  <DataNode TextLabel="D-bifunctional protein" GraphId="cbed1" Type="Protein">
+    <Graphics CenterX="673.5" CenterY="214.0" Width="119.0" Height="20.0" ZOrder="32772" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot/TrEMBL" ID="P51659" />
+  </DataNode>
+  <DataNode TextLabel="NADH" GraphId="d5712" Type="Metabolite">
+    <Graphics CenterX="517.0" CenterY="266.0" Width="44.0" Height="20.0" ZOrder="32773" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="16908" />
+  </DataNode>
+  <Interaction GraphId="id12643bd4">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="430.5" Y="96.0" GraphRef="a3450" RelX="0.0" RelY="1.0" />
+      <Point X="430.5" Y="134.0" GraphRef="fe444" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id22e34d56">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="198.0" Y="94.0" GraphRef="fe505" RelX="0.0" RelY="1.0" />
+      <Point X="198.0" Y="134.0" GraphRef="ffc67" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id248a5d23">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="140.0" Y="134.0" GraphRef="ba539" RelX="1.0" RelY="0.0" />
+      <Point X="256.0" Y="134.0" GraphRef="fc276" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Anchor Position="0.5" Shape="None" GraphId="ffc67" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id28d6f8fd">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="395.5" Y="292.5" GraphRef="b7bfc" RelX="0.0" RelY="0.0" />
+      <Point X="291.0" Y="322.0" GraphRef="dce4f" RelX="1.0" RelY="0.0" ArrowHead="mim-conversion" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id2ab1d39b">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="198.0" Y="134.0" GraphRef="ffc67" RelX="0.0" RelY="0.0" />
+      <Point X="256.25" Y="163.25" GraphRef="fd764" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id563ea124">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="614.0" Y="214.0" GraphRef="cbed1" RelX="-1.0" RelY="0.0" />
+      <Point X="570.0" Y="214.0" GraphRef="e3b54" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id75e3cac4">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="395.0" Y="347.0" GraphRef="b0960" RelX="0.0" RelY="-1.0" />
+      <Point X="395.5" Y="292.5" GraphRef="b7bfc" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id8aea186f">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="366.0" Y="163.0" GraphRef="e9292" RelX="1.0" RelY="0.0" />
+      <Point X="430.5" Y="134.0" GraphRef="fe444" RelX="0.0" RelY="0.0" ArrowHead="mim-conversion" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ida6d397e9">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="216.0" Y="291.0" GraphRef="ca5db" RelX="-1.0" RelY="0.0" />
+      <Point X="194.0" Y="291.0" GraphRef="e8cf2" RelX="1.0" RelY="0.0" ArrowHead=
