@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis of DNA" Data-Source="WikiPathways" Version="WP1925_r39951" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis of DNA" Data-Source="WikiPathways" Version="WP1925_r42140" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">The actual synthesis of DNA occurs in the S phase of the cell cycle. This includes the initiation of DNA replication, when the first nucleotide of the new strand is laid down during the synthesis of the primer. The DNA replication preinitiation events begin in late M or early G1 phase.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
   <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
   <DataNode TextLabel="ADP&#xA;" GraphId="n100_REACTOME_113582" Type="Metabolite">
     <Graphics CenterX="469.0" CenterY="637.0" Width="40.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
@@ -95,6 +96,4 @@
   </DataNode>
   <DataNode TextLabel="Mcm2&#xA;" GraphId="n145_REACTOME_68557" Type="Protein">
     <Graphics CenterX="937.5" CenterY="263.0" Width="43.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="P49736" />
-  </DataNode>
-  <DataNode TextLabel="Mcm3&#xA;" GraphId="n1
+    <Xref Database="UniProt" ID="P4
