@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds" Data-Source="WikiPathways" Version="WP1935_r39961" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds" Data-Source="WikiPathways" Version="WP1935_r42150" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">Hexoses like glucose, galactose and fructose serve as basic fuel molecules for eukaryotic cells. Indeed, glucose is the main energy source for mammalian cells. These sugars are unable to diffuse across cellular membranes, and require transporter proteins for entry into and exit out of cells. Four gene families encode hexose transporter proteins (He et al, 2009). SLC2 family contains 14 genes and encode facilitative glucose transporters (GLUTs) (Uldry M and Thorens B, 2004). SLC5 family contains 12 genes and encode Na+/glucose symporters (Wright EM and Turk E, 2004). SLC37 family contains 4 members and encode sugar-phosphate/phosphate exchangers (Bartoloni L and Antonarakis SE, 2004). SLC45 family has 4 members and encode putative sugar/H+ symporters.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
   <BiopaxRef>lit_427985</BiopaxRef>
   <BiopaxRef>lit_428756</BiopaxRef>
   <BiopaxRef>lit_428758</BiopaxRef>
@@ -93,6 +94,4 @@
   </DataNode>
   <DataNode TextLabel="ZnT3&#xA;" GraphId="n120_REACTOME_437087" Type="Protein">
     <Graphics CenterX="514.0" CenterY="325.5" Width="36.0" Height="23.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="Q99726" />
-  </DataNode>
-  <DataNode TextLabel="ZnT1&#xA;" Grap
+    <Xref Database="UniProt"
