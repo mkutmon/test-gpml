@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Unfolded Protein Response" Data-Source="WikiPathways" Version="WP1939_r39965" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Unfolded Protein Response" Data-Source="WikiPathways" Version="WP1939_r42154" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">The Unfolded Protein Response (UPR) is a regulatory system that protects the Endoplasmic Reticulum (ER) from overload. The UPR is provoked by the accumulation of improperly folded protein in the ER during times of unusually high secretion activity. Analysis of mutants with altered UPR, however, shows that the UPR is also required for normal development and function of secretory cells.&lt;br&gt;One level at which the URP operates is transcriptional and translational regulation: mobilization of ATF6 and IRE1 leads to increased transcription of genes encoding chaperones, and mobilization of PERK (pancreatic eIF2alpha kinase) leads to phosphorylation of the translation initiation factor eIF2alpha and global down-regulation of protein synthesis. These three regulatory pathways are annotated here.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
   <BiopaxRef>lit_381027</BiopaxRef>
   <BiopaxRef>lit_381191</BiopaxRef>
   <BiopaxRef>lit_381139</BiopaxRef>
@@ -8,7 +9,7 @@
   <BiopaxRef>lit_380997</BiopaxRef>
   <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
   <DataNode TextLabel="PERK &#xA;Homodimer&#xA;" GraphId="n102_REACTOME_381126" Type="Complex">
-    <Comment Source="Reactome summation">PERK monomers form dimers, resulting in activation of the kinase activity of the cytosolic C-terminal region.</Comment>
+    <Comment Source="WikiPathways-description">PERK monomers form dimers, resulting in activation of the kinase activity of the cytosolic C-terminal region.</Comment>
     <Graphics CenterX="665.0" CenterY="152.0" Width="82.0" Height="38.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
     <Xref Database="Reactome" ID="REACT_18942" />
   </DataNode>
@@ -61,17 +62,17 @@
     <Xref Database="Reactome" ID="REACT_25879" />
   </DataNode>
   <DataNode TextLabel="NF-Y&#xA;" GraphId="n145_REACTOME_381204" Type="Complex">
-    <Comment Source="Reactome summation">NF-Y is a ubiquitous heterotrimeric transcription factor comprising subunits NF-Y A, NF-Y B, and NF-Y C. It binds the sequence CCAAT.</Comment>
+    <Comment Source="WikiPathways-description">NF-Y is a ubiquitous heterotrimeric transcription factor comprising subunits NF-Y A, NF-Y B, and NF-Y C. It binds the sequence CCAAT.</Comment>
     <Graphics CenterX="472.5" CenterY="758.5" Width="41.0" Height="21.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
     <Xref Database="Reactome" ID="REACT_26721" />
   </DataNode>
   <DataNode TextLabel="ATF6-alpha:BiP &#xA;Complex&#xA;" GraphId="n14_REACTOME_381168" Type="Complex">
-    <Comment Source="Reactome summation">The luminal C-terminus of ATF6-alpha binds BiP, occluding two Golgi Localization Sequences and causing ATF6-alpha to be retained in the endoplasmic reticulum.</Comment>
+    <Comment Source="WikiPathways-description">The luminal C-terminus of ATF6-alpha binds BiP, occluding two Golgi Localization Sequences and causing ATF6-alpha to be retained in the endoplasmic reticulum.</Comment>
     <Graphics CenterX="678.5" CenterY="217.0" Width="93.0" Height="38.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
     <Xref Database="Reactome" ID="REACT_18758" />
   </DataNode>
   <DataNode TextLabel="BiP:unfolded &#xA;protein &#xA;complex&#xA;" GraphId="n15_REACTOME_381062" Type="Complex">
-    <Comment Source="Reactome summation">BiP is a chaperone which binds unfolded proteins as well as the luminal domains of UPR signal transducers ATF6, IRE1, and PERK.</Comment>
+    <Comment Source="WikiPathways-description">BiP is a chaperone which binds unfolded proteins as well as the luminal domains of UPR signal transducers ATF6, IRE1, and PERK.</Comment>
     <Graphics CenterX="785.0" CenterY="333.0" Width="80.0" Height="56.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
     <Xref Database="Reactome" ID="REACT_18551" />
   </DataNode>
@@ -84,4 +85,4 @@
     <Xref Database="UniProt" ID="P18850" />
   </DataNode>
   <DataNode TextLabel="ATF6-alpha, C-terminal &#xA;cleavage product of S1P&#xA;" GraphId="n20_REACTOME_420814" Type="Protein">
-    <Graphics CenterX="555.0" CenterY="407.5" Width="140.0" Height="43.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="R
+    <Graphics CenterX="555.0" CenterY="407.5" Width="140
