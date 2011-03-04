@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses" Data-Source="WikiPathways" Version="WP1934_r39960" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r42149" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">Electrical transmission across nerve cells is accomplished when the current generated in the upstream neuron spreads to the downstream neuron through a path of low electrical resistance. In neurons this is accomplished at gap junctions. Electrical synapses are found in neuronal tissue where the activity of neurons must be highly synchronized. The neurons responsible for hormone secretion from the mammalian hypothalamus are a class of highly synchronized electric neurons. Gap junctions connecting the presynaptic cell with the postsynaptic cell allow current generated in the presynaptic cell to flow directly into the postsynaptic cell. Transmission speed is dramatically increased in such a system. The junction itself is composed of two hemichannels, one each on the pre- and postsysnaptic cells. These channels are composed of members of the connexin family of proteins.</Comment>
+  <Comment Source="WikiPathways-category">Cellular Process</Comment>
   <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
   <DataNode TextLabel="Potassium&#xA;" GraphId="n30_REACTOME_29804" Type="Metabolite">
     <Graphics CenterX="422.0" CenterY="133.0" Width="74.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
@@ -23,7 +24,7 @@
     <Xref Database="Reactome" ID="REACT_17586" />
   </DataNode>
   <Interaction GraphId="e_29_REACTOME_375342">
-    <Comment Source="Reactome summation">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 36 proteins each.</Comment>
+    <Comment Source="WikiPathways-description">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 36 proteins each.</Comment>
     <BiopaxRef>lit_158059</BiopaxRef>
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
       <Point X="425.0" Y="151.0" GraphRef="n30_REACTOME_29804" RelX="0.08108108108108109" RelY="1.2" />
@@ -42,7 +43,7 @@
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e_32_REACTOME_375330">
-    <Comment Source="Reactome summation">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 45 proteins on one hemi-channel and six Connexin 36 proteins on the second.</Comment>
+    <Comment Source="WikiPathways-description">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 45 proteins on one hemi-channel and six Connexin 36 proteins on the second.</Comment>
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
       <Point X="420.0" Y="151.0" GraphRef="n30_REACTOME_29804" RelX="-0.05405405405405406" RelY="1.2" />
       <Point X="412.0" Y="241.0" />
@@ -60,7 +61,7 @@
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e_34_REACTOME_375340">
-    <Comment Source="Reactome summation">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 62 proteins each.</Comment>
+    <Comment Source="WikiPathways-description">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 62 proteins each.</Comment>
     <BiopaxRef>lit_375326</BiopaxRef>
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
       <Point X="457.0" Y="151.0" GraphRef="n30_REACTOME_29804" RelX="0.9459459459459459" RelY="1.2" />
@@ -79,7 +80,7 @@
     <Xref Database="" ID="" />
   </Interaction>
   <Interaction GraphId="e_36_REACTOME_375339">
-    <Comment Source="Reactome summation">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Pannexin 1 proteins on one hemi-channel and six Pannexin 2 proteins on the second.</Comment>
+    <Comment Source="WikiPathways-description">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Pannexin 1 proteins on one hemi-channel and six Pannexin 2 proteins on the second.</Comment>
     <BiopaxRef>lit_375337</BiopaxRef>
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
       <Point X="382.0" Y="146.0" GraphRef="n30_REACTOME_29804" RelX="-1.0810810810810811" RelY="0.8666666666666667" />
@@ -93,8 +94,4 @@
   <Interaction GraphId="e_36_c__0">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="149.0" Y="330.0" GraphRef="n37_REACTOME_375332" RelX="0.0" RelY="-1.12" />
-      <Point X="151.0" Y="235.0" GraphRef="e_36_a_p" RelX="0.0" RelY="0.0" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Label TextL
+      <Point X="151.0" Y="235.0" GraphRef="e_36_a_p" RelX="0.0" R
