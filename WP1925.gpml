@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis of DNA" Data-Source="WikiPathways" Version="WP1925_r45106" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis of DNA" Data-Source="WikiPathways" Version="WP1925_r45107" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">The actual synthesis of DNA occurs in the S phase of the cell cycle. This includes the initiation of DNA replication, when the first nucleotide of the new strand is laid down during the synthesis of the primer. The DNA replication preinitiation events begin in late M or early G1 phase.</Comment>
   <Comment Source="WikiPathways-category">Cellular Process</Comment>
   <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
