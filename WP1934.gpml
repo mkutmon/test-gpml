@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r42149" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r45064" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">Electrical transmission across nerve cells is accomplished when the current generated in the upstream neuron spreads to the downstream neuron through a path of low electrical resistance. In neurons this is accomplished at gap junctions. Electrical synapses are found in neuronal tissue where the activity of neurons must be highly synchronized. The neurons responsible for hormone secretion from the mammalian hypothalamus are a class of highly synchronized electric neurons. Gap junctions connecting the presynaptic cell with the postsynaptic cell allow current generated in the presynaptic cell to flow directly into the postsynaptic cell. Transmission speed is dramatically increased in such a system. The junction itself is composed of two hemichannels, one each on the pre- and postsysnaptic cells. These channels are composed of members of the connexin family of proteins.</Comment>
   <Comment Source="WikiPathways-category">Cellular Process</Comment>
   <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
@@ -94,4 +94,4 @@
   <Interaction GraphId="e_36_c__0">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
       <Point X="149.0" Y="330.0" GraphRef="n37_REACTOME_375332" RelX="0.0" RelY="-1.12" />
-      <Point X="151.0" Y="235.0" GraphRef="e_36_a_p" RelX="0.0" R
+      <Point X="151.0" Y="235.0" Gra
