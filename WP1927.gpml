@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCR signaling" Data-Source="WikiPathways" Version="WP1927_r42142" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCR signaling" Data-Source="WikiPathways" Version="WP1927_r45094" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">The TCR is a multisubunit complex that consists of clonotypic alpha/beta chains noncovalently associated with the invariant CD3 delta/epsilon/gamma and TCR zeta chains. T cell activation by antigen presenting cells (APCs) results in the activation of protein tyrosine kinases (PTKs) that associate with CD3 and TCR zeta subunits and the co-receptor CD4. Members of the Src kinases (Lck), Syk kinases (ZAP-70), Tec (Itk) and Csk families of nonreceptor PTKs play a crucial role in T cell activation. Activation of PTKs following TCR engagement results in the recruitment and tyrosine phosphorylation of enzymes such as phospholipase C gamma1 and Vav as well as critical adaptor proteins such as LAT, SLP-76 and Gads. These proximal activation leads to reorganization of the cytoskeleton as well as transcription activation of multiple genes leading to T lymphocyte proliferation, differentiation and/or effector function.</Comment>
   <Comment Source="WikiPathways-category">Cellular Process</Comment>
   <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
@@ -84,4 +84,4 @@
     <Graphics CenterX="3189.5" CenterY="271.0" Width="39.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
     <Xref Database="ChEBI" ID="15422" />
   </DataNode>
-  <DataNode TextLabel="ADP&#xA;" GraphId="n125_REACTOME_29370" Type=
+  <DataNode TextLabel="ADP&#xA;" GraphI
