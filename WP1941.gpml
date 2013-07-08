@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Peroxisomal beta-oxidation of tetracosanoyl-CoA" Data-Source="WikiPathways" Version="WP1941_r68761" Author="Drgibson[Andrew Gibson];MartijnVanIersel[Martijn van Iersel];MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Peroxisomal beta-oxidation of tetracosanoyl-CoA" Data-Source="WikiPathways" Version="WP1941_r68913" Author="Drgibson[Andrew Gibson];MartijnVanIersel[Martijn van Iersel];MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-category">Metabolic Process</Comment>
   <Graphics BoardWidth="882.4646681896188" BoardHeight="488.10627890530867" />
   <DataNode TextLabel="D-bifunctional protein" GraphId="a3450" Type="Protein">
