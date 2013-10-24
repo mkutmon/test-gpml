@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r45065" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r72006" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">Electrical transmission across nerve cells is accomplished when the current generated in the upstream neuron spreads to the downstream neuron through a path of low electrical resistance. In neurons this is accomplished at gap junctions. Electrical synapses are found in neuronal tissue where the activity of neurons must be highly synchronized. The neurons responsible for hormone secretion from the mammalian hypothalamus are a class of highly synchronized electric neurons. Gap junctions connecting the presynaptic cell with the postsynaptic cell allow current generated in the presynaptic cell to flow directly into the postsynaptic cell. Transmission speed is dramatically increased in such a system. The junction itself is composed of two hemichannels, one each on the pre- and postsysnaptic cells. These channels are composed of members of the connexin family of proteins.</Comment>
   <Comment Source="WikiPathways-category">Cellular Process</Comment>
   <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
@@ -8,19 +8,19 @@
     <Xref Database="ChEBI" ID="29103" />
   </DataNode>
   <DataNode TextLabel="Connexin 36 Gap &#xA;Junction Complex&#xA;" GraphId="n31_REACTOME_375351" Type="Complex">
-    <Graphics CenterX="527.5" CenterY="360.0" Width="113.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Graphics CenterX="532.5" CenterY="358.0" Width="123.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
     <Xref Database="Reactome" ID="REACT_17249" />
   </DataNode>
   <DataNode TextLabel="Connexin &#xA;36/Connexin 45 &#xA;Gap Junction &#xA;Complex&#xA;" GraphId="n33_REACTOME_375333" Type="Complex">
-    <Graphics CenterX="326.5" CenterY="361.0" Width="107.0" Height="64.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Graphics CenterX="331.0" CenterY="358.0" Width="116.0" Height="64.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
     <Xref Database="Reactome" ID="REACT_17318" />
   </DataNode>
   <DataNode TextLabel="Connexin 62 Gap &#xA;Junction Complex&#xA;" GraphId="n35_REACTOME_375341" Type="Complex">
-    <Graphics CenterX="692.5" CenterY="360.0" Width="113.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Graphics CenterX="697.0" CenterY="358.0" Width="122.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
     <Xref Database="Reactome" ID="REACT_17390" />
   </DataNode>
   <DataNode TextLabel="Pannexin 1/Pannexin 2 &#xA;Gap Junction Complex&#xA;" GraphId="n37_REACTOME_375332" Type="Complex">
-    <Graphics CenterX="149.0" CenterY="358.0" Width="134.0" Height="50.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+    <Graphics CenterX="141.0" CenterY="358.0" Width="150.0" Height="50.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
     <Xref Database="Reactome" ID="REACT_17586" />
   </DataNode>
   <Interaction GraphId="e_29_REACTOME_375342">
@@ -37,7 +37,7 @@
   </Interaction>
   <Interaction GraphId="e_29_c__0">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="527.5" Y="339.0" GraphRef="n31_REACTOME_375351" RelX="0.0" RelY="-1.1666666666666667" />
+      <Point X="532.5" Y="337.0" GraphRef="n31_REACTOME_375351" RelX="0.0" RelY="-1.1666666666666667" />
       <Point X="528.0" Y="242.0" GraphRef="e_29_a_p" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -55,7 +55,7 @@
   </Interaction>
   <Interaction GraphId="e_32_c__0">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="325.5" Y="326.0" GraphRef="n33_REACTOME_375333" RelX="-0.018691588785046728" RelY="-1.09375" />
+      <Point X="329.9158878504673" Y="323.0" GraphRef="n33_REACTOME_375333" RelX="-0.018691588785046728" RelY="-1.09375" />
       <Point X="325.0" Y="241.0" GraphRef="e_32_a_p" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -74,7 +74,7 @@
   </Interaction>
   <Interaction GraphId="e_34_c__0">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="692.5" Y="339.0" GraphRef="n35_REACTOME_375341" RelX="0.0" RelY="-1.1666666666666667" />
+      <Point X="697.0" Y="337.0" GraphRef="n35_REACTOME_375341" RelX="0.0" RelY="-1.1666666666666667" />
       <Point X="693.0" Y="247.0" GraphRef="e_34_a_p" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="" ID="" />
@@ -93,5 +93,4 @@
   </Interaction>
   <Interaction GraphId="e_36_c__0">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="149.0" Y="330.0" GraphRef="n37_REACTOME_375332" RelX="0.0" RelY="-1.12" />
-      <Point X="151.0" Y="235.0" Gra
+      <Point X="141.0" Y="330.0" GraphRef="n37_REACTOME_375332" RelX="0.0" RelY="-1.12" />
