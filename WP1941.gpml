@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Peroxisomal beta-oxidation of tetracosanoyl-CoA" Data-Source="WikiPathways" Version="WP1941_r71245" Author="Drgibson[Andrew Gibson];MartijnVanIersel[Martijn van Iersel];MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Peroxisomal beta-oxidation of tetracosanoyl-CoA" Data-Source="WikiPathways" Version="WP1941_r73548" Author="Drgibson[Andrew Gibson];MartijnVanIersel[Martijn van Iersel];MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-category">Metabolic Process</Comment>
   <Graphics BoardWidth="882.4646681896188" BoardHeight="488.10627890530867" />
   <DataNode TextLabel="D-bifunctional protein" GraphId="a3450" Type="Protein">
@@ -42,7 +42,7 @@
     <Graphics CenterX="117.5" CenterY="333.0" Width="171.0" Height="40.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
     <Xref Database="" ID="" />
   </DataNode>
-  <DataNode TextLabel="H20" GraphId="e9292" Type="Metabolite">
+  <DataNode TextLabel="H2O" GraphId="e9292" Type="Metabolite">
     <Graphics CenterX="379.0" CenterY="161.0" Width="46.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="15377" />
   </DataNode>
