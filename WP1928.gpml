@@ -1,67 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Telomere Maintenance" Data-Source="WikiPathways" Version="WP1928_r68975" Author="MaintBot[Maintenance bot]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">Telomeres are protein-DNA complexes at the ends of linear chromosomes that are important for genome stability. Telomeric DNA in humans, as in many eukaryotic organisms, consists of tandem repeats (Blackburn and Gall 1978; Moyzis et al. 1988; Meyne et al. 1989). The repeats at human telomeres are composed of TTAGGG sequences and stretch for several kilobase pairs. Another feature of telomeric DNA in many eukaryotes is a G-rich 3' single strand overhang, which in humans is estimated to be approximately 50-300 bases long (Makarov et al. 1997; Wright et al. 1997; Huffman et al. 2000). Telomeric DNA isolated from humans and several other organisms can form a lasso-type structure called a t-loop in which the 3' single-strand end is presumed to invade the double stranded telomeric DNA repeat tract (Griffith et al. 1999). Telomeric DNA is bound by multiple protein factors that play important roles in regulating telomere length and in protecting the chromosome end from recombination, non-homologous end-joining, DNA damage signaling, and unregulated nucleolytic attack (reviewed in de Lange 2005). &lt;br&gt;&lt;br&gt;&lt;br&gt;DNA attrition can occur at telomeres, which can impact cell viability. Attrition can occur owing to the "end-replication problem", a consequence of the mechanism of lagging-strand synthesis (Watson 1972; Olovnikov 1973). Besides incomplete replication, nucleolytic processing also likely contributes to telomere attrition (Huffman et al. 2000). If telomeres become critically shortened, replicative senescence can result (Harley et al. 1990). Thus, in order to undergo multiple divisions, cells need a mechanism to replenish the sequence at their chromosome ends.&lt;br&gt;&lt;br&gt;&lt;br&gt;The primary means for maintaining the sequence at chromosome ends in many eukaryotic organisms, including humans, is based on telomerase (Greider and Blackburn, 1985; Morin 1989). Telomerase is a ribonucleoprotein complex minimally composed of a conserved protein subunit containing a reverse transcriptase domain (telomerase reverse transcriptase, TERT) (Lingner et al. 1997; Nakamura et al. 1997) and a template-containing RNA (telomerase RNA component, TERC, TR, TER) (Greider and Blackburn, 1987; Feng et al 1995). Telomerase uses the RNA template to direct addition of multiple tandem repeats to the 3' G-rich single strand overhang. Besides extension by telomerase, maintenance of telomeric DNA involves additional activities, including C-strand synthesis, which fills in the opposing strand, and nucleolytic processing, which likely contributes to the generation of the 3' overhang.&lt;br&gt;</Comment>
-  <Comment Source="WikiPathways-category">Cellular Process</Comment>
-  <BiopaxRef>lit_171036</BiopaxRef>
-  <BiopaxRef>lit_163093</BiopaxRef>
-  <BiopaxRef>lit_177199</BiopaxRef>
-  <BiopaxRef>lit_171312</BiopaxRef>
-  <BiopaxRef>lit_171313</BiopaxRef>
-  <BiopaxRef>lit_171307</BiopaxRef>
-  <BiopaxRef>lit_177806</BiopaxRef>
-  <BiopaxRef>lit_177805</BiopaxRef>
-  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
-  <DataNode TextLabel="dCTP&#xA;" GraphId="n10_REACTOME_30185" Type="Metabolite">
-    <Graphics CenterX="709.5" CenterY="223.0" Width="47.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="16311" />
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Telomere Maintenance" Data-Source="WikiPathways" Version="WP1928_r74630" Author="MaintBot[Maintenance bot];ReactomeTeam[Reactome Team]" Organism="Homo sapiens">
+  <Comment Source="Wikipathways-description">Telomeres are protein-DNA complexes at the ends of linear chromosomes that are important for genome stability. Telomeric DNA in humans, as in many eukaryotic organisms, consists of tandem repeats (Blackburn and Gall 1978; Moyzis et al. 1988; Meyne et al. 1989). The repeats at human telomeres are composed of TTAGGG sequences and stretch for several kilobase pairs. Another feature of telomeric DNA in many eukaryotes is a G-rich 3' single strand overhang, which in humans is estimated to be approximately 50-300 bases long (Makarov et al. 1997; Wright et al. 1997; Huffman et al. 2000). Telomeric DNA isolated from humans and several other organisms can form a lasso-type structure called a t-loop in which the 3' single-strand end is presumed to invade the double stranded telomeric DNA repeat tract (Griffith et al. 1999). Telomeric DNA is bound by multiple protein factors that play important roles in regulating telomere length and in protecting the chromosome end from recombination, non-homologous end-joining, DNA damage signaling, and unregulated nucleolytic attack (reviewed in de Lange 2005). &lt;br&gt;&lt;br&gt;&lt;br&gt;DNA attrition can occur at telomeres, which can impact cell viability. Attrition can occur owing to the "end-replication problem", a consequence of the mechanism of lagging-strand synthesis (Watson 1972; Olovnikov 1973). Besides incomplete replication, nucleolytic processing also likely contributes to telomere attrition (Huffman et al. 2000). If telomeres become critically shortened, replicative senescence can result (Harley et al. 1990). Thus, in order to undergo multiple divisions, cells need a mechanism to replenish the sequence at their chromosome ends.&lt;br&gt;&lt;br&gt;&lt;br&gt;The primary means for maintaining the sequence at chromosome ends in many eukaryotic organisms, including humans, is based on telomerase (Greider and Blackburn, 1985; Morin 1989). Telomerase is a ribonucleoprotein complex minimally composed of a conserved protein subunit containing a reverse transcriptase domain (telomerase reverse transcriptase, TERT) (Lingner et al. 1997; Nakamura et al. 1997) and a template-containing RNA (telomerase RNA component, TERC, TR, TER) (Greider and Blackburn, 1987; Feng et al 1995). Telomerase uses the RNA template to direct addition of multiple tandem repeats to the 3' G-rich single strand overhang. Besides extension by telomerase, maintenance of telomeric DNA involves additional activities, including C-strand synthesis, which fills in the opposing strand, and nucleolytic processing, which likely contributes to the generation of the 3' overhang.&lt;br&gt; Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=157579</Comment>
+  <BiopaxRef>ec5</BiopaxRef>
+  <BiopaxRef>c7c</BiopaxRef>
+  <BiopaxRef>d77</BiopaxRef>
+  <BiopaxRef>d70</BiopaxRef>
+  <BiopaxRef>cb8</BiopaxRef>
+  <BiopaxRef>e1e</BiopaxRef>
+  <BiopaxRef>eb1</BiopaxRef>
+  <BiopaxRef>a74</BiopaxRef>
+  <Graphics BoardWidth="3470.0" BoardHeight="1346.0" />
+  <DataNode TextLabel="PCNA " GraphId="a00dc" Type="Protein" GroupRef="e6536">
+    <Graphics CenterX="2300.0" CenterY="1146.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P12004" />
   </DataNode>
-  <DataNode TextLabel="Telomerase &#xA;Holoenzyme Base-&#xA;paired to the &#xA;Telomeric &#xA;Chromosome End &#xA;with an Additional &#xA;single Stranded &#xA;Telomere repeat&#xA;" GraphId="n11_REACTOME_164684" Type="Complex">
-    <Graphics CenterX="625.5" CenterY="487.5" Width="117.0" Height="121.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_8180" />
+  <DataNode TextLabel="POLE2 " GraphId="a0629" Type="Protein" GroupRef="ba90c">
+    <Graphics CenterX="1310.0" CenterY="1186.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P56282" />
   </DataNode>
-  <DataNode TextLabel="NHP2&#xA;" GraphId="n12_REACTOME_418325" Type="Protein">
-    <Graphics CenterX="248.5" CenterY="347.0" Width="41.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="Q9NX24" />
+  <DataNode TextLabel="GMP" GraphId="a0bf2" Type="Metabolite">
+    <Graphics CenterX="1251.0" CenterY="799.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17345" />
   </DataNode>
-  <DataNode TextLabel="RUVBL1&#xA;" GraphId="n13_REACTOME_418323" Type="Protein">
-    <Graphics CenterX="161.5" CenterY="345.0" Width="53.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="Q9Y265" />
+  <DataNode TextLabel="RFC3 " GraphId="a11fa" Type="Protein" GroupRef="c0f76">
+    <Graphics CenterX="1970.0" CenterY="1146.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P40938" />
   </DataNode>
-  <DataNode TextLabel="RUVBL2&#xA;" GraphId="n14_REACTOME_418321" Type="Protein">
-    <Graphics CenterX="134.5" CenterY="305.0" Width="53.0" Height="22.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="Q9Y230" />
+  <DataNode TextLabel="POLD4 " GraphId="a1449" Type="Protein" GroupRef="ecef2">
+    <Graphics CenterX="2300.0" CenterY="1086.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HCU8" />
   </DataNode>
-  <DataNode TextLabel="Telomerase RNP:&#xA;Telomeric &#xA;Chromosome End &#xA;with an Additional &#xA;single Stranded &#xA;Telomere repeat&#xA;" GraphId="n15_REACTOME_163098" Type="Complex">
-    <Graphics CenterX="617.5" CenterY="330.0" Width="115.0" Height="92.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_8663" />
+  <DataNode TextLabel="TERT " GraphId="a15a3" Type="Protein" GroupRef="aaa85">
+    <Graphics CenterX="210.0" CenterY="1046.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14746" />
   </DataNode>
-  <DataNode TextLabel="Telomerase RNP &#xA;Bound and base-&#xA;paired to the &#xA;Telomeric &#xA;Chromosome End&#xA;" GraphId="n16_REACTOME_164683" Type="Complex">
-    <Graphics CenterX="619.0" CenterY="122.0" Width="110.0" Height="78.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_8909" />
-  </DataNode>
-  <DataNode TextLabel="Telomerase &#xA;Holoenzyme:&#xA;Telomeric RNP End &#xA;with Two Additional &#xA;Single Stranded &#xA;Telomere Repeats&#xA;" GraphId="n17_REACTOME_164619" Type="Complex">
-    <Graphics CenterX="801.5" CenterY="496.0" Width="125.0" Height="92.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_8055" />
-  </DataNode>
-  <DataNode TextLabel="dATP&#xA;" GraphId="n18_REACTOME_29604" Type="Metabolite">
-    <Graphics CenterX="679.5" CenterY="258.0" Width="47.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="16284" />
-  </DataNode>
-  <DataNode TextLabel="G-strand &#xA;chromosome end - &#xA;Telomeric&#xA;" GraphId="n19_REACTOME_163089">
-    <Graphics CenterX="298.5" CenterY="78.0" Width="123.0" Height="50.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_8234" />
-  </DataNode>
-  <DataNode TextLabel="Telomerase RNP&#xA;" GraphId="n20_REACTOME_163101" Type="Complex">
-    <BiopaxRef>lit_417089</BiopaxRef>
-    <Graphics CenterX="295.0" CenterY="163.0" Width="104.0" Height="22.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_8548" />
-  </DataNode>
-  <DataNode TextLabel="DNA Polymerase &#xA;delta tetramer&#xA;" GraphId="n28_REACTOME_68450" Type="Complex">
-    <Graphics CenterX="1077.0" CenterY="414.0" Width="108.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_5801" />
-  </DataNode>
-  <DataNode TextLabel="Extended And &#xA;Processed Telomere &#xA;End&#xA;" GraphId="n29_REACTOME_176706" Type="Complex">
-    <Graphics CenterX="1195.0" CenterY="511.0" Width="130.0" Height="50.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+  <DataNode TextLabel="Extended And Processed Telomere End" GraphId="a1bad" Type="Complex">
+    <Graphics CenterX="1195.0" CenterY="511.0" Width="130.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Reactome" ID="REACT_8288" />
   </DataNode>
-  <DataNode TextLabel="dGTP&#xA;" GraphId="n2_REACTOME_29892" Type="Metabol
+  <DataNode TextLabel="POLD1 " GraphId="a228b" Type="Protein" GroupRef="db2aa">
+    <Graphics CenterX="1860.0" CenterY="1106.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P28340" />
+  </DataNode>
+  <DataNode TextLabel="PCNA " GraphId="a25c4" Type="Protein" GroupRef="ee6ed">
+    <Graphics CenterX="2520.0" CenterY="1146.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P12004" />
+  </DataNode>
+  <DataNode TextLabel="POLD3 " GraphId="a268e" Type="Protein" GroupRef="a19b1">
+    <Graphics CenterX="1090.0" CenterY="1066.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15054" />
+  </DataNode>
+  <DataNode TextLabel="RPA3 " GraphId="a3eb7" Type="Protein" GroupRef="b9e9f">
+    <Graphics CenterX="2630.0" CenterY="1106.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35244" />
+  </DataNode>
+  <DataNode TextLabel="DKC1 " GraphId="a3fcc" Type="Protein" GroupRef="e18a9">
+    <Graphics CenterX="540.0" CenterY="1086.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60832" />
+  </DataNode>
+  <DataNode TextLabel="POLD3 " GraphId="a677d" Type="Protein" GroupRef="f6b67">
+    <Graphics CenterX="2740.0" CenterY="1166.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q15054" />
+  </DataNode>
+  <DataNode TextLabel="PRIM2 " GraphId="a6796" Type="Protein" GroupRef="f1a7a">
+    <Graphics CenterX="1640.0" CenterY="1086.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49643" />
+  </DataNode>
+  <DataNode TextLabel="G-strand Chromosome end with two additional single strand repeats - Telomeric " GraphId="a6df8" Type="Metabolite" GroupRef="f2b4f">
+    <Graphics CenterX="1860.0" CenterY="1186.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15986" />
+  </DataNode>
+  <DataNode TextLabel="G-strand chromosome end - Telomeric " GraphId="a7413" Type="Metabolite" GroupRef="ef1d5">
+    <Graphics CenterX="100.0" CenterY="1106.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15986" />
+  </DataNode>
+  <DataNode TextLabel="TERT " GraphId="a7d7e" Type="Protein" GroupRef="e1098">
+    <Graphics CenterX="650.0" CenterY="1026.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14746" />
+  </DataNode>
+  <DataNode TextLabel="FEN1" GraphId="a80c0" Type="Protein">
+    <Gra
