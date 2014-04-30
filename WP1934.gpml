@@ -1,96 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r72006" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">Electrical transmission across nerve cells is accomplished when the current generated in the upstream neuron spreads to the downstream neuron through a path of low electrical resistance. In neurons this is accomplished at gap junctions. Electrical synapses are found in neuronal tissue where the activity of neurons must be highly synchronized. The neurons responsible for hormone secretion from the mammalian hypothalamus are a class of highly synchronized electric neurons. Gap junctions connecting the presynaptic cell with the postsynaptic cell allow current generated in the presynaptic cell to flow directly into the postsynaptic cell. Transmission speed is dramatically increased in such a system. The junction itself is composed of two hemichannels, one each on the pre- and postsysnaptic cells. These channels are composed of members of the connexin family of proteins.</Comment>
-  <Comment Source="WikiPathways-category">Cellular Process</Comment>
-  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
-  <DataNode TextLabel="Potassium&#xA;" GraphId="n30_REACTOME_29804" Type="Metabolite">
-    <Graphics CenterX="422.0" CenterY="133.0" Width="74.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="29103" />
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r74752" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen];ReactomeTeam[Reactome Team]" Organism="Homo sapiens">
+  <Comment Source="Wikipathways-description">Electrical transmission across nerve cells is accomplished when the current generated in the upstream neuron spreads to the downstream neuron through a path of low electrical resistance. In neurons this is accomplished at gap junctions. Electrical synapses are found in neuronal tissue where the activity of neurons must be highly synchronized. The neurons responsible for hormone secretion from the mammalian hypothalamus are a class of highly synchronized electric neurons. Gap junctions connecting the presynaptic cell with the postsynaptic cell allow current generated in the presynaptic cell to flow directly into the postsynaptic cell. Transmission speed is dramatically increased in such a system. The junction itself is composed of two hemichannels, one each on the pre- and postsysnaptic cells. These channels are composed of members of the connexin family of proteins. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=112307</Comment>
+  <Graphics BoardWidth="832.0" BoardHeight="541.0" />
+  <DataNode TextLabel="PANX1 " GraphId="a04d7" Type="Protein" GroupRef="d02af">
+    <Graphics CenterX="430.0" CenterY="461.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96RD7" />
   </DataNode>
-  <DataNode TextLabel="Connexin 36 Gap &#xA;Junction Complex&#xA;" GraphId="n31_REACTOME_375351" Type="Complex">
-    <Graphics CenterX="532.5" CenterY="358.0" Width="123.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_17249" />
+  <DataNode TextLabel="K+" GraphId="a91d4" Type="Metabolite">
+    <Graphics CenterX="422.0" CenterY="133.0" Width="74.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29103" />
   </DataNode>
-  <DataNode TextLabel="Connexin &#xA;36/Connexin 45 &#xA;Gap Junction &#xA;Complex&#xA;" GraphId="n33_REACTOME_375333" Type="Complex">
-    <Graphics CenterX="331.0" CenterY="358.0" Width="116.0" Height="64.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_17318" />
-  </DataNode>
-  <DataNode TextLabel="Connexin 62 Gap &#xA;Junction Complex&#xA;" GraphId="n35_REACTOME_375341" Type="Complex">
-    <Graphics CenterX="697.0" CenterY="358.0" Width="122.0" Height="36.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+  <DataNode TextLabel="Connexin 62 Gap Junction Complex" GraphId="bdc80" Type="Complex">
+    <Graphics CenterX="692.5" CenterY="360.0" Width="113.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Reactome" ID="REACT_17390" />
   </DataNode>
-  <DataNode TextLabel="Pannexin 1/Pannexin 2 &#xA;Gap Junction Complex&#xA;" GraphId="n37_REACTOME_375332" Type="Complex">
-    <Graphics CenterX="141.0" CenterY="358.0" Width="150.0" Height="50.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+  <DataNode TextLabel="GJD2 " GraphId="d0f4e" Type="Protein" GroupRef="bc889">
+    <Graphics CenterX="100.0" CenterY="461.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UKL4" />
+  </DataNode>
+  <DataNode TextLabel="GJD2 " GraphId="d6046" Type="Protein" GroupRef="b4b1c">
+    <Graphics CenterX="210.0" CenterY="461.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UKL4" />
+  </DataNode>
+  <DataNode TextLabel="PANX2" GraphId="d91e0" Type="Protein" GroupRef="e545f">
+    <Graphics CenterX="430.0" CenterY="501.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96RD6" />
+  </DataNode>
+  <DataNode TextLabel="GJA10 " GraphId="df7af" Type="Protein" GroupRef="cfa23">
+    <Graphics CenterX="320.0" CenterY="461.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q969M2" />
+  </DataNode>
+  <DataNode TextLabel="Connexin 36/Connexin 45 Gap Junction Complex" GraphId="e3b16" Type="Complex">
+    <Graphics CenterX="326.5" CenterY="361.0" Width="107.0" Height="64.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_17318" />
+  </DataNode>
+  <DataNode TextLabel="Connexin 36 Gap Junction Complex" GraphId="e8062" Type="Complex">
+    <Graphics CenterX="527.5" CenterY="360.0" Width="113.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_17249" />
+  </DataNode>
+  <DataNode TextLabel="Pannexin 1/Pannexin 2 Gap Junction Complex" GraphId="f819c" Type="Complex">
+    <Graphics CenterX="149.0" CenterY="358.0" Width="134.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Reactome" ID="REACT_17586" />
   </DataNode>
-  <Interaction GraphId="e_29_REACTOME_375342">
-    <Comment Source="WikiPathways-description">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 36 proteins each.</Comment>
-    <BiopaxRef>lit_158059</BiopaxRef>
+  <DataNode TextLabel="GJC1 " GraphId="ffbb7" Type="Protein" GroupRef="f7e14">
+    <Graphics CenterX="210.0" CenterY="501.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36383" />
+  </DataNode>
+  <Interaction GraphId="a01d2">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="425.0" Y="151.0" GraphRef="n30_REACTOME_29804" RelX="0.08108108108108109" RelY="1.2" />
-      <Point X="451.0" Y="242.0" />
-      <Point X="528.0" Y="242.0" />
-      <Point X="436.0" Y="151.0" GraphRef="n30_REACTOME_29804" RelX="0.3783783783783784" RelY="1.2" ArrowHead="Arrow" />
-      <Anchor Position="0.5701541459954118" Shape="None" GraphId="e_29_a_p" />
+      <Point X="527.0" Y="339.0" GraphRef="e8062" RelX="-0.008849557522123894" RelY="-1.1666666666666667" />
+      <Point X="528.0" Y="242.0" GraphRef="bd9c9" RelX="97.5" RelY="91.0" ArrowHead="mim-catalysis" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref Database="Reactome" ID="REACT_16981" />
   </Interaction>
-  <Interaction GraphId="e_29_c__0">
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="532.5" Y="337.0" GraphRef="n31_REACTOME_375351" RelX="0.0" RelY="-1.1666666666666667" />
-      <Point X="528.0" Y="242.0" GraphRef="e_29_a_p" RelX="0.0" RelY="0.0" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="e_32_REACTOME_375330">
-    <Comment Source="WikiPathways-description">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 45 proteins on one hemi-channel and six Connexin 36 proteins on the second.</Comment>
+  <Interaction GraphId="b2aa6">
+    <Comment Source="Reactome">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Pannexin 1 proteins on one hemi-channel and six Pannexin 2 proteins on the second.</Comment>
+    <BiopaxRef>b12</BiopaxRef>
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="420.0" Y="151.0" GraphRef="n30_REACTOME_29804" RelX="-0.05405405405405406" RelY="1.2" />
-      <Point X="412.0" Y="241.0" />
-      <Point X="325.0" Y="241.0" />
-      <Point X="408.0" Y="151.0" GraphRef="n30_REACTOME_29804" RelX="-0.3783783783783784" RelY="1.2" ArrowHead="Arrow" />
-      <Anchor Position="0.5916079678280574" Shape="None" GraphId="e_32_a_p" />
+      <Point X="382.0" Y="146.0" />
+      <Point X="382.0" Y="140.0" />
+      <Anchor Position="0.5" Shape="None" GraphId="f5cd8" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref Database="Reactome" ID="REACT_16954" />
   </Interaction>
-  <Interaction GraphId="e_32_c__0">
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="329.9158878504673" Y="323.0" GraphRef="n33_REACTOME_375333" RelX="-0.018691588785046728" RelY="-1.09375" />
-      <Point X="325.0" Y="241.0" GraphRef="e_32_a_p" RelX="0.0" RelY="0.0" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="e_34_REACTOME_375340">
-    <Comment Source="WikiPathways-description">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 62 proteins each.</Comment>
-    <BiopaxRef>lit_375326</BiopaxRef>
+  <Interaction GraphId="c7c05">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="457.0" Y="151.0" GraphRef="n30_REACTOME_29804" RelX="0.9459459459459459" RelY="1.2" />
-      <Point X="693.0" Y="247.0" />
-      <Point X="692.0" Y="185.0" />
-      <Point X="462.0" Y="140.0" GraphRef="n30_REACTOME_29804" RelX="1.0810810810810811" RelY="0.4666666666666667" ArrowHead="Arrow" />
-      <Anchor Position="0.4622691002884519" Shape="None" GraphId="e_34_a_p" />
+      <Point X="149.0" Y="330.0" GraphRef="f819c" RelX="0.0" RelY="-1.12" />
+      <Point X="150.0" Y="188.0" GraphRef="f5cd8" RelX="-232.0" RelY="45.0" ArrowHead="mim-catalysis" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref Database="Reactome" ID="REACT_16954" />
   </Interaction>
-  <Interaction GraphId="e_34_c__0">
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="697.0" Y="337.0" GraphRef="n35_REACTOME_375341" RelX="0.0" RelY="-1.1666666666666667" />
-      <Point X="693.0" Y="247.0" GraphRef="e_34_a_p" RelX="0.0" RelY="0.0" />
-    </Graphics>
-    <Xref Database="" ID="" />
-  </Interaction>
-  <Interaction GraphId="e_36_REACTOME_375339">
-    <Comment Source="WikiPathways-description">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Pannexin 1 proteins on one hemi-channel and six Pannexin 2 proteins on the second.</Comment>
-    <BiopaxRef>lit_375337</BiopaxRef>
+  <Interaction GraphId="d29eb">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="382.0" Y="146.0" GraphRef="n30_REACTOME_29804" RelX="-1.0810810810810811" RelY="0.8666666666666667" />
-      <Point X="151.0" Y="235.0" />
-      <Point X="150.0" Y="188.0" />
-      <Point X="382.0" Y="140.0" GraphRef="n30_REACTOME_29804" RelX="-1.0810810810810811" RelY="0.4666666666666667" ArrowHead="Arrow" />
-      <Anchor Position="0.4657819927684184" Shape="None" GraphId="e_36_a_p" />
+      <Point X="692.0" Y="339.0" GraphRef="bdc80" RelX="-0.008849557522123894" RelY="-1.1666666666666667" />
+      <Point X="692.0" Y="185.0" GraphRef="f245a" RelX="232.5" RelY="39.5" ArrowHead="mim-catalysis" />
     </Graphics>
-    <Xref Database="" ID="" />
+    <Xref Database="Reactome" ID="REACT_17030" />
   </Interaction>
-  <Interaction GraphId="e_36_c__0">
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
-      <Point X="141.0" Y="330.0" GraphRef="n37_REACTOME_375332" RelX="0.0" RelY="-1.12" />
+  <Interaction GraphId="e1cdf">
+    <Comment Source="Reactome">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 45 proteins on one hemi-channel and six Connexin 36 proteins on the second.</Comment>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="420.0" Y="151.0" />
+      <Point X="408.0" Y="151.0" />
+      <Anchor Position="0.5" Shape="None" GraphId="ad9aa" />
+    </Graphics>
+    <Xref Database="Reactome" ID="REACT_16989" />
+  </Interaction>
+  <Interaction GraphId="e7bde">
+    <Comment Source="Reactome">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 36 proteins each.</Comment>
+    <BiopaxRef>f76</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="425.0" Y="151.0" />
+      <Point X="436.0" Y="151.0" />
+      <Anchor Position="0.5" Shape="None" GraphId="bd9c9" />
+    </Graphics>
+    <Xref Database="Reactome" ID="REACT_16981" />
+  </Interaction>
+  <Interaction GraphId="ee223">
+    <Comment Source="Reactome">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 62 proteins each.</Comment>
+    <BiopaxRef>b2b</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="457.0" Y="151.0" />
+      <Point X="462.0" Y="140.0" />
+      <Anchor Position="0.5" Shape="None" GraphId="f245a" />
+    </Graphics>
+    <Xref Database="Reactome" ID="REACT_17030" />
+  </Interaction>
+ 
