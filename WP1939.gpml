@@ -1,88 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Unfolded Protein Response" Data-Source="WikiPathways" Version="WP1939_r45018" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">The Unfolded Protein Response (UPR) is a regulatory system that protects the Endoplasmic Reticulum (ER) from overload. The UPR is provoked by the accumulation of improperly folded protein in the ER during times of unusually high secretion activity. Analysis of mutants with altered UPR, however, shows that the UPR is also required for normal development and function of secretory cells.&lt;br&gt;One level at which the URP operates is transcriptional and translational regulation: mobilization of ATF6 and IRE1 leads to increased transcription of genes encoding chaperones, and mobilization of PERK (pancreatic eIF2alpha kinase) leads to phosphorylation of the translation initiation factor eIF2alpha and global down-regulation of protein synthesis. These three regulatory pathways are annotated here.</Comment>
-  <Comment Source="WikiPathways-category">Cellular Process</Comment>
-  <BiopaxRef>lit_381027</BiopaxRef>
-  <BiopaxRef>lit_381191</BiopaxRef>
-  <BiopaxRef>lit_381139</BiopaxRef>
-  <BiopaxRef>lit_381103</BiopaxRef>
-  <BiopaxRef>lit_380997</BiopaxRef>
-  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
-  <DataNode TextLabel="PERK &#xA;Homodimer&#xA;" GraphId="n102_REACTOME_381126" Type="Complex">
-    <Comment Source="WikiPathways-description">PERK monomers form dimers, resulting in activation of the kinase activity of the cytosolic C-terminal region.</Comment>
-    <Graphics CenterX="665.0" CenterY="152.0" Width="82.0" Height="38.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_18942" />
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Unfolded Protein Response" Data-Source="WikiPathways" Version="WP1939_r74761" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team]" Organism="Homo sapiens">
+  <Comment Source="Wikipathways-description">The Unfolded Protein Response (UPR) is a regulatory system that protects the Endoplasmic Reticulum (ER) from overload. The UPR is provoked by the accumulation of improperly folded protein in the ER during times of unusually high secretion activity. Analysis of mutants with altered UPR, however, shows that the UPR is also required for normal development and function of secretory cells.&lt;br&gt;One level at which the URP operates is transcriptional and translational regulation: mobilization of ATF6 and IRE1 leads to increased transcription of genes encoding chaperones, and mobilization of PERK (pancreatic eIF2alpha kinase) leads to phosphorylation of the translation initiation factor eIF2alpha and global down-regulation of protein synthesis. These three regulatory pathways are annotated here. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=381119</Comment>
+  <BiopaxRef>c0c</BiopaxRef>
+  <BiopaxRef>a3b</BiopaxRef>
+  <BiopaxRef>e8b</BiopaxRef>
+  <BiopaxRef>b86</BiopaxRef>
+  <BiopaxRef>f7e</BiopaxRef>
+  <Graphics BoardWidth="998.0" BoardHeight="1220.0" />
+  <DataNode TextLabel="EIF2S1" GraphId="a5a23" Type="Protein">
+    <Graphics CenterX="447.5" CenterY="56.5" Width="73.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P05198" />
   </DataNode>
-  <DataNode TextLabel="eIF2-alpha&#xA;" GraphId="n108_REACTOME_72510" Type="Protein">
-    <Graphics CenterX="574.5" CenterY="81.5" Width="73.0" Height="25.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="P05198" />
+  <DataNode TextLabel="ADP" GraphId="ab7ce" Type="Metabolite">
+    <Graphics CenterX="458.0" CenterY="204.5" Width="44.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16761" />
   </DataNode>
-  <DataNode TextLabel="ATP&#xA;" GraphId="n109_REACTOME_113592" Type="Metabolite">
-    <Graphics CenterX="622.5" CenterY="110.5" Width="37.0" Height="25.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="15422" />
+  <DataNode TextLabel="PERK&#xA;BiP Heterodimer" GraphId="ac4c5" Type="Complex">
+    <Comment Source="Reactome">The N-terminal luminal domain of PERK binds BiP, rendering PERK inactive.</Comment>
+    <Graphics CenterX="759.5" CenterY="90.0" Width="83.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_18951" />
   </DataNode>
-  <DataNode TextLabel="eIF2-alpha &#xA;(phosphorylated &#xA;at Ser52)&#xA;" GraphId="n110_REACTOME_381060" Type="Protein">
-    <Graphics CenterX="493.0" CenterY="187.0" Width="100.0" Height="46.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="P05198" />
+  <DataNode TextLabel="p-S724-ERN1 " GraphId="ac6a1" Type="Protein" GroupRef="b9670">
+    <Comment Source="Reactome">IRE1 is trans-autophosphorylated after dissociation from BiP and autodimerization. By homology with the yeast IRE1, human IRE1 is believed to be phosphorylated at Ser724 (Ser841 of Saccharomyces cerevisiae)</Comment>
+    <BiopaxRef>d5f</BiopaxRef>
+    <BiopaxRef>eea</BiopaxRef>
+    <BiopaxRef>b2b</BiopaxRef>
+    <Graphics CenterX="540.0" CenterY="1140.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75460" />
   </DataNode>
-  <DataNode TextLabel="ADP&#xA;" GraphId="n111_REACTOME_29370" Type="Metabolite">
-    <Graphics CenterX="590.0" CenterY="218.5" Width="44.0" Height="27.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="16761" />
+  <DataNode TextLabel="ATF6 " GraphId="aca89" Type="Protein" GroupRef="facb0">
+    <Graphics CenterX="100.0" CenterY="1140.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
   </DataNode>
-  <DataNode TextLabel="ATF4&#xA;" GraphId="n117_REACTOME_381016" Type="Protein">
-    <Graphics CenterX="274.5" CenterY="769.5" Width="47.0" Height="21.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="P18848" />
+  <DataNode TextLabel="ATF6" GraphId="af4c1" Type="Protein">
+    <Graphics CenterX="461.0" CenterY="828.5" Width="188.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
   </DataNode>
-  <DataNode TextLabel="Proteins &#xA;Upregulated &#xA;by ATF4&#xA;" GraphId="n131_REACTOME_535545" Type="Protein">
-    <BiopaxRef>lit_535513</BiopaxRef>
-    <BiopaxRef>lit_535562</BiopaxRef>
-    <BiopaxRef>lit_535605</BiopaxRef>
-    <Graphics CenterX="75.0" CenterY="823.5" Width="84.0" Height="53.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="Reactome" ID="REACT_22949" />
+  <DataNode TextLabel="ADP" GraphId="b102b" Type="Metabolite">
+    <Graphics CenterX="868.0" CenterY="477.0" Width="34.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16761" />
   </DataNode>
-  <DataNode TextLabel="Cyclic AMP-dependent &#xA;transcription factor ATF-3&#xA;" GraphId="n132_REACTOME_535543" Type="Protein">
-    <Graphics CenterX="330.5" CenterY="1078.0" Width="153.0" Height="46.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="P18847" />
+  <DataNode TextLabel="HSPA5 " GraphId="b26f3" Type="Protein" GroupRef="d4d84">
+    <Graphics CenterX="760.0" CenterY="1160.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P11021" />
   </DataNode>
-  <DataNode TextLabel="Proteins &#xA;Upregulated by &#xA;ATF4&#xA;" GraphId="n133_REACTOME_381105" Type="Protein">
-    <Graphics CenterX="709.5" CenterY="594.5" Width="99.0" Height="53.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="Reactome" ID="REACT_19023" />
+  <DataNode TextLabel="ATF6" GraphId="b329a" Type="Protein">
+    <Graphics CenterX="557.5" CenterY="308.5" Width="87.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
   </DataNode>
-  <DataNode TextLabel="Asparagine &#xA;synthetase&#xA;" GraphId="n134_REACTOME_70597" Type="Protein">
-    <Graphics CenterX="242.0" CenterY="1169.0" Width="84.0" Height="38.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="P08243" />
+  <DataNode TextLabel="IRE1 homodimer" GraphId="b6f1a" Type="Complex">
+    <Comment Source="Reactome">Crystallographic evidence indicates that the IRE1 homodimer forms by an initial interaction between the luminal N-terminal domains of IRE1 monomers.</Comment>
+    <BiopaxRef>d5f</BiopaxRef>
+    <BiopaxRef>eea</BiopaxRef>
+    <BiopaxRef>b2b</BiopaxRef>
+    <Graphics CenterX="789.5" CenterY="391.0" Width="119.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_18870" />
   </DataNode>
-  <DataNode TextLabel="unfolded &#xA;protein&#xA;" GraphId="n13_REACTOME_381130">
-    <Graphics CenterX="798.0" CenterY="212.0" Width="70.0" Height="34.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_18756" />
+  <DataNode TextLabel="Xbp1 mRNA " GraphId="b84d8" Type="Rna">
+    <Graphics CenterX="884.5" CenterY="697.5" Width="83.0" Height="49.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="ENSEMBL" ID="ENST00000344347" />
   </DataNode>
-  <DataNode TextLabel="Proteins &#xA;Upregulated by &#xA;ATF6-alpha&#xA;" GraphId="n144_REACTOME_981543" Type="Protein">
-    <BiopaxRef>lit_381102</BiopaxRef>
-    <Graphics CenterX="781.0" CenterY="528.5" Width="116.0" Height="49.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="Reactome" ID="REACT_25879" />
+  <DataNode TextLabel="Xbp1 mRNA " GraphId="b8a9a" Type="Rna">
+    <Graphics CenterX="684.5" CenterY="697.5" Width="87.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="ENSEMBL" ID="ENST00000216037" />
   </DataNode>
-  <DataNode TextLabel="NF-Y&#xA;" GraphId="n145_REACTOME_381204" Type="Complex">
-    <Comment Source="WikiPathways-description">NF-Y is a ubiquitous heterotrimeric transcription factor comprising subunits NF-Y A, NF-Y B, and NF-Y C. It binds the sequence CCAAT.</Comment>
-    <Graphics CenterX="472.5" CenterY="758.5" Width="41.0" Height="21.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_26721" />
-  </DataNode>
-  <DataNode TextLabel="ATF6-alpha:BiP &#xA;Complex&#xA;" GraphId="n14_REACTOME_381168" Type="Complex">
-    <Comment Source="WikiPathways-description">The luminal C-terminus of ATF6-alpha binds BiP, occluding two Golgi Localization Sequences and causing ATF6-alpha to be retained in the endoplasmic reticulum.</Comment>
-    <Graphics CenterX="678.5" CenterY="217.0" Width="93.0" Height="38.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
-    <Xref Database="Reactome" ID="REACT_18758" />
-  </DataNode>
-  <DataNode TextLabel="BiP:unfolded &#xA;protein &#xA;complex&#xA;" GraphId="n15_REACTOME_381062" Type="Complex">
-    <Comment Source="WikiPathways-description">BiP is a chaperone which binds unfolded proteins as well as the luminal domains of UPR signal transducers ATF6, IRE1, and PERK.</Comment>
-    <Graphics CenterX="785.0" CenterY="333.0" Width="80.0" Height="56.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+  <DataNode TextLabel="BiP&#xA;Unfolded Protein" GraphId="b8dac" Type="Complex">
+    <Comment Source="Reactome">BiP is a chaperone which binds unfolded proteins as well as the luminal domains of UPR signal transducers ATF6, IRE1, and PERK.</Comment>
+    <Graphics CenterX="680.5" CenterY="343.0" Width="135.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Reactome" ID="REACT_18551" />
   </DataNode>
-  <DataNode TextLabel="ATF6-alpha&#xA;" GraphId="n16_REACTOME_381222" Type="Protein">
-    <Graphics CenterX="674.5" CenterY="323.5" Width="87.0" Height="25.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="P18850" />
+  <DataNode TextLabel="ERN1 " GraphId="ba07b" Type="Protein" GroupRef="d4cd2">
+    <Graphics CenterX="320.0" CenterY="1160.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75460" />
   </DataNode>
-  <DataNode TextLabel="ATF6-alpha&#xA;" GraphId="n18_REACTOME_381000" Type="Protein">
-    <Graphics CenterX="558.5" CenterY="320.5" Width="73.0" Height="25.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="UniProt" ID="P18850" />
+  <DataNode TextLabel="EIF2AK3" GraphId="bb8f5" Type="Protein">
+    <Graphics CenterX="607.0" CenterY="88.0" Width="50.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NZJ5" />
   </DataNode>
-  <DataNode TextLabel="ATF6-alpha, C-terminal &#xA;cleavage product of S1P&#xA;" GraphId="n20_REACTOME_420814" Type="Protein">
-    <Graphics CenterX="555.
+  <DataNode TextLabel="ATF6" GraphId="bcfd8" Type="Protein">
+    <Graphics CenterX="382.0" CenterY="374.0" Width="170.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="ATF6" GraphId="bd380" Type="Protein">
+    <BiopaxRef>bb2</BiopaxRef>
+    <Graphics CenterX="383.0" CenterY="524.0" Width="166.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="IRE1 homodimer " GraphId="bdeee" Type="Complex">
+    <Comment Source="Reactome">After juxtaposition of the luminal N-termini of IRE1 to form the IRE1 homodimer, the cytoplasmic C-terminal kinase domains of the IRE1 molecules associate and transphosphorylate each other's A-loop domains. This causes a change in conformation that allows binding of ADP.</Comment>
+    <BiopaxRef>d5f</BiopaxRef>
+    <BiopaxRef>eea</BiopaxRef>
+    <BiopaxRef>b2b</BiopaxRef>
+    <Graphics CenterX="790.0" CenterY="516.5" Width="106.0" Height="39.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_19024" />
+  </DataNode>
+  <DataNode TextLabel="ERN1 " GraphId="bff91" Type="Protein" GroupRef="e722c">
+    <Graphics CenterX="430.0" CenterY="1140.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75460" />
+  </DataNode>
+  <DataNode TextLabel="p-S52-EIF2S1" GraphId="c0b4b" Type="Protein">
+    <Graphics CenterX="300.0" CenterY="159.0" Width="232.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P05198" />
+  </DataNode>
+  <DataNode TextLabel="ATF4" GraphId="c10be" Type="Protein">
+    <Graphics CenterX="131.5" CenterY="830.5
