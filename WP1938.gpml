@@ -1,79 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="tRNA Aminoacylation" Data-Source="WikiPathways" Version="WP1938_r74093" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">tRNA synthetases catalyze the ligation of tRNAs to their cognate amino acids in an ATP-dependent manner. The reaction proceeds in two steps. First, amino acid and ATP form an aminoacyl adenylate molecule, releasing pyrophosphate. The aminoacyl adenylate remains associated with the synthetase enzyme where, in the second step it reacts with tRNA to form aminoacyl tRNA and AMP. The rapid hydrolysis of pyrophosphate makes these reactions essentially irreversible under physiological conditions (Fersht and Kaethner 1976a). Specificity of the tRNA charging reactions is achieved both by specific recognition of amino acid and tRNA substrates by the synthetase, and by an editing process in which incorrect aminoacyl adenylate molecules (e.g., valyl adenylate associated with isoleucyl tRNA synthetase) are hydrolyzed rather than conjugated to tRNAs in the second step of the reaction (Baldwin and Berg 1966a,b; Fersht and Kaethner 1976b). The tRNA synthetases can be divided into two structural classes based on conserved amino acid sequence features (Burnbaum and Schimmel 1991).&lt;p&gt;A single synthetase mediates the charging of all of the tRNA species specific for any one amino acid but, with three exceptions, glycine, lysine, and glutamine, the synthetase that catalyzes aminoacylation of mitochondrial tRNAs is encoded by a different gene than the one that acts on mitochondrial tRNAs. Both mitochondrial and cytosolic tRNA synthetase enzymes are encoded by genes in the nuclear genome.&lt;p&gt;A number of tRNA synthetases are known to have functions distinct from tRNA charging (reviewed by Park et al. 2005). Additionally, mutations in several of the tRNA synthetases, often affecting protein domains that are dispensable in vitro for aminoacyl tRNA synthesis, are associated with a diverse array of neurological and other diseases (Antonellis and Green 2008; Park et al. 2008). These findings raise interest into the role of these enzymes in human development and disease.&lt;p&gt;</Comment>
-  <Comment Source="WikiPathways-category">Cellular Process</Comment>
-  <Graphics BoardWidth="3902.5" BoardHeight="6380.0" />
-  <DataNode TextLabel="L-Histidine&#xA;" GraphId="n101_REACTOME_29612" Type="Metabolite">
-    <Graphics CenterX="408.5" CenterY="1108.0" Width="69.0" Height="28.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="15971" />
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="tRNA Aminoacylation" Data-Source="WikiPathways" Version="WP1938_r74660" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen];ReactomeTeam[Reactome Team]" Organism="Homo sapiens">
+  <Comment Source="Wikipathways-description">tRNA synthetases catalyze the ligation of tRNAs to their cognate amino acids in an ATP-dependent manner. The reaction proceeds in two steps. First, amino acid and ATP form an aminoacyl adenylate molecule, releasing pyrophosphate. The aminoacyl adenylate remains associated with the synthetase enzyme where, in the second step it reacts with tRNA to form aminoacyl tRNA and AMP. The rapid hydrolysis of pyrophosphate makes these reactions essentially irreversible under physiological conditions (Fersht and Kaethner 1976a). Specificity of the tRNA charging reactions is achieved both by specific recognition of amino acid and tRNA substrates by the synthetase, and by an editing process in which incorrect aminoacyl adenylate molecules (e.g., valyl adenylate associated with isoleucyl tRNA synthetase) are hydrolyzed rather than conjugated to tRNAs in the second step of the reaction (Baldwin and Berg 1966a,b; Fersht and Kaethner 1976b). The tRNA synthetases can be divided into two structural classes based on conserved amino acid sequence features (Burnbaum and Schimmel 1991).&lt;p&gt;A single synthetase mediates the charging of all of the tRNA species specific for any one amino acid but, with three exceptions, glycine, lysine, and glutamine, the synthetase that catalyzes aminoacylation of mitochondrial tRNAs is encoded by a different gene than the one that acts on mitochondrial tRNAs. Both mitochondrial and cytosolic tRNA synthetase enzymes are encoded by genes in the nuclear genome.&lt;p&gt;A number of tRNA synthetases are known to have functions distinct from tRNA charging (reviewed by Park et al. 2005). Additionally, mutations in several of the tRNA synthetases, often affecting protein domains that are dispensable in vitro for aminoacyl tRNA synthesis, are associated with a diverse array of neurological and other diseases (Antonellis and Green 2008; Park et al. 2008). These findings raise interest into the role of these enzymes in human development and disease.&lt;p&gt; Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=379724</Comment>
+  <BiopaxRef>f99</BiopaxRef>
+  <BiopaxRef>b3a</BiopaxRef>
+  <BiopaxRef>aed</BiopaxRef>
+  <BiopaxRef>d8d</BiopaxRef>
+  <BiopaxRef>e30</BiopaxRef>
+  <BiopaxRef>b50</BiopaxRef>
+  <BiopaxRef>b82</BiopaxRef>
+  <BiopaxRef>d78</BiopaxRef>
+  <Graphics BoardWidth="2590.0" BoardHeight="1903.0" />
+  <DataNode TextLabel="PPi" GraphId="a0059" Type="Metabolite">
+    <Graphics CenterX="933.0" CenterY="1466.5" Width="62.0" Height="41.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29888" />
   </DataNode>
-  <DataNode TextLabel="tRNA(His)&#xA;" GraphId="n102_REACTOME_379758" Type="Metabolite">
-    <Graphics CenterX="459.5" CenterY="1135.5" Width="65.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="29178" />
+  <DataNode TextLabel="AIMP1" GraphId="a0929" Type="Protein" GroupRef="aba4e">
+    <Graphics CenterX="540.0" CenterY="1843.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q12904" />
   </DataNode>
-  <DataNode TextLabel="ATP&#xA;" GraphId="n103_REACTOME_113592" Type="Metabolite">
-    <Graphics CenterX="371.5" CenterY="1139.5" Width="37.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="15422" />
+  <DataNode TextLabel="L-Gln" GraphId="a0dd7" Type="Metabolite">
+    <Graphics CenterX="1436.5" CenterY="947.5" Width="81.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18050" />
   </DataNode>
-  <DataNode TextLabel="His-tRNA&#xA;(His)&#xA;" GraphId="n104_REACTOME_379786" Type="Metabolite">
-    <Graphics CenterX="417.0" CenterY="1272.5" Width="72.0" Height="41.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="29155" />
+  <DataNode TextLabel="PPi" GraphId="a0f97" Type="Metabolite">
+    <Graphics CenterX="1321.0" CenterY="1035.5" Width="62.0" Height="41.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29888" />
   </DataNode>
-  <DataNode TextLabel="HARS&#xA;" GraphId="n105_REACTOME_379554" Type="Protein">
-    <Graphics CenterX="468.0" CenterY="1177.0" Width="42.0" Height="20.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P12081" />
+  <DataNode TextLabel="PPA2 " GraphId="a1573" Type="Protein" GroupRef="f8986">
+    <Graphics CenterX="2520.0" CenterY="1623.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H2U2" />
   </DataNode>
-  <DataNode TextLabel="pyrophosp&#xA;hate&#xA;" GraphId="n107_REACTOME_111294" Type="Metabolite">
-    <Graphics CenterX="365.0" CenterY="1236.5" Width="62.0" Height="41.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="29888" />
+  <DataNode TextLabel="EPRS " GraphId="a16f6" Type="Protein" GroupRef="f871b">
+    <Graphics CenterX="210.0" CenterY="1683.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P07814" />
   </DataNode>
-  <DataNode TextLabel="AMP&#xA;" GraphId="n109_REACTOME_76577" Type="Metabolite">
-    <Graphics CenterX="455.0" CenterY="1235.5" Width="40.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="16027" />
+  <DataNode TextLabel="L-Pro" GraphId="a196d" Type="Metabolite">
+    <Graphics CenterX="377.0" CenterY="622.0" Width="58.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17203" />
   </DataNode>
-  <DataNode TextLabel="tRNA(Ile)&#xA;" GraphId="n113_REACTOME_379739" Type="Metabolite">
-    <Graphics CenterX="645.0" CenterY="1137.5" Width="60.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="29174" />
+  <DataNode TextLabel="tRNA" GraphId="a22d4" Type="Metabolite">
+    <Graphics CenterX="1348.5" CenterY="1132.5" Width="81.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29173" />
   </DataNode>
-  <DataNode TextLabel="L-Isoleucine&#xA;" GraphId="n114_REACTOME_30102" Type="Metabolite">
-    <Graphics CenterX="595.0" CenterY="1108.5" Width="76.0" Height="27.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="17191" />
+  <DataNode TextLabel="Ser-tRNA" GraphId="a25f4" Type="Metabolite">
+    <Graphics CenterX="565.0" CenterY="787.5" Width="76.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29162" />
   </DataNode>
-  <DataNode TextLabel="ATP&#xA;" GraphId="n115_REACTOME_113592" Type="Metabolite">
-    <Graphics CenterX="556.5" CenterY="1142.5" Width="37.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="15422" />
-  </DataNode>
-  <DataNode TextLabel="Ile-tRNA&#xA;(Ile)&#xA;" GraphId="n116_REACTOME_379787" Type="Metabolite">
-    <Graphics CenterX="597.5" CenterY="1270.0" Width="61.0" Height="34.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="29160" />
-  </DataNode>
-  <DataNode TextLabel="pyrophosp&#xA;hate&#xA;" GraphId="n118_REACTOME_111294" Type="Metabolite">
-    <Graphics CenterX="537.0" CenterY="1245.5" Width="62.0" Height="41.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="29888" />
-  </DataNode>
-  <DataNode TextLabel="AMP&#xA;" GraphId="n120_REACTOME_76577" Type="Metabolite">
-    <Graphics CenterX="657.0" CenterY="1267.5" Width="40.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="16027" />
-  </DataNode>
-  <DataNode TextLabel="aminoacyl-tRNA &#xA;synthetase &#xA;multienzyme &#xA;complex&#xA;" GraphId="n122_REACTOME_379688" Type="Complex">
-    <BiopaxRef>lit_379614</BiopaxRef>
-    <Graphics CenterX="675.0" CenterY="1191.0" Width="100.0" Height="62.0" ZOrder="32768" FillColor="ccffff" FontSize="12" Valign="Middle" ShapeType="RoundedRectangle" LineThickness="2.0" />
+  <DataNode TextLabel="aminoacyl-tRNA synthetase multienzyme complex" GraphId="a33f9" Type="Complex">
+    <BiopaxRef>f4f</BiopaxRef>
+    <Graphics CenterX="1127.0" CenterY="1183.0" Width="100.0" Height="62.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Reactome" ID="REACT_15869" />
   </DataNode>
-  <DataNode TextLabel="tRNA(Leu)&#xA;" GraphId="n125_REACTOME_379771" Type="Metabolite">
-    <Graphics CenterX="871.0" CenterY="1139.5" Width="72.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="29169" />
+  <DataNode TextLabel="PPi" GraphId="a3dec" Type="Metabolite">
+    <Graphics CenterX="919.0" CenterY="290.0" Width="64.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29888" />
   </DataNode>
-  <DataNode TextLabel="L-Leucine&#xA;" GraphId="n126_REACTOME_29588" Type="Metabolite">
-    <Graphics CenterX="821.5" CenterY="1107.0" Width="67.0" Height="30.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="15603" />
+  <DataNode TextLabel="WARS2" GraphId="a415e" Type="Protein">
+    <Graphics CenterX="1022.0" CenterY="690.0" Width="54.0" Height="18.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UGM6" />
   </DataNode>
-  <DataNode TextLabel="ATP&#xA;" GraphId="n127_REACTOME_113592" Type="Metabolite">
-    <Graphics CenterX="778.5" CenterY="1138.5" Width="37.0" Height="31.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="15422" />
+  <DataNode TextLabel="AIMP2 " GraphId="a441d" Type="Protein" GroupRef="e5b31">
+    <Graphics CenterX="100.0" CenterY="1723.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13155" />
   </DataNode>
-  <DataNode TextLabel="Leu-tRNA&#xA;(Leu)&#xA;" GraphId="n128_REACTOME_379757" Type="Metabolite">
-    <Graphics CenterX="821.0" CenterY="1270.0" Width="80.0" Height="34.0" ZOrder="32768" FillColor="ccffcc" FontSize="12" Valign="Middle" ShapeType="Oval" />
-    <Xref Database="ChEBI" ID="16624" />
+  <DataNode TextLabel="His-tRNA" GraphId="a44a5" Type="Metabolite">
+    <Graphics CenterX="505.0" CenterY="543.5" Width="76.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29155" />
   </DataNode>
-  <DataNode TextLabel="L-Alanine&#xA;" GraphId="n12_REACTOME_29432"
+  <DataNode TextLabel="AMP" GraphId="a454e" Type="Metabolite">
+    <Graphics CenterX="1285.0" CenterY="530.0" Width="42.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16027" />
+  </DataNode>
+  <DataNode TextLabel="tRNA" GraphId="a46c2" Type="Metabolite">
+    <Graphics CenterX="843.0" CenterY="206.0" Width="72.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29186" />
+  </DataNode>
+  <DataNode TextLabel="Asp" GraphId="a4708" Type="Metabolite">
+    <Graphics CenterX="789.5" CenterY="178.0" Width="83.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17053" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="a48ec" Type="Metabolite">
+    <Graphics CenterX="339.0" CenterY="656.5" Width="38.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15422" />
+  </DataNode>
+  <DataNode TextLabel="AMP" GraphId="a5004" Type="Metabolite">
+    <Graphics CenterX="423.0" CenterY="740.0" Width="42.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16027" />
+  </DataNode>
+  <DataNode TextLabel="VARS2" GraphId="a5024" Type="Protein">
+    <Graphics CenterX="1389.5" CenterY="700.0" Width="47.0" Height="18.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q5ST30" />
+  </DataNode>
+  <DataNode TextLabel="AMP"
