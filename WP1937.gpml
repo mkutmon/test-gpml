@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of vitamins, nucleosides, and related molecules" Data-Source="WikiPathways" Version="WP1937_r74785" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team]" Organism="Homo sapiens">
-  <Comment Source="Wikipathways-description">This pathway groups the processes mediated by SLC transporters, by which vitamins and cofactors, as well as nucleosides, nucleotides, nucleobases, and related molecules cross lipid bilayer membranes. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=425397</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of vitamins, nucleosides, and related molecules" Data-Source="WikiPathways" Version="WP1937_r75138" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway groups the processes mediated by SLC transporters, by which vitamins and cofactors, as well as nucleosides, nucleotides, nucleobases, and related molecules cross lipid bilayer membranes. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=425397</Comment>
   <Graphics BoardWidth="1834.0" BoardHeight="1308.0" />
   <DataNode TextLabel="UDP-sugars" GraphId="a1108" Type="Metabolite">
     <Graphics CenterX="827.5" CenterY="946.5" Width="91.0" Height="61.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
@@ -110,5 +110,4 @@
   <DataNode TextLabel="SLC35A2" GraphId="b9e42" Type="Protein">
     <Graphics CenterX="1243.5" CenterY="428.0" Width="99.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="P78381" />
-  </DataNode>
-  <DataNode TextLa
+  </DataN
