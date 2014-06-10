@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r75105" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">Electrical transmission across nerve cells is accomplished when the current generated in the upstream neuron spreads to the downstream neuron through a path of low electrical resistance. In neurons this is accomplished at gap junctions. Electrical synapses are found in neuronal tissue where the activity of neurons must be highly synchronized. The neurons responsible for hormone secretion from the mammalian hypothalamus are a class of highly synchronized electric neurons. Gap junctions connecting the presynaptic cell with the postsynaptic cell allow current generated in the presynaptic cell to flow directly into the postsynaptic cell. Transmission speed is dramatically increased in such a system. The junction itself is composed of two hemichannels, one each on the pre- and postsysnaptic cells. These channels are composed of members of the connexin family of proteins. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=112307</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r75755" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+  <Comment Source="Wikipathways-description">Electrical transmission across nerve cells is accomplished when the current generated in the upstream neuron spreads to the downstream neuron through a path of low electrical resistance. In neurons this is accomplished at gap junctions. Electrical synapses are found in neuronal tissue where the activity of neurons must be highly synchronized. The neurons responsible for hormone secretion from the mammalian hypothalamus are a class of highly synchronized electric neurons. Gap junctions connecting the presynaptic cell with the postsynaptic cell allow current generated in the presynaptic cell to flow directly into the postsynaptic cell. Transmission speed is dramatically increased in such a system. The junction itself is composed of two hemichannels, one each on the pre- and postsysnaptic cells. These channels are composed of members of the connexin family of proteins. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=112307</Comment>
   <Graphics BoardWidth="832.0" BoardHeight="541.0" />
   <DataNode TextLabel="PANX1 " GraphId="a04d7" Type="Protein" GroupRef="d02af">
     <Graphics CenterX="430.0" CenterY="461.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
@@ -49,7 +49,7 @@
   <Interaction GraphId="a01d2">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
       <Point X="527.0" Y="339.0" GraphRef="e8062" RelX="-0.008849557522123894" RelY="-1.1666666666666667" />
-      <Point X="528.0" Y="242.0" GraphRef="bd9c9" RelX="97.5" RelY="91.0" ArrowHead="mim-catalysis" />
+      <Point X="528.0" Y="242.0" GraphRef="bd9c9" RelX="97.5" RelY="91.0" />
     </Graphics>
     <Xref Database="Reactome" ID="REACT_16981" />
   </Interaction>
@@ -66,14 +66,14 @@
   <Interaction GraphId="c7c05">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
       <Point X="149.0" Y="330.0" GraphRef="f819c" RelX="0.0" RelY="-1.12" />
-      <Point X="150.0" Y="188.0" GraphRef="f5cd8" RelX="-232.0" RelY="45.0" ArrowHead="mim-catalysis" />
+      <Point X="150.0" Y="188.0" GraphRef="f5cd8" RelX="-232.0" RelY="45.0" />
     </Graphics>
     <Xref Database="Reactome" ID="REACT_16954" />
   </Interaction>
   <Interaction GraphId="d29eb">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
       <Point X="692.0" Y="339.0" GraphRef="bdc80" RelX="-0.008849557522123894" RelY="-1.1666666666666667" />
-      <Point X="692.0" Y="185.0" GraphRef="f245a" RelX="232.5" RelY="39.5" ArrowHead="mim-catalysis" />
+      <Point X="692.0" Y="185.0" GraphRef="f245a" RelX="232.5" RelY="39.5" />
     </Graphics>
     <Xref Database="Reactome" ID="REACT_17030" />
   </Interaction>
@@ -104,4 +104,7 @@
       <Point X="462.0" Y="140.0" />
       <Anchor Position="0.5" Shape="None" GraphId="f245a" />
     </Graphics>
-    <Xref Database="Reactome" ID="REACT_17030"
+    <Xref Database="Reactome" ID="REACT_17030" />
+  </Interaction>
+  <Interaction GraphId="f83aa">
+    <Graphics Connecto
