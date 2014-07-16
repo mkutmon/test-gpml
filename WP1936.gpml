@@ -1,98 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of inorganic cations/anions and amino acids/oligopeptides" Data-Source="WikiPathways" Version="WP1936_r75882" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">Teleologically, one might argue that inorganic cation and anion transport would be evolutionarily among the oldest transport functions. Eight families comprise the group that transports exclusively inorganic cations and anions across membranes : SLC4 plays a pivotal role in mediating Na+- and/or Clâ€“-dependent transport of basic anions [e.g. HCO3â€“, (CO3)2â€“] in various tissues and cell types (in addition to pH regulation, specific members of this family also contribute to vectorial trans-epithelial base transport in several organ systems including the kidney, pancreas, and eye) (Pushkin A and Kurtz I, 2006); SLC8 is a group of Na+/Ca2+ exchangers (SLC8A1 is involved in cardiac contractility) (Quednau BD et al, 2004); SLC24 is a group of Na+/Ca2+ or Na+/K+ exchangers (Altimimi HF and Schnetkamp PP, 2007); SLC9 comprises Na+/H+ exchanger proteins involved in the electroneutral exchange of sodium ion and protons (Orlowski J and Grinstein S, 2004); SLC12 functions as Na+, K+ and Clâ€“ ion electroneutral symporters (Hebert SC et al, 2004); SLC26 is the trans-epithelial multifunctional anion (e.g. sulfate, oxalate, HCO3â€“, Clâ€“) exchanger family, important in cartilage development, production of thyroid hormone, sound amplification in the cochlea etc (Sindic A et al, 2007; Dorwart MR et al, 2008; Ashmore J, 2008). SLC34 is an important Type II Na+/(HPO4)2â€“ symporter (Forster IC et al, 2006; Virkki LV et al, 2007); SLC20 was originally identified as a viral receptor, and functions as a Type III Na+/(H2PO4)â€“ symporter (Collins JF et al, 2004; Virkki LV et al, 2007). Eight SLC gene families are involved in the transport of amino acids and oligopeptides. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=425393</Comment>
-  <BiopaxRef>b64</BiopaxRef>
-  <BiopaxRef>cb5</BiopaxRef>
-  <BiopaxRef>bb7</BiopaxRef>
-  <BiopaxRef>ef9</BiopaxRef>
-  <BiopaxRef>f96</BiopaxRef>
-  <BiopaxRef>b04</BiopaxRef>
-  <BiopaxRef>ffe</BiopaxRef>
-  <BiopaxRef>c73</BiopaxRef>
-  <BiopaxRef>ac9</BiopaxRef>
-  <BiopaxRef>d23</BiopaxRef>
-  <BiopaxRef>f78</BiopaxRef>
-  <BiopaxRef>e6a</BiopaxRef>
-  <Graphics BoardWidth="6013.0" BoardHeight="2061.0" />
-  <DataNode TextLabel="Ca2+" GraphId="a0233" Type="Metabolite">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of inorganic cations/anions and amino acids/oligopeptides" Data-Source="WikiPathways" Version="WP1936_r76549" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Teleologically, one might argue that inorganic cation and anion transport would be evolutionarily among the oldest transport functions. Eight families comprise the group that transports exclusively inorganic cations and anions across membranes : SLC4 plays a pivotal role in mediating Na+- and/or Clâ€“-dependent transport of basic anions [e.g. HCO3â€“, (CO3)2â€“] in various tissues and cell types (in addition to pH regulation, specific members of this family also contribute to vectorial trans-epithelial base transport in several organ systems including the kidney, pancreas, and eye) (Pushkin A and Kurtz I, 2006); SLC8 is a group of Na+/Ca2+ exchangers (SLC8A1 is involved in cardiac contractility) (Quednau BD et al, 2004); SLC24 is a group of Na+/Ca2+ or Na+/K+ exchangers (Altimimi HF and Schnetkamp PP, 2007); SLC9 comprises Na+/H+ exchanger proteins involved in the electroneutral exchange of sodium ion and protons (Orlowski J and Grinstein S, 2004); SLC12 functions as Na+, K+ and Clâ€“ ion electroneutral symporters (Hebert SC et al, 2004); SLC26 is the trans-epithelial multifunctional anion (e.g. sulfate, oxalate, HCO3â€“, Clâ€“) exchanger family, important in cartilage development, production of thyroid hormone, sound amplification in the cochlea etc (Sindic A et al, 2007; Dorwart MR et al, 2008; Ashmore J, 2008). SLC34 is an important Type II Na+/(HPO4)2â€“ symporter (Forster IC et al, 2006; Virkki LV et al, 2007); SLC20 was originally identified as a viral receptor, and functions as a Type III Na+/(H2PO4)â€“ symporter (Collins JF et al, 2004; Virkki LV et al, 2007). Eight SLC gene families are involved in the transport of amino acids and oligopeptides.Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=425393</Comment>
+  <BiopaxRef>b50</BiopaxRef>
+  <BiopaxRef>de6</BiopaxRef>
+  <BiopaxRef>ee6</BiopaxRef>
+  <BiopaxRef>ebd</BiopaxRef>
+  <BiopaxRef>cad</BiopaxRef>
+  <BiopaxRef>f59</BiopaxRef>
+  <BiopaxRef>fb3</BiopaxRef>
+  <BiopaxRef>e34</BiopaxRef>
+  <BiopaxRef>a30</BiopaxRef>
+  <BiopaxRef>cfd</BiopaxRef>
+  <BiopaxRef>e12</BiopaxRef>
+  <BiopaxRef>a17</BiopaxRef>
+  <Attribute Key="reactome_id" Value="425393" />
+  <Graphics BoardWidth="6013.0" BoardHeight="2301.0" />
+  <DataNode TextLabel="SLC9A1-5" GraphId="a018b">
+    <Attribute Key="reactome_id" Value="425963" />
+    <Graphics CenterX="508.0" CenterY="181.0" Width="128.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_20090" />
+  </DataNode>
+  <DataNode TextLabel="L-Ala" GraphId="a03fa" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="352036" />
+    <Graphics CenterX="90.0" CenterY="327.0" Width="72.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16977" />
+  </DataNode>
+  <DataNode TextLabel="SLC38A4" GraphId="a04d1" Type="Protein">
+    <Attribute Key="reactome_id" Value="352134" />
+    <Graphics CenterX="1337.5" CenterY="1368.0" Width="61.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q969I6" />
+  </DataNode>
+  <DataNode TextLabel="Na+" GraphId="a085a" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="83910" />
+    <Graphics CenterX="2097.5" CenterY="257.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="L-Ser [cytosol]" GraphId="a08f1" Type="Metabolite" GroupRef="aad77">
+    <Attribute Key="reactome_id" Value="200736" />
+    <Graphics CenterX="380.0" CenterY="2016.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17115" />
+  </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="a0bd6" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="352022" />
+    <Graphics CenterX="1573.5" CenterY="245.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17996" />
+  </DataNode>
+  <DataNode TextLabel="L-Gln" GraphId="a0fa4" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="29472" />
+    <Graphics CenterX="270.5" CenterY="1104.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18050" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+" GraphId="a116a" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="74016" />
     <Graphics CenterX="2403.0" CenterY="276.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29108" />
   </DataNode>
-  <DataNode TextLabel="H+" GraphId="a0d2b" Type="Metabolite">
-    <Graphics CenterX="3372.0" CenterY="1452.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:15378" />
-  </DataNode>
-  <DataNode TextLabel="L-Glu" GraphId="a0f81" Type="Metabolite">
-    <Graphics CenterX="4924.5" CenterY="1287.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16015" />
-  </DataNode>
-  <DataNode TextLabel="SLC17A5" GraphId="a183f" Type="Protein">
-    <Graphics CenterX="2502.0" CenterY="697.0" Width="38.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9NRA2" />
-  </DataNode>
-  <DataNode TextLabel="Na+" GraphId="a20fe" Type="Metabolite">
-    <Graphics CenterX="2172.0" CenterY="691.5" Width="44.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29101" />
-  </DataNode>
-  <DataNode TextLabel="L-Tyr " GraphId="a2261" Type="Metabolite" GroupRef="d6c97">
-    <Graphics CenterX="870.0" CenterY="1921.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17895" />
-  </DataNode>
-  <DataNode TextLabel="H+" GraphId="a28f2" Type="Metabolite">
-    <Graphics CenterX="1222.0" CenterY="277.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:15378" />
-  </DataNode>
-  <DataNode TextLabel="ligands of SLC6A19" GraphId="a2b7d" Type="Metabolite">
-    <Graphics CenterX="3907.0" CenterY="1238.5" Width="74.0" Height="49.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_15227" />
-  </DataNode>
-  <DataNode TextLabel="Glu " GraphId="a3040" Type="Metabolite" GroupRef="d7e87">
-    <Graphics CenterX="1090.0" CenterY="1701.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16015" />
-  </DataNode>
-  <DataNode TextLabel="PEPT cotransporters" GraphId="a30dd">
-    <Graphics CenterX="5780.0" CenterY="190.0" Width="92.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_19865" />
-  </DataNode>
-  <DataNode TextLabel="SLC38A3" GraphId="a31e8" Type="Protein">
+  <DataNode TextLabel="SLC38A3" GraphId="a139e" Type="Protein">
+    <Attribute Key="reactome_id" Value="352171" />
     <Graphics CenterX="1146.5" CenterY="1368.0" Width="61.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q99624" />
   </DataNode>
-  <DataNode TextLabel="L-Gln " GraphId="a3d68" Type="Metabolite" GroupRef="d220b">
-    <Graphics CenterX="980.0" CenterY="1721.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:18050" />
+  <DataNode TextLabel="L-Lys [cytosol]" GraphId="a13a0" Type="Metabolite" GroupRef="aad77">
+    <Attribute Key="reactome_id" Value="351979" />
+    <Graphics CenterX="380.0" CenterY="1836.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18019" />
   </DataNode>
-  <DataNode TextLabel="L-Ala " GraphId="a3fa6" Type="Metabolite" GroupRef="d7e87">
-    <Graphics CenterX="1090.0" CenterY="1621.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16977" />
+  <DataNode TextLabel="ligands of SLC7A1&#xA;and SLC7A2 isoform B" GraphId="a13d2" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="375781" />
+    <Graphics CenterX="4097.5" CenterY="1276.0" Width="143.0" Height="58.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="Reactome" ID="REACT_15195" />
   </DataNode>
-  <DataNode TextLabel="Na+-driven Cl-/HCO3- exchanger proteins" GraphId="a416d">
-    <Graphics CenterX="1066.0" CenterY="187.5" Width="90.0" Height="73.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_19659" />
+  <DataNode TextLabel="L-Ile [extracellular&#xA;region]" GraphId="a15f2" Type="Metabolite" GroupRef="f1729">
+    <Attribute Key="reactome_id" Value="352001" />
+    <Graphics CenterX="520.0" CenterY="1896.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17191" />
   </DataNode>
-  <DataNode TextLabel="SLC6A18" GraphId="a4515" Type="Protein">
-    <Graphics CenterX="2301.5" CenterY="1368.0" Width="61.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q96N87" />
+  <DataNode TextLabel="L-Pro" GraphId="a169c" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="113538" />
+    <Graphics CenterX="2488.5" CenterY="1267.0" Width="69.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17203" />
   </DataNode>
-  <DataNode TextLabel="Acids transported by SMCT1" GraphId="a4695" Type="Metabolite">
-    <Graphics CenterX="5610.5" CenterY="297.5" Width="101.0" Height="59.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_19944" />
+  <DataNode TextLabel="L-Met [extracellular&#xA;region]" GraphId="a1791" Type="Metabolite" GroupRef="f1729">
+    <Attribute Key="reactome_id" Value="351966" />
+    <Graphics CenterX="520.0" CenterY="1986.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16643" />
   </DataNode>
-  <DataNode TextLabel="H+" GraphId="a474b" Type="Metabolite">
-    <Graphics CenterX="2044.0" CenterY="614.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+  <DataNode TextLabel="H+" GraphId="a1bc2" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="351626" />
+    <Graphics CenterX="443.0" CenterY="222.0" Width="36.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15378" />
   </DataNode>
-  <DataNode TextLabel="L-Thr " GraphId="a4b63" Type="Metabolite" GroupRef="d220b">
-    <Graphics CenterX="980.0" CenterY="1881.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16857" />
+  <DataNode TextLabel="Ca2+" GraphId="a226e" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="74112" />
+    <Graphics CenterX="2409.0" CenterY="90.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29108" />
   </DataNode>
-  <DataNode TextLabel="K+" GraphId="a4b64" Type="Metabolite">
-    <Graphics CenterX="3176.5" CenterY="129.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29103" />
-  </DataNode>
-  <DataNode TextLabel="L-Ser" GraphId="a5461" Type="Metabolite">
-    <Graphics CenterX="358.0" CenterY="686.0" Width="48.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17115" />
-  </DataNode>
-  <DataNode TextLabel="L-Lys " GraphId="a54ae" Type="Metabolite" GroupRef="d6c97">
-    
+  <DataNode TextLabel="Na+" GraphId="a23c3" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="425971" />
+    <Graphics CenterX="903.0" CenterY="648.0" Width="80.0" Height="30.0" ZOrder="32768" FontSize="10" Valign
