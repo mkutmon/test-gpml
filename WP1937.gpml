@@ -1,113 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of vitamins, nucleosides, and related molecules" Data-Source="WikiPathways" Version="WP1937_r76078" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">This pathway groups the processes mediated by SLC transporters, by which vitamins and cofactors, as well as nucleosides, nucleotides, nucleobases, and related molecules cross lipid bilayer membranes. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=425397</Comment>
-  <Graphics BoardWidth="1834.0" BoardHeight="1308.0" />
-  <DataNode TextLabel="UDP-sugars" GraphId="a1108" Type="Metabolite">
-    <Graphics CenterX="827.5" CenterY="946.5" Width="91.0" Height="61.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_23127" />
-  </DataNode>
-  <DataNode TextLabel="UMP" GraphId="a1ed7" Type="Metabolite">
-    <Graphics CenterX="770.0" CenterY="599.5" Width="44.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16695" />
-  </DataNode>
-  <DataNode TextLabel="SLCO3A1 substrates" GraphId="a35d1" Type="Metabolite">
-    <Graphics CenterX="1403.0" CenterY="323.5" Width="134.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_24849" />
-  </DataNode>
-  <DataNode TextLabel="albumin&#xA;bile salt and acid " GraphId="a4c21" Type="Complex">
-    <Graphics CenterX="1645.0" CenterY="486.0" Width="128.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_10829" />
-  </DataNode>
-  <DataNode TextLabel="SLCO2B1 substrates" GraphId="a4f93" Type="Metabolite">
-    <Graphics CenterX="1679.0" CenterY="181.5" Width="134.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_24278" />
-  </DataNode>
-  <DataNode TextLabel="UMP" GraphId="a83a0" Type="Metabolite">
-    <Graphics CenterX="1211.0" CenterY="487.5" Width="44.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16695" />
-  </DataNode>
-  <DataNode TextLabel="ligands of SLC29A1" GraphId="a9f0e" Type="Metabolite">
-    <Graphics CenterX="882.5" CenterY="57.5" Width="133.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_8580" />
-  </DataNode>
-  <DataNode TextLabel="UDP-GlcNAc" GraphId="aa71a" Type="Metabolite">
-    <Graphics CenterX="248.5" CenterY="984.0" Width="89.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16264" />
-  </DataNode>
-  <DataNode TextLabel="glycocholate " GraphId="aa826" Type="Metabolite" GroupRef="e5af6">
-    <Graphics CenterX="320.0" CenterY="1188.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17687" />
-  </DataNode>
-  <DataNode TextLabel="UDP-sugars" GraphId="ab677" Type="Metabolite">
-    <Graphics CenterX="542.5" CenterY="940.5" Width="147.0" Height="53.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_23247" />
-  </DataNode>
-  <DataNode TextLabel="ligands of SLC29A2" GraphId="ac31e" Type="Metabolite">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of vitamins, nucleosides, and related molecules" Data-Source="WikiPathways" Version="WP1937_r76753" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">This pathway groups the processes mediated by SLC transporters, by which vitamins and cofactors, as well as nucleosides, nucleotides, nucleobases, and related molecules cross lipid bilayer membranes.Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=425397</Comment>
+  <Attribute Key="reactome_id" Value="425397" />
+  <Graphics BoardWidth="1834.0" BoardHeight="1658.0" />
+  <DataNode TextLabel="ligands of SLC29A2" GraphId="a019b" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="179742" />
     <Graphics CenterX="1039.5" CenterY="197.5" Width="133.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="Reactome" ID="REACT_8574" />
   </DataNode>
-  <DataNode TextLabel="SLC5A6" GraphId="aeb38" Type="Protein">
-    <Graphics CenterX="167.5" CenterY="527.5" Width="45.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9Y289" />
+  <DataNode TextLabel="UDP-sugars" GraphId="a109f" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="744229" />
+    <Graphics CenterX="542.5" CenterY="940.5" Width="147.0" Height="53.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="Reactome" ID="REACT_23247" />
   </DataNode>
-  <DataNode TextLabel="SLC28A1" GraphId="aeffd" Type="Protein">
-    <BiopaxRef>dee</BiopaxRef>
-    <Graphics CenterX="239.0" CenterY="130.5" Width="64.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="O00337" />
+  <DataNode TextLabel="albumin:bile salt&#xA;and acid (OATP-A)&#xA;complex" GraphId="a1284" Type="Complex">
+    <Attribute Key="reactome_id" Value="194110" />
+    <Graphics CenterX="1645.0" CenterY="486.0" Width="128.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_10829" />
   </DataNode>
-  <DataNode TextLabel="Ac-CoA" GraphId="b1571" Type="Metabolite">
-    <Graphics CenterX="795.0" CenterY="364.5" Width="82.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:15351" />
+  <DataNode TextLabel="T3/T4 hormones" GraphId="a1442" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="879628" />
+    <Graphics CenterX="1229.5" CenterY="218.5" Width="113.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="Reactome" ID="REACT_24262" />
   </DataNode>
-  <DataNode TextLabel="taurocholate " GraphId="b1811" Type="Metabolite" GroupRef="ae43e">
-    <Graphics CenterX="210.0" CenterY="1228.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:28865" />
+  <DataNode TextLabel="ligands of SLC29A3" GraphId="a16e9" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="727782" />
+    <Graphics CenterX="498.5" CenterY="364.5" Width="133.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="Reactome" ID="REACT_22517" />
   </DataNode>
-  <DataNode TextLabel="CMP-SA" GraphId="b266e" Type="Metabolite">
-    <Graphics CenterX="983.5" CenterY="349.5" Width="109.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16556" />
+  <DataNode TextLabel="vitamins transported&#xA;by SMVT" GraphId="a20ad" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="429605" />
+    <Graphics CenterX="100.5" CenterY="429.0" Width="137.0" Height="46.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="Reactome" ID="REACT_23003" />
   </DataNode>
-  <DataNode TextLabel="cholate bile salts" GraphId="b370e" Type="Metabolite">
+  <DataNode TextLabel="cholate bile salts" GraphId="a23c5" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="194097" />
     <Graphics CenterX="1437.5" CenterY="655.0" Width="107.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="Reactome" ID="REACT_10246" />
   </DataNode>
-  <DataNode TextLabel="UDP-xyl" GraphId="b3829" Type="Metabolite">
-    <Graphics CenterX="752.0" CenterY="761.5" Width="82.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16082" />
-  </DataNode>
-  <DataNode TextLabel="ALB " GraphId="b41fc" Type="Protein" GroupRef="ae43e">
-    <Graphics CenterX="210.0" CenterY="1148.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P02768" />
-  </DataNode>
-  <DataNode TextLabel="ligands of SLC28A3" GraphId="b4820" Type="Metabolite">
-    <Graphics CenterX="470.5" CenterY="44.5" Width="133.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_8379" />
-  </DataNode>
-  <DataNode TextLabel="PAPS" GraphId="b4aa3" Type="Metabolite">
-    <Graphics CenterX="1344.5" CenterY="719.5" Width="51.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17980" />
-  </DataNode>
-  <DataNode TextLabel="taurocholate " GraphId="b5657" Type="Metabolite" GroupRef="e5af6">
-    <Graphics CenterX="320.0" CenterY="1208.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:28865" />
-  </DataNode>
-  <DataNode TextLabel="SLC33A1" GraphId="b614d" Type="Protein">
+  <DataNode TextLabel="SLC33A1" GraphId="a24ea" Type="Protein">
+    <Attribute Key="reactome_id" Value="727745" />
     <Graphics CenterX="707.0" CenterY="434.0" Width="126.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="O00400" />
   </DataNode>
-  <DataNode TextLabel="SLC35D2" GraphId="b74b7" Type="Protein">
-    <Graphics CenterX="666.0" CenterY="882.0" Width="126.0" Height="68.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q76EJ3" />
+  <DataNode TextLabel="SLCO2B1 substrates" GraphId="a37b8" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="879553" />
+    <Graphics CenterX="1679.0" CenterY="181.5" Width="134.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="Reactome" ID="REACT_24278" />
   </DataNode>
-  <DataNode TextLabel="taurochenodeoxycholate " GraphId="b8bfb" Type="Metabolite" GroupRef="ae43e">
-    <Graphics CenterX="210.0" CenterY="1268.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:9407" />
+  <DataNode TextLabel="Na+" GraphId="a549a" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="83910" />
+    <Graphics CenterX="351.5" CenterY="185.5" Width="81.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
   </DataNode>
-  <DataNode TextLabel="SLC35C1" GraphId="b95bf" Type="Protein">
-    <Graphics CenterX="1270.5" CenterY="795.5" Width="49.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q96A29" />
+  <DataNode TextLabel="Na+" GraphId="a618c" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="83910" />
+    <Graphics CenterX="265.5" CenterY="507.5" Width="81.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
   </DataNode>
-  <DataNode TextLabel="SLC35A2" GraphId="b9e42" Type="Protein">
-    <Graphics CenterX="1243.5" CenterY="428.0" Width="99.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P78381" />
-  </DataN
+  <DataNode TextLabel="SLC35B2,3" GraphId="a734a" Type="Protein">
+    <Attribute Key="reactome_id" Value="3465611" />
+    <Graphics CenterX="1270.0" CenterY="670.0" Width="72.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_164729" />
+  </DataNode>
+  <DataNode TextLabel="SLC35A3" GraphId="a8bd2" Type="Protein">
+    <Attribute Key="reactome_id" Value="741452" />
+    <Graphics CenterX="665.0" CenterY="577.5" Width="124.0" Height="53.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9Y2D2" />
+  </DataNode>
+  <DataNode TextLabel="GDP-Man" GraphId="aba33" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="162860" />
+    <Graphics CenterX="1367.5" CenterY="904.0" Width="97.0" Height="46.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15820" />
+  </DataNode>
+  <DataNode TextLabel="vitamins transported&#xA;by SMVT" GraphId="abb21" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="429627" />
+    <Graphics CenterX="265.5" CenterY="442.0" Width="137.0" Height="46.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="Reactome" ID="REACT_22987" />
+  </DataNode>
+  <DataNode TextLabel="chenodeoxycholate&#xA;[extracellular&#xA;region]" GraphId="ac6aa" Type="Metabolite" GroupRef="cf544">
+    <Attribute Key="reactome_id" Value="192442" />
+    <Graphics CenterX="100.0" CenterY="1413.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16755" />
+  </DataNode>
+  <DataNode TextLabel="Na+" GraphId="ac6f3" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="74113" />
+    <Graphics CenterX="83.5" CenterY="501.5" Width="81.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="UDP-Xyl" GraphId="ad523" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="742353" />
+    <Graphics CenterX="589.0" CenterY="762.5" Width="82.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16082" />
+  </DataNode>
+  <DataNode TextLabel="UDP-GlcNAc" GraphId="b3c14" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="2142871" />
+    <Graphics CenterX="248.5" CenterY="984.0" Width="89.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16264" />
+  </DataNode>
+  <DataNode TextLabel="SLC29A1" GraphId="b7027" Type="Protein">
+    <BiopaxRef>bb8</BiopaxRef>
+    <Attribute Key="reactome_id" Value="54335" />
+    <Graphics CenterX="815.0" CenterY="128.5" Width="64.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99808" />
+  </DataNode>
+  <DataNode TextLabel="ligands of SLC28A3" GraphId="b963c" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="179743" />
+    <Graphics CenterX="478.5" CenterY="219.5" Width="133.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="Reactome" ID="REACT_8767" />
+  </DataNode>
+  <DataNode TextLabel="ligands of SLC29A1" GraphId="ba9cd" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="179746" />
+    <Graphics CenterX="882.5" CenterY="199.5" Width="133.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="Reactome" ID="REACT_8358" />
+  </DataNode>
+  <DataNode TextLabel="GDP-Fuc" GraphId="babed" Type="Metabolite">
+    <Att
