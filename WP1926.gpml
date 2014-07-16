@@ -1,96 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis, Secretion, and Deacylation of Ghrelin" Data-Source="WikiPathways" Version="WP1926_r75933" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">Ghrelin is a peptide hormone of 28 amino acid residues which is acylated at the serine-3 of the mature peptide. Ghrelin is synthesized in several tissues: X/A-like cells of the gastric mucosa (the major source of ghrelin), hypothalamus, pituitary, adrenal gland, thyroid, breast, ovary, placenta, fallopian tube, testis, prostate, liver, gall bladder, pancreas, fat tissue, human lymphocytes, spleen, kidney, lung, skeletal muscle, myocardium, vein and skin. Ghrelin binds the GHS-R1a receptor present in hypothalamus pituitary, and other tissues. Binding causes appetite stimulation and release of growth hormone. Levels of circulating ghrelin rise during fasting, peak before a meal, and fall according to the calories ingested.&lt;br&gt;Preproghrelin is cleaved to yield proghrelin which is then acylated by ghrelin O-acyltransferase to yield octanoyl ghrelin and decanoyl ghrelin. Only octanoyl ghrelin is able to bind and activate the GHS-R1a receptor. Unacylated ghrelin (des-acyl ghrelin) is also present in plasma but its function is controversial.&lt;br&gt;Acyl proghrelin is cleaved by prohormone convertase 1/3 to yield the mature acyl ghrelin and C-ghrelin. Secretion of ghrelin is inhibited by insulin, growth hormone (somatotropin), leptin, glucose, glucagon, and fatty acids. Secretion is stimulated by insulin-like growth factor-1 and muscarinic agonists.&lt;br&gt;In the bloodstream acyl ghrelin is deacylated by butyrylcholinesterase and platelet-activating factor acetylhydrolase. Other enzymes may also deacylate acyl ghrelin. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=422085</Comment>
-  <BiopaxRef>e7a</BiopaxRef>
-  <BiopaxRef>b46</BiopaxRef>
-  <Graphics BoardWidth="1572.0" BoardHeight="983.0" />
-  <DataNode TextLabel="SPCS3 " GraphId="a4848" Type="Protein" GroupRef="a4c98">
-    <Graphics CenterX="100.0" CenterY="943.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P61009" />
-  </DataNode>
-  <DataNode TextLabel="SEC11A " GraphId="a531b" Type="Protein" GroupRef="a4c98">
-    <Graphics CenterX="100.0" CenterY="863.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P67812" />
-  </DataNode>
-  <DataNode TextLabel="SPCS1 " GraphId="a95a5" Type="Protein" GroupRef="a4c98">
-    <Graphics CenterX="100.0" CenterY="903.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9Y6A9" />
-  </DataNode>
-  <DataNode TextLabel="Preproghrelin and prepro-des-Gln14-ghrelin" GraphId="aebf1" Type="Protein">
-    <Graphics CenterX="120.0" CenterY="342.0" Width="112.0" Height="66.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_19780" />
-  </DataNode>
-  <DataNode TextLabel="Acyl Ghrelin" GraphId="b1b42" Type="Protein">
-    <Graphics CenterX="877.5" CenterY="413.0" Width="125.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_20017" />
-  </DataNode>
-  <DataNode TextLabel="4xHC-INS" GraphId="b5d3f" Type="Protein" GroupRef="e601f">
-    <Graphics CenterX="210.0" CenterY="863.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01308" />
-  </DataNode>
-  <DataNode TextLabel="MBOAT4" GraphId="b8b61" Type="Protein">
-    <Graphics CenterX="614.0" CenterY="478.5" Width="98.0" Height="55.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q96T53" />
-  </DataNode>
-  <DataNode TextLabel="GHRL-1" GraphId="ba342" Type="Protein">
-    <Graphics CenterX="875.5" CenterY="585.0" Width="125.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9UBU3-1" />
-  </DataNode>
-  <DataNode TextLabel="FAs" GraphId="bd1a9" Type="Metabolite">
-    <Graphics CenterX="1269.0" CenterY="335.5" Width="48.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:35366" />
-  </DataNode>
-  <DataNode TextLabel="DECA" GraphId="c05a8" Type="Metabolite">
-    <Graphics CenterX="376.5" CenterY="549.0" Width="69.0" Height="42.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:30813" />
-  </DataNode>
-  <DataNode TextLabel="GH1" GraphId="c17c7" Type="Protein">
-    <Comment Source="Reactome">Growth hormone is typically used to refer to the endogenous hormone - somatotropin is reserved for synthetic hormone produced by recombinant technology.</Comment>
-    <Graphics CenterX="1251.0" CenterY="211.0" Width="76.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01241" />
-  </DataNode>
-  <DataNode TextLabel="IGF1" GraphId="c1eff" Type="Protein">
-    <Graphics CenterX="1031.5" CenterY="206.0" Width="35.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P05019" />
-  </DataNode>
-  <DataNode TextLabel="LEP" GraphId="c27fd" Type="Protein">
-    <Graphics CenterX="1224.5" CenterY="150.5" Width="65.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P41159" />
-  </DataNode>
-  <DataNode TextLabel="Glucagon" GraphId="c6562" Type="Protein">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis, Secretion, and Deacylation of Ghrelin" Data-Source="WikiPathways" Version="WP1926_r76602" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Ghrelin is a peptide hormone of 28 amino acid residues which is acylated at the serine-3 of the mature peptide. Ghrelin is synthesized in several tissues: X/A-like cells of the gastric mucosa (the major source of ghrelin), hypothalamus, pituitary, adrenal gland, thyroid, breast, ovary, placenta, fallopian tube, testis, prostate, liver, gall bladder, pancreas, fat tissue, human lymphocytes, spleen, kidney, lung, skeletal muscle, myocardium, vein and skin. Ghrelin binds the GHS-R1a receptor present in hypothalamus pituitary, and other tissues. Binding causes appetite stimulation and release of growth hormone. Levels of circulating ghrelin rise during fasting, peak before a meal, and fall according to the calories ingested.&lt;br&gt;Preproghrelin is cleaved to yield proghrelin which is then acylated by ghrelin O-acyltransferase to yield octanoyl ghrelin and decanoyl ghrelin. Only octanoyl ghrelin is able to bind and activate the GHS-R1a receptor. Unacylated ghrelin (des-acyl ghrelin) is also present in plasma but its function is controversial.&lt;br&gt;Acyl proghrelin is cleaved by prohormone convertase 1/3 to yield the mature acyl ghrelin and C-ghrelin. Secretion of ghrelin is inhibited by insulin, growth hormone (somatotropin), leptin, glucose, glucagon, and fatty acids. Secretion is stimulated by insulin-like growth factor-1 and muscarinic agonists.&lt;br&gt;In the bloodstream acyl ghrelin is deacylated by butyrylcholinesterase and platelet-activating factor acetylhydrolase. Other enzymes may also deacylate acyl ghrelin.Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=422085</Comment>
+  <BiopaxRef>a9b</BiopaxRef>
+  <BiopaxRef>e37</BiopaxRef>
+  <Attribute Key="reactome_id" Value="422085" />
+  <Graphics BoardWidth="1572.0" BoardHeight="1223.0" />
+  <DataNode TextLabel="Glucagon" GraphId="a98a6" Type="Protein">
+    <Attribute Key="reactome_id" Value="163626" />
     <Graphics CenterX="1277.0" CenterY="271.0" Width="78.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="P01275" />
   </DataNode>
-  <DataNode TextLabel="insulin" GraphId="ca714" Type="Complex">
-    <Graphics CenterX="1111.0" CenterY="204.0" Width="74.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_5828" />
+  <DataNode TextLabel="PCSK1 [secretory&#xA;granule lumen]" GraphId="aa45a" Type="Protein" GroupRef="e7fea">
+    <Attribute Key="reactome_id" Value="378951" />
+    <Graphics CenterX="100.0" CenterY="1148.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P29120" />
   </DataNode>
-  <DataNode TextLabel="Signal Peptidase" GraphId="cd027" Type="Complex">
-    <Graphics CenterX="122.5" CenterY="517.0" Width="127.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_15945" />
+  <DataNode TextLabel="Glc" GraphId="adf17" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="70115" />
+    <Graphics CenterX="1270.5" CenterY="397.5" Width="43.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17925" />
   </DataNode>
-  <DataNode TextLabel="O-octanoyl-L-serine-GHRL-1" GraphId="d0641" Type="Protein">
-    <Graphics CenterX="552.5" CenterY="333.0" Width="127.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+  <DataNode TextLabel="DecS-GHRL-1(24-117)" GraphId="aef90" Type="Protein">
+    <Attribute Key="reactome_id" Value="422031" />
+    <Graphics CenterX="549.0" CenterY="606.5" Width="126.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q9UBU3-1" />
   </DataNode>
-  <DataNode TextLabel="Acyl Proghrelin" GraphId="d2114" Type="Protein">
+  <DataNode TextLabel="FAs" GraphId="b2711" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="422024" />
+    <Graphics CenterX="1269.0" CenterY="335.5" Width="48.0" Height="37.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:35366" />
+  </DataNode>
+  <DataNode TextLabel="Preproghrelin and&#xA;prepro-des-Gln14-ghrelin" GraphId="b5e06" Type="Protein">
+    <Attribute Key="reactome_id" Value="422026" />
+    <Graphics CenterX="120.0" CenterY="342.0" Width="112.0" Height="66.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_19780" />
+  </DataNode>
+  <DataNode TextLabel="Acyl Proghrelin" GraphId="b78f5" Type="Protein">
+    <Attribute Key="reactome_id" Value="422078" />
     <Graphics CenterX="762.5" CenterY="333.0" Width="125.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Reactome" ID="REACT_20024" />
   </DataNode>
-  <DataNode TextLabel="Ca2+ " GraphId="d899a" Type="Metabolite" GroupRef="c9836">
-    <Graphics CenterX="320.0" CenterY="883.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+  <DataNode TextLabel="GHRL-1(52-117)" GraphId="ba873" Type="Protein">
+    <Attribute Key="reactome_id" Value="422052" />
+    <Graphics CenterX="1235.0" CenterY="519.5" Width="80.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UBU3-1" />
+  </DataNode>
+  <DataNode TextLabel="Butyrylcholinesterase" GraphId="bf4da" Type="Protein">
+    <Comment Source="Reactome">This CandidateSet contains sequences identified by William Pearson's analysis of Reactome catalyst entities. Catalyst entity sequences were used to identify analagous sequences that shared overall homology and active site homology. Sequences in this Candidate set were identified in an April 24, 2012 analysis.</Comment>
+    <Attribute Key="reactome_id" Value="2990868" />
+    <Graphics CenterX="1477.5" CenterY="688.0" Width="129.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_161413" />
+  </DataNode>
+  <DataNode TextLabel="LEP" GraphId="c387b" Type="Protein">
+    <Attribute Key="reactome_id" Value="400490" />
+    <Graphics CenterX="1224.5" CenterY="150.5" Width="65.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P41159" />
+  </DataNode>
+  <DataNode TextLabel="Ca2+ [secretory&#xA;granule lumen]" GraphId="c63f5" Type="Metabolite" GroupRef="e7fea">
+    <Attribute Key="reactome_id" Value="216801" />
+    <Graphics CenterX="100.0" CenterY="1178.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29108" />
   </DataNode>
-  <DataNode TextLabel="KLF4" GraphId="da55c" Type="Protein">
-    <Graphics CenterX="195.5" CenterY="138.0" Width="67.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="O43474" />
+  <DataNode TextLabel="GH1" GraphId="caa73" Type="Protein">
+    <Comment Source="Reactome">Growth hormone is typically used to refer to the endogenous hormone - somatotropin is reserved for synthetic hormone produced by recombinant technology.</Comment>
+    <Attribute Key="reactome_id" Value="422070" />
+    <Graphics CenterX="1251.0" CenterY="211.0" Width="76.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01241" />
   </DataNode>
-  <DataNode TextLabel="Octanoic acid" GraphId="da67b" Type="Metabolite">
-    <Graphics CenterX="373.0" CenterY="313.5" Width="94.0" Height="43.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:28837" />
+  <DataNode TextLabel="Signal Peptidase" GraphId="cf49a" Type="Complex">
+    <Attribute Key="reactome_id" Value="264960" />
+    <Graphics CenterX="122.5" CenterY="517.0" Width="127.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_15945" />
   </DataNode>
-  <DataNode TextLabel="GHRL-1" GraphId="dd0ba" Type="Protein">
+  <DataNode TextLabel="Des-acyl Ghrelin" GraphId="d2999" Type="Protein">
+    <Attribute Key="reactome_id" Value="422045" />
+    <Graphics CenterX="1227.5" CenterY="781.0" Width="111.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_19664" />
+  </DataNode>
+  <DataNode TextLabel="PLA2G7" GraphId="d6205" Type="Protein">
+    <Attribute Key="reactome_id" Value="422074" />
+    <Graphics CenterX="1096.5" CenterY="692.0" Width="127.0" Height="76.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13093" />
+  </DataNode>
+  <DataNode TextLabel="GHRL-1(24-117)" GraphId="d726f" Type="Protein">
+    <Attribute Key="reactome_id" Value="422102" />
     <Graphics CenterX="381.5" CenterY="433.5" Width="67.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q9UBU3-1" />
   </DataNode>
-  <D
+  <DataNode TextLabel="GHRL-1(52-117)" GraphId="dec32" Type="Protein">
+    <Attribute Key="reactome_id" Value="422053" />
+    <Graphics CenterX="875.5" CenterY="585.0" Width="125.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Dat
