@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCR signaling" Data-Source="WikiPathways" Version="WP1927_r76655" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCR signaling" Data-Source="WikiPathways" Version="WP1927_r76950" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">The TCR is a multisubunit complex that consists of clonotypic alpha/beta chains noncovalently associated with the invariant CD3 delta/epsilon/gamma and TCR zeta chains. T cell activation by antigen presenting cells (APCs) results in the activation of protein tyrosine kinases (PTKs) that associate with CD3 and TCR zeta subunits and the co-receptor CD4. Members of the Src kinases (Lck), Syk kinases (ZAP-70), Tec (Itk) and Csk families of nonreceptor PTKs play a crucial role in T cell activation. Activation of PTKs following TCR engagement results in the recruitment and tyrosine phosphorylation of enzymes such as phospholipase C gamma1 and Vav as well as critical adaptor proteins such as LAT, SLP-76 and Gads. These proximal activation leads to reorganization of the cytoskeleton as well as transcription activation of multiple genes leading to T lymphocyte proliferation, differentiation and/or effector function. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=202403</Comment>
-  <BiopaxRef>b71</BiopaxRef>
-  <BiopaxRef>e9b</BiopaxRef>
-  <BiopaxRef>ea1</BiopaxRef>
+  <BiopaxRef>a41</BiopaxRef>
+  <BiopaxRef>ea0</BiopaxRef>
+  <BiopaxRef>c51</BiopaxRef>
   <Attribute Key="reactome_id" Value="202403" />
   <Graphics BoardWidth="3960.0" BoardHeight="3331.0" />
-  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DRB1-10&#xA;beta chain [plasma&#xA;membrane]" GraphId="a0182" Type="Protein" GroupRef="b9af3">
+  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DRB1-10&#xA;beta chain [plasma&#xA;membrane]" GraphId="a0112" Type="Protein" GroupRef="d7558">
     <Attribute Key="reactome_id" Value="1235082" />
     <Graphics CenterX="2760.0" CenterY="2626.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q30167" />
   </DataNode>
-  <DataNode TextLabel="UBE2V1 [cytosol]" GraphId="a055b" Type="Protein" GroupRef="c9805">
-    <Attribute Key="reactome_id" Value="205753" />
-    <Graphics CenterX="3320.0" CenterY="2436.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q13404" />
+  <DataNode TextLabel="CD3D [plasma&#xA;membrane]" GraphId="a0229" Type="Protein" GroupRef="c09d3">
+    <Attribute Key="reactome_id" Value="198171" />
+    <Graphics CenterX="380.0" CenterY="2366.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04234" />
   </DataNode>
-  <DataNode TextLabel="p-Y160,Y171-CD3G&#xA;[plasma membrane]" GraphId="a0753" Type="Protein" GroupRef="b54db">
-    <Attribute Key="reactome_id" Value="202362" />
-    <Graphics CenterX="1920.0" CenterY="2436.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P09693" />
+  <DataNode TextLabel="p-5Y-LAT [plasma&#xA;membrane]" GraphId="a0335" Type="Protein" GroupRef="fec4e">
+    <Attribute Key="reactome_id" Value="202364" />
+    <Graphics CenterX="2060.0" CenterY="2306.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43561" />
   </DataNode>
-  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DQB1*0602&#xA;beta chain precursor&#xA;[plasma membrane]" GraphId="a082f" Type="Protein" GroupRef="f53ae">
-    <Attribute Key="reactome_id" Value="197647" />
-    <Graphics CenterX="1500.0" CenterY="2476.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01920" />
+  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DRB1-15&#xA;beta chain [plasma&#xA;membrane]" GraphId="a08e6" Type="Protein" GroupRef="bce8f">
+    <Attribute Key="reactome_id" Value="197644" />
+    <Graphics CenterX="520.0" CenterY="2876.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01911" />
   </DataNode>
-  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DQ [plasma&#xA;membrane]" GraphId="a09ee" Type="Protein" GroupRef="fecf0">
-    <Attribute Key="reactome_id" Value="197578" />
-    <Graphics CenterX="800.0" CenterY="2276.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01920" />
+  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DR beta 4&#xA;chain [plasma&#xA;membrane]" GraphId="a0c4b" Type="Protein" GroupRef="d7558">
+    <Attribute Key="reactome_id" Value="882032" />
+    <Graphics CenterX="2760.0" CenterY="2426.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13762" />
   </DataNode>
-  <DataNode TextLabel="phospho tyrosine&#xA;ZAP-70" GraphId="a0d58" Type="Complex">
-    <Attribute Key="reactome_id" Value="202345" />
-    <Graphics CenterX="96.0" CenterY="926.0" Width="112.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_13031" />
+  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DRB1-11&#xA;beta chain [plasma&#xA;membrane]" GraphId="a0e63" Type="Protein" GroupRef="d94d9">
+    <Attribute Key="reactome_id" Value="1235089" />
+    <Graphics CenterX="940.0" CenterY="2776.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20039" />
   </DataNode>
-  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DQ [plasma&#xA;membrane]" GraphId="a1222" Type="Protein" GroupRef="ed61e">
-    <Attribute Key="reactome_id" Value="197585" />
-    <Graphics CenterX="240.0" CenterY="2096.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01909" />
+  <DataNode TextLabel="TRAC(?-142) [plasma&#xA;membrane]" GraphId="a0e99" Type="Protein" GroupRef="bac44">
+    <Attribute Key="reactome_id" Value="198175" />
+    <Graphics CenterX="100.0" CenterY="2106.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01848" />
   </DataNode>
-  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DP alpha&#xA;chain precursor&#xA;[plasma membrane]" GraphId="a1315" Type="Protein" GroupRef="fd609">
-    <Attribute Key="reactome_id" Value="197586" />
-    <Graphics CenterX="1780.0" CenterY="2096.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P20036" />
+  <DataNode TextLabel="BCL10 [cytosol]" GraphId="a0fdf" Type="Protein" GroupRef="f9891">
+    <Attribute Key="reactome_id" Value="202447" />
+    <Graphics CenterX="3040.0" CenterY="2246.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O95999" />
   </DataNode>
-  <DataNode TextLabel="p-S552-CARD11(1-1147)&#xA;[cytosol]" GraphId="a144e" Type="Protein" GroupRef="adb0b">
-    <Attribute Key="reactome_id" Value="202438" />
-    <Graphics CenterX="3600.0" CenterY="1916.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9BXL7" />
+  <DataNode TextLabel="TRAC(?-142) [plasma&#xA;membrane]" GraphId="a10cc" Type="Protein" GroupRef="f8b2e">
+    <Attribute Key="reactome_id" Value="198175" />
+    <Graphics CenterX="2620.0" CenterY="2116.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01848" />
   </DataNode>
-  <DataNode TextLabel="p-Y771,Y783,Y1254-PLCG1" GraphId="a17f0" Type="Protein">
-    <Attribute Key="reactome_id" Value="202357" />
-    <Graphics CenterX="2031.0" CenterY="1813.0" Width="108.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P19174" />
+  <DataNode TextLabel="ATP" GraphId="a11c0" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="113592" />
+    <Graphics CenterX="1677.0" CenterY="153.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15422" />
   </DataNode>
-  <DataNode TextLabel="RIPK2" GraphId="a1869" Type="Protein">
+  <DataNode TextLabel="T-cell receptor&#xA;alpha chain V region&#xA;HPB-MLT precursor&#xA;[plasma membrane]" GraphId="a128f" Type="Protein" GroupRef="f22eb">
+    <Attribute Key="reactome_id" Value="198178" />
+    <Graphics CenterX="1080.0" CenterY="2056.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04436" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DR alpha&#xA;chain precursor&#xA;[plasma membrane]" GraphId="a14c0" Type="Protein" GroupRef="d7558">
+    <Attribute Key="reactome_id" Value="197588" />
+    <Graphics CenterX="2760.0" CenterY="2146.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01903" />
+  </DataNode>
+  <DataNode TextLabel="Pi" GraphId="a16d3" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="29372" />
+    <Graphics CenterX="597.5" CenterY="206.0" Width="27.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18367" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DRB1-1 beta&#xA;chain [plasma&#xA;membrane]" GraphId="a1a51" Type="Protein" GroupRef="b0fd5">
+    <Attribute Key="reactome_id" Value="882034" />
+    <Graphics CenterX="1500.0" CenterY="2676.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04229" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DRB3-1 beta&#xA;chain precursor&#xA;[plasma membrane]" GraphId="a1e2a" Type="Protein" GroupRef="b2ced">
+    <Attribute Key="reactome_id" Value="197577" />
+    <Graphics CenterX="1780.0" CenterY="3276.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P79483" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DRB1-4 beta&#xA;chain [plasma&#xA;membrane]" GraphId="a1f24" Type="Protein" GroupRef="aefb0">
+    <Attribute Key="reactome_id" Value="882031" />
+    <Graphics CenterX="1220.0" CenterY="3076.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13760" />
+  </DataNode>
+  <DataNode TextLabel="NCK1 [cytosol]" GraphId="a24a2" Type="Protein" GroupRef="eae2a">
+    <Attribute Key="reactome_id" Value="197954" />
+    <Graphics CenterX="3880.0" CenterY="1916.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P16333" />
+  </DataNode>
+  <DataNode TextLabel="RIPK2" GraphId="a27a2" Type="Protein">
     <Attribute Key="reactome_id" Value="168402" />
-    <Graphics CenterX="2986.5" CenterY="154.0" Width="35.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="O43353" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DRB1-16&#xA;beta chain [plasma&#xA;membrane]" GraphId="a187e" Type="Protein" GroupRef="fd609">
-    <Attribute Key="reactome_id" Value="882035" />
-    <Graphics CenterX="1780.0" CenterY="3026.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q29974" />
-  </DataNode>
-  <DataNode TextLabel="Antigen-bearing MHC&#xA;Class II: TCR with&#xA;phosphorylated&#xA;ITAMs:CD4" GraphId="a1c57" Type="Complex">
-    <Attribute Key="reactome_id" Value="203494" />
-    <Graphics CenterX="98.0" CenterY="492.0" Width="130.0" Height="64.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_12725" />
-  </DataNode>
-  <DataNode TextLabel="GRAP2 [cytosol]" GraphId="a214a" Type="Protein" GroupRef="f5cba">
-    <Attribute Key="reactome_id" Value="202367" />
-    <Graphics CenterX="2060.0" CenterY="2526.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="O75791" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DQ [plasma&#xA;membrane]" GraphId="a246c" Type="Protein" GroupRef="df3e6">
-    <Attribute Key="reactome_id" Value="197576" />
-    <Graphics CenterX="940.0" CenterY="2146.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01906" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II&#xA;histocompatibility&#xA;antigen, DP alpha&#xA;chain precursor&#xA;[plasma membrane]" GraphId="a2798" Type="Protein" GroupRef="df3e6">
-    <Attribute Key="reactome_id" Value="197586" />
-    <Graphics CenterX="940.0" CenterY="2096.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P20036" />
-  </DataNode>
-  <DataNode TextLabel="TRBC1(?-177) [plasma&#xA;membrane]" GraphId="a2a75" Type="Protein" GroupRef="e4c70">
-    <Attribute Key="reactome_id" Value="198188" />
-    <Graphics CenterX="100.0" CenterY="2296.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01850" />
-  </DataNode>
-  <DataNode TextLabel="p-BCL10 [cytosol]" GraphId="a2b4a" Type="Protein" GroupRef="ed35d">
-    <Attribute Key="reactome_id" Value="202488" />
-    <Graphics CenterX="3600.0" CenterY="2096.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Mi
+    <Graphics CenterX="2986.5" CenterY="154.0" Width="35.0
