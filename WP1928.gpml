@@ -1,84 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Telomere Maintenance" Data-Source="WikiPathways" Version="WP1928_r76598" Author="MaintBot[Maintenance bot];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Telomere Maintenance" Data-Source="WikiPathways" Version="WP1928_r76893" Author="MaintBot[Maintenance bot];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">Telomeres are protein-DNA complexes at the ends of linear chromosomes that are important for genome stability. Telomeric DNA in humans, as in many eukaryotic organisms, consists of tandem repeats (Blackburn and Gall 1978; Moyzis et al. 1988; Meyne et al. 1989). The repeats at human telomeres are composed of TTAGGG sequences and stretch for several kilobase pairs. Another feature of telomeric DNA in many eukaryotes is a G-rich 3' single strand overhang, which in humans is estimated to be approximately 50-300 bases long (Makarov et al. 1997; Wright et al. 1997; Huffman et al. 2000). Telomeric DNA isolated from humans and several other organisms can form a lasso-type structure called a t-loop in which the 3' single-strand end is presumed to invade the double stranded telomeric DNA repeat tract (Griffith et al. 1999). Telomeric DNA is bound by multiple protein factors that play important roles in regulating telomere length and in protecting the chromosome end from recombination, non-homologous end-joining, DNA damage signaling, and unregulated nucleolytic attack (reviewed in de Lange 2005). &lt;br&gt;&lt;br&gt;&lt;br&gt;DNA attrition can occur at telomeres, which can impact cell viability. Attrition can occur owing to the "end-replication problem", a consequence of the mechanism of lagging-strand synthesis (Watson 1972; Olovnikov 1973). Besides incomplete replication, nucleolytic processing also likely contributes to telomere attrition (Huffman et al. 2000). If telomeres become critically shortened, replicative senescence can result (Harley et al. 1990). Thus, in order to undergo multiple divisions, cells need a mechanism to replenish the sequence at their chromosome ends.&lt;br&gt;&lt;br&gt;&lt;br&gt;The primary means for maintaining the sequence at chromosome ends in many eukaryotic organisms, including humans, is based on telomerase (Greider and Blackburn, 1985; Morin 1989). Telomerase is a ribonucleoprotein complex minimally composed of a conserved protein subunit containing a reverse transcriptase domain (telomerase reverse transcriptase, TERT) (Lingner et al. 1997; Nakamura et al. 1997) and a template-containing RNA (telomerase RNA component, TERC, TR, TER) (Greider and Blackburn, 1987; Feng et al 1995). Telomerase uses the RNA template to direct addition of multiple tandem repeats to the 3' G-rich single strand overhang. Besides extension by telomerase, maintenance of telomeric DNA involves additional activities, including C-strand synthesis, which fills in the opposing strand, and nucleolytic processing, which likely contributes to the generation of the 3' overhang.&lt;br&gt;Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=157579</Comment>
-  <BiopaxRef>bed</BiopaxRef>
-  <BiopaxRef>e30</BiopaxRef>
-  <BiopaxRef>bc3</BiopaxRef>
-  <BiopaxRef>a10</BiopaxRef>
-  <BiopaxRef>e52</BiopaxRef>
-  <BiopaxRef>a94</BiopaxRef>
-  <BiopaxRef>a4e</BiopaxRef>
-  <BiopaxRef>a79</BiopaxRef>
+  <BiopaxRef>f7d</BiopaxRef>
+  <BiopaxRef>eb7</BiopaxRef>
+  <BiopaxRef>cba</BiopaxRef>
+  <BiopaxRef>f6e</BiopaxRef>
+  <BiopaxRef>ade</BiopaxRef>
+  <BiopaxRef>c20</BiopaxRef>
+  <BiopaxRef>d4c</BiopaxRef>
+  <BiopaxRef>f93</BiopaxRef>
   <Attribute Key="reactome_id" Value="157579" />
   <Graphics BoardWidth="1585.0" BoardHeight="1786.0" />
-  <DataNode TextLabel="GMP" GraphId="a0815" Type="Metabolite">
+  <DataNode TextLabel="Telomerase RNA&#xA;Component (TERC)&#xA;[nucleoplasm]" GraphId="a020c" Type="Protein" GroupRef="ab3ec">
+    <Attribute Key="reactome_id" Value="163077" />
+    <Graphics CenterX="100.0" CenterY="1111.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="EMBL" ID="U86046" />
+  </DataNode>
+  <DataNode TextLabel="TERF2IP(2-399)&#xA;[nucleoplasm]" GraphId="a02cc" Type="Protein" GroupRef="aaee8">
+    <Attribute Key="reactome_id" Value="174873" />
+    <Graphics CenterX="1500.0" CenterY="1201.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NYB0" />
+  </DataNode>
+  <DataNode TextLabel="POLD4 [nucleoplasm]" GraphId="a0502" Type="Protein" GroupRef="f4cfa">
+    <Attribute Key="reactome_id" Value="68447" />
+    <Graphics CenterX="240.0" CenterY="1381.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HCU8" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="a1799" Type="Metabolite">
+    <Attribute Key="reactome_id" Value="29358" />
+    <Graphics CenterX="1504.5" CenterY="411.0" Width="39.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15422" />
+  </DataNode>
+  <DataNode TextLabel="G-strand Chromosome&#xA;end with two&#xA;additional single&#xA;strand repeats -&#xA;Telomeric&#xA;[nucleoplasm]" GraphId="a1a59" Type="Metabolite" GroupRef="e354b">
+    <Attribute Key="reactome_id" Value="163085" />
+    <Graphics CenterX="1220.0" CenterY="1521.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15986" />
+  </DataNode>
+  <DataNode TextLabel="GMP" GraphId="a206c" Type="Metabolite">
     <Attribute Key="reactome_id" Value="29626" />
     <Graphics CenterX="1251.0" CenterY="799.0" Width="42.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17345" />
   </DataNode>
-  <DataNode TextLabel="DKC1 [nucleoplasm]" GraphId="a091d" Type="Protein" GroupRef="d2991">
+  <DataNode TextLabel="RPA3 [nucleoplasm]" GraphId="a34b9" Type="Protein" GroupRef="bc8cf">
+    <Attribute Key="reactome_id" Value="68459" />
+    <Graphics CenterX="1080.0" CenterY="1111.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35244" />
+  </DataNode>
+  <DataNode TextLabel="DKC1 [nucleoplasm]" GraphId="a3702" Type="Protein" GroupRef="ab3ec">
     <Attribute Key="reactome_id" Value="163102" />
     <Graphics CenterX="100.0" CenterY="1141.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="O60832" />
   </DataNode>
-  <DataNode TextLabel="PRIM1 [nucleoplasm]" GraphId="a1377" Type="Protein" GroupRef="b7774">
-    <Attribute Key="reactome_id" Value="68497" />
-    <Graphics CenterX="380.0" CenterY="1621.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P49642" />
+  <DataNode TextLabel="RFC&#xA;Heteropentamer:RNA&#xA;primer-DNA&#xA;primer:G-strand&#xA;extended telomere&#xA;end" GraphId="a385c" Type="Complex">
+    <Attribute Key="reactome_id" Value="174454" />
+    <Graphics CenterX="1242.0" CenterY="362.0" Width="122.0" Height="92.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="REACT_8972" />
   </DataNode>
-  <DataNode TextLabel="Processive complex&#xA;loaded on telomere" GraphId="a2ca8" Type="Complex">
-    <Attribute Key="reactome_id" Value="174453" />
-    <Graphics CenterX="1316.5" CenterY="451.0" Width="125.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_8041" />
+  <DataNode TextLabel="POT1 [nucleoplasm]" GraphId="a3b73" Type="Protein" GroupRef="e0c9c">
+    <Attribute Key="reactome_id" Value="174890" />
+    <Graphics CenterX="1360.0" CenterY="1151.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NUX5" />
   </DataNode>
-  <DataNode TextLabel="Telomerase RNA&#xA;Component (TERC)" GraphId="a3e5c" Type="Rna">
-    <Attribute Key="reactome_id" Value="163077" />
-    <Graphics CenterX="141.5" CenterY="177.0" Width="149.0" Height="52.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="EMBL" ID="U86046" />
+  <DataNode TextLabel="TERF1 [nucleoplasm]" GraphId="a3cb2" Type="Protein" GroupRef="f44ad">
+    <Attribute Key="reactome_id" Value="164618" />
+    <Graphics CenterX="1360.0" CenterY="1341.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P54274" />
   </DataNode>
-  <DataNode TextLabel="dTTP" GraphId="a4d99" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="30187" />
-    <Graphics CenterX="733.5" CenterY="186.0" Width="47.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:18077" />
-  </DataNode>
-  <DataNode TextLabel="WRAP53" GraphId="a531e" Type="Protein">
-    <Attribute Key="reactome_id" Value="418386" />
-    <Graphics CenterX="288.5" CenterY="309.0" Width="47.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9BUR4" />
-  </DataNode>
-  <DataNode TextLabel="POLD1 [nucleoplasm]" GraphId="a53d1" Type="Protein" GroupRef="de6aa">
+  <DataNode TextLabel="POLD1 [nucleoplasm]" GraphId="a5890" Type="Protein" GroupRef="c9004">
     <Attribute Key="reactome_id" Value="68449" />
-    <Graphics CenterX="660.0" CenterY="1151.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="380.0" CenterY="1101.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="P28340" />
   </DataNode>
-  <DataNode TextLabel="HIST1H4A&#xA;[nucleoplasm]" GraphId="a5d05" Type="Protein" GroupRef="ffd46">
-    <Attribute Key="reactome_id" Value="181902" />
-    <Graphics CenterX="1360.0" CenterY="1041.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P62805" />
+  <DataNode TextLabel="POLD4 [nucleoplasm]" GraphId="a5a77" Type="Protein" GroupRef="aea88">
+    <Attribute Key="reactome_id" Value="68447" />
+    <Graphics CenterX="1080.0" CenterY="1271.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HCU8" />
   </DataNode>
-  <DataNode TextLabel="POLD3 [nucleoplasm]" GraphId="a66fa" Type="Protein" GroupRef="de6aa">
-    <Attribute Key="reactome_id" Value="68445" />
-    <Graphics CenterX="660.0" CenterY="1111.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q15054" />
-  </DataNode>
-  <DataNode TextLabel="RFC&#xA;Heteropentamer:RNA&#xA;primer-DNA&#xA;primer:G-strand&#xA;extended telomere&#xA;end duplex:PCNA&#xA;homotrimer" GraphId="a67bd" Type="Complex">
-    <Attribute Key="reactome_id" Value="174449" />
-    <Graphics CenterX="1269.0" CenterY="135.0" Width="122.0" Height="106.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_8208" />
-  </DataNode>
-  <DataNode TextLabel="PRIM2 [nucleoplasm]" GraphId="a6dba" Type="Protein" GroupRef="ee0a9">
-    <Attribute Key="reactome_id" Value="68495" />
-    <Graphics CenterX="520.0" CenterY="1431.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P49643" />
-  </DataNode>
-  <DataNode TextLabel="DKC1 [nucleoplasm]" GraphId="a7ac8" Type="Protein" GroupRef="d5126">
-    <Attribute Key="reactome_id" Value="163102" />
-    <Graphics CenterX="100.0" CenterY="1521.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="O60832" />
-  </DataNode>
-  <DataNode TextLabel="POLD3 [nucleoplasm]" GraphId="a97c4" Type="Protein" GroupRef="d9526">
-    <Attribute Key="reactome_id" Value="68445" />
-    <Graphics CenterX="940.0" CenterY="1111.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q15054" />
-  </DataNode>
-  <DataNode TextLabel="FEN1" G
+  <DataNode TextLabel="G-strand Chromosome&#xA;end with two&#xA;additional single&#xA;strand repeats -&#xA;Telomeric&#xA;[nucleoplasm]" GraphId="a63e4" Type="Metabolite" GroupRef="dc05a">
+    <Attribute Key="
