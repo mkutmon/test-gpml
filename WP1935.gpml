@@ -1,112 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds" Data-Source="WikiPathways" Version="WP1935_r76949" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">Hexoses like glucose, galactose and fructose serve as basic fuel molecules for eukaryotic cells. Indeed, glucose is the main energy source for mammalian cells. These sugars are unable to diffuse across cellular membranes, and require transporter proteins for entry into and exit out of cells. Four gene families encode hexose transporter proteins (He et al, 2009). SLC2 family contains 14 genes and encode facilitative glucose transporters (GLUTs) (Uldry M and Thorens B, 2004). SLC5 family contains 12 genes and encode Na+/glucose symporters (Wright EM and Turk E, 2004). SLC37 family contains 4 members and encode sugar-phosphate/phosphate exchangers (Bartoloni L and Antonarakis SE, 2004). SLC45 family has 4 members and encode putative sugar/H+ symporters.Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=425366</Comment>
-  <BiopaxRef>cf7</BiopaxRef>
-  <BiopaxRef>b78</BiopaxRef>
-  <BiopaxRef>e2b</BiopaxRef>
-  <BiopaxRef>ed1</BiopaxRef>
-  <Attribute Key="reactome_id" Value="425366" />
-  <Graphics BoardWidth="5732.0" BoardHeight="1331.0" />
-  <DataNode TextLabel="Fe2+" GraphId="a0773" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="71067" />
-    <Graphics CenterX="2429.0" CenterY="257.0" Width="48.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:18248" />
-  </DataNode>
-  <DataNode TextLabel="Inositols&#xA;transported by SMIT2" GraphId="a1224" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="429652" />
-    <Graphics CenterX="2252.5" CenterY="933.0" Width="109.0" Height="58.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_19525" />
-  </DataNode>
-  <DataNode TextLabel="SLC6A12" GraphId="a17ff" Type="Protein">
-    <Attribute Key="reactome_id" Value="351969" />
-    <Graphics CenterX="4666.5" CenterY="371.0" Width="61.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P48065" />
-  </DataNode>
-  <DataNode TextLabel="Fru" GraphId="a20c8" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="189049" />
-    <Graphics CenterX="469.5" CenterY="93.0" Width="83.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:15824" />
-  </DataNode>
-  <DataNode TextLabel="Na+" GraphId="a3078" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="83910" />
-    <Graphics CenterX="2369.5" CenterY="726.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds" Data-Source="WikiPathways" Version="WP1935_r81475" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Hexoses like glucose, galactose and fructose serve as basic fuel molecules for eukaryotic cells. Indeed, glucose is the main energy source for mammalian cells. These sugars are unable to diffuse across cellular membranes, and require transporter proteins for entry into and exit out of cells. Four gene families encode hexose transporter proteins (He et al, 2009). SLC2 family contains 14 genes and encode facilitative glucose transporters (GLUTs) (Uldry M and Thorens B, 2004). SLC5 family contains 12 genes and encode Na+/glucose symporters (Wright EM and Turk E, 2004). SLC37 family contains 4 members and encode sugar-phosphate/phosphate exchangers (Bartoloni L and Antonarakis SE, 2004). SLC45 family has 4 members and encode putative sugar/H+ symporters. Source:[http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=425366 Reactome].</Comment>
+  <BiopaxRef>a3c</BiopaxRef>
+  <BiopaxRef>d34</BiopaxRef>
+  <BiopaxRef>e0b</BiopaxRef>
+  <BiopaxRef>b48</BiopaxRef>
+  <Graphics BoardWidth="5732.0" BoardHeight="1131.0" />
+  <DataNode TextLabel="Na+" GraphId="a03f8" Type="Metabolite">
+    <Graphics CenterX="4808.0" CenterY="376.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29101" />
   </DataNode>
-  <DataNode TextLabel="Na+" GraphId="a3620" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="74113" />
-    <Graphics CenterX="2845.5" CenterY="902.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29101" />
-  </DataNode>
-  <DataNode TextLabel="Cl-" GraphId="a42bb" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="352022" />
-    <Graphics CenterX="2962.5" CenterY="750.0" Width="37.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17996" />
-  </DataNode>
-  <DataNode TextLabel="Na+" GraphId="a43b3" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="74113" />
-    <Graphics CenterX="4460.5" CenterY="77.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29101" />
-  </DataNode>
-  <DataNode TextLabel="Na+" GraphId="a46c5" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="83910" />
-    <Graphics CenterX="2840.5" CenterY="734.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29101" />
-  </DataNode>
-  <DataNode TextLabel="Cl-" GraphId="a6ae3" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="188972" />
-    <Graphics CenterX="4251.5" CenterY="894.0" Width="37.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17996" />
-  </DataNode>
-  <DataNode TextLabel="Zn2+" GraphId="a6de0" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="29426" />
-    <Graphics CenterX="983.5" CenterY="697.0" Width="49.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29105" />
-  </DataNode>
-  <DataNode TextLabel="CTL1-5" GraphId="a6e30">
-    <Attribute Key="reactome_id" Value="444452" />
-    <Graphics CenterX="1759.0" CenterY="163.0" Width="54.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_20955" />
-  </DataNode>
-  <DataNode TextLabel="Na+" GraphId="a717d" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="83910" />
-    <Graphics CenterX="3096.5" CenterY="256.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29101" />
-  </DataNode>
-  <DataNode TextLabel="Divalent metals&#xA;transported by&#xA;NRAMP1" GraphId="a79e9" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="445829" />
-    <Graphics CenterX="2342.5" CenterY="470.0" Width="115.0" Height="58.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_21144" />
-  </DataNode>
-  <DataNode TextLabel="Ins" GraphId="a8ac6" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="429130" />
-    <Graphics CenterX="2824.0" CenterY="66.0" Width="62.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17268" />
-  </DataNode>
-  <DataNode TextLabel="OCT2 substrates" GraphId="a97f2" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="549266" />
-    <Graphics CenterX="4880.5" CenterY="754.0" Width="85.0" Height="46.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_23290" />
-  </DataNode>
-  <DataNode TextLabel="Ins" GraphId="a9b72" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="429130" />
-    <Graphics CenterX="2532.0" CenterY="937.0" Width="62.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17268" />
-  </DataNode>
-  <DataNode TextLabel="L-Pro" GraphId="a9c85" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="352033" />
-    <Graphics CenterX="4049.5" CenterY="925.0" Width="73.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17203" />
-  </DataNode>
-  <DataNode TextLabel="Cho" GraphId="aa864" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="264618" />
-    <Graphics CenterX="1822.0" CenterY="234.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+  <DataNode TextLabel="Cho" GraphId="a087e" Type="Metabolite">
+    <Graphics CenterX="1434.0" CenterY="257.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15354" />
   </DataNode>
-  <DataNode TextLabel="MCT substrates" GraphId="ab2b4" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="433686" />
-    <Graphics CenterX="394.0" CenterY="299.0" Width="112.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="Reactome" ID="REACT_20996" />
+  <DataNode TextLabel="ligands of SLC6A15" GraphId="a0d90">
+    <Graphics CenterX="5500.5" CenterY="735.0" Width="87.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-352048" />
   </DataNode>
-  <DataNode TextLabel="SLC11A1" GraphId="ab3a3" Type="Protein">
-    <Attribute Key="reactome_id" Value="437103" />
-    <Graphics CenterX="2220.0" CenterY="334.0" Width="60.0" Height="22.0" ZOrder="32768" FontSize="
+  <DataNode TextLabel="Cl-" GraphId="a0dbc" Type="Metabolite">
+    <Graphics CenterX="4515.5" CenterY="460.0" Width="39.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17996" />
+  </DataNode>
+  <DataNode TextLabel="MATE substrates" GraphId="a0f2e">
+    <Graphics CenterX="2646.5" CenterY="86.0" Width="87.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-446589" />
+  </DataNode>
+  <DataNode TextLabel="SLC6A7" GraphId="a1d9d" Type="Protein">
+    <Graphics CenterX="4217.5" CenterY="827.0" Width="75.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99884" />
+  </DataNode>
+  <DataNode TextLabel="GLUT1 tetramer" GraphId="a2227" Type="Complex">
+    <Graphics CenterX="1066.0" CenterY="161.5" Width="62.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-70400" />
+  </DataNode>
+  <DataNode TextLabel="SLC6A14" GraphId="a2344" Type="Protein">
+    <Graphics CenterX="4448.5" CenterY="162.0" Width="87.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UN76" />
+  </DataNode>
+  <DataNode TextLabel="Na+" GraphId="a2784" Type="Metabolite">
+    <Graphics CenterX="3957.0" CenterY="741.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="SLC40A1 " GraphId="a2e9d" Type="Protein" GroupRef="f49df">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-904821" />
+    <Attribute Key="copies_num" Value="null" />
+    <Graphics CenterX="240.0" CenterY="1091.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9NP59" />
+  </DataNode>
+  <DataNode TextLabel="Na+" GraphId="a2ebb" Type="Metabolite">
+    <Graphics CenterX="3096.0" CenterY="256.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="OAT2/4 sulfate&#xA;conjugate&#xA;substrates" GraphId="a4036">
+    <Graphics CenterX="4906.0" CenterY="257.0" Width="120.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-561062" />
+  </DataNode>
+  <DataNode TextLabel="SLC6A2" GraphId="a4095" Type="Protein">
+    <Graphics CenterX="3342.5" CenterY="828.0" Width="75.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P23975" />
+  </DataNode>
+  <DataNode TextLabel="5HT" GraphId="a4a50" Type="Metabolite">
+    <Graphics CenterX="2757.0" CenterY="734.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28790" />
+  </DataNode>
+  <DataNode TextLabel="CIT" GraphId="a52f8" Type="Metabolite">
+    <Graphics CenterX="1884.5" CenterY="922.0" Width="39.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30769" />
+  </DataNode>
+  <DataNode TextLabel="SLC22A4" GraphId="a5fbb" Type="Protein">
+    <Graphics CenterX="5497.5" CenterY="160.0" Width="87.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9H015" />
+  </DataNode>
+  <DataNode TextLabel="Fru, Gal, Glc" GraphId="a6528">
+    <Graphics CenterX="684.5" CenterY="91.0" Width="75.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-189219" />
+  </DataNode>
+  <DataNode TextLabel="2OG" GraphId="a668d" Type="Metabolite">
+    <Graphics CenterX="5035.0" CenterY="245.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:30915" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+" GraphId="a6698" Type="Metabolite">
+    <Graphics CenterX="366.5" CenterY="681.0" Width="61.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29105" />
+  </DataNode>
+  <DataNode TextLabel="SLC6A19" GraphId="a6846" Type="Protein">
+    <Graphics CenterX="4273.5" CenterY="159.0" Width="87.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q695T7" />
+  </DataNode>
+  <DataNode TextLabel="ligands of SLC6A12&#xA;(BGT-1)" GraphId="a6c21">
+    <Graphics CenterX="4864.5" CenterY="426.0" Width="87.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-352007" />
+  </DataNode>
+  <DataNode TextLabel="Na+" GraphId="a7752" Type="Metabolite">
+    <Graphics CenterX="2369.0" CenterY="726.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="Fru,Glc,urate" GraphId="a7e29">
+    <Graphics CenterX="3640.5" CenterY="85.0" Width="109.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-429078" />
+  </DataNode>
+  <DataNode TextLabel="Inositols&#xA;transported by&#xA;SMIT2" GraphId="a87bf">
+    <Graphics CenterX="2252.5" CenterY="933.0" Width="109.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-ALL-429652" />
+  </DataNode>
+  <DataNode TextLabel="Na+" GraphId="a8e4f" Type="Metabolite">
+    <Graphics CenterX="3512.0" CenterY="273.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Dat
