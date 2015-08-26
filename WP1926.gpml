@@ -1,95 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis, Secretion, and Deacylation of Ghrelin" Data-Source="WikiPathways" Version="WP1926_r76897" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">Ghrelin is a peptide hormone of 28 amino acid residues which is acylated at the serine-3 of the mature peptide. Ghrelin is synthesized in several tissues: X/A-like cells of the gastric mucosa (the major source of ghrelin), hypothalamus, pituitary, adrenal gland, thyroid, breast, ovary, placenta, fallopian tube, testis, prostate, liver, gall bladder, pancreas, fat tissue, human lymphocytes, spleen, kidney, lung, skeletal muscle, myocardium, vein and skin. Ghrelin binds the GHS-R1a receptor present in hypothalamus pituitary, and other tissues. Binding causes appetite stimulation and release of growth hormone. Levels of circulating ghrelin rise during fasting, peak before a meal, and fall according to the calories ingested.&lt;br&gt;Preproghrelin is cleaved to yield proghrelin which is then acylated by ghrelin O-acyltransferase to yield octanoyl ghrelin and decanoyl ghrelin. Only octanoyl ghrelin is able to bind and activate the GHS-R1a receptor. Unacylated ghrelin (des-acyl ghrelin) is also present in plasma but its function is controversial.&lt;br&gt;Acyl proghrelin is cleaved by prohormone convertase 1/3 to yield the mature acyl ghrelin and C-ghrelin. Secretion of ghrelin is inhibited by insulin, growth hormone (somatotropin), leptin, glucose, glucagon, and fatty acids. Secretion is stimulated by insulin-like growth factor-1 and muscarinic agonists.&lt;br&gt;In the bloodstream acyl ghrelin is deacylated by butyrylcholinesterase and platelet-activating factor acetylhydrolase. Other enzymes may also deacylate acyl ghrelin.Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=422085</Comment>
-  <BiopaxRef>aea</BiopaxRef>
-  <BiopaxRef>b8b</BiopaxRef>
-  <Attribute Key="reactome_id" Value="422085" />
-  <Graphics BoardWidth="1572.0" BoardHeight="1223.0" />
-  <DataNode TextLabel="Ca2+ [secretory&#xA;granule lumen]" GraphId="a2502" Type="Metabolite" GroupRef="bc177">
-    <Attribute Key="reactome_id" Value="216801" />
-    <Graphics CenterX="100.0" CenterY="1178.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29108" />
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of glycerol from adipocytes to the liver by Aquaporins" Data-Source="WikiPathways" Version="WP1926_r81754" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Triglycerides stored in adipocytes are hydrolyzed to yield fatty acids and glycerol. The glycerol is passively transported out of the adipocyte and into the bloodstream by Aquaporin-7 (AQP7) located in the plasma membrane of adipocytes. Glycerol in the bloodstream is passively transported into liver cells by AQP9 located in the plasma membrane of hepatocytes. Once inside the liver cell the glycerol is a substrate for gluconeogenesis. Source:[http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=432030 Reactome].</Comment>
+  <BiopaxRef>d33</BiopaxRef>
+  <BiopaxRef>a4c</BiopaxRef>
+  <Graphics BoardWidth="962.0" BoardHeight="501.0" />
+  <DataNode TextLabel="Glycerol" GraphId="a1001" Type="Metabolite">
+    <Graphics CenterX="336.0" CenterY="125.5" Width="116.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17754" />
   </DataNode>
-  <DataNode TextLabel="SEC11C [endoplasmic&#xA;reticulum membrane]" GraphId="a908c" Type="Protein" GroupRef="b9b03">
-    <Attribute Key="reactome_id" Value="265065" />
-    <Graphics CenterX="100.0" CenterY="908.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9BY50" />
+  <DataNode TextLabel="AQP7 " GraphId="b0b54" Type="Protein" GroupRef="c353c">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-432243" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="100.0" CenterY="421.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O14520" />
   </DataNode>
-  <DataNode TextLabel="SPCS1 [endoplasmic&#xA;reticulum membrane]" GraphId="abf93" Type="Protein" GroupRef="b9b03">
-    <Attribute Key="reactome_id" Value="264891" />
-    <Graphics CenterX="100.0" CenterY="938.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9Y6A9" />
+  <DataNode TextLabel="AQP9 tetramer" GraphId="ba1a6" Type="Complex">
+    <Comment Source="Reactome">The formation of homotetramers by Aquaporin-9 (AQP9) is inferred from rat AQP9 and from human AQP1, AQP2, AQP3, AQP4, and AQP5.</Comment>
+    <BiopaxRef>df1</BiopaxRef>
+    <Graphics CenterX="777.0" CenterY="263.0" Width="108.0" Height="54.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-432249" />
   </DataNode>
-  <DataNode TextLabel="GHRL-1(24-117)" GraphId="ad88f" Type="Protein">
-    <Attribute Key="reactome_id" Value="422102" />
-    <Graphics CenterX="381.5" CenterY="433.5" Width="67.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9UBU3-1" />
+  <DataNode TextLabel="AQP9 " GraphId="c7c60" Type="Protein" GroupRef="eba09">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-432249" />
+    <Attribute Key="copies_num" Value="4" />
+    <Graphics CenterX="240.0" CenterY="461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43315" />
   </DataNode>
-  <DataNode TextLabel="PLA2G7" GraphId="adb07" Type="Protein">
-    <Attribute Key="reactome_id" Value="422074" />
-    <Graphics CenterX="1096.5" CenterY="692.0" Width="127.0" Height="76.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q13093" />
+  <DataNode TextLabel="AQP7 tetramer" GraphId="e0355" Type="Complex">
+    <Comment Source="Reactome">The formation of homotetramers by Aquaporin-7 (AQP7) is inferred from human AQP1, AQP2, AQP3, AQP4, and AQP5.</Comment>
+    <Graphics CenterX="266.0" CenterY="263.0" Width="108.0" Height="54.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-432243" />
   </DataNode>
-  <DataNode TextLabel="SPCS2 [endoplasmic&#xA;reticulum membrane]" GraphId="af63e" Type="Protein" GroupRef="b9b03">
-    <Attribute Key="reactome_id" Value="264996" />
-    <Graphics CenterX="100.0" CenterY="968.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q15005" />
+  <DataNode TextLabel="Glycerol" GraphId="ea9d6" Type="Metabolite">
+    <Graphics CenterX="704.0" CenterY="132.0" Width="110.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17754" />
   </DataNode>
-  <DataNode TextLabel="GHRL-1(52-117)" GraphId="b1f57" Type="Protein">
-    <Attribute Key="reactome_id" Value="422053" />
-    <Graphics CenterX="875.5" CenterY="585.0" Width="125.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9UBU3-1" />
+  <DataNode TextLabel="glycerol" GraphId="fdc87" Type="Metabolite">
+    <Graphics CenterX="522.0" CenterY="367.5" Width="202.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17754" />
   </DataNode>
-  <DataNode TextLabel="Signal Peptidase" GraphId="b24a6" Type="Complex">
-    <Attribute Key="reactome_id" Value="264960" />
-    <Graphics CenterX="122.5" CenterY="517.0" Width="127.0" Height="28.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_15945" />
-  </DataNode>
-  <DataNode TextLabel="LEP" GraphId="b533e" Type="Protein">
-    <Attribute Key="reactome_id" Value="400490" />
-    <Graphics CenterX="1224.5" CenterY="150.5" Width="65.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P41159" />
-  </DataNode>
-  <DataNode TextLabel="Glc" GraphId="bc0c2" Type="Metabolite">
-    <Attribute Key="reactome_id" Value="70115" />
-    <Graphics CenterX="1270.5" CenterY="397.5" Width="43.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17925" />
-  </DataNode>
-  <DataNode TextLabel="IGF1" GraphId="c1eb7" Type="Protein">
-    <Attribute Key="reactome_id" Value="2404178" />
-    <Graphics CenterX="1031.5" CenterY="206.0" Width="35.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P05019" />
-  </DataNode>
-  <DataNode TextLabel="PC1:calcium cofactor" GraphId="c4117" Type="Complex">
-    <Attribute Key="reactome_id" Value="378974" />
-    <Graphics CenterX="762.5" CenterY="543.0" Width="129.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_17306" />
-  </DataNode>
-  <DataNode TextLabel="Preproghrelin and&#xA;prepro-des-Gln14-ghrelin" GraphId="c68b4" Type="Protein">
-    <Attribute Key="reactome_id" Value="422026" />
-    <Graphics CenterX="120.0" CenterY="342.0" Width="112.0" Height="66.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_19780" />
-  </DataNode>
-  <DataNode TextLabel="PCSK1 [secretory&#xA;granule lumen]" GraphId="c72d1" Type="Protein" GroupRef="bc177">
-    <Attribute Key="reactome_id" Value="378951" />
-    <Graphics CenterX="100.0" CenterY="1148.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P29120" />
-  </DataNode>
-  <DataNode TextLabel="SPCS3 [endoplasmic&#xA;reticulum membrane]" GraphId="c8e99" Type="Protein" GroupRef="b9b03">
-    <Attribute Key="reactome_id" Value="264916" />
-    <Graphics CenterX="100.0" CenterY="998.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P61009" />
-  </DataNode>
-  <DataNode TextLabel="4xHC-INS(90-110)&#xA;[extracellular&#xA;region]" GraphId="cbac4" Type="Protein" GroupRef="a9ef6">
-    <Attribute Key="reactome_id" Value="74672" />
-    <Graphics CenterX="100.0" CenterY="1058.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01308" />
-  </DataNode>
-  <DataNode TextLabel="GHRL-1(52-117)" GraphId="d0dbb" Type="Protein">
-    <Attribute Key="reactome_id" Value="422052" />
-    <Graphics CenterX="1235.0" CenterY="519.5" Width="80.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9UBU3-1" />
-  </DataNode>
-  <DataNode TextLabel="SEC11A [endoplasmic&#xA;reticulum membrane]" GraphId="d11e8" Type="Protein" GroupRef="b9b03">
-    <Attribute Key="reactome_id" Value="265024" />
-    <Graphics CenterX="100.0" CenterY="878.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="
+  <Interaction GraphId="a1f0e">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="266.0" Y="236.0" GraphRef="e0355" RelX="0.0" RelY="-1.0" />
+      <Point X="366.0" Y="263.0" GraphRef="c2288" RelX="-45.0" RelY="21.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432074" />
+  </Interaction>
+  <Interaction GraphId="a67e3">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="336.0" Y="140.0" GraphRef="a1001" RelX="0.0" RelY="0.9354838709677419" />
+      <Point X="339.0" Y="144.0" GraphRef="f4b9a" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432074" />
+  </Interaction>
+  <Interaction GraphId="be742">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="522.0" Y="342.0" GraphRef="fdc87" RelX="0.0" RelY="-1.0" />
+      <Point X="559.0" Y="339.0" GraphRef="cd239" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432049" />
+  </Interaction>
+  <Interaction GraphId="c227b">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="483.0" Y="339.0" GraphRef="edf9d" RelX="1.4399999999999977" RelY="1.9499999999999886" />
+      <Point X="522.0" Y="342.0" GraphRef="fdc87" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432074" />
+  </Interaction>
+  <Interaction GraphId="c2dcc">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="723.0" Y="263.0" GraphRef="ba1a6" RelX="-1.0" RelY="0.0" />
+      <Point X="676.0" Y="262.0" GraphRef="e545c" RelX="46.5" RelY="17.5" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432049" />
+  </Interaction>
+  <Interaction GraphId="df0e4">
+    <Comment Source="Reactome">Aquaporin-7 (AQP7) passively transports glycerol and water across the plasma membrane according to the osmotic gradient. AQP7 is expressed in adipocytes under the direct control of the PPARG and RXRA nuclear receptors. Expression of AQP7 correlates with release of glycerol from adipocytes. AQP7 is seen to translocate from the nuclear periphery to the plasma membrane during adrenaline-stimulated lipolysis. In rat AQP7 also transports urea.</Comment>
+    <BiopaxRef>fe7</BiopaxRef>
+    <BiopaxRef>bf3</BiopaxRef>
+    <BiopaxRef>e8f</BiopaxRef>
+    <BiopaxRef>e07</BiopaxRef>
+    <BiopaxRef>d92</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="339.0" Y="144.0" />
+      <Point X="483.0" Y="339.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f4b9a" />
+      <Anchor Position="0.99" Shape="None" GraphId="edf9d" />
+      <Anchor Position="0.5" Shape="None" GraphId="c2288" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432074" />
+  </Interaction>
+  <Interaction GraphId="fb9c0">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="700.0" Y="150.0" GraphRef="d68c4" RelX="1.4099999999999682" RelY="-1.8899999999999864" />
+      <Point X="704.0" Y="147.0" GraphRef="ea9d6" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432049" />
+  </Interaction>
+  <Interaction GraphId="fcb48">
+    <Comment Source="Reactome">Aquaporin-9 (AQP9) passively transports water, glycerol, urea, and some other small neutral solutes across the plasma membrane according to the osmotic gradient. AQP9 is expressed in the sinusoidal plasma membrane in the liver facing the portal vein where it is believed to be responsible for glycerol uptake as part of gluconeogenesis. AQP9 is also expressed in glia, neurons, and peripheral leukocytes.</Comment>
+    <BiopaxRef>d5c</BiopaxRef>
+    <BiopaxRef>ca9</BiopaxRef>
+    <BiopaxRef>fbe</BiopaxRef>
+    <BiopaxRef>b78</BiopaxRef>
+    <BiopaxRef>d92</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="559.0" Y="339.0" />
+      <Point X="700.0" Y="150.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="cd239" />
+      <Anchor Position="0.99" Shape="None" GraphId="d68c4" />
+      <Anchor Position="0.5" Shape="None" GraphId="e545c" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432049" />
+  </Interaction>
+  <Label TextLabel="cytosol" G
