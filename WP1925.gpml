@@ -1,117 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis of DNA" Data-Source="WikiPathways" Version="WP1925_r76968" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">The actual synthesis of DNA occurs in the S phase of the cell cycle. This includes the initiation of DNA replication, when the first nucleotide of the new strand is laid down during the synthesis of the primer. The DNA replication preinitiation events begin in late M or early G1 phase. Original Pathway at Reactome: http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=69239</Comment>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Synthesis of DNA" Data-Source="WikiPathways" Version="WP1925_r83144" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">The actual synthesis of DNA occurs in the S phase of the cell cycle. This includes the initiation of DNA replication, when the first nucleotide of the new strand is laid down during the synthesis of the primer. The DNA replication preinitiation events begin in late M or early G1 phase. View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=69239 Reactome].</Comment>
   <Attribute Key="reactome_id" Value="69239" />
-  <Graphics BoardWidth="2420.0" BoardHeight="2735.0" />
-  <DataNode TextLabel="PRIM1 [nucleoplasm]" GraphId="a0158" Type="Protein" GroupRef="c38f7">
-    <Attribute Key="reactome_id" Value="68497" />
-    <Graphics CenterX="1780.0" CenterY="1355.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P49642" />
+  <Graphics BoardWidth="2000.0" BoardHeight="2200.0" />
+  <DataNode TextLabel="POLD4 " GraphId="a0386" Type="Protein" GroupRef="f1b08">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-68450" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1360.0" CenterY="1560.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9HCU8" />
   </DataNode>
-  <DataNode TextLabel="MCM5" GraphId="a02d4" Type="Protein">
-    <Attribute Key="reactome_id" Value="68551" />
-    <Graphics CenterX="750.5" CenterY="188.0" Width="43.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P33992" />
-  </DataNode>
-  <DataNode TextLabel="POLA2 [nucleoplasm]" GraphId="a03ea" Type="Protein" GroupRef="b440e">
-    <Attribute Key="reactome_id" Value="68493" />
-    <Graphics CenterX="100.0" CenterY="1645.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q14181" />
-  </DataNode>
-  <DataNode TextLabel="UBC(381-456)&#xA;[cytosol]" GraphId="a0759" Type="Protein" GroupRef="de21d">
-    <Attribute Key="reactome_id" Value="939191" />
-    <Graphics CenterX="660.0" CenterY="1595.0" Width="100.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+  <DataNode TextLabel="UBC(1-76) " GraphId="a03d9" Type="Protein" GroupRef="cf7f8">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-68524" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1400.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
   </DataNode>
-  <DataNode TextLabel="RPA2 [nucleoplasm]" GraphId="a094f" Type="Protein" GroupRef="f3f03">
-    <Attribute Key="reactome_id" Value="68457" />
-    <Graphics CenterX="1780.0" CenterY="1405.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P15927" />
+  <DataNode TextLabel="Mcm2-7 complex" GraphId="a0873" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="840.5" CenterY="114.0" Width="111.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-68558" />
   </DataNode>
-  <DataNode TextLabel="DNA Polymerase delta&#xA;tetramer" GraphId="a0b48" Type="Complex">
-    <Attribute Key="reactome_id" Value="68450" />
-    <Graphics CenterX="1185.0" CenterY="775.0" Width="108.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_5801" />
+  <DataNode TextLabel="MCM6 " GraphId="a094e" Type="Protein" GroupRef="a35dd">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-157563" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1480.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q14566" />
   </DataNode>
-  <DataNode TextLabel="MCM3 [nucleoplasm]" GraphId="a0ba6" Type="Protein" GroupRef="d4c71">
-    <Attribute Key="reactome_id" Value="68546" />
-    <Graphics CenterX="380.0" CenterY="1625.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P25205" />
+  <DataNode TextLabel="RNA primer " GraphId="a0a8e" GroupRef="c16a1">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-68463" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="1640.0" CenterY="1540.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-NUL-68422" />
   </DataNode>
-  <DataNode TextLabel="POLD2 [nucleoplasm]" GraphId="a0e84" Type="Protein" GroupRef="a3649">
-    <Attribute Key="reactome_id" Value="68443" />
-    <Graphics CenterX="1500.0" CenterY="1665.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+  <DataNode TextLabel="PSMB7 " GraphId="a1778" Type="Protein" GroupRef="ce446">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1600.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q99436" />
+  </DataNode>
+  <DataNode TextLabel="PSMD4 " GraphId="a1ff1" Type="Protein" GroupRef="ce446">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1920.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P55036" />
+  </DataNode>
+  <DataNode TextLabel="MCM5 " GraphId="a2396" Type="Protein" GroupRef="d1210">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-68559" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1760.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33992" />
+  </DataNode>
+  <DataNode TextLabel="UBC(153-228) " GraphId="a29cd" Type="Protein" GroupRef="e36d3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68586" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1440.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P0CG48" />
+  </DataNode>
+  <DataNode TextLabel="NTP" GraphId="a2d3a" Type="Complex">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Graphics CenterX="119.0" CenterY="238.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-R-ALL-30595" />
+  </DataNode>
+  <DataNode TextLabel="CCNA2 " GraphId="a341f" Type="Protein" GroupRef="e98db">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-187947" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1680.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P20248" />
+  </DataNode>
+  <DataNode TextLabel="PSMA4 " GraphId="a3721" Type="Protein" GroupRef="ce446">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-68819" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="1380.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P25789" />
+  </DataNode>
+  <DataNode TextLabel="MCM5 " GraphId="a3bfe" Type="Protein" GroupRef="f769d">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-176949" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1080.0" CenterY="1660.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P33992" />
+  </DataNode>
+  <DataNode TextLabel="POLD2 " GraphId="a3cdb" Type="Protein" GroupRef="d1647">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-68451" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1360.0" CenterY="1640.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="P49005" />
   </DataNode>
-  <DataNode TextLabel="PSMC3 [cytosol]" GraphId="a122f" Type="Protein" GroupRef="f8f24">
-    <Attribute Key="reactome_id" Value="68774" />
-    <Graphics CenterX="660.0" CenterY="2185.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P17980" />
+  <DataNode TextLabel="UTP " GraphId="a3dcf" Type="Metabolite" GroupRef="d9103">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-ALL-30595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1320.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15713" />
   </DataNode>
-  <DataNode TextLabel="POLD2 [nucleoplasm]" GraphId="a2345" Type="Protein" GroupRef="dc752">
-    <Attribute Key="reactome_id" Value="68443" />
-    <Graphics CenterX="2200.0" CenterY="1665.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P49005" />
+  <DataNode TextLabel="RPA3 " GraphId="a46a1" Type="Protein" GroupRef="cc06b">
+    <Attribute Key="cellular_location" Value="nucleoplasm" />
+    <Attribute Key="complex_id" Value="R-HSA-68462" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1640.0" CenterY="1320.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35244" />
   </DataNode>
-  <DataNode TextLabel="CDC45 [nucleoplasm]" GraphId="a256f" Type="Protein" GroupRef="d1fc5">
-    <Attribute Key="reactome_id" Value="68563" />
-    <Graphics CenterX="940.0" CenterY="1615.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="O75419" />
+  <DataNode TextLabel="UBA52(1-76) " GraphId="a496f" Type="Protein" GroupRef="dc196">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-113595" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1660.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P62987" />
   </DataNode>
-  <DataNode TextLabel="UBB(1-76) [cytosol]" GraphId="a25db" Type="Protein" GroupRef="de21d">
-    <Attribute Key="reactome_id" Value="939214" />
-    <Graphics CenterX="660.0" CenterY="1375.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P0CG47" />
-  </DataNode>
-  <DataNode TextLabel="LIG1" GraphId="a2773" Type="Protein">
-    <Attribute Key="reactome_id" Value="53787" />
-    <Graphics CenterX="1440.0" CenterY="166.0" Width="78.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P18858" />
-  </DataNode>
-  <DataNode TextLabel="MCM2" GraphId="a2cc6" Type="Protein">
-    <Attribute Key="reactome_id" Value="68557" />
-    <Graphics CenterX="937.5" CenterY="263.0" Width="43.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P49736" />
-  </DataNode>
-  <DataNode TextLabel="RPA heterotrimer" GraphId="a338c" Type="Complex">
-    <Attribute Key="reactome_id" Value="68462" />
-    <Graphics CenterX="1515.5" CenterY="780.0" Width="107.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_3427" />
-  </DataNode>
-  <DataNode TextLabel="POLD3 [nucleoplasm]" GraphId="a357e" Type="Protein" GroupRef="b11b3">
-    <Attribute Key="reactome_id" Value="68445" />
-    <Graphics CenterX="1360.0" CenterY="1695.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q15054" />
-  </DataNode>
-  <DataNode TextLabel="PCNA [nucleoplasm]" GraphId="a358e" Type="Protein" GroupRef="dce32">
-    <Attribute Key="reactome_id" Value="68439" />
-    <Graphics CenterX="1220.0" CenterY="1295.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P12004" />
-  </DataNode>
-  <DataNode TextLabel="PCNA [nucleoplasm]" GraphId="a368e" Type="Protein" GroupRef="a9509">
-    <Attribute Key="reactome_id" Value="68439" />
-    <Graphics CenterX="2200.0" CenterY="1825.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P12004" />
-  </DataNode>
-  <DataNode TextLabel="POLE2 [nucleoplasm]" GraphId="a48e8" Type="Protein" GroupRef="d5023">
-    <Attribute Key="reactome_id" Value="68482" />
-    <Graphics CenterX="100.0" CenterY="1525.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P56282" />
-  </DataNode>
-  <DataNode TextLabel="POLD2 [nucleoplasm]" GraphId="a4d98" Type="Protein" GroupRef="c12b3">
-    <Attribute Key="reactome_id" Value="68443" />
-    <Graphics CenterX="2060.0" CenterY="1775.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P49005" />
-  </DataNode>
-  <DataNode TextLabel="CDK2 [nucleoplasm]" GraphId="a4e81" Type="Protein" GroupRef="d1660">
-    <Attribute Key="reactome_id" Value="68365" />
-    <Graphics CenterX="800.0" CenterY="1285.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P24941" />
-  </DataNode>
-  <DataNode TextLabel="26S proteasome" GraphId="a4f48" Type="Complex">
-    <BiopaxRef>ec0</BiopaxRef>
-    <Attribute Key="reactome_id" Value="68819" />
-    <Graphics CenterX="491.5" CenterY="1183.0" Width="103.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="REACT_2353" />
-  </DataNode>
-  <DataNode TextLab
+  <DataNode TextLabel="POLE2 " GraphId="a4b45" Type="Protein" Group
