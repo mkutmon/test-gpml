@@ -1,110 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r81547" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
-  <Comment Source="WikiPathways-description">Electrical transmission across nerve cells is accomplished when the current generated in the upstream neuron spreads to the downstream neuron through a path of low electrical resistance. In neurons this is accomplished at gap junctions. Electrical synapses are found in neuronal tissue where the activity of neurons must be highly synchronized. The neurons responsible for hormone secretion from the mammalian hypothalamus are a class of highly synchronized electric neurons. Gap junctions connecting the presynaptic cell with the postsynaptic cell allow current generated in the presynaptic cell to flow directly into the postsynaptic cell. Transmission speed is dramatically increased in such a system. The junction itself is composed of two hemichannels, one each on the pre- and postsysnaptic cells. These channels are composed of members of the connexin family of proteins. Source:[http://www.reactome.org/PathwayBrowser/#DB=gk_current&amp;FOCUS_SPECIES_ID=48887&amp;FOCUS_PATHWAY_ID=112307 Reactome].</Comment>
-  <Graphics BoardWidth="880.0" BoardHeight="501.0" />
-  <DataNode TextLabel="Connexin 36 Gap&#xA;Junction Complex" GraphId="a349a" Type="Complex">
-    <Graphics CenterX="527.5" CenterY="360.0" Width="113.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-HSA-375351" />
-  </DataNode>
-  <DataNode TextLabel="GJA10 " GraphId="a4fe3" Type="Protein" GroupRef="d6644">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transmission across Electrical Synapses " Data-Source="WikiPathways" Version="WP1934_r83180" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">Electrical transmission across nerve cells is accomplished when the current generated in the upstream neuron spreads to the downstream neuron through a path of low electrical resistance. In neurons this is accomplished at gap junctions. Electrical synapses are found in neuronal tissue where the activity of neurons must be highly synchronized. The neurons responsible for hormone secretion from the mammalian hypothalamus are a class of highly synchronized electric neurons. Gap junctions connecting the presynaptic cell with the postsynaptic cell allow current generated in the presynaptic cell to flow directly into the postsynaptic cell. Transmission speed is dramatically increased in such a system. The junction itself is composed of two hemichannels, one each on the pre- and postsysnaptic cells. These channels are composed of members of the connexin family of proteins. View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=112307 Reactome].</Comment>
+  <Attribute Key="reactome_id" Value="112307" />
+  <Graphics BoardWidth="832.0" BoardHeight="521.0" />
+  <DataNode TextLabel="PANX1 " GraphId="ac1d6" Type="Protein" GroupRef="b36e3">
     <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-375334" />
-    <Attribute Key="copies_num" Value="13" />
+    <Attribute Key="complex_id" Value="R-HSA-375332" />
+    <Attribute Key="copies_num" Value="6" />
     <Graphics CenterX="520.0" CenterY="461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q969M2" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96RD7" />
   </DataNode>
-  <DataNode TextLabel="Connexin 36/Connexin&#xA;45 Gap Junction&#xA;Complex" GraphId="b6b6e" Type="Complex">
+  <DataNode TextLabel="PANX2 " GraphId="b0109" Type="Protein" GroupRef="b36e3">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-375332" />
+    <Attribute Key="copies_num" Value="11" />
+    <Graphics CenterX="520.0" CenterY="481.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96RD6" />
+  </DataNode>
+  <DataNode TextLabel="GJD2 " GraphId="b2d9a" Type="Protein" GroupRef="ef0f0">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-375351" />
+    <Attribute Key="copies_num" Value="12" />
+    <Graphics CenterX="100.0" CenterY="461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9UKL4" />
+  </DataNode>
+  <DataNode TextLabel="Connexin 36/Connexin&#xA;45 Gap Junction&#xA;Complex" GraphId="b9b5c" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
     <Graphics CenterX="326.5" CenterY="361.0" Width="107.0" Height="64.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
     <Xref Database="Reactome" ID="R-HSA-375333" />
   </DataNode>
-  <DataNode TextLabel="GJD2 " GraphId="b8379" Type="Protein" GroupRef="b09ad">
+  <DataNode TextLabel="Connexin 62 Gap&#xA;Junction Complex" GraphId="bf088" Type="Complex">
     <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-158044" />
-    <Attribute Key="copies_num" Value="13" />
-    <Graphics CenterX="100.0" CenterY="421.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9UKL4" />
+    <Graphics CenterX="692.5" CenterY="360.0" Width="113.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-375341" />
   </DataNode>
-  <DataNode TextLabel="GJD2 " GraphId="c8791" Type="Protein" GroupRef="cda13">
+  <DataNode TextLabel="Pannexin 1/Pannexin&#xA;2 Gap Junction&#xA;Complex" GraphId="cfe22" Type="Complex">
     <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-158044" />
+    <Graphics CenterX="149.0" CenterY="358.0" Width="134.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-375332" />
+  </DataNode>
+  <DataNode TextLabel="GJD2 " GraphId="e858b" Type="Protein" GroupRef="b0ebe">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-375333" />
     <Attribute Key="copies_num" Value="6" />
     <Graphics CenterX="240.0" CenterY="461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q9UKL4" />
   </DataNode>
-  <DataNode TextLabel="K+" GraphId="c9456" Type="Metabolite">
+  <DataNode TextLabel="Connexin 36 Gap&#xA;Junction Complex" GraphId="edc59" Type="Complex">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="527.5" CenterY="360.0" Width="113.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-375351" />
+  </DataNode>
+  <DataNode TextLabel="GJA10 " GraphId="ef16e" Type="Protein" GroupRef="a96fe">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-375341" />
+    <Attribute Key="copies_num" Value="12" />
+    <Graphics CenterX="380.0" CenterY="461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q969M2" />
+  </DataNode>
+  <DataNode TextLabel="GJC1 " GraphId="ef96c" Type="Protein" GroupRef="b0ebe">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-375333" />
+    <Attribute Key="copies_num" Value="11" />
+    <Graphics CenterX="240.0" CenterY="481.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P36383" />
+  </DataNode>
+  <DataNode TextLabel="K+" GraphId="fd8a6" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
     <Graphics CenterX="422.0" CenterY="133.0" Width="74.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29103" />
   </DataNode>
-  <DataNode TextLabel="PANX1 " GraphId="cc8e2" Type="Protein" GroupRef="eb665">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-375349" />
-    <Attribute Key="copies_num" Value="6" />
-    <Graphics CenterX="660.0" CenterY="461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q96RD7" />
-  </DataNode>
-  <DataNode TextLabel="Pannexin 1/Pannexin&#xA;2 Gap Junction&#xA;Complex" GraphId="cde33" Type="Complex">
-    <Graphics CenterX="149.0" CenterY="358.0" Width="134.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-HSA-375332" />
-  </DataNode>
-  <DataNode TextLabel="PANX2 " GraphId="e82ca" Type="Protein" GroupRef="d9c29">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-375325" />
-    <Attribute Key="copies_num" Value="11" />
-    <Graphics CenterX="800.0" CenterY="461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q96RD6" />
-  </DataNode>
-  <DataNode TextLabel="GJC1 " GraphId="f757c" Type="Protein" GroupRef="b2ef1">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-375347" />
-    <Attribute Key="copies_num" Value="11" />
-    <Graphics CenterX="380.0" CenterY="461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P36383" />
-  </DataNode>
-  <DataNode TextLabel="Connexin 62 Gap&#xA;Junction Complex" GraphId="fc909" Type="Complex">
-    <Graphics CenterX="692.5" CenterY="360.0" Width="113.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-HSA-375341" />
-  </DataNode>
-  <Interaction GraphId="a789e">
+  <Interaction GraphId="abc1b">
+    <Comment Source="Reactome">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 62 proteins each.</Comment>
+    <BiopaxRef>b2b</BiopaxRef>
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="459.0" Y="133.0" GraphRef="c9456" RelX="1.0" RelY="0.0" />
-      <Point X="457.0" Y="151.0" GraphRef="fea52" RelX="0.0" RelY="0.0" />
+      <Point X="457.0" Y="151.0" />
+      <Point X="462.0" Y="140.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="aad64" />
+      <Anchor Position="0.99" Shape="None" GraphId="d329b" />
+      <Anchor Position="0.5" Shape="None" GraphId="ec6ef" />
     </Graphics>
     <Xref Database="Reactome" ID="R-HSA-375340" />
   </Interaction>
-  <Interaction GraphId="a9edd">
+  <Interaction GraphId="b0a4f">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="326.0" Y="329.0" GraphRef="b6b6e" RelX="-0.009345794392523364" RelY="-1.0" />
-      <Point X="325.0" Y="241.0" GraphRef="acd11" RelX="-89.0" RelY="90.0" ArrowHead="mim-catalysis" />
+      <Point X="459.0" Y="133.0" GraphRef="fd8a6" RelX="1.0" RelY="0.0" />
+      <Point X="457.0" Y="151.0" GraphRef="aad64" RelX="0.0" RelY="0.0" />
     </Graphics>
-    <Xref Database="Reactome" ID="R-HSA-375330" />
+    <Xref Database="Reactome" ID="R-HSA-375340" />
   </Interaction>
-  <Interaction GraphId="aa73f">
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="408.0" Y="151.0" GraphRef="f3d19" RelX="-0.12000000000000455" RelY="0.0" />
-      <Point X="422.0" Y="148.0" GraphRef="c9456" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
-    </Graphics>
-    <Xref Database="Reactome" ID="R-HSA-375330" />
-  </Interaction>
-  <Interaction GraphId="ae71e">
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="216.0" Y="358.0" GraphRef="cde33" RelX="1.0" RelY="0.0" />
-      <Point X="150.0" Y="188.0" GraphRef="e576e" RelX="-232.0" RelY="45.0" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="Reactome" ID="R-HSA-375339" />
-  </Interaction>
-  <Interaction GraphId="af721">
+  <Interaction GraphId="bc983">
     <Comment Source="Reactome">In this electrical synapse the current generated in the presynaptic cell spreads to the postsynaptic cell through an ion channel composed of two hemi-channels composed of six Connexin 36 proteins each.</Comment>
-    <BiopaxRef>cac</BiopaxRef>
+    <BiopaxRef>d8b</BiopaxRef>
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
       <Point X="425.0" Y="151.0" />
       <Point X="436.0" Y="151.0" />
-      <Anchor Position="0.0" Shape="None" GraphId="b4c6c" />
-      <Anchor Position="0.99" Shape="None" GraphId="d9224" />
-      <Anchor Position="0.5" Shape="None" GraphId="e3317" />
+      <Anchor Position="0.0" Shape="None" GraphId="ba890" />
+      <Anchor Position="0.99" Shape="None" GraphId="eb064" />
+      <Anchor Position="0.5" Shape="None" GraphId="c0ffd" />
     </Graphics>
     <Xref Database="Reactome" ID="R-HSA-375342" />
   </Interaction>
-  <Interaction GraphId="b4cf3">
+  <Interaction GraphId="bccd9">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="382.0" Y="140.0" GraphRef="a0917" RelX="0.0" RelY="-0.060000000000002274" />
-      <Point X="385.0" Y="133.0" GraphRef="c9456" RelX="-
+      <Point X="216.0" Y="358.0" GraphRef="cfe22" RelX="1.0" RelY="0.0" />
+      <Point X="150.0" Y="188.0" GraphRef="ed37f" RelX="-232.0" RelY="45.0" ArrowHead="mim-catalysis" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-H
