@@ -1,118 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of glycerol from adipocytes to the liver by Aquaporins" Data-Source="WikiPathways" Version="WP1926_r83221" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of glycerol from adipocytes to the liver by Aquaporins" Data-Source="WikiPathways" Version="WP1926_r86778" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">Triglycerides stored in adipocytes are hydrolyzed to yield fatty acids and glycerol. The glycerol is passively transported out of the adipocyte and into the bloodstream by Aquaporin-7 (AQP7) located in the plasma membrane of adipocytes. Glycerol in the bloodstream is passively transported into liver cells by AQP9 located in the plasma membrane of hepatocytes. Once inside the liver cell the glycerol is a substrate for gluconeogenesis. View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=432030 Reactome].</Comment>
-  <BiopaxRef>f84</BiopaxRef>
-  <BiopaxRef>ec8</BiopaxRef>
+  <Comment Source="Reactome Converter">Pathway is converted from Reactome id:</Comment>
+  <BiopaxRef>caa</BiopaxRef>
+  <BiopaxRef>c61</BiopaxRef>
   <Attribute Key="reactome_id" Value="432030" />
   <Graphics BoardWidth="962.0" BoardHeight="501.0" />
-  <DataNode TextLabel="AQP7 tetramer" GraphId="a91cb" Type="Complex">
+  <DataNode TextLabel="AQP7 tetramer" GraphId="a9061" Type="Complex">
     <Comment Source="Reactome">The formation of homotetramers by Aquaporin-7 (AQP7) is inferred from human AQP1, AQP2, AQP3, AQP4, and AQP5.</Comment>
     <Attribute Key="cellular_location" Value="plasma membrane" />
     <Graphics CenterX="266.0" CenterY="263.0" Width="108.0" Height="54.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
     <Xref Database="Reactome" ID="R-HSA-432243" />
   </DataNode>
-  <DataNode TextLabel="Glycerol" GraphId="bc0e6" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="336.0" CenterY="125.5" Width="116.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17754" />
+  <DataNode TextLabel="AQP9 tetramer" GraphId="bc8f5" Type="Complex">
+    <Comment Source="Reactome">The formation of homotetramers by Aquaporin-9 (AQP9) is inferred from rat AQP9 and from human AQP1, AQP2, AQP3, AQP4, and AQP5.</Comment>
+    <BiopaxRef>f8d</BiopaxRef>
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="777.0" CenterY="263.0" Width="108.0" Height="54.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-432249" />
   </DataNode>
-  <DataNode TextLabel="AQP7 " GraphId="c81e8" Type="Protein" GroupRef="c25f1">
+  <DataNode TextLabel="AQP7 " GraphId="c793b" Type="Protein" GroupRef="f405a">
     <Attribute Key="cellular_location" Value="plasma membrane" />
     <Attribute Key="complex_id" Value="R-HSA-432243" />
     <Attribute Key="copies_num" Value="4" />
     <Graphics CenterX="100.0" CenterY="421.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="O14520" />
   </DataNode>
-  <DataNode TextLabel="glycerol" GraphId="c8be3" Type="Metabolite">
+  <DataNode TextLabel="Glycerol" GraphId="c8898" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="336.0" CenterY="125.5" Width="116.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17754" />
+  </DataNode>
+  <DataNode TextLabel="glycerol" GraphId="e1ec8" Type="Metabolite">
     <Attribute Key="cellular_location" Value="extracellular region" />
     <Graphics CenterX="522.0" CenterY="367.5" Width="202.0" Height="51.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17754" />
   </DataNode>
-  <DataNode TextLabel="Glycerol" GraphId="d4c4f" Type="Metabolite">
+  <DataNode TextLabel="Glycerol" GraphId="e4175" Type="Metabolite">
     <Attribute Key="cellular_location" Value="cytosol" />
     <Graphics CenterX="704.0" CenterY="132.0" Width="110.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:17754" />
   </DataNode>
-  <DataNode TextLabel="AQP9 " GraphId="d8ac7" Type="Protein" GroupRef="f353f">
+  <DataNode TextLabel="AQP9 " GraphId="e8dde" Type="Protein" GroupRef="b7afe">
     <Attribute Key="cellular_location" Value="plasma membrane" />
     <Attribute Key="complex_id" Value="R-HSA-432249" />
     <Attribute Key="copies_num" Value="4" />
     <Graphics CenterX="240.0" CenterY="461.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="O43315" />
   </DataNode>
-  <DataNode TextLabel="AQP9 tetramer" GraphId="f59d5" Type="Complex">
-    <Comment Source="Reactome">The formation of homotetramers by Aquaporin-9 (AQP9) is inferred from rat AQP9 and from human AQP1, AQP2, AQP3, AQP4, and AQP5.</Comment>
-    <BiopaxRef>b0e</BiopaxRef>
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Graphics CenterX="777.0" CenterY="263.0" Width="108.0" Height="54.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-HSA-432249" />
-  </DataNode>
-  <Interaction GraphId="a14d5">
+  <Interaction GraphId="a0f8f">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="723.0" Y="263.0" GraphRef="f59d5" RelX="-1.0" RelY="0.0" />
-      <Point X="676.0" Y="262.0" GraphRef="fcb73" RelX="46.5" RelY="17.5" ArrowHead="mim-catalysis" />
-    </Graphics>
-    <Xref Database="Reactome" ID="R-HSA-432049" />
-  </Interaction>
-  <Interaction GraphId="b993b">
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="266.0" Y="236.0" GraphRef="a91cb" RelX="0.0" RelY="-1.0" />
-      <Point X="366.0" Y="263.0" GraphRef="b2284" RelX="-45.0" RelY="21.5" ArrowHead="mim-catalysis" />
+      <Point X="336.0" Y="140.0" GraphRef="c8898" RelX="0.0" RelY="0.9354838709677419" />
+      <Point X="339.0" Y="144.0" GraphRef="f0ee1" RelX="0.0" RelY="0.0" />
     </Graphics>
     <Xref Database="Reactome" ID="R-HSA-432074" />
   </Interaction>
-  <Interaction GraphId="bd54f">
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="336.0" Y="140.0" GraphRef="bc0e6" RelX="0.0" RelY="0.9354838709677419" />
-      <Point X="339.0" Y="144.0" GraphRef="f463f" RelX="0.0" RelY="0.0" />
-    </Graphics>
-    <Xref Database="Reactome" ID="R-HSA-432074" />
-  </Interaction>
-  <Interaction GraphId="c718a">
-    <Comment Source="Reactome">Aquaporin-7 (AQP7) passively transports glycerol and water across the plasma membrane according to the osmotic gradient. AQP7 is expressed in adipocytes under the direct control of the PPARG and RXRA nuclear receptors. Expression of AQP7 correlates with release of glycerol from adipocytes. AQP7 is seen to translocate from the nuclear periphery to the plasma membrane during adrenaline-stimulated lipolysis. In rat AQP7 also transports urea.</Comment>
-    <BiopaxRef>feb</BiopaxRef>
-    <BiopaxRef>c2f</BiopaxRef>
-    <BiopaxRef>bcc</BiopaxRef>
-    <BiopaxRef>f89</BiopaxRef>
-    <BiopaxRef>e08</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="339.0" Y="144.0" />
-      <Point X="483.0" Y="339.0" />
-      <Anchor Position="0.0" Shape="None" GraphId="f463f" />
-      <Anchor Position="0.99" Shape="None" GraphId="e201e" />
-      <Anchor Position="0.5" Shape="None" GraphId="b2284" />
-    </Graphics>
-    <Xref Database="Reactome" ID="R-HSA-432074" />
-  </Interaction>
-  <Interaction GraphId="e5364">
+  <Interaction GraphId="abb5f">
     <Comment Source="Reactome">Aquaporin-9 (AQP9) passively transports water, glycerol, urea, and some other small neutral solutes across the plasma membrane according to the osmotic gradient. AQP9 is expressed in the sinusoidal plasma membrane in the liver facing the portal vein where it is believed to be responsible for glycerol uptake as part of gluconeogenesis. AQP9 is also expressed in glia, neurons, and peripheral leukocytes.</Comment>
-    <BiopaxRef>baa</BiopaxRef>
-    <BiopaxRef>ad2</BiopaxRef>
-    <BiopaxRef>b3e</BiopaxRef>
-    <BiopaxRef>cde</BiopaxRef>
-    <BiopaxRef>e08</BiopaxRef>
+    <BiopaxRef>ff6</BiopaxRef>
+    <BiopaxRef>f1b</BiopaxRef>
+    <BiopaxRef>bb8</BiopaxRef>
+    <BiopaxRef>dad</BiopaxRef>
+    <BiopaxRef>db3</BiopaxRef>
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
       <Point X="559.0" Y="339.0" />
       <Point X="700.0" Y="150.0" />
-      <Anchor Position="0.0" Shape="None" GraphId="ec45f" />
-      <Anchor Position="0.99" Shape="None" GraphId="e6e56" />
-      <Anchor Position="0.5" Shape="None" GraphId="fcb73" />
+      <Anchor Position="0.0" Shape="None" GraphId="f61db" />
+      <Anchor Position="0.99" Shape="None" GraphId="ef25a" />
+      <Anchor Position="0.5" Shape="None" GraphId="d6e2f" />
     </Graphics>
     <Xref Database="Reactome" ID="R-HSA-432049" />
   </Interaction>
-  <Interaction GraphId="eb746">
+  <Interaction GraphId="be63b">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="483.0" Y="339.0" GraphRef="e201e" RelX="1.4399999999999977" RelY="1.9499999999999886" />
-      <Point X="522.0" Y="342.0" GraphRef="c8be3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+      <Point X="700.0" Y="150.0" GraphRef="ef25a" RelX="1.4099999999999682" RelY="-1.8899999999999864" />
+      <Point X="704.0" Y="147.0" GraphRef="e4175" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432049" />
+  </Interaction>
+  <Interaction GraphId="d013d">
+    <Comment Source="Reactome">Aquaporin-7 (AQP7) passively transports glycerol and water across the plasma membrane according to the osmotic gradient. AQP7 is expressed in adipocytes under the direct control of the PPARG and RXRA nuclear receptors. Expression of AQP7 correlates with release of glycerol from adipocytes. AQP7 is seen to translocate from the nuclear periphery to the plasma membrane during adrenaline-stimulated lipolysis. In rat AQP7 also transports urea.</Comment>
+    <BiopaxRef>b20</BiopaxRef>
+    <BiopaxRef>ddf</BiopaxRef>
+    <BiopaxRef>cf8</BiopaxRef>
+    <BiopaxRef>bba</BiopaxRef>
+    <BiopaxRef>db3</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="339.0" Y="144.0" />
+      <Point X="483.0" Y="339.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="f0ee1" />
+      <Anchor Position="0.99" Shape="None" GraphId="f097f" />
+      <Anchor Position="0.5" Shape="None" GraphId="ed21b" />
     </Graphics>
     <Xref Database="Reactome" ID="R-HSA-432074" />
   </Interaction>
-  <Interaction GraphId="f4ad6">
+  <Interaction GraphId="dac8a">
     <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
-      <Point X="700.0" Y="150.0" GraphRef="e6e56" RelX="1.4099999999999682" RelY="-1.8899999999999864" />
-      <Point X="704.0" Y="147.0" GraphRef="d4c4f" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+      <Point X="266.0" Y="236.0" GraphRef="a9061" RelX="0.0" RelY="-1.0" />
+      <Point X="366.0" Y="263.0" GraphRef="ed21b" RelX="-45.0" RelY="21.5" ArrowHead="mim-catalysis" />
     </Graphics>
-    <Xref Database="Reactome" ID="R-HSA-432049" />
+    <Xref Database="Reactome" ID="R-HSA-432074" />
   </Interaction>
-  <Interaction GraphId="f8aad">
-    <Grap
+  <Interaction GraphId="e530a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="483.0" Y="339.0" GraphRef="f097f" RelX="1.4399999999999977" RelY="1.9499999999999886" />
+      <Point X="522.0" Y="342.0" GraphRef="e1ec8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432074" />
+  </Interaction>
+  <Interaction GraphId="ebc2a">
+    <Graphics ConnectorType="Segmented" ZOrder="12288" LineThickness="1.0">
+      <Point X="522.0" Y="342.0" GraphRef="e1ec8" RelX="0.0" RelY="-1.0" />
+      <Point X="559.0" Y="339.0" GraphRef="f61db" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="Reactome" ID="R-HSA-432049" />
