@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of glycerol from adipocytes to the liver by Aquaporins" Data-Source="WikiPathways" Version="WP1926_r86778" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of glycerol from adipocytes to the liver by Aquaporins" Data-Source="WikiPathways" Version="WP1926_r88357" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler];Fehrhart[Friederike Ehrhart]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">Triglycerides stored in adipocytes are hydrolyzed to yield fatty acids and glycerol. The glycerol is passively transported out of the adipocyte and into the bloodstream by Aquaporin-7 (AQP7) located in the plasma membrane of adipocytes. Glycerol in the bloodstream is passively transported into liver cells by AQP9 located in the plasma membrane of hepatocytes. Once inside the liver cell the glycerol is a substrate for gluconeogenesis. View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=432030 Reactome].</Comment>
   <Comment Source="Reactome Converter">Pathway is converted from Reactome id:</Comment>
   <BiopaxRef>caa</BiopaxRef>
@@ -113,4 +113,4 @@
       <Point X="522.0" Y="342.0" GraphRef="e1ec8" RelX="0.0" RelY="-1.0" />
       <Point X="559.0" Y="339.0" GraphRef="f61db" RelX="0.0" RelY="0.0" />
     </Graphics>
-    <Xref Database="Reactome" ID="R-HSA-432049" />
+    <Xref Database="Re
