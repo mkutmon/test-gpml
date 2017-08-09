@@ -1,97 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="tRNA Aminoacylation" Data-Source="WikiPathways" Version="WP1938_r86391" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="tRNA Aminoacylation" Data-Source="WikiPathways" Version="WP1938_r93309" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];Egonw[Egon Willighagen];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">tRNA synthetases catalyze the ligation of tRNAs to their cognate amino acids in an ATP-dependent manner. The reaction proceeds in two steps. First, amino acid and ATP form an aminoacyl adenylate molecule, releasing pyrophosphate. The aminoacyl adenylate remains associated with the synthetase enzyme where, in the second step it reacts with tRNA to form aminoacyl tRNA and AMP. The rapid hydrolysis of pyrophosphate makes these reactions essentially irreversible under physiological conditions (Fersht and Kaethner 1976a). Specificity of the tRNA charging reactions is achieved both by specific recognition of amino acid and tRNA substrates by the synthetase, and by an editing process in which incorrect aminoacyl adenylate molecules (e.g., valyl adenylate associated with isoleucyl tRNA synthetase) are hydrolyzed rather than conjugated to tRNAs in the second step of the reaction (Baldwin and Berg 1966a,b; Fersht and Kaethner 1976b). The tRNA synthetases can be divided into two structural classes based on conserved amino acid sequence features (Burnbaum and Schimmel 1991).&lt;p&gt;A single synthetase mediates the charging of all of the tRNA species specific for any one amino acid but, with three exceptions, glycine, lysine, and glutamine, the synthetase that catalyzes aminoacylation of mitochondrial tRNAs is encoded by a different gene than the one that acts on mitochondrial tRNAs. Both mitochondrial and cytosolic tRNA synthetase enzymes are encoded by genes in the nuclear genome.&lt;p&gt;A number of tRNA synthetases are known to have functions distinct from tRNA charging (reviewed by Park et al. 2005). Additionally, mutations in several of the tRNA synthetases, often affecting protein domains that are dispensable in vitro for aminoacyl tRNA synthesis, are associated with a diverse array of neurological and other diseases (Antonellis and Green 2008; Park et al. 2008). These findings raise interest into the role of these enzymes in human development and disease.&lt;p&gt; View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=379724 Reactome].</Comment>
-  <Comment Source="Reactome Converter">Pathway is converted from Reactome id:</Comment>
-  <BiopaxRef>d75</BiopaxRef>
-  <BiopaxRef>f61</BiopaxRef>
-  <BiopaxRef>bac</BiopaxRef>
-  <BiopaxRef>e7b</BiopaxRef>
-  <BiopaxRef>a69</BiopaxRef>
-  <BiopaxRef>e11</BiopaxRef>
-  <BiopaxRef>a4e</BiopaxRef>
-  <BiopaxRef>c04</BiopaxRef>
+  <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 379724</Comment>
+  <Comment Source="Reactome-version">Reactome version: 61</Comment>
+  <Comment Source="Reactome Author">Reactome Author: D'Eustachio, Peter</Comment>
+  <BiopaxRef>ede</BiopaxRef>
+  <BiopaxRef>a92</BiopaxRef>
+  <BiopaxRef>d4f</BiopaxRef>
+  <BiopaxRef>adb</BiopaxRef>
+  <BiopaxRef>f56</BiopaxRef>
+  <BiopaxRef>c61</BiopaxRef>
+  <BiopaxRef>c23</BiopaxRef>
+  <BiopaxRef>cb0</BiopaxRef>
   <Attribute Key="reactome_id" Value="379724" />
   <Graphics BoardWidth="1758.0" BoardHeight="2383.0" />
-  <DataNode TextLabel="Mg2+" GraphId="a005e" Type="Metabolite">
+  <DataNode TextLabel="PPi" GraphId="a0048" Type="Metabolite">
     <Attribute Key="cellular_location" Value="mitochondrial matrix" />
-    <Graphics CenterX="1507.5" CenterY="587.5" Width="49.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:18420" />
-  </DataNode>
-  <DataNode TextLabel="DARS " GraphId="a03ae" Type="Protein" GroupRef="d25ee">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-HSA-379688" />
-    <Attribute Key="copies_num" Value="2" />
-    <Graphics CenterX="240.0" CenterY="1963.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P14868" />
-  </DataNode>
-  <DataNode TextLabel="AMP" GraphId="a0594" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
-    <Graphics CenterX="1388.0" CenterY="750.0" Width="42.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16027" />
-  </DataNode>
-  <DataNode TextLabel="AIMP2 " GraphId="a0b64" Type="Protein" GroupRef="fa4a1">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-HSA-379688" />
-    <Attribute Key="copies_num" Value="2" />
-    <Graphics CenterX="240.0" CenterY="1783.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q13155" />
-  </DataNode>
-  <DataNode TextLabel="tRNA(Thr)" GraphId="a10b9">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="858.5" CenterY="1373.5" Width="67.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="R-HSA-379749" />
-  </DataNode>
-  <DataNode TextLabel="tRNA(Lys)" GraphId="a146e">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="1099.0" CenterY="1133.5" Width="66.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="R-HSA-379776" />
-  </DataNode>
-  <DataNode TextLabel="GARS(55-739) " GraphId="a148a" Type="Protein" GroupRef="ecce2">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-HSA-379600" />
-    <Attribute Key="copies_num" Value="2" />
-    <Graphics CenterX="380.0" CenterY="1643.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P41250" />
-  </DataNode>
-  <DataNode TextLabel="TARS2(1-?)" GraphId="a1896" Type="Protein">
-    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
-    <Graphics CenterX="818.5" CenterY="686.0" Width="53.0" Height="18.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9BW92" />
-  </DataNode>
-  <DataNode TextLabel="AMP" GraphId="a1ccb" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
-    <Graphics CenterX="241.0" CenterY="745.0" Width="42.0" Height="34.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16027" />
-  </DataNode>
-  <DataNode TextLabel="tRNA(Tyr)" GraphId="a27ce">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="1237.0" CenterY="1367.5" Width="68.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Reactome" ID="R-HSA-379743" />
-  </DataNode>
-  <DataNode TextLabel="L-Met" GraphId="a2aba" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="1286.0" CenterY="1109.0" Width="80.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16643" />
-  </DataNode>
-  <DataNode TextLabel="PPi" GraphId="a2bb1" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="893.0" CenterY="1017.5" Width="62.0" Height="41.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Graphics CenterX="1287.0" CenterY="301.0" Width="64.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:29888" />
   </DataNode>
-  <DataNode TextLabel="L-Thr" GraphId="a2de9" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="800.0" CenterY="1346.5" Width="80.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16857" />
+  <DataNode TextLabel="tRNA(Glu)" GraphId="a054a">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="1212.5" CenterY="219.5" Width="71.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-379754" />
   </DataNode>
-  <DataNode TextLabel="ATP" GraphId="a3208" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="1007.5" CenterY="1137.5" Width="37.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+  <DataNode TextLabel="ATP" GraphId="a0558" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="253.0" CenterY="415.5" Width="38.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15422" />
   </DataNode>
-  <DataNode TextLabel="L-Trp" GraphId="a32ee" Type="Metabolite">
+  <DataNode TextLabel="tRNA(Val)" GraphId="a09e5">
     <Attribute Key="cellular_location" Value="mitochondrial matrix" />
-    <Graphics CenterX="961.0" CenterY="620.5" Width="86.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16828" />
+    <Graphics CenterX="1392.5" CenterY="648.0" Width="67.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-379735" />
   </DataNode>
-  <DataNode TextLabel="AMP" GraphId="a3537" Type="Metabolite">
-    <Attribute Key="cel
+  <DataNode TextLabel="Pro-tRNA(Pro)" GraphId="a0c98">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="380.0" CenterY="784.5" Width="74.0" Height="35.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-379745" />
+  </DataNode>
+  <DataNode TextLabel="PPi" GraphId="a1126" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1134.0" CenterY="1456.5" Width="62.0" Height="41.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29888" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="a1642" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="931.0" CenterY="219.5" Width="38.0" Height="31.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15422" />
+  </DataNode>
+  <DataNode TextLabel="tRNA(Asn)" GraphId="a171c">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="651.5" CenterY="210.5" Width="69.0" Height="29.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-379699" />
+  </DataNode>
+  <DataNode TextLabel="MARS2" GraphId="a1ca7" Type="Protein">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="1303.0" CenterY="475.0" Width="48.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96GW9" />
+  </DataNode>
+  <DataNode TextLabel="Tyr-tRNA(Tyr)" GraphId="a1db3">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1189.0" CenterY="1484.5" Width="68.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Reactome" ID="R-HSA-379785" />
+  </DataNode>
+  <DataNode TextLabel="PPi" GraphId="a2012" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="919.0" CenterY="290.0" Width="64.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29888" />
+  </DataNode>
+  <DataNode TextLabel="CARS " GraphId="a21af" Type="Protein" GroupRef="c57b6">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-379858" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="240.0" CenterY="1643.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49589" />
+  </DataNode>
+  <DataNode TextLabel="L-Leu" GraphId="a2437" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="874.5" CenterY="403.0" Width="65.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57427" />
+  </DataNode>
+  <DataNode TextLabel="PPi" GraphId="a243c" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="mitochondrial matrix" />
+    <Graphics CenterX="1199.0" CenterY="534.0" Width="64.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29888" />
+  </DataNode>
+  <DataNode TextLabel="DARS " GraphId="a2e91" Type="Protein" GroupRef="f47c2">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-379688" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="380.0" CenterY="1703.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P14868" />
+  </DataNode>
+  <DataNode TextLabel
