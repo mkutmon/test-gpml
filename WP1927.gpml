@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCR signaling" Data-Source="WikiPathways" Version="WP1927_r93802" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCR signaling" Data-Source="WikiPathways" Version="WP1927_r99712" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">The TCR is a multisubunit complex that consists of clonotypic alpha/beta chains noncovalently associated with the invariant CD3 delta/epsilon/gamma and TCR zeta chains. T cell activation by antigen presenting cells (APCs) results in the activation of protein tyrosine kinases (PTKs) that associate with CD3 and TCR zeta subunits and the co-receptor CD4. Members of the Src kinases (Lck), Syk kinases (ZAP-70), Tec (Itk) and Csk families of nonreceptor PTKs play a crucial role in T cell activation. Activation of PTKs following TCR engagement results in the recruitment and tyrosine phosphorylation of enzymes such as phospholipase C gamma1 and Vav as well as critical adaptor proteins such as LAT, SLP-76 and Gads. These proximal activation leads to reorganization of the cytoskeleton as well as transcription activation of multiple genes leading to T lymphocyte proliferation, differentiation and/or effector function. View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=202403 Reactome].</Comment>
   <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 202403</Comment>
-  <Comment Source="Reactome-version">Reactome version: 61</Comment>
+  <Comment Source="Reactome-version">Reactome version: 62</Comment>
   <Comment Source="Reactome Author">Reactome Author: Rudd, Christopher, de Bono, Bernard, Garapati, Phani Vijay</Comment>
-  <BiopaxRef>e18</BiopaxRef>
-  <BiopaxRef>f6c</BiopaxRef>
-  <BiopaxRef>ec7</BiopaxRef>
+  <BiopaxRef>d15</BiopaxRef>
+  <BiopaxRef>afe</BiopaxRef>
+  <BiopaxRef>c65</BiopaxRef>
   <Attribute Key="reactome_id" Value="202403" />
   <Graphics BoardWidth="3346.0" BoardHeight="3728.0" />
-  <DataNode TextLabel="p-6Y-CD247-1 " GraphId="a029f" Type="Protein" GroupRef="dce54">
+  <DataNode TextLabel="PI(3,4,5)P3 " GraphId="a00d6" Type="Metabolite" GroupRef="c4985">
     <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202181" />
+    <Attribute Key="complex_id" Value="R-HSA-202445" />
     <Attribute Key="copies_num" Value="3" />
-    <Graphics CenterX="940.0" CenterY="3468.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P20963-1" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II histocompatibility antigen, DRB1-1 beta chain " GraphId="a02c8" Type="Protein" GroupRef="a579d">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-203494" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="520.0" CenterY="2568.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P04229" />
-  </DataNode>
-  <DataNode TextLabel="T-cell receptor alpha chain V region HPB-MLT precursor " GraphId="a0752" Type="Protein" GroupRef="d4848">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202282" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1220.0" CenterY="3418.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P04436" />
-  </DataNode>
-  <DataNode TextLabel="p-Y149,Y160-CD3D " GraphId="a0aff" Type="Protein" GroupRef="a579d">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-203494" />
-    <Attribute Key="copies_num" Value="2" />
-    <Graphics CenterX="520.0" CenterY="3408.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P04234" />
-  </DataNode>
-  <DataNode TextLabel="p-S32,36-IkB-alpha:NF-kB complex" GraphId="a0bbb" Type="Complex">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="1763.5" CenterY="658.0" Width="97.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-HSA-5607671" />
-  </DataNode>
-  <DataNode TextLabel="CD3D " GraphId="a0c02" Type="Protein" GroupRef="cf5e8">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202266" />
-    <Attribute Key="copies_num" Value="2" />
-    <Graphics CenterX="380.0" CenterY="2188.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P04234" />
-  </DataNode>
-  <DataNode TextLabel="p-Y113,128,145-LCP2 " GraphId="a0e71" Type="Protein" GroupRef="c7163">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-HSA-202193" />
-    <Attribute Key="copies_num" Value="3" />
-    <Graphics CenterX="1220.0" CenterY="2048.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q13094" />
-  </DataNode>
-  <DataNode TextLabel="p-Y113,128,145-LCP2 " GraphId="a1090" Type="Protein" GroupRef="e6a8b">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-HSA-430206" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="2060.0" CenterY="2548.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q13094" />
-  </DataNode>
-  <DataNode TextLabel="GRAP2 " GraphId="a116c" Type="Protein" GroupRef="a7d38">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-HSA-202162" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1080.0" CenterY="2168.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="O75791" />
-  </DataNode>
-  <DataNode TextLabel="PI(3,4,5)P3 " GraphId="a144c" Type="Metabolite" GroupRef="fa46b">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202471" />
-    <Attribute Key="copies_num" Value="3" />
-    <Graphics CenterX="1780.0" CenterY="2348.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Graphics CenterX="1640.0" CenterY="2328.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16618" />
   </DataNode>
-  <DataNode TextLabel="PKC-theta (open):&#xA;DAG" GraphId="a1796" Type="Complex">
+  <DataNode TextLabel="p-Y90,T538,S676,S695-PRKCQ " GraphId="a01db" Type="Protein" GroupRef="f2be3">
     <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Graphics CenterX="3243.5" CenterY="781.0" Width="117.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-HSA-202187" />
+    <Attribute Key="complex_id" Value="R-HSA-202442" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1640.0" CenterY="2008.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q04759" />
   </DataNode>
-  <DataNode TextLabel="ATP" GraphId="a18d4" Type="Metabolite">
+  <DataNode TextLabel="PI(3,4)P2 " GraphId="a068d" Type="Metabolite" GroupRef="dabc5">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202454" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="1640.0" CenterY="2468.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16152" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="a0b2b" Type="Metabolite">
     <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="206.0" CenterY="941.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Graphics CenterX="3060.0" CenterY="152.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:15422" />
   </DataNode>
-  <DataNode TextLabel="p-Y160,Y171-CD3G " GraphId="a1bc1" Type="Protein" GroupRef="d4848">
+  <DataNode TextLabel="GADS:p-5Y-LAT" GraphId="a0be8" Type="Complex">
     <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202282" />
-    <Attribute Key="copies_num" Value="2" />
-    <Graphics CenterX="1220.0" CenterY="3588.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P09693" />
+    <Graphics CenterX="97.0" CenterY="1604.0" Width="104.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-202177" />
   </DataNode>
-  <DataNode TextLabel="PI(3,4,5)P3 " GraphId="a1c5a" Type="Metabolite" GroupRef="b3e1d">
+  <DataNode TextLabel="p-Y188,Y199-CD3E " GraphId="a0c41" Type="Protein" GroupRef="dbcc9">
     <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202349" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1640.0" CenterY="2068.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Attribute Key="complex_id" Value="R-HSA-203494" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="520.0" CenterY="3388.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P07766" />
+  </DataNode>
+  <DataNode TextLabel="PI(3,4,5)P3 " GraphId="a1226" Type="Metabolite" GroupRef="dabc5">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202454" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="1640.0" CenterY="2448.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16618" />
   </DataNode>
-  <DataNode TextLabel="ADP" GraphId="a1c89" Type="Metabolite">
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DRB1-8 beta chain " GraphId="a1487" Type="Protein" GroupRef="d2fae">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202282" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1220.0" CenterY="3228.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q30134" />
+  </DataNode>
+  <DataNode TextLabel="PIK3CB " GraphId="a154e" Type="Protein" GroupRef="f2c2c">
     <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="2911.5" CenterY="152.0" Width="41.0" Height="30.0" ZOrder="32768" Font
+    <Attribute Key="complex_id" Value="R-HSA-202283" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1360.0" CenterY="2508.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P42338" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DR beta 4 chain " GraphId="a15d0" Type="Protein" GroupRef="b647d">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202330" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="2438.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13762" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DQ beta 2 chain " GraphId="a163b" Type="Protein" GroupRef="a86a1">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202154" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="2598.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P05538" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DRB1-14 beta chain " GraphId="a1865" Type="Protein" GroupRef="e2675">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202266" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="380.0" CenterY="3098.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q9GIY3" />
+  </DataNode>
+  <DataNode TextLabel="SKP1 " GraphId="a18d2" Type="Protein" GroupRef="fa23b">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-5607687" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="2340.0" CenterY="1968.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P63208" />
+  </DataNode>
+  <DataNode TextLabel="ADP" GraphId="a1968" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="405.5" CenterY="1722.0" Width="41.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16761" />
+  </DataNode>
+  <DataNode TextLabel="TRBV12-3 " GraphId="a2206" Type="Protein" GroupRef="e2675">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="
