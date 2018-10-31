@@ -1,82 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of bile salts and organic acids, metal ions and amine compounds" Data-Source="WikiPathways" Version="WP1935_r100583" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler];Mkutmon[Martina Kutmon]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of bile salts and organic acids, metal ions and amine compounds" Data-Source="WikiPathways" Version="WP1935_r101052" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler];Mkutmon[Martina Kutmon]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">SLC transporters described in this section transport bile salts, organic acids, metal ions and amine compounds.&lt;br&gt;Myo-Inositol is a neutral cyclic polyol, abundant in mammalian tissues. It is a precursor to phosphatidylinositols (PtdIns) and to the inositol phosphates (IP), which serve as second messengers and also act as key regulators of many cell functions. Three members of the glucose transporter gene family encode inositol transporters (SLC2A13, SLC5A3 and SLC5A11) (Schneider 2015).&lt;br&gt;Five human SLC13 genes encode sodium-coupled sulphate, di- and tri-carboxylate transporters typically located on the plasma membrane of mammalian cells (Pajor 2006).&lt;br&gt;The SLC16A gene family encode proton-linked monocarboxylate transporters (MCT) which mediate the transport of monocarboxylates such as lactate and pyruvate, major energy sources for all cells in the body so their transport in and out of cells is crucial for cellular function (Morris &amp; Felmlee 2008).&lt;br&gt;The transport of essential metals and other nutrients across tight membrane barriers such as the gastrointestinal tract and blood-brain barrier is mediated by metal-transporting proteins (encoded by SLC11, SLC30, SLC31, SLC39, SLC40 and SLC41). They can also regulate metals by efflux out of cells and cellular compartments to avoid toxic build-up (Bressler et al. 2007).&lt;br&gt;The SLC6 gene family encodes proteins that mediate neurotransmitter uptake in the central nervous system (CSN) and peripheral nervous system (PNS), thus terminating a synaptic signal. The proteins mediate transport of GABA (gamma-aminobutyric acid), norepinephrine, dopamine, serotonin, glycine, taurine, L-proline, creatine and betaine (Chen et al. 2004).&lt;br&gt;Carrier-mediated urea transport allows rapid urea movement across the cell membrane, which is particularly important in the process of urinary concentration and for rapid urea equilibrium in non-renal tissues. Two carriers exist in humans, encoded by SLC14A1 and ALC14A2 (Olives et al. 1994).&lt;br&gt;Choline uptake is the rate-limiting step in the synthesis of the neurotransmitter acetylcholine. SLC genes SLC5A7 and the SLC44 family encode choline transporters ((Okuda &amp; Haga 2000, Traiffort et al. 2005).&lt;br&gt;The SLC22 gene family of solute carriers function as organic cation transporters (OCTs), cation/zwitterion transporters (OCTNs) and organic anion transporters (OATs). Most of this family are polyspecific transporters. Since many of these transporters are expressed in the liver, kidney and intestine, they play an important role in drug absorption and excretion. Substrates include xenobiotics, drugs, and endogenous amine compounds (Koepsell &amp; Endou 2004). View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=425366 Reactome].</Comment>
   <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 425366</Comment>
-  <Comment Source="Reactome-version">Reactome version: 64</Comment>
+  <Comment Source="Reactome-version">Reactome version: 65</Comment>
   <Comment Source="Reactome Author">Reactome Author: Jassal, Bijay</Comment>
-  <BiopaxRef>fec</BiopaxRef>
-  <BiopaxRef>ad5</BiopaxRef>
-  <BiopaxRef>e18</BiopaxRef>
-  <BiopaxRef>bdf</BiopaxRef>
-  <BiopaxRef>cfc</BiopaxRef>
-  <BiopaxRef>ea2</BiopaxRef>
-  <BiopaxRef>f8c</BiopaxRef>
-  <BiopaxRef>f9e</BiopaxRef>
-  <BiopaxRef>d3a</BiopaxRef>
+  <BiopaxRef>e81</BiopaxRef>
+  <BiopaxRef>d72</BiopaxRef>
+  <BiopaxRef>ecc</BiopaxRef>
+  <BiopaxRef>e40</BiopaxRef>
+  <BiopaxRef>c72</BiopaxRef>
+  <BiopaxRef>a69</BiopaxRef>
+  <BiopaxRef>ff9</BiopaxRef>
+  <BiopaxRef>e31</BiopaxRef>
+  <BiopaxRef>e56</BiopaxRef>
   <Attribute Key="reactome_id" Value="425366" />
   <Graphics BoardWidth="5733.0" BoardHeight="1851.0" />
-  <DataNode TextLabel="SLC44A3 " GraphId="a09c5" Type="Protein" GroupRef="f88ef">
+  <DataNode TextLabel="Na+" GraphId="a0471" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1698.0" CenterY="693.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="SLC44A2 " GraphId="a09a8" Type="Protein" GroupRef="b0663">
     <Attribute Key="cellular_location" Value="plasma membrane" />
     <Attribute Key="complex_id" Value="R-HSA-444452" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="100.0" CenterY="1331.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q8N4M1" />
+    <Graphics CenterX="100.0" CenterY="1311.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8IWA5" />
   </DataNode>
-  <DataNode TextLabel="L-Thr " GraphId="a0b90" Type="Metabolite" GroupRef="bb49f">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-ALL-352048" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="520.0" CenterY="1691.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:57926" />
-  </DataNode>
-  <DataNode TextLabel="L-Pro" GraphId="a1163" Type="Metabolite">
+  <DataNode TextLabel="L-Pro" GraphId="a0a35" Type="Metabolite">
     <Attribute Key="cellular_location" Value="cytosol" />
     <Graphics CenterX="4053.5" CenterY="735.0" Width="61.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:60039" />
   </DataNode>
-  <DataNode TextLabel="MPP " GraphId="a17e4" Type="Metabolite" GroupRef="a4a07">
-    <Attribute Key="cellular_location" Value="extracellular region" />
-    <Attribute Key="complex_id" Value="R-ALL-549237" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1080.0" CenterY="1511.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:641" />
-  </DataNode>
-  <DataNode TextLabel="SLC39A14 " GraphId="a1ccc" Type="Protein" GroupRef="cff72">
+  <DataNode TextLabel="SLC11A2" GraphId="a0a79" Type="Protein">
     <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-442330" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="380.0" CenterY="1411.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q15043" />
+    <Graphics CenterX="2112.5" CenterY="155.0" Width="87.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P49281" />
   </DataNode>
-  <DataNode TextLabel="SLC6A6" GraphId="a1d65" Type="Protein">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Graphics CenterX="4287.5" CenterY="825.0" Width="75.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P31641" />
+  <DataNode TextLabel="ligands of SLC6A12&#xA;(BGT-1)" GraphId="a0c43" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="4414.5" CenterY="420.0" Width="87.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-351982" />
   </DataNode>
-  <DataNode TextLabel="MPP " GraphId="a22f7" Type="Metabolite" GroupRef="a972b">
+  <DataNode TextLabel="MTF " GraphId="a1157" Type="Metabolite" GroupRef="c57b2">
     <Attribute Key="cellular_location" Value="extracellular region" />
     <Attribute Key="complex_id" Value="R-ALL-446597" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="100.0" CenterY="1011.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:641" />
+    <Graphics CenterX="100.0" CenterY="1091.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:6801" />
   </DataNode>
-  <DataNode TextLabel="GABA" GraphId="a277a" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="extracellular region" />
-    <Graphics CenterX="3016.5" CenterY="945.0" Width="61.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:59888" />
-  </DataNode>
-  <DataNode TextLabel="OCT1 substrates" GraphId="a2e83" Type="Complex">
-    <Attribute Key="cellular_location" Value="extracellular region" />
-    <Graphics CenterX="4525.5" CenterY="907.0" Width="87.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-ALL-549264" />
-  </DataNode>
-  <DataNode TextLabel="SLC39A1 " GraphId="a3007" Type="Protein" GroupRef="fce8e">
+  <DataNode TextLabel="BSG " GraphId="a1a2c" Type="Protein" GroupRef="c195c">
     <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-442327" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="380.0" CenterY="1291.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9NY26" />
+    <Attribute Key="complex_id" Value="R-HSA-434162" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="240.0" CenterY="1771.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P35613" />
   </DataNode>
-  <DataNode TextLabel="Na+" GraphId="a31a1" Type="Metabolite">
+  <DataNode TextLabel="Na+" GraphId="a1f54" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="3958.0" CenterY="737.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  </DataNode>
+  <DataNode TextLabel="Cho " GraphId="a20cd" Type="Metabolite" GroupRef="b59fc">
     <Attribute Key="cellular_location" Value="extracellular region" />
-    <Graphics CenterX="5606.0" CenterY="895.0" Width="50.0" Height="30.0" ZOrder="32768" FontSize="10" Valign=
+    <Attribute Key="complex_id" Value="R-ALL-549264" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1220.0" CenterY="1251.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15354" />
+  </DataNode>
+  <DataNode TextLabel="SLC6A3" GraphId="a21bd" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="3130.5" CenterY="825.0" Width="75.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q01959" />
+  </DataNode>
+  <DataNode TextLabel="L-Phe " GraphId="a27e0" Type="Metabolite" GroupRef="b5c91">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-375458" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="1311.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:58095" />
+  </DataNode>
+  <DataNode TextLabel="Zn2+" GraphId="a2eec" 
