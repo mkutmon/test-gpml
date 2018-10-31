@@ -1,105 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCR signaling" Data-Source="WikiPathways" Version="WP1927_r100162" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="TCR signaling" Data-Source="WikiPathways" Version="WP1927_r100611" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">The TCR is a multisubunit complex that consists of clonotypic alpha/beta chains noncovalently associated with the invariant CD3 delta/epsilon/gamma and TCR zeta chains. T cell activation by antigen presenting cells (APCs) results in the activation of protein tyrosine kinases (PTKs) that associate with CD3 and TCR zeta subunits and the co-receptor CD4. Members of the Src kinases (Lck), Syk kinases (ZAP-70), Tec (Itk) and Csk families of nonreceptor PTKs play a crucial role in T cell activation. Activation of PTKs following TCR engagement results in the recruitment and tyrosine phosphorylation of enzymes such as phospholipase C gamma1 and Vav as well as critical adaptor proteins such as LAT, SLP-76 and Gads. These proximal activation leads to reorganization of the cytoskeleton as well as transcription activation of multiple genes leading to T lymphocyte proliferation, differentiation and/or effector function. View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=202403 Reactome].</Comment>
   <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 202403</Comment>
-  <Comment Source="Reactome-version">Reactome version: 63</Comment>
+  <Comment Source="Reactome-version">Reactome version: 64</Comment>
   <Comment Source="Reactome Author">Reactome Author: Rudd, Christopher, de Bono, Bernard, Garapati, Phani Vijay</Comment>
-  <BiopaxRef>d4a</BiopaxRef>
-  <BiopaxRef>e9e</BiopaxRef>
-  <BiopaxRef>bcb</BiopaxRef>
+  <BiopaxRef>ebf</BiopaxRef>
+  <BiopaxRef>cca</BiopaxRef>
+  <BiopaxRef>e8d</BiopaxRef>
   <Attribute Key="reactome_id" Value="202403" />
   <Graphics BoardWidth="3346.0" BoardHeight="3728.0" />
-  <DataNode TextLabel="HLA class II histocompatibility antigen, DP alpha chain precursor " GraphId="a01ea" Type="Protein" GroupRef="ebfec">
+  <DataNode TextLabel="CD4 " GraphId="a0085" Type="Protein" GroupRef="fb0c8">
     <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202282" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1220.0" CenterY="2218.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P20036" />
+    <Attribute Key="complex_id" Value="R-HSA-202157" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="2288.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01730" />
   </DataNode>
-  <DataNode TextLabel="ITK " GraphId="a048d" Type="Protein" GroupRef="b901d">
+  <DataNode TextLabel="p-Y771,Y783,Y1254-PLCG1 " GraphId="a0184" Type="Protein" GroupRef="d00c0">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-202193" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="1220.0" CenterY="2008.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P19174" />
+  </DataNode>
+  <DataNode TextLabel="ATP" GraphId="a0632" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="3060.0" CenterY="152.0" Width="40.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15422" />
+  </DataNode>
+  <DataNode TextLabel="p-Y113,128,145-LCP2 " GraphId="a098b" Type="Protein" GroupRef="d00c0">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-HSA-202193" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="1220.0" CenterY="2048.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q13094" />
+  </DataNode>
+  <DataNode TextLabel="PI(4,5)P2 " GraphId="a0df3" Type="Metabolite" GroupRef="b9af0">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202269" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="1360.0" CenterY="2228.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18348" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DRB1-10 beta chain " GraphId="a1164" Type="Protein" GroupRef="a8f16">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202345" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="800.0" CenterY="2638.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q30167" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DQ " GraphId="a17ee" Type="Protein" GroupRef="e254a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202266" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="1500.0" CenterY="2708.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01920" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DR alpha chain precursor " GraphId="a1ced" Type="Protein" GroupRef="fb0c8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202157" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="2488.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01903" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DRB1-4 beta chain " GraphId="a1d04" Type="Protein" GroupRef="fb0c8">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202157" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="100.0" CenterY="3268.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P13760" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DP " GraphId="a1f77" Type="Protein" GroupRef="e254a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202266" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="1500.0" CenterY="2668.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P04440" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DR alpha chain precursor " GraphId="a1fb1" Type="Protein" GroupRef="dcf16">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-203494" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="520.0" CenterY="2188.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P01903" />
+  </DataNode>
+  <DataNode TextLabel="HLA class II histocompatibility antigen, DRB3-1 beta chain precursor " GraphId="a2482" Type="Protein" GroupRef="e254a">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-202266" />
+    <Attribute Key="copies_num" Value="3" />
+    <Graphics CenterX="1500.0" CenterY="3608.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P79483" />
+  </DataNode>
+  <DataNode TextLabel="p-Y188,Y199-CD3E " GraphId="a272a" Type="Protein" GroupRef="dcf16">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-203494" />
+    <Attribute Key="copies_num" Value="2" />
+    <Graphics CenterX="520.0" CenterY="3388.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P07766" />
+  </DataNode>
+  <DataNode TextLabel="GRAP2 " GraphId="a2a03" Type="Protein" GroupRef="e1225">
     <Attribute Key="cellular_location" Value="cytosol" />
     <Attribute Key="complex_id" Value="R-HSA-202359" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1080.0" CenterY="2248.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q08881" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II histocompatibility antigen, DR beta 4 chain " GraphId="a04ac" Type="Protein" GroupRef="c34de">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202266" />
-    <Attribute Key="copies_num" Value="3" />
-    <Graphics CenterX="380.0" CenterY="2698.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P13762" />
-  </DataNode>
-  <DataNode TextLabel="T-cell receptor alpha chain V region PY14 precursor " GraphId="a0586" Type="Protein" GroupRef="d4be4">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202154" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="240.0" CenterY="2088.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01737" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II histocompatibility antigen, DRB1-14 beta chain " GraphId="a05b9" Type="Protein" GroupRef="cf176">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202181" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="940.0" CenterY="2838.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9GIY3" />
-  </DataNode>
-  <DataNode TextLabel="p-BCL10 " GraphId="a064d" Type="Protein" GroupRef="cf6fa">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-HSA-202456" />
-    <Attribute Key="copies_num" Value="5" />
-    <Graphics CenterX="1920.0" CenterY="2048.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="O95999" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II histocompatibility antigen, DQ " GraphId="a0ae2" Type="Protein" GroupRef="d4be4">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202154" />
-    <Attribute Key="copies_num" Value="3" />
-    <Graphics CenterX="240.0" CenterY="2378.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01906" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II histocompatibility antigen, DRB1-9 beta chain precursor " GraphId="a0b71" Type="Protein" GroupRef="dd7ec">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202266" />
-    <Attribute Key="copies_num" Value="3" />
-    <Graphics CenterX="1500.0" CenterY="3558.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q9TQE0" />
-  </DataNode>
-  <DataNode TextLabel="ITK" GraphId="a1097" Type="Protein">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="500.0" CenterY="1767.0" Width="42.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q08881" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II histocompatibility antigen, DRB1-7 beta chain " GraphId="a131b" Type="Protein" GroupRef="c34de">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202266" />
-    <Attribute Key="copies_num" Value="3" />
-    <Graphics CenterX="380.0" CenterY="3298.0" Width="100.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P13761" />
-  </DataNode>
-  <DataNode TextLabel="UBE2V1 " GraphId="a1601" Type="Protein" GroupRef="bcc06">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-HSA-202463" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1780.0" CenterY="2528.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q13404" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II histocompatibility antigen, DQ " GraphId="a18c1" Type="Protein" GroupRef="cf176">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202181" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="940.0" CenterY="2118.0" Width="100.0" Height="40.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P01906" />
-  </DataNode>
-  <DataNode TextLabel="PSMD9 " GraphId="a1b12" Type="Protein" GroupRef="b440d">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-HSA-68819" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="2340.0" CenterY="3088.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="O00233" />
-  </DataNode>
-  <DataNode TextLabel="HLA class II histocompatibility antigen, DP " GraphId="a1dde" Type="Protein" GroupRef="d4be4">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-202154" />
-    <Attribute Key="copies_num" Value="3" />
-    <Graphics CenterX="240.0" CenterY="2508.0" Width="
+    <Graphics CenterX="1080.0" CenterY="2288.0" 
