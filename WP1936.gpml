@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of inorganic cations/anions and amino acids/oligopeptides" Data-Source="WikiPathways" Version="WP1936_r99618" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of inorganic cations/anions and amino acids/oligopeptides" Data-Source="WikiPathways" Version="WP1936_r100067" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">Teleologically, one might argue that inorganic cation and anion transport would be evolutionarily among the oldest transport functions. Eight families comprise the group that transports exclusively inorganic cations and anions across membranes : SLC4 plays a pivotal role in mediating Na+ - and/or Cl- -dependent transport of basic anions [e.g. HCO3-, (CO3)2-] in various tissues and cell types (in addition to pH regulation, specific members of this family also contribute to vectorial trans-epithelial base transport in several organ systems including the kidney, pancreas, and eye) (Pushkin A and Kurtz I, 2006); SLC8 is a group of Na+/Ca2+ exchangers (SLC8A1 is involved in cardiac contractility) (Quednau BD et al, 2004); SLC24 is a group of Na+/Ca2+ or Na+/K+ exchangers (Altimimi HF and Schnetkamp PP, 2007); SLC9 comprises Na+/H+ exchanger proteins involved in the electroneutral exchange of sodium ion and protons (Orlowski J and Grinstein S, 2004); SLC12 functions as Na+, K+ and Cl- ion electroneutral symporters (Hebert SC et al, 2004); SLC26 is the trans-epithelial multifunctional anion (e.g. sulfate, oxalate, HCO-, Cl-) exchanger family, important in cartilage development, production of thyroid hormone, sound amplification in the cochlea etc (Sindic A et al, 2007; Dorwart MR et al, 2008; Ashmore J, 2008). SLC34 is an important Type II Na+/(HPO4)2- symporter (Forster IC et al, 2006; Virkki LV et al, 2007); SLC20 was originally identified as a viral receptor, and functions as a Type III Na+/(H2PO4)- symporter (Collins JF et al, 2004; Virkki LV et al, 2007). Eight SLC gene families are involved in the transport of amino acids and oligopeptides. View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=425393 Reactome].</Comment>
   <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 425393</Comment>
-  <Comment Source="Reactome-version">Reactome version: 62</Comment>
+  <Comment Source="Reactome-version">Reactome version: 63</Comment>
   <Comment Source="Reactome Author">Reactome Author: Jassal, Bijay</Comment>
-  <BiopaxRef>bd9</BiopaxRef>
-  <BiopaxRef>ecf</BiopaxRef>
-  <BiopaxRef>fd4</BiopaxRef>
-  <BiopaxRef>a7f</BiopaxRef>
-  <BiopaxRef>d2d</BiopaxRef>
-  <BiopaxRef>a73</BiopaxRef>
-  <BiopaxRef>d70</BiopaxRef>
-  <BiopaxRef>e27</BiopaxRef>
-  <BiopaxRef>b3b</BiopaxRef>
-  <BiopaxRef>a27</BiopaxRef>
-  <BiopaxRef>ff7</BiopaxRef>
-  <BiopaxRef>af1</BiopaxRef>
+  <BiopaxRef>bd3</BiopaxRef>
+  <BiopaxRef>d4f</BiopaxRef>
+  <BiopaxRef>fbd</BiopaxRef>
+  <BiopaxRef>f60</BiopaxRef>
+  <BiopaxRef>b65</BiopaxRef>
+  <BiopaxRef>b4b</BiopaxRef>
+  <BiopaxRef>b81</BiopaxRef>
+  <BiopaxRef>fbc</BiopaxRef>
+  <BiopaxRef>d89</BiopaxRef>
+  <BiopaxRef>f4a</BiopaxRef>
+  <BiopaxRef>f87</BiopaxRef>
+  <BiopaxRef>c88</BiopaxRef>
   <Attribute Key="reactome_id" Value="425393" />
   <Graphics BoardWidth="6013.0" BoardHeight="2389.0" />
-  <DataNode TextLabel="ligands of SLC38A5" GraphId="a029c" Type="Complex">
+  <DataNode TextLabel="tripeptide " GraphId="a0308" Type="Metabolite" GroupRef="b493f">
     <Attribute Key="cellular_location" Value="extracellular region" />
-    <Graphics CenterX="1566.5" CenterY="1492.0" Width="121.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-ALL-352178" />
-  </DataNode>
-  <DataNode TextLabel="K+" GraphId="a0426" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="extracellular region" />
-    <Graphics CenterX="3176.5" CenterY="129.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29103" />
-  </DataNode>
-  <DataNode TextLabel="L-Thr " GraphId="a0481" Type="Metabolite" GroupRef="ad724">
-    <Attribute Key="cellular_location" Value="extracellular region" />
-    <Attribute Key="complex_id" Value="R-ALL-352091" />
+    <Attribute Key="complex_id" Value="R-ALL-428037" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="520.0" CenterY="1889.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:57926" />
+    <Graphics CenterX="2060.0" CenterY="2009.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:47923" />
   </DataNode>
-  <DataNode TextLabel="L-Ile " GraphId="a09dd" Type="Metabolite" GroupRef="fdb74">
+  <DataNode TextLabel="TAU " GraphId="a078f" Type="Metabolite" GroupRef="eb291">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-352019" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="940.0" CenterY="1969.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15891" />
+  </DataNode>
+  <DataNode TextLabel="L-Met " GraphId="a0853" Type="Metabolite" GroupRef="a457a">
     <Attribute Key="cellular_location" Value="extracellular region" />
     <Attribute Key="complex_id" Value="R-ALL-375468" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1360.0" CenterY="1909.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:58045" />
+    <Graphics CenterX="1360.0" CenterY="1969.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57844" />
   </DataNode>
-  <DataNode TextLabel="Na+" GraphId="a1061" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="291.5" CenterY="1243.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  <DataNode TextLabel="SLC24A1 " GraphId="a090a" Type="Protein" GroupRef="c728e">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-425657" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="240.0" CenterY="1789.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O60721" />
   </DataNode>
-  <DataNode TextLabel="L-His " GraphId="a1288" Type="Metabolite" GroupRef="c4d8f">
+  <DataNode TextLabel="L-Ser " GraphId="a0bb5" Type="Metabolite" GroupRef="bb54a">
     <Attribute Key="cellular_location" Value="cytosol" />
     <Attribute Key="complex_id" Value="R-ALL-352190" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1220.0" CenterY="1649.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:32513" />
-  </DataNode>
-  <DataNode TextLabel="Histidine/di-peptides" GraphId="a1498" Type="Complex">
-    <Attribute Key="cellular_location" Value="lysosomal lumen" />
-    <Graphics CenterX="3003.5" CenterY="623.0" Width="83.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-ALL-427984" />
-  </DataNode>
-  <DataNode TextLabel="SLC3A2 " GraphId="a1720" Type="Protein" GroupRef="b578d">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-378505" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1640.0" CenterY="2069.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P08195" />
-  </DataNode>
-  <DataNode TextLabel="L-Ser " GraphId="a190b" Type="Metabolite" GroupRef="c0c2b">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-ALL-352355" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="2200.0" CenterY="1969.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Graphics CenterX="1220.0" CenterY="1849.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:33384" />
   </DataNode>
-  <DataNode TextLabel="Type III Na+/Pi&#xA;cotransporters" GraphId="a1933" Type="Complex">
-    <Attribute Key="cellular_location" Value="plasma membrane" />
-    <Graphics CenterX="4466.5" CenterY="186.0" Width="101.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-HSA-427584" />
+  <DataNode TextLabel="alanine, serine,&#xA;threonine, or&#xA;cysteine" GraphId="a0dba" Type="Complex">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="84.5" CenterY="872.0" Width="101.0" Height="50.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-352359" />
   </DataNode>
-  <DataNode TextLabel="L-Ser " GraphId="a1a0b" Type="Metabolite" GroupRef="a28a7">
+  <DataNode TextLabel="L-Met " GraphId="a0e89" Type="Metabolite" GroupRef="dba17">
     <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-ALL-376196" />
+    <Attribute Key="complex_id" Value="R-ALL-375459" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1780.0" CenterY="1849.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:33384" />
+    <Graphics CenterX="1500.0" CenterY="1709.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:57844" />
   </DataNode>
-  <DataNode TextLabel="L-Ser " GraphId="a1dbb" Type="Metabolite" GroupRef="c529e">
+  <DataNode TextLabel="L-His " GraphId="a12b6" Type="Metabolite" GroupRef="eb040">
     <Attribute Key="cellular_location" Value="extracellular region" />
     <Attribute Key="complex_id" Value="R-ALL-352178" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="660.0" CenterY="2049.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:33384" />
+    <Graphics CenterX="660.0" CenterY="2029.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:32513" />
   </DataNode>
-  <DataNode TextLabel="Gly " GraphId="a1f37" Type="Metabolite" GroupRef="fdb74">
-    <Attribute Key="cellular_location" Value="extracellular region" />
-    <Attribute Key="complex_id" Value="R-ALL-375468" />
+  <DataNode TextLabel="NCA " GraphId="a12f2" Type="Metabolite" GroupRef="f7233">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Attribute Key="complex_id" Value="R-ALL-429748" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1360.0" CenterY="2069.0" Width="100.
+    <Graphics CenterX="1920.0" CenterY="2229.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15940" />
+  </DataNode>
+  <DataNode TextLabel="SLC5A8" GraphId="a1550" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="5574.5" CenterY="184.0" Width="53.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8N695" />
+  </DataNode>
+  <DataNode TextLabel="Inhibitory amino&#xA;acids" GraphId="a1814" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1163.5" CenterY="636.0" Width="105.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-428592" />
+  </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="a18a1" Type="Metabolite">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Graphics CenterX="4053.5" CenterY="70.0" Width="35.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17996" />
+  </DataNode>
+  <DataNode TextLabel="SLC26A11" GraphId="a1ecc" Type="Protein">
+    <Attribute Key="cellular_location" Value="plasma membrane" />
+    <Graphics CenterX="3574.0" CenterY="189.0" Width="70.0" Height="22.0" ZOrder="32768" FontSize="10" Va
