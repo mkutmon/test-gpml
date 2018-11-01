@@ -1,86 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of vitamins, nucleosides, and related molecules" Data-Source="WikiPathways" Version="WP1937_r100987" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Transport of vitamins, nucleosides, and related molecules" Data-Source="WikiPathways" Version="WP1937_r101449" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">This section groups the processes mediated by SLC transporters, by which vitamins and cofactors, as well as nucleosides, nucleotides, nucleobases, and related molecules cross lipid bilayer membranes (He et al. 2009).&lt;br&gt;The human SLC5A6 encodes the Na+-dependent multivitamin transporter SMVT (Prasad et al. 1999). SMVT co-transports biotin (vitamin B7), D-Pantothoate (vitamin B5) and lipoic acid into cells with Na+ ions electrogenically.&lt;br&gt;Four SLC gene families encode transporters that mediate the movement of nucleosides and free purine and pyrimidine bases across the plasma membrane. These transporters play key roles in nucleoside and nucleobase uptake for salvage pathways of nucleotide synthesis, and in the cellular uptake of nucleoside analogues used in the treatment of cancers and viral diseases (He et al. 2009).&lt;br&gt;The human gene SLC33A1 encodes acetyl-CoA transporter AT1 (Kanamori et al. 1997). Acetyl-CoA is transported to the lumen of the Golgi apparatus, where it serves as the substrate of acetyltransferases that O-acetylates sialyl residues of gangliosides and glycoproteins.&lt;br&gt;Nucleotide sugars are used as sugar donors by glycosyltransferases to create the sugar chains for glycoconjugates such as glycoproteins, polysaccharides and glycolipids. Glycosyltransferases reside mainly in the lumen of the Golgi apparatus and endoplasmic reticulum (ER) whereas nucleotide sugars are synthesized in the cytosol. The human solute carrier family SLC35 encode nucleotide sugar transporters (NSTs), localised on Golgi and ER membranes, which can mediate the antiport of nucleotide sugars in exchange for the corresponding nucleoside monophosphates (eg. UMP for UDP-sugars) (Handford et al. 2006).&lt;br&gt;Long chain fatty acids (LCFAs) can be used for energy sources and steroid hormone synthesis and regulate many cellular processes such as inflammation, blood pressure, the clotting process, blood lipid levels and the immune response. The SLC27A family encode fatty acid transporter proteins (FATPs) (Stahl 2004).&lt;br&gt;The SLC gene family members SLCO1 SLCO2 and SLCO3 encode organic anion transporting polypeptides (OATPs). OATPs are membrane transport proteins that mediate the sodium-independent transport of a wide range of amphipathic organic compounds including bile salts, steroid conjugates, thyroid hormones, anionic oligopeptides and numerous drugs (Hagenbuch &amp; Meier 2004). View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=425397 Reactome].</Comment>
   <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 425397</Comment>
-  <Comment Source="Reactome-version">Reactome version: 65</Comment>
+  <Comment Source="Reactome-version">Reactome version: 66</Comment>
   <Comment Source="Reactome Author">Reactome Author: Jassal, Bijay</Comment>
-  <BiopaxRef>f90</BiopaxRef>
-  <BiopaxRef>daa</BiopaxRef>
-  <BiopaxRef>de0</BiopaxRef>
-  <BiopaxRef>ba6</BiopaxRef>
-  <BiopaxRef>d88</BiopaxRef>
-  <BiopaxRef>ddd</BiopaxRef>
+  <BiopaxRef>c6d</BiopaxRef>
+  <BiopaxRef>fa1</BiopaxRef>
+  <BiopaxRef>a65</BiopaxRef>
+  <BiopaxRef>aeb</BiopaxRef>
+  <BiopaxRef>ccc</BiopaxRef>
+  <BiopaxRef>c71</BiopaxRef>
   <Attribute Key="reactome_id" Value="425397" />
   <Graphics BoardWidth="1838.0" BoardHeight="1967.0" />
-  <DataNode TextLabel="guanosine&#xA;5'-monophosphate" GraphId="a0062" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="Golgi lumen" />
-    <Graphics CenterX="1176.5" CenterY="968.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17345" />
-  </DataNode>
-  <DataNode TextLabel="TCDCA " GraphId="a03bb" Type="Metabolite" GroupRef="cef23">
+  <DataNode TextLabel="GDP-Man" GraphId="a0172" Type="Metabolite">
     <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-ALL-194131" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="940.0" CenterY="1747.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16525" />
+    <Graphics CenterX="1381.5" CenterY="903.0" Width="73.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:15820" />
   </DataNode>
-  <DataNode TextLabel="Na+" GraphId="a0e96" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="365.5" CenterY="184.0" Width="43.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:29101" />
+  <DataNode TextLabel="SLC35C1" GraphId="a0392" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="1284.5" CenterY="794.0" Width="61.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q96A29" />
   </DataNode>
-  <DataNode TextLabel="Ade-Rib " GraphId="a10ab" Type="Metabolite" GroupRef="f7424">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-ALL-179741" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="240.0" CenterY="1447.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16335" />
-  </DataNode>
-  <DataNode TextLabel="ADR " GraphId="a19f3" Type="Metabolite" GroupRef="db465">
+  <DataNode TextLabel="ALB " GraphId="a07e8" Type="Protein" GroupRef="ad4df">
     <Attribute Key="cellular_location" Value="extracellular region" />
-    <Attribute Key="complex_id" Value="R-ALL-727774" />
+    <Attribute Key="complex_id" Value="R-HSA-194104" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="520.0" CenterY="1707.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:28918" />
+    <Graphics CenterX="1080.0" CenterY="1167.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P02768" />
   </DataNode>
-  <DataNode TextLabel="Ade-Rib " GraphId="a1b45" Type="Metabolite" GroupRef="e17b8">
+  <DataNode TextLabel="SLC35D1 hexamer" GraphId="a0a86" Type="Complex">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="424.5" CenterY="1005.0" Width="77.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-174388" />
+  </DataNode>
+  <DataNode TextLabel="LGCA " GraphId="a0af9" Type="Metabolite" GroupRef="cbd6a">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-879559" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="660.0" CenterY="1667.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:28866" />
+  </DataNode>
+  <DataNode TextLabel="UDP-GlcNAc, UDP-Glc" GraphId="a0b51" Type="Complex">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="556.0" CenterY="940.0" Width="78.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-ALL-744229" />
+  </DataNode>
+  <DataNode TextLabel="Thy " GraphId="a0d15" Type="Metabolite" GroupRef="c4e1c">
+    <Attribute Key="cellular_location" Value="extracellular region" />
+    <Attribute Key="complex_id" Value="R-ALL-179747" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="380.0" CenterY="1787.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:17821" />
+  </DataNode>
+  <DataNode TextLabel="Ade-Rib " GraphId="a0e43" Type="Metabolite" GroupRef="f0c16">
     <Attribute Key="cellular_location" Value="cytosol" />
     <Attribute Key="complex_id" Value="R-ALL-179746" />
     <Attribute Key="copies_num" Value="1" />
     <Graphics CenterX="240.0" CenterY="1567.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
     <Xref Database="ChEBI" ID="CHEBI:16335" />
   </DataNode>
-  <DataNode TextLabel="TCCA " GraphId="a23af" Type="Metabolite" GroupRef="e57c1">
+  <DataNode TextLabel="Ura-Rib " GraphId="a0ed2" Type="Metabolite" GroupRef="c4e1c">
     <Attribute Key="cellular_location" Value="extracellular region" />
-    <Attribute Key="complex_id" Value="R-HSA-194104" />
+    <Attribute Key="complex_id" Value="R-ALL-179747" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="1080.0" CenterY="1207.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:28865" />
+    <Graphics CenterX="380.0" CenterY="1827.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:16704" />
   </DataNode>
-  <DataNode TextLabel="LCN15 " GraphId="a284e" Type="Protein" GroupRef="fc5ee">
+  <DataNode TextLabel="NAd " GraphId="a148d" Type="Metabolite" GroupRef="b1018">
     <Attribute Key="cellular_location" Value="extracellular region" />
-    <Attribute Key="complex_id" Value="R-HSA-5229291" />
-    <Attribute Key="copies_num" Value="5" />
-    <Graphics CenterX="1080.0" CenterY="1787.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q6UWW0" />
-  </DataNode>
-  <DataNode TextLabel="dA " GraphId="a294c" Type="Metabolite" GroupRef="c2158">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Attribute Key="complex_id" Value="R-ALL-179739" />
+    <Attribute Key="complex_id" Value="R-ALL-727774" />
     <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="100.0" CenterY="1467.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:17256" />
+    <Graphics CenterX="520.0" CenterY="1727.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
+    <Xref Database="ChEBI" ID="CHEBI:18357" />
   </DataNode>
-  <DataNode TextLabel="Ade-Rib " GraphId="a2e8c" Type="Metabolite" GroupRef="c8c53">
-    <Attribute Key="cellular_location" Value="lysosomal lumen" />
-    <Attribute Key="complex_id" Value="R-ALL-727782" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="520.0" CenterY="1167.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16335" />
+  <DataNode TextLabel="SLC35D2" GraphId="a1cf6" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="680.0" CenterY="881.0" Width="62.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q76EJ3" />
   </DataNode>
-  <DataNode TextLabel="ligands of SLC29A4" GraphId="a37f1" Type="Complex">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="282.5" CenterY="273.0" Width="121.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle" Color="a52a2a" />
-    <Xref Database="Reactome" ID="R-ALL-727737" />
-  </DataNode>
-  <DataNode TextLabel="AVP(20-28) " GraphId="a39e1" Type="P
+  <DataNode TextLabel="UDP-Gal, UDP-GalNAc" GraphId="a25db" Type="Complex">
+    <Attribute Key="cellular_location" Value="Golgi lumen" />
+    <Graphics CenterX="1185.0" CenterY="535.0" Width="132.0" Height="36.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="
