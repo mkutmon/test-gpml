@@ -1,103 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Unfolded Protein Response (UPR)" Data-Source="WikiPathways" Version="WP1939_r100979" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Unfolded Protein Response (UPR)" Data-Source="WikiPathways" Version="WP1939_r101441" Author="MaintBot[Maintenance bot];Khanspers[Kristina Hanspers];ReactomeTeam[Reactome Team];Anwesha[Anwesha Bohler]" Organism="Homo sapiens">
   <Comment Source="WikiPathways-description">The Unfolded Protein Response (UPR) is a regulatory system that protects the Endoplasmic Reticulum (ER) from overload. The UPR is provoked by the accumulation of improperly folded protein in the ER during times of unusually high secretion activity. Analysis of mutants with altered UPR, however, shows that the UPR is also required for normal development and function of secretory cells.&lt;br&gt;One level at which the URP operates is transcriptional and translational regulation: mobilization of ATF6, ATF6B, CREB3 factors and IRE1 leads to increased transcription of genes encoding chaperones, while mobilization of PERK (pancreatic eIF2alpha kinase, EIF2AK3) leads to phosphorylation of the translation initiation factor eIF2alpha and global down-regulation of protein synthesis.&lt;br&gt;ATF6, ATF6B, and CREB3 factors (CREB3 (LUMAN), CREB3L1 (OASIS), CREB3L2 (BBF2H7, Tisp40), CREB3L3 (CREB-H), and CREB3L4 (CREB4)) are membrane-bound transcription activators that respond to ER stress by transiting from the ER membrane to the Golgi membrane where their transmembrane domains are cleaved, releasing their cytosolic domains to transit to the nucleus and activate transcription of target genes. IRE1, also a resident of the ER membrane, dimerizes and autophosphorylates in response to ER stress. The activated IRE1 then catalyzes unconventional splicing of XBP1 mRNA to yield an XBP1 isoform that is targeted to the nucleus and activates chaperone genes. View original pathway at:[http://www.reactome.org/PathwayBrowser/#DIAGRAM=381119 Reactome].</Comment>
   <Comment Source="Reactome-Converter">Pathway is converted from Reactome ID: 381119</Comment>
-  <Comment Source="Reactome-version">Reactome version: 65</Comment>
+  <Comment Source="Reactome-version">Reactome version: 66</Comment>
   <Comment Source="Reactome Author">Reactome Author: May, Bruce</Comment>
-  <BiopaxRef>eb3</BiopaxRef>
-  <BiopaxRef>aff</BiopaxRef>
-  <BiopaxRef>f34</BiopaxRef>
-  <BiopaxRef>b66</BiopaxRef>
-  <BiopaxRef>b6d</BiopaxRef>
-  <BiopaxRef>ac9</BiopaxRef>
+  <BiopaxRef>a16</BiopaxRef>
+  <BiopaxRef>a53</BiopaxRef>
+  <BiopaxRef>c7a</BiopaxRef>
+  <BiopaxRef>cd8</BiopaxRef>
+  <BiopaxRef>bce</BiopaxRef>
+  <BiopaxRef>c44</BiopaxRef>
   <Attribute Key="reactome_id" Value="381119" />
   <Graphics BoardWidth="1551.0" BoardHeight="1866.0" />
-  <DataNode TextLabel="CREB3L3(1-323)" GraphId="a1658" Type="Protein">
-    <Attribute Key="cellular_location" Value="nucleoplasm" />
-    <Graphics CenterX="1121.0" CenterY="911.5" Width="122.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q68CJ9" />
-  </DataNode>
-  <DataNode TextLabel="ATP" GraphId="a202c" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="975.0" CenterY="29.5" Width="36.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:15422" />
-  </DataNode>
-  <DataNode TextLabel="CREB3L4(298-338)" GraphId="a2b98" Type="Protein">
-    <BiopaxRef>b5c</BiopaxRef>
-    <Attribute Key="cellular_location" Value="Golgi membrane" />
-    <Graphics CenterX="1341.0" CenterY="735.5" Width="128.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q8TEY5" />
-  </DataNode>
-  <DataNode TextLabel="XBP1-2" GraphId="a2fca" Type="Protein">
-    <Attribute Key="cellular_location" Value="nucleoplasm" />
-    <Graphics CenterX="1292.5" CenterY="960.5" Width="61.0" Height="23.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P17861-2" />
-  </DataNode>
-  <DataNode TextLabel="CREB3L1" GraphId="a4f6b" Type="Protein">
+  <DataNode TextLabel="ATF6:BiP" GraphId="a1d0a" Type="Complex">
+    <Comment Source="Reactome">The luminal C-terminus of ATF6-alpha binds BiP, occluding two Golgi Localization Sequences and causing ATF6-alpha to be retained in the endoplasmic reticulum.</Comment>
     <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
-    <Graphics CenterX="687.0" CenterY="326.0" Width="70.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q96BA8" />
+    <Graphics CenterX="260.0" CenterY="207.5" Width="76.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-381168" />
   </DataNode>
-  <DataNode TextLabel="ADP" GraphId="a5eec" Type="Metabolite">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="1176.0" CenterY="32.0" Width="34.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16761" />
-  </DataNode>
-  <DataNode TextLabel="ERN1 " GraphId="a6686" Type="Protein" GroupRef="f154f">
+  <DataNode TextLabel="p-S724-ERN1 " GraphId="a296c" Type="Protein" GroupRef="d8ba3">
+    <Comment Source="Reactome">IRE1 is trans-autophosphorylated after dissociation from BiP and autodimerization. By homology with the yeast IRE1, human IRE1 is believed to be phosphorylated at Ser724 (Ser841 of Saccharomyces cerevisiae)</Comment>
+    <BiopaxRef>d33</BiopaxRef>
+    <BiopaxRef>e47</BiopaxRef>
+    <BiopaxRef>cee</BiopaxRef>
     <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-381200" />
+    <Attribute Key="complex_id" Value="R-HSA-381154" />
     <Attribute Key="copies_num" Value="2" />
-    <Graphics CenterX="100.0" CenterY="1386.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Graphics CenterX="100.0" CenterY="1446.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="O75460" />
   </DataNode>
-  <DataNode TextLabel="CREB3L3" GraphId="a66aa" Type="Protein">
+  <DataNode TextLabel="PERK dimer" GraphId="a72af" Type="Complex">
+    <Comment Source="Reactome">PERK (EIF2AK3) monomers form dimers, resulting in activation of the kinase activity of the cytosolic C-terminal region.</Comment>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphics CenterX="310.0" CenterY="114.0" Width="88.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="Hexagon" Color="a52a2a" />
+    <Xref Database="Reactome" ID="R-HSA-381126" />
+  </DataNode>
+  <DataNode TextLabel="ATF6" GraphId="a98a4" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="102.5" CenterY="421.0" Width="55.0" Height="30.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="ERN1 " GraphId="aa893" Type="Protein" GroupRef="ffd74">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-381202" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1326.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O75460" />
+  </DataNode>
+  <DataNode TextLabel="ATF6 " GraphId="aaa1b" Type="Protein" GroupRef="dfcc9">
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Attribute Key="complex_id" Value="R-HSA-381168" />
+    <Attribute Key="copies_num" Value="1" />
+    <Graphics CenterX="100.0" CenterY="1146.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
+  </DataNode>
+  <DataNode TextLabel="CREB3(257-291)" GraphId="abd67" Type="Protein">
+    <BiopaxRef>ad1</BiopaxRef>
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="583.5" CenterY="741.0" Width="113.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="O43889" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L2(1-430)" GraphId="ae321" Type="Protein">
+    <Attribute Key="cellular_location" Value="Golgi membrane" />
+    <Graphics CenterX="857.0" CenterY="595.0" Width="112.0" Height="22.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q70SY1" />
+  </DataNode>
+  <DataNode TextLabel="p-S52-EIF2S1" GraphId="af10c" Type="Protein">
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="106.5" CenterY="294.5" Width="107.0" Height="33.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="P05198" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L4(1-297)" GraphId="af164" Type="Protein">
+    <BiopaxRef>d63</BiopaxRef>
+    <Attribute Key="cellular_location" Value="cytosol" />
+    <Graphics CenterX="1230.0" CenterY="781.5" Width="122.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
+    <Xref Database="Uniprot-TrEMBL" ID="Q8TEY5" />
+  </DataNode>
+  <DataNode TextLabel="CREB3L3" GraphId="af49d" Type="Protein">
     <Attribute Key="cellular_location" Value="Golgi membrane" />
     <Graphics CenterX="1038.0" CenterY="423.0" Width="78.0" Height="24.0" ZOrder="32768" FontSize="10" Valign="Middle" />
     <Xref Database="Uniprot-TrEMBL" ID="Q68CJ9" />
   </DataNode>
-  <DataNode TextLabel="ATF6(1-380)" GraphId="a6aa2" Type="Protein">
-    <Attribute Key="cellular_location" Value="nucleoplasm" />
-    <Graphics CenterX="576.5" CenterY="976.0" Width="105.0" Height="26.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
-  </DataNode>
-  <DataNode TextLabel="CREB3L2(1-379)" GraphId="a6ff9" Type="Protein">
-    <Attribute Key="cellular_location" Value="nucleoplasm" />
-    <Graphics CenterX="998.0" CenterY="914.5" Width="114.0" Height="27.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="Q70SY1" />
-  </DataNode>
-  <DataNode TextLabel="ATF6(420-670)" GraphId="a9e1e" Type="Protein">
-    <Attribute Key="cellular_location" Value="Golgi membrane" />
-    <Graphics CenterX="344.0" CenterY="522.0" Width="108.0" Height="32.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P18850" />
-  </DataNode>
-  <DataNode TextLabel="HSPA5 " GraphId="ac5e9" Type="Protein" GroupRef="b7706">
-    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-381202" />
-    <Attribute Key="copies_num" Value="1" />
-    <Graphics CenterX="100.0" CenterY="1306.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="P11021" />
-  </DataNode>
-  <DataNode TextLabel="ADP " GraphId="ad203" Type="Metabolite" GroupRef="a9419">
-    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
-    <Attribute Key="complex_id" Value="R-HSA-381078" />
-    <Attribute Key="copies_num" Value="3" />
-    <Graphics CenterX="100.0" CenterY="1526.0" Width="100.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff" />
-    <Xref Database="ChEBI" ID="CHEBI:16761" />
-  </DataNode>
-  <DataNode TextLabel="ATF4 mRNA" GraphId="ad39f" Type="Rna">
+  <DataNode TextLabel="ATF4 mRNA" GraphId="afb6a" Type="Rna">
     <Attribute Key="cellular_location" Value="cytosol" />
     <Graphics CenterX="99.5" CenterY="948.0" Width="109.0" Height="38.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="990099" />
     <Xref Database="Ensembl" ID="ENST00000404241" />
   </DataNode>
-  <DataNode TextLabel="Xbp1 mRNA (spliced)" GraphId="aeeb5" Type="Rna">
-    <Attribute Key="cellular_location" Value="cytosol" />
-    <Graphics CenterX="1451.5" CenterY="300.5" Width="83.0" Height="49.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="990099" />
-    <Xref Database="Ensembl" ID="ENST00000344347" />
-  </DataNode>
-  <DataNode TextLabel="CREB3(1-256)" GraphId="b01c5" Type="Protein">
-    <BiopaxRef>cc7</BiopaxRef>
-    <Attribute Key="cellular_location" Value="nucleoplasm" />
-    <Graphics CenterX="793.5" CenterY="960.5" Width="107.0" Height="25.0" ZOrder="32768" FontSize="10" Valign="Middle" />
-    <Xref Database="Uniprot-TrEMBL" ID="O43889" />
-  </DataNode>
-  <DataNode TextLabel="BiP:Unfolded Protein" Gr
+  <DataNode TextLabel="p-S724-IRE1 dimer" GraphId="b1f7b" Type="Complex">
+    <Comment Source="Reactome">After juxtaposition of the luminal N-termini of IRE1 to form the IRE1 homodimer, the cytoplasmic C-terminal kinase domains of the IRE1 molecules associate and transphosphorylate each other's A-loop domains. This causes a change in conformation that allows binding of ADP.</Comment>
+    <BiopaxRef>d33</BiopaxRef>
+    <BiopaxRef>e47</BiopaxRef>
+    <BiopaxRef>cee</BiopaxRef>
+    <Attribute Key="cellular_location" Value="endoplasmic reticulum membrane" />
+    <Graphic
